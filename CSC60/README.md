@@ -1,4 +1,4 @@
-# csc60
+# csc60 - Introduction to Systems Programming in UNIX 
 Features of the C language commonly used in systems programming and the application of those
 features to systems programming in a UNIX environment. Topics include C preprocessor
 macros, I/O and bit-manipulation facilities; timesharing system concepts; file permissions; shell
