@@ -1,0 +1,12 @@
+
+Ruthann Biel.  Resistance Program.  
+
+Three resistors are:  1.200000  2.300000  3.400000 
+Combined Parallel Resistance:  0.640109  
+
+Three resistors are:  4.500000  5.600000  7.800000 
+Combined Parallel Resistance:  1.890364  
+
+Three resistors are:  9.000000  0.100000  1.200000 
+Combined Parallel Resistance:  0.091371  
+
