@@ -1,7 +1,8 @@
 *.out
 submissionFolder/
 *.docx
+CSC60/lab09/lab09
+CSC60/lab09/.vscode
 CSC60/lab09/.vscode/settings.json
 CSC60/lab09/.vscode/c_cpp_properties.json
 .gitignore
-
