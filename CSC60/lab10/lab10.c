@@ -149,19 +149,19 @@ int parseline(char *cmdline, char **argv)
 /* ----------------------------------------------------------------- */
 /*                  process_input                                    */
 /* ----------------------------------------------------------------- */
-/*void process_input(int argc, char **argv) {                       */
+void process_input(int argc, char **argv) {                       
 
 /* Step 1: Call handle_redir to deal with operators:            */
 /* < , or  >, or both                                           */
 
 /* Step 2: perform system call execvp to execute command        */
 /* Hint: Please be sure to review execvp.c sample program       */
-/* if (........ == -1) {                                        */
-/*    fprintf(stderr, "Error on the exec call\n");              */
-/*    _exit(EXIT_FAILURE);                                      */
-/* }                                                            */
+ if (........ == -1) {                                        
+    fprintf(stderr, "Error on the exec call\n");              
+    _exit(EXIT_FAILURE);                                      
+ }                                                            
 
-// }
+ }
 /* ----------------------------------------------------------------- */
 //void handle_redir(int count, char *argv[])
 /* ----------------------------------------------------------------- */
