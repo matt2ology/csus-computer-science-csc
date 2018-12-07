@@ -10,7 +10,7 @@ Internal representation of numeric and non-numeric data, assembly level machine 
 * Von Neumann architecture
 * Processor design philosophies
 * Conditional branch instructions
-* Memory location alignments and data movementinstructions
+* Memory location alignments and data movement instructions
 * Modules: defining subroutines, calling subroutines
 * Addressing modes: registers and memory locations
 * Interrupts and vector tables
