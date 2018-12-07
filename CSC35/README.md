@@ -1,7 +1,6 @@
 # CSC 35. Introduction to Computer Architecture. 3 Units
-## Prerequisite(s): CSC 15.
 ### Term Typically Offered: Fall, Spring
-Internal representation of numeric and non-numeric data, assembly level machine architecture, addressing modes, subroutine linkage, polled input/output, interrupts, high-level language interfacing, macros and pseudo operations. Lecture two hours, technical activity and laboratory two hours.
+Internal representation of numeric and non-numeric data, assembly level machine architecture, addressing modes, subroutine linkage, polled input/output, interrupts, high-level language interfacing, macros and pseudo operations. Lecture two hours, technical activity and laboratory two hours. Prerequisite(s): CSC 15.
 
 # Topics Covered
 * How integer and floating point numbers are stored
