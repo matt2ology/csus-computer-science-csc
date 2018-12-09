@@ -159,9 +159,12 @@ void process_input(int argc, char **argv)
     }
 }
 /* ----------------------------------------------------------------- */
-//void handle_redir(int count, char *argv[])
+/*                  handle_redir                                     */
 /* ----------------------------------------------------------------- */
-/* Declare and set redirect index(s)*/
+void handle_redir(int count, char *argv[]){
+    /* Declare and set redirect index(s)*/
 	int out_redir = 0;
 	int in_redir = 0;
+}
+
 /* ----------------------------------------------------------------- */
