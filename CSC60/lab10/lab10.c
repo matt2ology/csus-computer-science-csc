@@ -190,7 +190,12 @@ void handle_redir(int count, char *argv[])
         // If a redirect in character is detected
         else if (strcmp(argv[c], "<") == 0)
         {
-
+            // Error handle multiple redirect characters
+            if (in_redir != 0)
+            {
+                perror("Cannot input more than one file.\n");
+                _exit(EXIT_FAILURE);
+            }
         }
     }
 }
