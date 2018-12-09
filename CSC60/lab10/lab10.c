@@ -251,6 +251,8 @@ void handle_redir(int count, char *argv[])
                 perror("Error on open for read.\n");
                 _exit(EXIT_FAILURE);
             }
+            // Call dup2 to switch standard-in to the value of the file descriptor.
+            dup2(fd, 0);
         }
     }
 }
