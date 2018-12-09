@@ -175,6 +175,12 @@ void handle_redir(int count, char *argv[])
             perror("Cannot output more than one file.\n");
             _exit(EXIT_FAILURE);
         }
+        // Error handle empty command
+        else if (c == 0)
+        {
+            perror("No command entered. \n");
+            _exit(EXIT_FAILURE);
+        }
     }
 }
 
