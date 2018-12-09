@@ -5,7 +5,7 @@ run:
 	./lab10
 
 clean: 
-	rm -r lab10
+	rm -r lab10 wcout lsout
 
 edit:
 	vim lab10.c
