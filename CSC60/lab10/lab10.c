@@ -244,17 +244,17 @@ void handle_redir(int count, char *argv[])
                 perror("Error, no such file exists.\n");
                 _exit(EXIT_FAILURE);
             }
-            int fd = open(argv[in_redir + 1], O_RDWR);
+            int fileDescriptor = open(argv[in_redir + 1], O_RDWR);
             // Error handle system call to open input file
-            if (fd < 0)
+            if (fileDescriptor < 0)
             {
                 perror("Error on open for read.\n");
                 _exit(EXIT_FAILURE);
             }
             // Call dup2 to switch standard-in to the value of the file descriptor.
-            dup2(fd, 0);
+            dup2(fileDescriptor, 0);
             // Close input file with error handling
-            if (close(fd) == -1)
+            if (close(fileDescriptor) == -1)
             {
                 perror("Error on close for read.\n");
                 exit(EXIT_FAILURE);
