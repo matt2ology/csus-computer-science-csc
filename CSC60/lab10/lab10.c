@@ -211,8 +211,8 @@ void handle_redir(int count, char *argv[])
                 Flags:  write, create, truncate
                 Bits:   user-read; user-write
             */
-            int fileDescriptor = open(argv[out_redir + 1],\
-                                O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+            int fileDescriptor = open(argv[out_redir + 1],
+                                      O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
             // Error handle system call to open redirect out
             if (fileDescriptor < 0)
             {
@@ -261,5 +261,6 @@ void handle_redir(int count, char *argv[])
             argv[in_redir] = NULL;
         }
     }
+}
 
 /* ----------------------------------------------------------------- */
