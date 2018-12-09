@@ -244,7 +244,13 @@ void handle_redir(int count, char *argv[])
                 perror("Error, no such file exists.\n");
                 _exit(EXIT_FAILURE);
             }
-            int fd = open(argv[in_redir+1], O_RDWR );
+            int fd = open(argv[in_redir + 1], O_RDWR);
+            // Error handle system call to open input file
+            if (fd < 0)
+            {
+                perror("Error on open for read.\n");
+                _exit(EXIT_FAILURE);
+            }
         }
     }
 }
