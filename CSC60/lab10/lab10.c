@@ -165,6 +165,8 @@ void handle_redir(int count, char *argv[]){
     /* Declare and set redirect index(s)*/
 	int out_redir = 0;
 	int in_redir = 0;
+    /* Loop to parse the string to find redirect characters */
+	for(int c = 0; c < count; c++) {}
 }
 
 /* ----------------------------------------------------------------- */
