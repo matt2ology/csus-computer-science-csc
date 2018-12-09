@@ -235,6 +235,10 @@ void handle_redir(int count, char *argv[])
             // Set argument
             argv[out_redir] = NULL;
         }
+        // If a redirect in is taking place
+        if (in_redir != 0)
+        {
+        }
     }
 }
 
