@@ -263,6 +263,5 @@ void handle_redir(int count, char *argv[])
             argv[in_redir] = NULL;
         }
     }
-}
 
 /* ----------------------------------------------------------------- */
