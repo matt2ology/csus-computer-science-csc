@@ -169,6 +169,12 @@ void handle_redir(int count, char *argv[])
     /* Loop to parse the string to find redirect characters */
     for (int c = 0; c < count; c++)
     {
+        // Error handle multiple redirect characters.
+        if (out_redir != 0)
+        {
+            perror("Cannot output more than one file.\n");
+            _exit(EXIT_FAILURE);
+        }
     }
 }
 
