@@ -208,7 +208,12 @@ void handle_redir(int count, char *argv[])
         // If a redirect out is taking place
         if (out_redir != 0)
         {
-            
+            /*
+                System call to open the input file
+                Flags:  write, create, truncate
+                Bits:   user-read; user-write
+            */
+            int fileDescriptor = open(argv[out_redir + 1], O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
         }
     }
 }
