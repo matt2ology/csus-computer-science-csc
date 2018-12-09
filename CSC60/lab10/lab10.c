@@ -169,20 +169,24 @@ void handle_redir(int count, char *argv[])
     /* Loop to parse the string to find redirect characters */
     for (int c = 0; c < count; c++)
     {
-        // Error handle multiple redirect characters.
-        if (out_redir != 0)
+        // If a redirect out character is detected
+        if (strcmp(argv[c], ">") == 0)
         {
-            perror("Cannot output more than one file.\n");
-            _exit(EXIT_FAILURE);
+            // Error handle multiple redirect characters.
+            if (out_redir != 0)
+            {
+                perror("Cannot output more than one file.\n");
+                _exit(EXIT_FAILURE);
+            }
+            // Error handle empty command
+            else if (c == 0)
+            {
+                perror("No command entered. \n");
+                _exit(EXIT_FAILURE);
+            }
+            // Set the out_redir index to counter.
+            out_redir = c;
         }
-        // Error handle empty command
-        else if (c == 0)
-        {
-            perror("No command entered. \n");
-            _exit(EXIT_FAILURE);
-        }
-        // Set the out_redir index to counter.
-        out_redir = c;
     }
 }
 
