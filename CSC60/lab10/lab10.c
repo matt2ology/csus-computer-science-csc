@@ -253,6 +253,12 @@ void handle_redir(int count, char *argv[])
             }
             // Call dup2 to switch standard-in to the value of the file descriptor.
             dup2(fd, 0);
+            // Close input file with error handling
+            if (close(fd) == -1)
+            {
+                perror("Error on close for read.\n");
+                exit(EXIT_FAILURE);
+            }
         }
     }
 }
