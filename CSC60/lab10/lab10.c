@@ -232,6 +232,8 @@ void handle_redir(int count, char *argv[])
                 perror("Error on close output file.\n");
                 _exit(EXIT_FAILURE);
             }
+            // Set argument
+            argv[out_redir] = NULL;
         }
     }
 }
