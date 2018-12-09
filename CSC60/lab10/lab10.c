@@ -102,27 +102,27 @@ int main(void)
             printf("%s: Command not found.\n", cmdline);
 
             //.......................IGNORE........................
-            //	/* Else, fork off a process */
-            //      else {
-            //	    pid = fork();
-            //          switch(pid)
-            //    	    {
-            //	    	case -1:
-            //		    perror("Shell Program fork error");
-            //	            exit(EXIT_FAILURE);
-            //	   	case 0:
-            //		    /* I am child process. I will execute the command, */
-            //		    /* and call: execvp */
-            //		    process_input(argc, argv);
-            //		    break;
-            //	   	default:
-            //		    /* I am parent process */
-            //		    if (wait(&status) == -1)
-            //		    	perror("Parent Process error");
-            //		    else
-            //		   	printf("Child returned status: %d\n",status);
-            //		    break;
-            //	    } 	/* end of the switch */
+        	/* Else, fork off a process */
+              else {
+        	    pid = fork();
+                  switch(pid)
+            	    {
+        	    	case -1:
+        		    perror("Shell Program fork error");
+        	            exit(EXIT_FAILURE);
+        	   	case 0:
+        		    /* I am child process. I will execute the command, */
+        		    /* and call: execvp */
+        		    process_input(argc, argv);
+        		    break;
+        	   	default:
+        		    /* I am parent process */
+        		    if (wait(&status) == -1)
+        		    	perror("Parent Process error");
+        		    else
+        		   	printf("Child returned status: %d\n",status);
+        		    break;
+        	    } 	/* end of the switch */
             //...end of the IGNORE above.........................
         } /* end of the if-else-if */
     }     /* end of the while */
