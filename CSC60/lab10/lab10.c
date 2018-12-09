@@ -238,6 +238,12 @@ void handle_redir(int count, char *argv[])
         // If a redirect in is taking place
         if (in_redir != 0)
         {
+            // Error handle for empty input file.
+            if (argv[in_redir + 1] == NULL)
+            {
+                perror("Error, no such file exists.\n");
+                _exit(EXIT_FAILURE);
+            }
         }
     }
 }
