@@ -244,6 +244,7 @@ void handle_redir(int count, char *argv[])
                 perror("Error, no such file exists.\n");
                 _exit(EXIT_FAILURE);
             }
+            int fd = open(argv[in_redir+1], O_RDWR );
         }
     }
 }
