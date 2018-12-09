@@ -187,6 +187,11 @@ void handle_redir(int count, char *argv[])
             // Set the out_redir index to counter.
             out_redir = c;
         }
+        // If a redirect in character is detected
+        else if (strcmp(argv[c], "<") == 0)
+        {
+
+        }
     }
 }
 
