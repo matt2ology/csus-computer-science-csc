@@ -181,6 +181,8 @@ void handle_redir(int count, char *argv[])
             perror("No command entered. \n");
             _exit(EXIT_FAILURE);
         }
+        // Set the out_redir index to counter.
+        out_redir = c;
     }
 }
 
