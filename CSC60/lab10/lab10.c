@@ -259,6 +259,8 @@ void handle_redir(int count, char *argv[])
                 perror("Error on close for read.\n");
                 exit(EXIT_FAILURE);
             }
+            // Place null value in argument index for system call.
+            argv[in_redir] = NULL;
         }
     }
 }
