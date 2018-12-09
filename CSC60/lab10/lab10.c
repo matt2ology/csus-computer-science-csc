@@ -101,7 +101,6 @@ int main(void)
         {
             printf("%s: Command not found.\n", cmdline);
 
-            //.......................IGNORE........................
         	/* Else, fork off a process */
               else {
         	    pid = fork();
@@ -123,7 +122,6 @@ int main(void)
         		   	printf("Child returned status: %d\n",status);
         		    break;
         	    } 	/* end of the switch */
-            //...end of the IGNORE above.........................
         } /* end of the if-else-if */
     }     /* end of the while */
 } /* end of main */
