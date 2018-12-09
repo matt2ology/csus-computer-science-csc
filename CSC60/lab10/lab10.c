@@ -96,9 +96,6 @@ int main(void)
             }
             continue;
         }
-
-        else
-        {
             printf("%s: Command not found.\n", cmdline);
 
         	/* Else, fork off a process */
