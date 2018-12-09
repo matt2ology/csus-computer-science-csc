@@ -216,7 +216,7 @@ void handle_redir(int count, char *argv[])
             int fileDescriptor = open(argv[out_redir + 1],
                                 O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
             // Error handle system call to open redirect out
-            if (fd < 0)
+            if (fileDescriptor < 0)
             {
                 perror("Error on open for output.\n");
                 _exit(EXIT_FAILURE);
@@ -225,9 +225,9 @@ void handle_redir(int count, char *argv[])
                 Call dup2 to switch standard-out 
                 to the value of the file descriptor.
             */
-            dup2(fd, 1);
+            dup2(fileDescriptor, 1);
             // Close output file with error handling
-            if (close(fd) == -1)
+            if (close(fileDescriptor) == -1)
             {
                 perror("Error on close output file.\n");
                 _exit(EXIT_FAILURE);
