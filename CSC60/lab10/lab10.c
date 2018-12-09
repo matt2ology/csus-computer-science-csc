@@ -226,6 +226,12 @@ void handle_redir(int count, char *argv[])
                 to the value of the file descriptor.
             */
             dup2(fd, 1);
+            // Close output file with error handling
+            if (close(fd) == -1)
+            {
+                perror("Error on close output file.\n");
+                _exit(EXIT_FAILURE);
+            }
         }
     }
 }
