@@ -26,8 +26,8 @@ int parseline(char *cmdline, char **argv);
 
 //The two function prototypes below will be needed in lab10.
 //Leave them here to be used later.
-/* void process_input(int argc, char **argv); */
-/* void handle_redir(int count, char *argv[]); */
+void process_input(int argc, char **argv);
+void handle_redir(int count, char *argv[]);
 
 /* ----------------------------------------------------------------- */
 /*                  The main program starts here                     */
