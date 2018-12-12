@@ -11,6 +11,6 @@ Textbook: Building Java Programs: A Back to Basics Approach, 4/E or 3/E. By Stua
 2. Use of object-oriented techniques to foster abstraction.
 3. A disciplined approach to the design, coding, testing and debugging of programs.
 4. Use of appropriate tools and techniques for each step of program development.
-5. Illustration of the power of abstraction via the use of multiple r epresentations of linear lists.
+5. Illustration of the power of abstraction via the use of multiple representations of linear lists.
 6. Reinforcement and expansion of object-oriented skills.
 7. Basic sorting and search algorithms and their analysis.
