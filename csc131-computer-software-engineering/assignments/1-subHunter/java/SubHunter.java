@@ -1,7 +1,7 @@
 // This is our package
 // If you are copy & pasting the code then this line will probably be different to yours
 // If so, keep YOUR line- not this one
-package com.gamecodeschool.c7subhunter;
+package com.example.sub_hunter;
 
 // These are all the classes of other people's
 // (Android) code that we use in Sub Hunt
