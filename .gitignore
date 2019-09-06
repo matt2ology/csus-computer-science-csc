@@ -1,2 +1,2 @@
 *.out
-csc131-computer-software-engineering/sampleCode/.class
+csc131-computer-software-engineering/sampleCode/*.class
