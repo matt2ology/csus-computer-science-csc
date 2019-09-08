@@ -34,7 +34,7 @@ public class SubHunterRefactored extends Activity {
     boolean hit = false;
     int shotsTaken;
     int distanceFromSub;
-    boolean debugging = false;
+    boolean debugging = true;
 
     // Here are all the objects(instances)
     // of classes that we need to do some drawing
