@@ -22,19 +22,19 @@ public class SubHunterRefactored extends Activity {
 
     // These variables can be "seen"
     // throughout the SubHunter class
-    int numberHorizontalPixels;
-    int numberVerticalPixels;
-    int blockSize;
-    int gridWidth = 40;
-    int gridHeight;
-    float horizontalTouched = -100;
-    float verticalTouched = -100;
-    int subHorizontalPosition;
-    int subVerticalPosition;
-    boolean hit = false;
-    int shotsTaken;
-    int distanceFromSub;
-    boolean debugging = true;
+    int numberHorizontalPixels; //Grid Class item
+    int numberVerticalPixels; //Grid Class item
+    int blockSize; //Grid Class item
+    int gridWidth = 40; //Grid Class item
+    int gridHeight; //Grid Class item
+    float horizontalTouched = -100; //Grid Class item
+    float verticalTouched = -100; //Grid Class item
+    int subHorizontalPosition; //Sub Class item
+    int subVerticalPosition; //Sub Class item
+    boolean hit = false; //Sub Class item
+    int shotsTaken; //Player Class item
+    int distanceFromSub; //Player Class item
+    boolean debugging = true; //Test Class item
 
     // Here are all the objects(instances)
     // of classes that we need to do some drawing
