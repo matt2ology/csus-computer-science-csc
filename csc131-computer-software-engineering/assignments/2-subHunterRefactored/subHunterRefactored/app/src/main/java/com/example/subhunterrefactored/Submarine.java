@@ -1,7 +1,12 @@
+package com.example.subhunterrefactored;
+
 public class Submarine extends UnderwaterVehicle {
-    private int subHorizontalPosition = 0;
-    private int subVerticalPosition = 0;
-    private boolean isHit = false;
+    private int subHorizontalPosition;
+    private int subVerticalPosition;
+    private boolean isHit;
+    public Submarine(){
+        
+    }
     int getSubHorizontalPosition(){
 
     }
