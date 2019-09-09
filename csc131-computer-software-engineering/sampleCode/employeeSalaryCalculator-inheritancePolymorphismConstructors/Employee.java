@@ -13,8 +13,6 @@
 | 																			  |
 | // Employee.java                                                            |
 \*****************************************************************************/
-package yearlySalaryCalculator;
-
 public class Employee {
 	private String fstName = ""; // Instance variable of String type set to first name.
 	private String lstName = ""; // Instance variable of String type set to last name.
@@ -58,7 +56,7 @@ public class Employee {
 	}
 
 	public void setRaise(double r) {
-		double temp;
+		double temp = 0.0;
 		temp = ((r < 0) ? 1000.00 : r);
 		raise = (getyearlySalary()) + (getyearlySalary() * 0.10);
 	}
