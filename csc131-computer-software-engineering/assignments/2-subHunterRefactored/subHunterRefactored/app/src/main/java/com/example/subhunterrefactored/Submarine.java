@@ -5,10 +5,10 @@ public class Submarine extends UnderwaterVehicle {
     private int subVerticalPosition;
     private boolean isHit;
     public Submarine(){
-        
+
     }
     int getSubHorizontalPosition(){
-
+        return subHorizontalPosition;
     }
     int setSubHorizontalPosition(){
 
