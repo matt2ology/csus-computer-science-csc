@@ -207,7 +207,8 @@ public class SubHunterRefactored extends Activity {
         newGame();
     }
 
-    // This code prints the debugging text
+     // This code prints the debugging text
+    /*
     public void printDebuggingText() {
         paint.setTextSize(blockSize);
         canvas.drawText("numberHorizontalPixels = " + numberHorizontalPixels, 50, blockSize * 3, paint);
@@ -223,5 +224,5 @@ public class SubHunterRefactored extends Activity {
         canvas.drawText("shotsTaken = " + shotsTaken, 50, blockSize * 13, paint);
         canvas.drawText("debugging = " + debugging, 50, blockSize * 14, paint);
 
-    }
+    } */
 }
