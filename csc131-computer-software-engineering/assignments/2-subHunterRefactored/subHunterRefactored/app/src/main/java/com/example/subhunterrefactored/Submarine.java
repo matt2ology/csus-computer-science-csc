@@ -10,16 +10,17 @@ public class Submarine extends UnderwaterVehicle {
     int getSubHorizontalPosition(){
         return subHorizontalPosition;
     }
-    int setSubHorizontalPosition(){
-
+    int setSubHorizontalPosition(int gridHorizontalXPosition){
+        subHorizontalPosition = gridHorizontalXPosition;
     }
     int getSubVerticalPosition(){
 
     }
     int setSubVerticalPosition(){
-
+        
     }
     boolean subIsHit(){
 
     }
+    
 }
