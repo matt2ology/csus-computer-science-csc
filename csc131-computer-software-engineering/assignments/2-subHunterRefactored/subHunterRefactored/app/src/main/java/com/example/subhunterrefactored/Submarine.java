@@ -11,8 +11,8 @@ public class Submarine extends UnderwaterVehicle {
     public Submarine(){
 
     }
-    int getSubHorizontalPosition(){
-        return subHorizontalPosition;
+    int getSub_Xposition(){
+        return sub_Xposition;
     }
     int setSub_Xposition(int gridLatitude){
         sub_Xposition = gridLatitude;
