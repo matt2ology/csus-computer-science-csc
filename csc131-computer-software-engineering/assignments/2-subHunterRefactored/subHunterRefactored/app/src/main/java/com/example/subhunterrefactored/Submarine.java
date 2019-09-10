@@ -24,7 +24,7 @@ public class Submarine extends UnderwaterVehicle {
         subVerticalPosition = gridVerticalPositionYPosition;
     }
     boolean subIsHit(){
-
+        isHit = true;
     }
     
 }
