@@ -5,11 +5,13 @@ package com.example.subhunterrefactored;
  * spot the subtle difference.  The words have similiar shapes.
  **/
 public class Submarine extends UnderwaterVehicle {
-    private int sub_Xposition;
-    private int sub_Yposition;
-    private boolean isHit;
-    public Submarine(){
-
+    private int sub_Xposition = 0;
+    private int sub_Yposition = 0;
+    private boolean sub_isHit = false;
+    public Submarine(int gridLatitude,int gridLongitude,boolean isHit){
+        sub_Xposition = gridLatitude;
+        sub_Yposition = gridLongitude;
+        sub_isHit = isHit;
     }
     int getSub_Xposition(){
         return sub_Xposition;
