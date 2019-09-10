@@ -5,8 +5,8 @@ package com.example.subhunterrefactored;
  * spot the subtle difference.  The words have similiar shapes.
  **/
 public class Submarine extends UnderwaterVehicle {
-    private int subHorizontalPosition;
-    private int subVerticalPosition;
+    private int sub_Xposition;
+    private int sub_Yposition;
     private boolean isHit;
     public Submarine(){
 
