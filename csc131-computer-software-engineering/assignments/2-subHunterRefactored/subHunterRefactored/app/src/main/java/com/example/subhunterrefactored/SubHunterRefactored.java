@@ -18,23 +18,136 @@ import android.view.Display;
 import android.widget.ImageView;
 import java.util.Random;
 
+/**
+ * Submarine
+ */
+public class Submarine {
+    int subHorizontalPosition; // Sub Class item
+    int subVerticalPosition; // Sub Class item
+    boolean hit = false; // Sub Class item
+
+    /**
+     * 
+     * @param :
+     */
+    public boolean isHit() {
+
+    }
+}
+
+/**
+ * Grid
+ */
+public class Grid {
+    int numberHorizontalPixels; // Grid Class item
+    int numberVerticalPixels; // Grid Class item
+    int blockSize; // Grid Class item
+    int gridWidth = 40; // Grid Class item
+    int gridHeight; // Grid Class item
+    float horizontalTouched = -100; // Grid Class item
+    float verticalTouched = -100; // Grid Class item
+
+}
+
+/**
+ * Player
+ */
+public class Player {
+    int shotsTaken; // Player Class item
+    int distanceFromSub; // Player Class item
+
+    /**
+     * Sets the user, the Player's, touched horizontal x-Coordinate on screen.
+     * 
+     * @param :
+     */
+    public float setHorizontalTouched(float touchX, int blockSize) {
+        this.horizontalTouched = (int) touchX / blockSize;
+    }
+
+    /**
+     * Returns the user, the Player's, touched horizontal x-Coordinate on screen.
+     * 
+     * @param :
+     */
+    public void getHorizontalTouched() {
+        return this.horizontalTouched;
+    }
+
+    /**
+     * Sets the user, the Player's, touched vertical y-Coordinate on screen.
+     * 
+     * @param :
+     */
+    public float setVerticalTouched(float touchY, int blockSize) {
+        this.verticalTouched = (int) touchY / blockSize;
+    }
+
+    /**
+     * Returns the user, the Player's, touched vertical y-Coordinate on screen.
+     * 
+     * @param :
+     */
+    public void getVerticalTouched() {
+        return this.verticalTouched;
+    }
+
+    /**
+     * 
+     * @param :
+     */
+    public void yCoordinateGridTouchMatch(float verticalTouched, int subVerticalPosition) {
+        return (verticalTouched == subVerticalPosition) ? true : false;
+    }
+
+    /**
+     * 
+     * @param :
+     */
+    public void xCoordinateGridTouchMatch(float horizontalTouched, int subHorizontalPosition) {
+        return (horizontalTouched == subHorizontalPosition) ? true : false;
+    }
+
+}
+
+/**
+ * debugTextTest
+ */
+public class debugTextTest {
+    public void printDebuggingText() {
+        paint.setTextSize(blockSize);
+        canvas.drawText("numberHorizontalPixels = " + numberHorizontalPixels, 50, blockSize * 3, paint);
+        canvas.drawText("numberVerticalPixels = " + numberVerticalPixels, 50, blockSize * 4, paint);
+        canvas.drawText("blockSize = " + blockSize, 50, blockSize * 5, paint);
+        canvas.drawText("gridWidth = " + gridWidth, 50, blockSize * 6, paint);
+        canvas.drawText("gridHeight = " + gridHeight, 50, blockSize * 7, paint);
+        canvas.drawText("horizontalTouched = " + horizontalTouched, 50, blockSize * 8, paint);
+        canvas.drawText("verticalTouched = " + verticalTouched, 50, blockSize * 9, paint);
+        canvas.drawText("subHorizontalPosition = " + subHorizontalPosition, 50, blockSize * 10, paint);
+        canvas.drawText("subVerticalPosition = " + subVerticalPosition, 50, blockSize * 11, paint);
+        canvas.drawText("hit = " + hit, 50, blockSize * 12, paint);
+        canvas.drawText("shotsTaken = " + shotsTaken, 50, blockSize * 13, paint);
+        canvas.drawText("debugging = " + debugging, 50, blockSize * 14, paint);
+    }
+}
+
 public class SubHunterRefactored extends Activity {
 
     // These variables can be "seen"
     // throughout the SubHunter class
-    int numberHorizontalPixels; //Grid Class item
-    int numberVerticalPixels; //Grid Class item
-    int blockSize; //Grid Class item
-    int gridWidth = 40; //Grid Class item
-    int gridHeight; //Grid Class item
-    float horizontalTouched = -100; //Grid Class item
-    float verticalTouched = -100; //Grid Class item
-    int subHorizontalPosition; //Sub Class item
-    int subVerticalPosition; //Sub Class item
-    boolean hit = false; //Sub Class item
-    int shotsTaken; //Player Class item
-    int distanceFromSub; //Player Class item
-    boolean debugging = true; //Test Class item
+    // int numberHorizontalPixels; // Grid Class item
+    // int numberVerticalPixels; // Grid Class item
+    // int blockSize; // Grid Class item
+    // int gridWidth = 40; // Grid Class item
+    // int gridHeight; // Grid Class item
+    // float horizontalTouched = -100; // Grid Class item
+    // float verticalTouched = -100; // Grid Class item
+    // int subHorizontalPosition; // Sub Class item
+    // int subVerticalPosition; // Sub Class item
+    // boolean hit = false; // Sub Class item
+    // int shotsTaken; // Player Class item
+    // int distanceFromSub; // Player Class item
+    boolean debugging = true; // Test Class item
 
     // Here are all the objects(instances)
     // of classes that we need to do some drawing
@@ -154,6 +267,9 @@ public class SubHunterRefactored extends Activity {
      * The code here will execute when the player taps the screen It will calculate
      * distance from the sub' and determine a hit or miss
      */
+    /**
+     * Can be extraced out into a "Player" class
+     */
     void takeShot(float touchX, float touchY) {
         Log.d("Debugging", "In takeShot");
 
@@ -207,22 +323,24 @@ public class SubHunterRefactored extends Activity {
         newGame();
     }
 
-     // This code prints the debugging text
+    // This code prints the debugging text
     /*
-    public void printDebuggingText() {
-        paint.setTextSize(blockSize);
-        canvas.drawText("numberHorizontalPixels = " + numberHorizontalPixels, 50, blockSize * 3, paint);
-        canvas.drawText("numberVerticalPixels = " + numberVerticalPixels, 50, blockSize * 4, paint);
-        canvas.drawText("blockSize = " + blockSize, 50, blockSize * 5, paint);
-        canvas.drawText("gridWidth = " + gridWidth, 50, blockSize * 6, paint);
-        canvas.drawText("gridHeight = " + gridHeight, 50, blockSize * 7, paint);
-        canvas.drawText("horizontalTouched = " + horizontalTouched, 50, blockSize * 8, paint);
-        canvas.drawText("verticalTouched = " + verticalTouched, 50, blockSize * 9, paint);
-        canvas.drawText("subHorizontalPosition = " + subHorizontalPosition, 50, blockSize * 10, paint);
-        canvas.drawText("subVerticalPosition = " + subVerticalPosition, 50, blockSize * 11, paint);
-        canvas.drawText("hit = " + hit, 50, blockSize * 12, paint);
-        canvas.drawText("shotsTaken = " + shotsTaken, 50, blockSize * 13, paint);
-        canvas.drawText("debugging = " + debugging, 50, blockSize * 14, paint);
-
-    } */
+     * public void printDebuggingText() { paint.setTextSize(blockSize);
+     * canvas.drawText("numberHorizontalPixels = " + numberHorizontalPixels, 50,
+     * blockSize * 3, paint); canvas.drawText("numberVerticalPixels = " +
+     * numberVerticalPixels, 50, blockSize * 4, paint);
+     * canvas.drawText("blockSize = " + blockSize, 50, blockSize * 5, paint);
+     * canvas.drawText("gridWidth = " + gridWidth, 50, blockSize * 6, paint);
+     * canvas.drawText("gridHeight = " + gridHeight, 50, blockSize * 7, paint);
+     * canvas.drawText("horizontalTouched = " + horizontalTouched, 50, blockSize *
+     * 8, paint); canvas.drawText("verticalTouched = " + verticalTouched, 50,
+     * blockSize * 9, paint); canvas.drawText("subHorizontalPosition = " +
+     * subHorizontalPosition, 50, blockSize * 10, paint);
+     * canvas.drawText("subVerticalPosition = " + subVerticalPosition, 50, blockSize
+     * * 11, paint); canvas.drawText("hit = " + hit, 50, blockSize * 12, paint);
+     * canvas.drawText("shotsTaken = " + shotsTaken, 50, blockSize * 13, paint);
+     * canvas.drawText("debugging = " + debugging, 50, blockSize * 14, paint);
+     * 
+     * }
+     */
 }
