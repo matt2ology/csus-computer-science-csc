@@ -9,6 +9,9 @@ Assignment #: Assignment_Name
  * queue and a private stack. How you implement these is completely up to 
  * you – but I would strongly recommend using a linked-list.
  */
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+
 public class Evaluator {
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
