@@ -4,7 +4,7 @@ CSC 130: Data Structures and Algorithm Analysis - Fall 2019
 Assignment #: Assignment_Name
 =============================================================================*/
 
-public class [ReplaceWithAssignmentClassName]Test{
+public class mainEvaluatorTest{
     public static void main(String args[]){
 
         /*InsertCodeHere*/
