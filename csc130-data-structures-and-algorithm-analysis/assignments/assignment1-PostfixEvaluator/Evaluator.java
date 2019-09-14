@@ -1,3 +1,4 @@
+
 /*=============================================================================
 AUTHOR: Matthew Mendoza
 CSC 130: Data Structures and Algorithm Analysis - Fall 2019
@@ -9,6 +10,10 @@ Assignment #: Assignment_Name
  * queue and a private stack. How you implement these is completely up to 
  * you – but I would strongly recommend using a linked-list.
  */
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class Evaluator {
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
@@ -32,6 +37,19 @@ public class Evaluator {
 
     }
 
+    // ===========================
+    // Compute Postfix Pseudo-code
+    // ===========================
+    // while there is data in the input queue
+    // ....read a token (value or operator) from queue
+    // ....if it's a value, push it on the stack
+    // ....if it's an operator
+    // ........pop two numbers from the stack
+    // ........compute the result (using the operator)
+    // ........push the result on the stack
+    // ....end if
+    // end while // Afterwards, the final result is on the stack
+
     /**
      * The code that evaluates the input queue must use the stack-based approach we
      * went over in class. Naturally, your solution will contain both a private
@@ -41,6 +59,17 @@ public class Evaluator {
      * @return Evaluates the values and returns a double result.
      */
     public double evaluate() {
+        while (condition) { // while there is data in the input queue
+            // read a token (value or operator) from queue
+            if (condition) { // if it's a value
+                // push value on the stack
+            }
+            if (condition) { // if it's an operator
+                // pop two numbers from the stack
+                // compute the result (using the operator)
+                // push the result on the stack
+            }
+        }
 
     }
 } // END OF Evaluator CLASS
