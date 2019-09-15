@@ -11,7 +11,7 @@ Assignment #: Assignment_Name
  * you – but I would strongly recommend using a linked-list.
  */
 import java.util.LinkedList;
-import java.util.Queue;
+import java.util.PriorityQueue;
 import java.util.Stack;
 
 public class Evaluator {
