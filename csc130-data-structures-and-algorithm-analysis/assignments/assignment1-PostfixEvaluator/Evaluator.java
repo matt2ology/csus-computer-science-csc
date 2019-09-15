@@ -15,6 +15,9 @@ import java.util.PriorityQueue;
 import java.util.Stack;
 
 public class Evaluator {
+    // Creating private empty priority queue
+    private PriorityQueue<String> inputQueue = new PriorityQueue<String>();
+
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
      */
