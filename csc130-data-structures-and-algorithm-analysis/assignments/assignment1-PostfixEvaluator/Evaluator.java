@@ -70,7 +70,7 @@ public class Evaluator {
      *         False).
      */
     public static boolean inputIsOperator(String input) {
-        return (input.equals("+") || input.equals("-") || input.equals("*") || input.equals("/"));
+        return (input.equals("+") || input.equals("-") || input.equals("*") || input.equals("/") || input.equals("^"));
     }
     // ===========================
     // Compute Postfix Pseudo-code
