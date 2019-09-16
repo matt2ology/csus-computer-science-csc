@@ -17,6 +17,7 @@ import java.util.Stack;
 public class Evaluator {
     // Creating private empty priority queue
     private PriorityQueue<String> inputQueue = new PriorityQueue<String>();
+    private Stack<Double> stack = new Stack<>();
 
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
