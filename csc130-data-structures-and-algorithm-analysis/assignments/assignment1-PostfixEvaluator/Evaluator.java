@@ -30,6 +30,7 @@ public class Evaluator {
     public void resetQueStack() {
         this.queStack.clear();
     }
+
     public Stack<Double> getQueStack() {
         return queStack;
     }
