@@ -13,6 +13,7 @@ Assignment #: Assignment_Name
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Stack;
+import java.util.Scanner;
 
 public class Evaluator {
     // Creating private empty priority queue
