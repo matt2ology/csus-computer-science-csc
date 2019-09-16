@@ -64,7 +64,7 @@ public class Evaluator {
      * @return Evaluates the values and returns a double result.
      */
     public double evaluate() {
-        while (condition) { // while there is data in the input queue
+        while (!inputQueue.isEmpty()) { // while there is data in the input queue
             // read a token (value or operator) from queue
             if (condition) { // if it's a value
                 // push value on the stack
