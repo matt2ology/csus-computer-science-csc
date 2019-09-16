@@ -50,7 +50,6 @@ public class Evaluator {
         System.out.printf("Enqueued item : %s", item);
         System.out.println();
         postfixInputQueue.add(item);
-
     }
 
     public boolean isInteger(String input) {
