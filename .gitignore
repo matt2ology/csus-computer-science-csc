@@ -1,2 +1,3 @@
 *.out
 csc131-computer-software-engineering/sampleCode/*/*.class
+csc130-data-structures-and-algorithm-analysis/assignments/assignment1-PostfixEvaluator/*.class
