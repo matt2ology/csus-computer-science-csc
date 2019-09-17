@@ -1,3 +1,8 @@
+/*=============================================================================
+AUTHOR: Matthew Mendoza
+CSC 130: Data Structures and Algorithm Analysis - Fall 2019
+Assignment #1 – Postfix Evaluator
+=============================================================================*/
 /**
  * Part 3: Testing Once you have finished your code, you need to test it using
  * some real postfix expressions. Make sure to make come up some good test data.
