@@ -114,7 +114,7 @@ public class Evaluator {
                 System.out.printf("leftOperand : %s \nrightOperand : %s\n", leftOperand, rightOperand);
 
                 // compute the result (using the operator)
-                System.out.printf("\tpostfixInputQueue.peek() : %s ", postfixInputQueue.peek());
+                System.out.printf("\tMath Operator : %s ", postfixInputQueue.peek());
                 System.out.println();
                 switch (postfixInputQueue.poll()) {
                 // push the result on the stack
