@@ -52,6 +52,7 @@ public class Evaluator {
 
     public boolean isInteger(String input) {
         try {
+            // If string is a number it will convert it into an int
             Integer.parseInt(input);
             return true;
         } catch (Exception e) {
