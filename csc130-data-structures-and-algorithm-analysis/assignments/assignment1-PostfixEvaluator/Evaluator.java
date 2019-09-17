@@ -23,8 +23,6 @@ public class Evaluator {
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
      */
     public Evaluator() {
-        System.out.println(about());
-
     }
 
     public void resetQueStack() {
