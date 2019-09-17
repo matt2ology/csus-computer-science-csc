@@ -158,6 +158,5 @@ public class Evaluator {
                 }
             }
         }
-
     }
 } // END OF Evaluator CLASS
