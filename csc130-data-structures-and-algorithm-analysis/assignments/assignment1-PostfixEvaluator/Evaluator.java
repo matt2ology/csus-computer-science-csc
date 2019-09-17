@@ -2,7 +2,7 @@
 /*=============================================================================
 AUTHOR: Matthew Mendoza
 CSC 130: Data Structures and Algorithm Analysis - Fall 2019
-Assignment #: Assignment_Name
+Assignment #1 – Postfix Evaluator
 =============================================================================*/
 /*
  * The code that evaluates the input queue must use the stack-based approach we
