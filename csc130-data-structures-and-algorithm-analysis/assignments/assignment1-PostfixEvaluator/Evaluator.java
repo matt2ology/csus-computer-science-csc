@@ -99,7 +99,7 @@ public class Evaluator {
             if (isInteger(strValue)) { // if it's a value (a double).
                 // push value on the stack
                 System.out.printf("Push value on the stack : %s ", postfixInputQueue.peek());
-                System.out.println("\n");
+                System.out.println();
                 queStack.push(Double.valueOf(postfixInputQueue.poll()));
             }
 
