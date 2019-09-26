@@ -69,6 +69,8 @@ public class Node {
         for (int numberOfSpaces = 0; numberOfSpaces <= indent; numberOfSpaces++) {
             System.out.print(" ");
         }
-        System.out.println("",Node.data);
+        System.out.println();
+        left.printTree(indent + 1);
+        right.printTree(indent + 1);
     }
 } // END OF Node CLASS
