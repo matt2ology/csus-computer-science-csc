@@ -22,7 +22,7 @@ public class BinaryTree {
     }
 
     /**
-     * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
+     * Constructor.
      */
     public BinaryTree(Node root) {
 
