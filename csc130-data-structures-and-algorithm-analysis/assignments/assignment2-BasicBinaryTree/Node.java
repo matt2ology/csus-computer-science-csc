@@ -52,6 +52,13 @@ public class Node {
     }
 
     /**
+     * @return the right
+     */
+    public Node getRight() {
+        return right;
+    }
+
+    /**
      * Prints the contents of the tree using an infix tree traversal. They should be
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
