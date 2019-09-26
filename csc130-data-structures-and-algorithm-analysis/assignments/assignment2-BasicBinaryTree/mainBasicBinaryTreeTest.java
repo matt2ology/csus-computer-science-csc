@@ -10,10 +10,7 @@ public class mainBasicBinaryTreeTest {
 
         /* create root */
         tree.root = new Node(1);
-
         tree.root.left = new Node(3);
-        tree.root.right = new Node(5);
-
         tree.root.left.left = new Node(42);
         tree.root.left.right = new Node(26);
         
