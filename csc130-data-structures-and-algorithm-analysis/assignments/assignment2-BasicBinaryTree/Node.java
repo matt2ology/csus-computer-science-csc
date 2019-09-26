@@ -42,8 +42,18 @@ public class Node {
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
      */
-    public void printValues() {
-        System.out.print(this.data);
+    public void printValues(Node data) {
+        if (data == null)
+            return;
+
+        /* first print data of node */
+        System.out.print(data + " ");
+
+        /* then recur on left sutree */
+        printValues(data.left);
+
+        /* now recur on right subtree */
+        printValues(data.right);
     }
 
     /**
