@@ -53,7 +53,28 @@ public class Node {
         printValues(data.left);
 
         /* now recur on right subtree */
-        printValues(data.right);
+        getRight();
+    }
+    
+    /**
+     * @return the data
+     */
+    public Object getData() {
+        return data;
+    }
+
+    /**
+     * @return the left
+     */
+    public Node getLeft() {
+        return left;
+    }
+
+    /**
+     * @return the right
+     */
+    public Node getRight() {
+        return right;
     }
 
     /**
