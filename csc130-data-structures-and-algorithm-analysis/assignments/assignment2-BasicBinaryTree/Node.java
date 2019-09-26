@@ -38,6 +38,12 @@ public class Node {
     }
 
     /**
+     * @return the data
+     */
+    public Object getData() {
+        return data;
+    }
+    /**
      * Prints the contents of the tree using an infix tree traversal. They should be
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
