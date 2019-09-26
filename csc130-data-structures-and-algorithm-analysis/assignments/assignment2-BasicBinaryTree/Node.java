@@ -31,7 +31,7 @@ public class Node {
     /**
      * Constructor that assigns the data, left and right nodes.
      */
-    public Node(Object data) {
+    public Node(Object data, Node left, Node right) {
         this.data = data;
         this.left = null;
         this.right = null;
