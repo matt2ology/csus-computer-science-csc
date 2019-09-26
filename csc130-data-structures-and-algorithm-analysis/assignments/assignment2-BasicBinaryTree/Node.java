@@ -33,8 +33,8 @@ public class Node {
      */
     public Node(Object data, Node left, Node right) {
         this.data = data;
-        this.left = null;
-        this.right = null;
+        this.left = left;
+        this.right = right;
     }
 
     /**
