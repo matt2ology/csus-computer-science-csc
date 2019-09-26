@@ -43,7 +43,7 @@ public class Node {
      * the stream if you like.
      */
     public void printValues() {
-
+        System.out.print(this.data);
     }
 
     /**
