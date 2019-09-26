@@ -6,6 +6,7 @@ Assignment #2 – Basic Binary Tree
 
 public class mainBasicBinaryTreeTest {
     public static void main(String args[]) {
+        BinaryTree tree = new BinaryTree();
 
         /* InsertCodeHere */
 
