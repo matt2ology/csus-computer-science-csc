@@ -41,7 +41,7 @@ public class BinaryTree {
      * Starts recursion from the root node.
      */
     public void printValues() {
-
+        node.printValues(this.root);
     }
 
     /**
