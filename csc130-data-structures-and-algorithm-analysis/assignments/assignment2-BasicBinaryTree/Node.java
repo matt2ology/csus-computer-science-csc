@@ -8,7 +8,7 @@ Assignment #2 – Basic Binary Tree
  * coding (and complexity) is found in the recursive structure itelf. In thecase
  * of trees,the node will contain the vast amount of the logic andbehavior. You
  * are going to create a very, very basic node clwith a nice, well-documented,
- * ad well-written solutio. We will build upon later, to crate more advance tree
+ * ad well-written solution. We will build upon later, to crate more advance tree
  * structures.
  * 
  * <h2>Interface</h2>Create a very basic node class. All this requires is a left
