@@ -42,8 +42,8 @@ public class Node {
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
      */
-    public void printValues(Node data) {
-        if (data == null)
+    public void printValues() {
+        if (getData() == null)
             return;
 
         /* first print data of node */
