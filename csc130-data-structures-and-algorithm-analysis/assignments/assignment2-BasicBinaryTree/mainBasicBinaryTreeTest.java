@@ -8,7 +8,8 @@ public class mainBasicBinaryTreeTest {
     public static void main(String args[]) {
         BinaryTree tree = new BinaryTree();
 
-        /* InsertCodeHere */
+        /* create root */
+        tree.root = new Node(1);
 
     } // END OF main METHOD
 }
