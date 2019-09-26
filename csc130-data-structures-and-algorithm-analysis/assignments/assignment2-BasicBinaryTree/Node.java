@@ -83,9 +83,9 @@ public class Node {
      * free to redirect the stream if you like.
      * 
      * To print the tree, you will use the same recursion logic as printing the
-     * values. However, rather than an infix traversal, this will use prefix. Don't
-     * worry, it is not hard. If you wrote the other print method already, this will
-     * be easy.
+     * values. However, rather than an infix traversal (does he mean Preorder?),
+     * this will use prefix. Don't worry, it is not hard. If you wrote the other
+     * print method already, this will be easy.
      * 
      * <pre>
      * {@code
