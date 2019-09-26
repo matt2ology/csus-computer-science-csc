@@ -32,7 +32,7 @@ public class BinaryTree {
      * Returns text about you – the author of this class.
      */
     public String about() {
-        return "Hello, I'm Matt and I like milk tea. \n";
+        return "Hello, I'm Matt and I like milk tea.\n";
 
     }
 
