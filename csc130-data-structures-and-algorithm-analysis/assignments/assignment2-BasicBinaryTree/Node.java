@@ -92,7 +92,7 @@ public class Node {
         for (int numberOfSpaces = 0; numberOfSpaces <= indent; numberOfSpaces++) {
             System.out.print(" ");
         }
-        System.out.println();
+        System.out.println(getData() + "/n");
         left.printTree(indent + 1);
         right.printTree(indent + 1);
     }
