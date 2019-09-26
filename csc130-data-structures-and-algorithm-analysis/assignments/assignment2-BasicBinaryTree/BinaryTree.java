@@ -12,8 +12,7 @@ Assignment #2 – Basic Binary Tree
  * <h2>Interface</h2>The tree class needs to store the root node.
  */
 public class BinaryTree {
-    Node node = new Node();
-    Node root;
+    private Node root;
 
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
