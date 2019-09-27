@@ -57,12 +57,14 @@ public class Logism extends Activity {
                 Point size = new Point();
                 display.getSize(size);
 
+                setContentView(R.layout.activity_main);
                 // Initialize our size based variables based on the screen resolution
                 numberHorizontalPixels = size.x;
                 numberVerticalPixels = size.y;
                 blockSize = numberHorizontalPixels / gridWidth;
                 gridHeight = numberVerticalPixels / blockSize;
 
+                // Set up screen
                 // Initialize all the objects ready for drawing
                 blankBitmap = Bitmap.createBitmap(numberHorizontalPixels, numberVerticalPixels,
                                 Bitmap.Config.ARGB_8888);
