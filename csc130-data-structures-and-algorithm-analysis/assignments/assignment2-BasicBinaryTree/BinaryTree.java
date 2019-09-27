@@ -15,17 +15,32 @@ public class BinaryTree {
     private Node root;
 
     /**
-     * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
+     * Create new empty binary tree
      */
     public BinaryTree() {
-
+        this.setRoot(null);
     }
 
     /**
-     * Constructor.
+     * Create new binary tree with root node
+     * @param root Root node
      */
     public BinaryTree(Node root) {
+        this.setRoot(root);
+    }
 
+    /**
+     * @return the root
+     */
+    public Node getRoot() {
+        return root;
+    }
+
+    /**
+     * @param root the root to set
+     */
+    public void setRoot(Node root) {
+        this.root = root;
     }
 
     /**
