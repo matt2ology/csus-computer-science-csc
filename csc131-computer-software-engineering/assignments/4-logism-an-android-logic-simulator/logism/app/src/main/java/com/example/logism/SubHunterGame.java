@@ -1,6 +1,0 @@
-/**
- * SubHunterGame
- */
-public class SubHunterGame {
-
-}
