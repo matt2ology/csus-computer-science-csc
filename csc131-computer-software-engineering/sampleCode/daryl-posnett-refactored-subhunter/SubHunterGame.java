@@ -1,0 +1,6 @@
+/**
+ * SubHunterGame
+ */
+public class SubHunterGame {
+
+}
