@@ -18,6 +18,7 @@ Assignment #2 – Basic Binary Tree
  */
 public class Node {
     Object data; // The value that the node contains.
+    // Assign pointers to left and right node.
     Node left;
     Node right;
 
