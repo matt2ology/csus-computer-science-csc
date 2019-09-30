@@ -39,41 +39,6 @@ public class Node {
     }
 
     /**
-     * @return the data
-     */
-    public Object getData() {
-        return data;
-    }
-
-    /**
-     * @return the left
-     */
-    public Node getLeft() {
-        return left;
-    }
-
-    /**
-     * @return the right
-     */
-    public Node getRight() {
-        return right;
-    }
-
-    /**
-     * @param left the left to set
-     */
-    public void setLeft(Node left) {
-        this.left = left;
-    }
-
-    /**
-     * @param right the right to set
-     */
-    public void setRight(Node right) {
-        this.right = right;
-    }
-
-    /**
      * Prints the contents of the tree using an infix tree traversal. They should be
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
