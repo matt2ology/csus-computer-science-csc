@@ -86,7 +86,7 @@ public class Node {
         System.out.print(getData() + " ");
 
         /* then recur on left sutree */
-        printValues(data.left);
+        getLeft();
 
         /* now recur on right subtree */
         getRight();
