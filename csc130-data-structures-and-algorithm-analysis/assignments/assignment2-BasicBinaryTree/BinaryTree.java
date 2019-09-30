@@ -18,7 +18,7 @@ public class BinaryTree {
      * Create new empty binary tree
      */
     public BinaryTree() {
-        this.setRoot(null);
+
     }
 
     /**
