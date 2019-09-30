@@ -25,8 +25,8 @@ public class Node {
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
      */
-    public Node() {
-
+    public Node(Object data) {
+        this(data, null, null);
     }
 
     /**
