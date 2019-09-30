@@ -44,11 +44,11 @@ public class Node {
      * the stream if you like.
      */
     public void printValues() {
-        if (getData() == null)
+        if (data == null)
             return;
 
         /* first print data of node */
-        System.out.print(getData() + " ");
+        System.out.print(data + " ");
 
         /* then recur on left sutree */
         left.printValues();
