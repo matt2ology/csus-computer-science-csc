@@ -17,10 +17,10 @@ Assignment #2 – Basic Binary Tree
  * with links to two other nodes.
  */
 public class Node {
-    private Object data; // The value that the node contains.
+    public Object data; // The value that the node contains.
     // Assign pointers to left and right node.
-    private Node left;
-    private Node right;
+    public Node left;
+    public Node right;
 
     /**
      * If only data is entered this constructor will assign both left and right
@@ -34,11 +34,15 @@ public class Node {
 
     /**
      * Constructor that assigns the data, left and right nodes.
+     * 
+     * @param theData
+     * @param leftChild
+     * @param rightChild
      */
-    public Node(Object data, Node left, Node right) {
-        this.data = data;
-        this.left = left;
-        this.right = right;
+    public Node(Object theData, Node leftChild, Node rightChild) {
+        data = theData;
+        left = leftChild;
+        right = rightChild;
     }
 
     /**
