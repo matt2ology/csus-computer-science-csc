@@ -6,8 +6,6 @@ Assignment #2 – Basic Binary Tree
 
 public class mainBasicBinaryTreeTest {
     public static void main(String args[]) {
-        BinaryTree tree = new BinaryTree();
-
         /* create root */
         // tree.root = new Node(1);
         // tree.root.left = new Node(3);
