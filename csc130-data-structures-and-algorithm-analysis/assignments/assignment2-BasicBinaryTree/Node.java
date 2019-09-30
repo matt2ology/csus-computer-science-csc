@@ -86,10 +86,10 @@ public class Node {
         System.out.print(getData() + " ");
 
         /* then recur on left sutree */
-        getLeft();
+        left.printValues();
 
         /* now recur on right subtree */
-        getRight();
+        right.printValues();
     }
 
    
