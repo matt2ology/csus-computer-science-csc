@@ -30,20 +30,6 @@ public class BinaryTree {
     }
 
     /**
-     * @return the root
-     */
-    public Node getRoot() {
-        return root;
-    }
-
-    /**
-     * @param root the root to set
-     */
-    public void setRoot(Node root) {
-        this.root = root;
-    }
-
-    /**
      * Returns text about you – the author of this class.
      */
     public String about() {
