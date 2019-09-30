@@ -17,10 +17,10 @@ Assignment #2 – Basic Binary Tree
  * with links to two other nodes.
  */
 public class Node {
-    Object data; // The value that the node contains.
+    private Object data; // The value that the node contains.
     // Assign pointers to left and right node.
-    Node left;
-    Node right;
+    private Node left;
+    private Node right;
 
     /**
      * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
@@ -127,7 +127,7 @@ public class Node {
             return;
 
         if (indent == 1) {
-            System.out.print(root.element + " ");
+            System.out.print(getData() + " ");
         } else if (indent > 1) {
             printTrees(root.left, indent + 1);
             printTrees(root.right, indent + 1);
