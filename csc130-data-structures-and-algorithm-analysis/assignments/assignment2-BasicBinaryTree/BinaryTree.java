@@ -23,6 +23,7 @@ public class BinaryTree {
 
     /**
      * Create new binary tree with root node
+     * 
      * @param root Root node
      */
     public BinaryTree(Node root) {
