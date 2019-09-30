@@ -92,7 +92,6 @@ public class Node {
         right.printValues();
     }
 
-   
     /**
      * Unlike the other print method, this one will print the structure of the tree.
      * One node will be printed per line. You should use prefix tree traversal. Feel
