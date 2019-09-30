@@ -39,25 +39,6 @@ public class Node {
     }
 
     /**
-     * Prints the contents of the tree using an infix tree traversal. They should be
-     * sent to standard out with spaces between each value. Feel free to redirect
-     * the stream if you like.
-     */
-    public void printValues() {
-        if (getData() == null)
-            return;
-
-        /* first print data of node */
-        System.out.print(getData() + " ");
-
-        /* then recur on left sutree */
-        printValues(data.left);
-
-        /* now recur on right subtree */
-        getRight();
-    }
-
-    /**
      * @return the data
      */
     public Object getData() {
@@ -78,6 +59,26 @@ public class Node {
         return right;
     }
 
+    /**
+     * Prints the contents of the tree using an infix tree traversal. They should be
+     * sent to standard out with spaces between each value. Feel free to redirect
+     * the stream if you like.
+     */
+    public void printValues() {
+        if (getData() == null)
+            return;
+
+        /* first print data of node */
+        System.out.print(getData() + " ");
+
+        /* then recur on left sutree */
+        printValues(data.left);
+
+        /* now recur on right subtree */
+        getRight();
+    }
+
+   
     /**
      * Unlike the other print method, this one will print the structure of the tree.
      * One node will be printed per line. You should use prefix tree traversal. Feel
@@ -108,5 +109,14 @@ public class Node {
             left.printTree(indent + 1);
             right.printTree(indent + 1); 
          */
+        if (this.data == null)
+            return;
+
+        if (indent == 1) {
+            System.out.print(root.element + " ");
+        } else if (indent > 1) {
+            printTrees(root.left, indent + 1);
+            printTrees(root.right, indent + 1);
+        }
     }
 } // END OF Node CLASS
