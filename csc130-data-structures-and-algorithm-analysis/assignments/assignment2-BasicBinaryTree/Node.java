@@ -23,7 +23,10 @@ public class Node {
     private Node right;
 
     /**
-     * COMMENTS DESCRIBING WHAT THE METHOD/CONSTRUCTOR DOES
+     * If only data is entered this constructor will assign both left and right
+     * child nodes to null.
+     * 
+     * @param data
      */
     public Node(Object data) {
         this(data, null, null);
