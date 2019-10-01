@@ -96,7 +96,7 @@ public class Node {
          * left.printTree(indent + 1); right.printTree(indent + 1);
          */
         for (int i = 0; i < indent; i++) {
-            System.out.print(" ");
+            System.out.print("  ");
         }
 
         System.out.println(data); // Node
