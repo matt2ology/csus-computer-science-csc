@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree",
+            "projectName": "assignment2-BasicBinaryTree_b589354b"
+        }
+    ]
+}
