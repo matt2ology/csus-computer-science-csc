@@ -10,6 +10,7 @@ Assignment #2 – Basic Binary Tree
  * and much more.
  * 
  * <h2>Interface</h2>The tree class needs to store the root node.
+ * @author Matthew Mendoza
  */
 public class BinaryTree {
     // Root of Binary Tree

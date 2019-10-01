@@ -15,6 +15,7 @@ Assignment #2 – Basic Binary Tree
  * and right link (to another node) and a generic data field. It should also
  * have a few constructors. In particular, you need one that will create a node
  * with links to two other nodes.
+ * @author Matthew Mendoza
  */
 public class Node {
     public Object data; // The value that the node contains.
