@@ -15,20 +15,21 @@ public class mainBasicBinaryTreeTest {
         // tree.root.right.left = new Node(7);
         // tree.root.right.left.left = new Node(9);
         // tree.root.right.left.right = new Node(12);
+        BinaryTree tree = new BinaryTree();
+
         /* create root */
-        Node root = new Node(1, null, null);
-        root.left = new Node(3);
-        root.left.left = new Node(42);
-        root.left.right = new Node(26);
-        root.right = new Node(5);
-        root.right.left = new Node(7);
-        root.right.left.left = new Node(9);
-        root.right.left.right = new Node(12);
-        
-        BinaryTree tree = new BinaryTree(root);
+        tree.root = new Node(1);
+        tree.root = new Node(20);
+        tree.root.left = new Node(3);
+        tree.root.left.left = new Node(42);
+        tree.root.left.right = new Node(26);
+        tree.root.right = new Node(5);
+        tree.root.right.left = new Node(7);
+        tree.root.right.left.left = new Node(9);
+        tree.root.right.left.right = new Node(12);
+
         tree.printValues();
         tree.printTree();
-
 
     } // END OF main METHOD
 }
