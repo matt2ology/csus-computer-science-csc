@@ -55,7 +55,7 @@ public class Node {
             return;
 
         /* first print data of node */
-        System.out.print(data + " ");
+        System.out.print(data + "  ");
 
         /* then recur on left sutree */
         left.printValues();
