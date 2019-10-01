@@ -43,13 +43,13 @@ public class BinaryTree {
      * Starts recursion from the root node.
      */
     public void printValues() {
-        node.root.printValues();
+        root.printValues();
     }
 
     /**
      * Starts recursion from the root node.
      */
     public void printTree() {
-        node.root.printTree(1);
+        root.printTree(1);
     }
 } // END OF BinaryTree CLASS
