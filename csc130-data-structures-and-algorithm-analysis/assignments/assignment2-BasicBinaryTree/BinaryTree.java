@@ -19,7 +19,7 @@ public class BinaryTree {
      * Create new empty binary tree
      */
     public BinaryTree() {
-
+        root = null;
     }
 
     /**
