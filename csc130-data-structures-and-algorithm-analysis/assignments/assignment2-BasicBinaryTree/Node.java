@@ -98,7 +98,7 @@ public class Node {
         for (int i = 0; i < indent; i++) {
             System.out.print("  ");
         }
-
+        System.out.print("||---");
         System.out.println(data); // Node
         if (left != null) {
             left.printTree(indent + 1);
