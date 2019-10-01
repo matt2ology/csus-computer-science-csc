@@ -58,10 +58,14 @@ public class Node {
         System.out.print(data + "  ");
 
         /* then recur on left sutree */
-        left.printValues();
+        if (left != null) {
+            left.printValues();
+        }
 
         /* now recur on right subtree */
-        right.printValues();
+        if (right != null) {
+            right.printValues();
+        }
     }
 
     /**
