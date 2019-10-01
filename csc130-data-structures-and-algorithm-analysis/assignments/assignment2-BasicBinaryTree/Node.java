@@ -91,11 +91,6 @@ public class Node {
      * </pre>
      */
     public void printTree(int indent) {
-        /*
-         * for (int numberOfSpaces = 0; numberOfSpaces <= indent; numberOfSpaces++) {
-         * System.out.print(" "); } System.out.println(getData() + "/n");
-         * left.printTree(indent + 1); right.printTree(indent + 1);
-         */
         for (int i = 0; i < indent; i++) {
             System.out.print("  ");
         }
