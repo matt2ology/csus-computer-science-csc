@@ -3,7 +3,27 @@ AUTHOR: Matthew Mendoza
 CSC 130: Data Structures and Algorithm Analysis - Fall 2019
 Assignment #2 – Basic Binary Tree
 =============================================================================*/
-
+/*
+ * Create a Binary tree by hand of structure
+ *          (ROOT)
+ *            1
+ *        /       \
+ *       3          5
+ *     /   \       /   \
+ *   42    26     7     74
+ *              /  \
+ *             9    12
+ * *****************************
+ * +-- 1
+ *   +--3
+ *      +--42
+ *      +--26
+ *   +--5
+ *      +--7
+ *        +--9
+ *        +--12
+ *      +--74 
+ */
 public class mainBasicBinaryTreeTest {
     public static void main(String args[]) {
         /* create root */
