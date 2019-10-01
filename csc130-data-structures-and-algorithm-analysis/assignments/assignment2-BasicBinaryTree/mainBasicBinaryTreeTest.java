@@ -38,8 +38,14 @@ public class mainBasicBinaryTreeTest {
         tree.root.right.left = new Node(7);
         tree.root.right.left.left = new Node(9);
         tree.root.right.left.right = new Node(12);
-
+        tree.root.right.right = new Node(74);
+        System.out.println();
+        System.out.println();
+        System.out.print("Preorder traversal of binary tree is : ");
         tree.printValues();
+        System.out.println();
+        System.out.println();
+        System.out.println("Binary tree printed ");
         tree.printTree();
 
     } // END OF main METHOD
