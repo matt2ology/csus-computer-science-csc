@@ -28,7 +28,7 @@ public class BinaryTree {
      * @param root Root node
      */
     public BinaryTree(Node root) {
-        this.root = root;
+        this.root = new Node(root);
     }
 
     /**
