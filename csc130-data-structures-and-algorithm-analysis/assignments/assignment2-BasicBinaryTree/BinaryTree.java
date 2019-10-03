@@ -10,6 +10,7 @@ Assignment #2 – Basic Binary Tree
  * and much more.
  * 
  * <h2>Interface</h2>The tree class needs to store the root node.
+ * @author Matthew Mendoza
  */
 public class BinaryTree {
     // Root of Binary Tree
@@ -43,13 +44,13 @@ public class BinaryTree {
      * Starts recursion from the root node.
      */
     public void printValues() {
-        node.root.printValues();
+        root.printValues();
     }
 
     /**
      * Starts recursion from the root node.
      */
     public void printTree() {
-        node.root.printTree(1);
+        root.printTree(1);
     }
 } // END OF BinaryTree CLASS

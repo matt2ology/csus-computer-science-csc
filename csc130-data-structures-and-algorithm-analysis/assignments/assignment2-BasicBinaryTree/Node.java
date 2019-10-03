@@ -15,6 +15,7 @@ Assignment #2 – Basic Binary Tree
  * and right link (to another node) and a generic data field. It should also
  * have a few constructors. In particular, you need one that will create a node
  * with links to two other nodes.
+ * @author Matthew Mendoza
  */
 public class Node {
     public Object data; // The value that the node contains.
@@ -46,7 +47,7 @@ public class Node {
     }
 
     /**
-     * Prints the contents of the tree using an infix tree traversal. They should be
+     * Prints the contents of the tree using an infix (preorder) tree traversal. They should be
      * sent to standard out with spaces between each value. Feel free to redirect
      * the stream if you like.
      */
@@ -55,13 +56,17 @@ public class Node {
             return;
 
         /* first print data of node */
-        System.out.print(data + " ");
+        System.out.print(data + "  ");
 
         /* then recur on left sutree */
-        left.printValues();
+        if (left != null) {
+            left.printValues();
+        }
 
         /* now recur on right subtree */
-        right.printValues();
+        if (right != null) {
+            right.printValues();
+        }
     }
 
     /**
@@ -86,15 +91,10 @@ public class Node {
      * </pre>
      */
     public void printTree(int indent) {
-        /*
-         * for (int numberOfSpaces = 0; numberOfSpaces <= indent; numberOfSpaces++) {
-         * System.out.print(" "); } System.out.println(getData() + "/n");
-         * left.printTree(indent + 1); right.printTree(indent + 1);
-         */
         for (int i = 0; i < indent; i++) {
-            System.out.print(" ");
+            System.out.print("  ");
         }
-
+        System.out.print("||---");
         System.out.println(data); // Node
         if (left != null) {
             left.printTree(indent + 1);
