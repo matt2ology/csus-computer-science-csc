@@ -5,12 +5,11 @@
  * @param <E> The type of the data elements. Note that we have strengthened the
  *            constraints on E such that E is now a Comparable.
  */
-public class BinarySearchTree<E extends Comparable<? super E>> implements
-        DataCounter<E> {
+public class BinarySearchTree<E extends Comparable<? super E>> implements DataCounter<E> {
 
     /**
-     * The root of the binary search tree. root is null if and only if the tree
-     * is empty.
+     * The root of the binary search tree. root is null if and only if the tree is
+     * empty.
      */
     protected BSTNode overallRoot;
 
@@ -20,9 +19,9 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
     protected int size;
 
     /**
-     * Inner (non-static) class to represent a node in the tree. Each node
-     * includes a String and an integer count. The class is protected so that it
-     * may be accessed by subclasses of BSTCounter.
+     * Inner (non-static) class to represent a node in the tree. Each node includes
+     * a String and an integer count. The class is protected so that it may be
+     * accessed by subclasses of BSTCounter.
      */
     protected class BSTNode {
         /**
@@ -46,9 +45,9 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
         public int count;
 
         public int height;
+
         /**
-         * Create a new data node. Also takes care of incrementing the tree
-         * size.
+         * Create a new data node. Also takes care of incrementing the tree size.
          *
          * @param data data element to be stored at this node.
          */
@@ -60,14 +59,14 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
             size++;
         }
 
-        void setHeight()
-        {
-            if(this.left != null || this.right != null)
-            {
-                if(this.left != null && this.right != null) this.height = Math.max(this.left.height, this.right.height) + 1;
-                else this.height = (this.left != null) ? this.left.height + 1 : this.right.height + 1;
-            }
-            else this.height = 1;
+        void setHeight() {
+            if (this.left != null || this.right != null) {
+                if (this.left != null && this.right != null)
+                    this.height = Math.max(this.left.height, this.right.height) + 1;
+                else
+                    this.height = (this.left != null) ? this.left.height + 1 : this.right.height + 1;
+            } else
+                this.height = 1;
         }
     }
 
@@ -79,22 +78,21 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
         size = 0;
     }
 
-    public void incCount(E data)
-    {
+    public void incCount(E data) {
         this.overallRoot = insert(data, overallRoot);
     }
 
-    public BSTNode insert(E data, BSTNode node)
-    {
-        if(node == null) return new BSTNode(data);
-        else{
+    public BSTNode insert(E data, BSTNode node) {
+        if (node == null)
+            return new BSTNode(data);
+        else {
             int cmp = data.compareTo(node.data);
-            if(cmp == 0){
+            if (cmp == 0) {
                 ++node.count;
                 return node;
-            }else if(cmp < 0){
+            } else if (cmp < 0) {
                 node.left = insert(data, node.left);
-            }else{
+            } else {
                 node.right = insert(data, node.right);
             }
         }
@@ -108,7 +106,7 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
 
     /** {@inheritDoc} */
     public DataCount<E>[] getCounts() {
-    	@SuppressWarnings("unchecked")
+        @SuppressWarnings("unchecked")
         DataCount<E>[] counts = new DataCount[size];
         if (overallRoot != null)
             traverse(overallRoot, counts, 0);
@@ -116,16 +114,16 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
     }
 
     /**
-     * Do an inorder traversal of the tree, filling in an array of DataCount
-     * objects with the count of each element. Doing an inorder traversal
-     * guarantees that the result will be sorted by element. We fill in some
-     * contiguous block of array elements, starting at index, and return the
-     * next available index in the array.
+     * Do an inorder traversal of the tree, filling in an array of DataCount objects
+     * with the count of each element. Doing an inorder traversal guarantees that
+     * the result will be sorted by element. We fill in some contiguous block of
+     * array elements, starting at index, and return the next available index in the
+     * array.
      *
      * @param counts The array to populate.
      */
     protected int traverse(BSTNode root, DataCount<E>[] counts, int idx) {
-        if(root != null) {
+        if (root != null) {
             idx = traverse(root.left, counts, idx);
             counts[idx] = new DataCount<E>(root.data, root.count);
             idx = traverse(root.right, counts, idx + 1);
@@ -134,8 +132,8 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
     }
 
     /**
-     * Dump the contents of the tree to a String (provided for debugging and
-     * unit testing purposes).
+     * Dump the contents of the tree to a String (provided for debugging and unit
+     * testing purposes).
      *
      * @return a textual representation of the tree.
      */
@@ -146,13 +144,13 @@ public class BinarySearchTree<E extends Comparable<? super E>> implements
     }
 
     /**
-     * Dump the contents of the subtree rooted at this node to a String
-     * (provided for debugging purposes).
+     * Dump the contents of the subtree rooted at this node to a String (provided
+     * for debugging purposes).
      *
      * @return a textual representation of the subtree rooted at this node.
      */
     protected String dump(BSTNode root) {
-        if(root == null)
+        if (root == null)
             return ".";
 
         String out = "([" + root.data + "," + root.count + "] ";
