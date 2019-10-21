@@ -4,13 +4,13 @@ CSC 130: Data Structures and Algorithm Analysis - Fall 2019
 Assignment #2 – Basic Binary Tree
 =============================================================================*/
 /**
- * <h1>Overview</h1>In recursively defined structures, like trees, all the 
- * coding (and complexity) is found in the recursive structure itself. In the 
- * case of trees, the node will contain the vast amount of the logic and 
+ * <h1>Overview</h1>In recursively defined structures, like trees, all the
+ * coding (and complexity) is found in the recursive structure itself. In the
+ * case of trees, the node will contain the vast amount of the logic and
  * behavior. The node has changed slightly. In particular, for this assignment,
  * let's use integers rather than the generic Object class. To implement the
  * remove() method, you will need to find (and remove) the max or minimum node.
- * The algorithm uses the same basic logic as contains(), but takes special 
+ * The algorithm uses the same basic logic as contains(), but takes special
  * actions if the node is found. You only need to implement one of the two:
  * removeMax() or removeMin().
  * 
@@ -18,13 +18,14 @@ Assignment #2 – Basic Binary Tree
  * and right link (to another node) and a generic data field. It should also
  * have a few constructors. In particular, you need one that will create a node
  * with links to two other nodes.
+ * 
  * @author Matthew Mendoza
  */
-public class Node{
-    public int data; // The value that the node contains.
+public class Node {
+    protected int data; // The value that the node contains.
     // Assign pointers to left and right node.
-    public Node left;
-    public Node right;
+    protected Node left;
+    protected Node right;
 
     /**
      * If only data is entered this constructor will assign both left and right
@@ -50,12 +51,12 @@ public class Node{
     }
 
     /**
-     * Prints the contents of the tree using an infix (preorder) tree traversal. They should be
-     * sent to standard out with spaces between each value. Feel free to redirect
-     * the stream if you like.
+     * Prints the contents of the tree using an infix (preorder) tree traversal.
+     * They should be sent to standard out with spaces between each value. Feel free
+     * to redirect the stream if you like.
      */
     public void printValues() {
-        if (data == null)
+        if ((Integer) getData() == null)
             return;
 
         /* first print data of node */
@@ -99,24 +100,57 @@ public class Node{
         }
         System.out.print("||---");
         System.out.println(data); // Node
-        if (left != null) {
-            left.printTree(indent + 1);
+        if (this.left != null) {
+            this.left.printTree(indent + 1);
         } // Left
         else if (right != null) {
-            right.printTree(indent + 1);
+            this.right.printTree(indent + 1);
         } // Right
     }
 
     /**
-     * Adds the value to the correct position in the BST. If the value
-     * already exists, do nothing. So, basically, you are creating a proper-
-     * set of numbers.
+     * <strong>To add an item to a BST:</strong>
+     * <ul>
+     * <li>Follow the algorithm for searching, until there is no child
+     * <li>Insert at that point
+     * <li>So, new node will be added as a leaf
+     * <li>(We are assuming no duplicates allowed)
+     * </ul>
+     * Adds the value to the correct position in the BST. If the value already
+     * exists, do nothing. So, basically, you are creating a proper- set of numbers.
+     * To insert a value k into a tree, returning true if successful and false if
+     * not
+     * 
+     * <pre>
+     * {@code
+     * Build a new node for k
+     * If tree is empty
+     *      add new node as root node, return true.
+     * If k == value at root
+     *      return false (no duplicates allowed).
+     * If k < value at root
+     *      If root has no left child
+     *          add new node as left child of root, return true 
+     *      Else insert k into left subtree of root. 
+     * If k > value at root
+     *      If root has no right child
+     *          add new node as right child of root, return true 
+     *      Else insert k into the right subtree of root. 
+     * }
+     * </pre>
+     * <p>
+     * 
      * @param value
-     * @return 
+     * @return
      */
-    public Node add(int value){
-        if (value == null) {
-            
+    public void add(int value) {
+        if ((Integer) getData() == null) {
+            setData(value);
+        }
+        if (value < getData()) {
+            this.left = setData(value);
+        } else if (value > getData()) {
+            this.right = add(value);
         }
     }
 
@@ -126,7 +160,10 @@ public class Node{
      * @return Returns True if the specified value is in the tree
      */
     public boolean contains(int value) {
-
+        if (value == getData()) {
+            return true;
+        }
+        return value < getData() ? this.left.contains(value) : this.right.contains(value);
     }
 
     /**
@@ -138,45 +175,47 @@ public class Node{
 
     /**
      * Needed to implement remove.
+     * 
      * @return
      */
     public Node removeMax() {
-        
+
     }
 
     /**
      * 
      */
     public void findMin() {
-        
+
     }
 
     /**
      * Needed to implement remove.
+     * 
      * @return
      */
     public Node removeMin() {
-        
+
     }
 
     /**
-     * To implement the remove() method, you will need to find (and remove) 
-     * the max or minimum node. The algorithm uses the same basic logic as
-     * contains(), but takes special actions if the node is found. 
-     * Search the tree and remove the value if it is found. 
-     * If it is not found, do nothing.
+     * To implement the remove() method, you will need to find (and remove) the max
+     * or minimum node. The algorithm uses the same basic logic as contains(), but
+     * takes special actions if the node is found. Search the tree and remove the
+     * value if it is found. If it is not found, do nothing.
+     * 
      * @param value
      */
-    public void remove(int value){
+    public void remove(int value) {
 
     }
 
     /**
-     * Removes all the nodes from the tree. It is best to use a recursive
-     * postorder. Set left and right to null.
+     * Removes all the nodes from the tree. It is best to use a recursive postorder.
+     * Set left and right to null.
      */
     public void clear() {
-        
+
     }
 
     /**
