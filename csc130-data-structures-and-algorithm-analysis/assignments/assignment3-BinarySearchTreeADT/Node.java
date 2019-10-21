@@ -144,9 +144,18 @@ public class Node {
      * @return
      */
     public void add(int value) {
-        if ((Integer) getData() == null) {
-            setData(value);
-        }
+        if (value <= this.data) {
+            if (this.left == null) {
+                this.left = new Node(value);
+            } else {
+                left.add(value);
+            }
+        } else {
+            if (this.right == null) {
+                this.right = new Node(value);
+            } else {
+                this.right.add(value);                
+            }
         if (value < getData()) {
             this.left = setData(value);
         } else if (value > getData()) {
