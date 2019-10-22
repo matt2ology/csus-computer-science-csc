@@ -154,7 +154,7 @@ public class Node {
             if (this.right == null) {
                 this.right = new Node(value);
             } else {
-                this.right.add(value);                
+                this.right.add(value);
             }
         if (value < getData()) {
             this.left = setData(value);
