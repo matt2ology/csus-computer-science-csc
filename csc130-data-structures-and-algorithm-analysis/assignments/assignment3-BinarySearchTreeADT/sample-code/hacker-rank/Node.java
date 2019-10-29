@@ -33,17 +33,22 @@ public class Node {
      * @param value
      */
     public void add(int value) {
-        if (value <= this.data) {
-            if (this.left == null) {
-                this.left = new Node(value);
+        System.out.println("[TEST LOG] \t Value : " + value + " <=? " + "Data : " + data + "\n");
+        if (value <= data) {
+            if (left == null) {
+                left = new Node(value);
+                System.out.println("[TEST LOG] Left Node Crated with : " + value);
             } else {
-                this.left.add(value);
+                left.add(value);
+                System.out.println("[TEST LOG] Added Left : " + value);
             }
         } else {
-            if (this.right == null) {
-                this.right = new Node(value);
+            if (right == null) {
+                right = new Node(value);
+                System.out.println("[TEST LOG] Right Node Crated with : " + value);
             } else {
-                this.add(value);
+                right.add(value);
+                System.out.println("[TEST LOG] Added Right : " + value);
             }
         }
     }
@@ -67,7 +72,7 @@ public class Node {
     }
 
     public void printPreOrder() {
-        System.out.print(this.data);
+        System.out.print(this.data + " ");
         if (this.left != null) {
             this.left.printPreOrder();
         } else if (this.right != null) {
@@ -87,5 +92,23 @@ public class Node {
         else if (this.right != null) {
             this.right.printTree(indent + 1);
         } // Right
+    }
+    public static void main(String[] args) {
+        Node tree = new Node();
+        tree.add(10); // Why doesn't this work?
+        tree.add(6); // Why doesn't this work?
+        tree.add(8); // Why doesn't this work?
+        tree.add(15); // Why doesn't this work?
+        tree.add(43); // Why doesn't this work?
+        tree.add(18); // Why doesn't this work?
+        tree.add(50); // Why doesn't this work?
+        System.out.println();
+        System.out.println();
+        System.out.print("Preorder traversal of binary tree is : ");
+        tree.printPreOrder();
+        System.out.println();
+        System.out.println();
+        System.out.println("Binary tree printed ");
+        tree.printTree(0);
     }
 }

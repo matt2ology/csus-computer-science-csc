@@ -12,9 +12,7 @@ public class BinarySearchTree {
     }
 
     public void add(int value) {
-        if (root.contain){
-            this.root = new Node(value);
-        }
+        this.root.add(value);
     }
 
     /**
@@ -29,5 +27,24 @@ public class BinarySearchTree {
      */
     public void printTree() {
         this.root.printTree(0);
+    }
+
+    public static void main(String[] args) {
+        Node tree = new Node();
+        tree.add(10); // Why doesn't this work?
+        tree.add(6);  // Why doesn't this work?
+        tree.add(8);  // Why doesn't this work?
+        tree.add(15); // Why doesn't this work?
+        tree.add(43); // Why doesn't this work?
+        tree.add(18); // Why doesn't this work?
+        tree.add(50); // Why doesn't this work?
+        System.out.println();
+        System.out.println();
+        System.out.print("Preorder traversal of binary tree is : ");
+        tree.printPreOrder();
+        System.out.println();
+        System.out.println();
+        System.out.println("Binary tree printed ");
+        tree.printTree(0);
     }
 }
