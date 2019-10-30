@@ -1,7 +1,7 @@
 /*=============================================================================
 AUTHOR: Matthew Mendoza
 CSC 130: Data Structures and Algorithm Analysis - Fall 2019
-Assignment #2 – Basic Binary Tree
+Assignment #3 – Binary Search Tree ADT
 =============================================================================*/
 /*
  * Create a Binary tree by hand of structure
@@ -24,20 +24,20 @@ public class mainBasicBinaryTreeTest {
 
         BinarySearchTree tree = new BinarySearchTree();
 
+        int[] numberArray = { 10, 43, 18, 6, 50, 8 };
+        for (int numbers : numberArray) {
+            tree.add(numbers);
+        }
+
+        int[] numberTestArray = { 10, 43, 18, 6, 50, 8, 4, 48, 1, 99, 555, 9000, 9001 };
+        for (int numbers : numberTestArray) {
+            System.out.println("Tree contains " + numbers + " : " + tree.contains(numbers));
+        }
         /* create root */
-        tree.add(10);
-        tree.add(43);
-        tree.add(18);
-        tree.add(6);
-        tree.add(50);
-        tree.add(8);
+        tree.printInorder();
+        tree.printPostorder();
+        tree.printPreOrder();
         System.out.println();
-        System.out.println();
-        System.out.print("Preorder traversal of binary tree is : ");
-        tree.printValues();
-        System.out.println();
-        System.out.println();
-        System.out.println("Binary tree printed ");
         tree.printTree();
 
     } // END OF main METHOD
