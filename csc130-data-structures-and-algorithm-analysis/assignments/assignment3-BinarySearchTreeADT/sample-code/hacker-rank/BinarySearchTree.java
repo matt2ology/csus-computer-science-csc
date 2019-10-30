@@ -30,7 +30,7 @@ public class BinarySearchTree {
     }
 
     public static void main(String[] args) {
-        Node tree = new Node();
+        BinarySearchTree tree = new BinarySearchTree();
         tree.add(10); // Why doesn't this work?
         tree.add(6);  // Why doesn't this work?
         tree.add(8);  // Why doesn't this work?
@@ -45,6 +45,6 @@ public class BinarySearchTree {
         System.out.println();
         System.out.println();
         System.out.println("Binary tree printed ");
-        tree.printTree(0);
+        tree.printTree();
     }
 }

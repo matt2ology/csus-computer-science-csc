@@ -5,6 +5,9 @@ public class Node {
     protected int data;
     protected Node left, right;
 
+    public Node() {
+
+    }
     /**
      * If only data is entered this constructor will assign both left and right
      * child nodes to null.
@@ -22,10 +25,10 @@ public class Node {
      * @param left
      * @param right
      */
-    public Node(int data, Node left, Node right) {
+    public Node(int data, Node leftChild, Node rightChild) {
         this.data = data;
-        this.left = left;
-        this.right = right;
+        this.left = leftChild;
+        this.right = rightChild;
     }
 
     /**
@@ -34,49 +37,59 @@ public class Node {
      */
     public void add(int value) {
         System.out.println("[TEST LOG] \t Value : " + value + " <=? " + "Data : " + data + "\n");
-        if (value <= data) {
-            if (left == null) {
-                left = new Node(value);
+        if (value <= getData()) {
+            if (getLeft() == null) {
+                setLeft(new Node(value));
                 System.out.println("[TEST LOG] Left Node Crated with : " + value);
             } else {
-                left.add(value);
+                getLeft().add(value);
                 System.out.println("[TEST LOG] Added Left : " + value);
             }
         } else {
-            if (right == null) {
-                right = new Node(value);
+            if (getRight() == null) {
+                setRight(new Node(value));;
                 System.out.println("[TEST LOG] Right Node Crated with : " + value);
             } else {
-                right.add(value);
+                getRight().add(value);
                 System.out.println("[TEST LOG] Added Right : " + value);
             }
         }
     }
 
+    /**
+     * 
+     * @param value
+     * @return
+     */
     public boolean contains(int value) {
-        if (value == this.data) {
+        boolean test;
+        if (value == getData()) {
             return true;
-        } else if (value < this.data) {
-            if (this.left == null) {
+        } else if (value < getData()) {
+            if (getLeft() == null) {
                 return false;
             } else {
-                return this.left.contains(value);
+                test = getLeft().contains(value);
             }
         } else {
-            if (this.right == null) {
+            if (getRight() == null) {
                 return false;
             } else {
-                return this.right.contains(value);
+                test = getRight().contains(value);
             }
         }
+        return test;
     }
 
+    /**
+     * 
+     */
     public void printPreOrder() {
-        System.out.print(this.data + " ");
-        if (this.left != null) {
-            this.left.printPreOrder();
-        } else if (this.right != null) {
-            this.right.printPreOrder();
+        System.out.print(getData() + " ");
+        if (getLeft() != null) {
+            getLeft().printPreOrder();
+        } else if (getRight() != null) {
+            getRight().printPreOrder();
         }
     }
 
@@ -85,12 +98,12 @@ public class Node {
             System.out.print("  ");
         }
         System.out.print("||---");
-        System.out.println(this.data); // Node
-        if (this.left != null) {
-            this.left.printTree(indent + 1);
+        System.out.println(getData()); // Node
+        if (getLeft() != null) {
+            getLeft().printTree(indent + 1);
         } // Left
-        else if (this.right != null) {
-            this.right.printTree(indent + 1);
+        else if (getRight() != null) {
+            getRight().printTree(indent + 1);
         } // Right
     }
     public static void main(String[] args) {
@@ -110,5 +123,29 @@ public class Node {
         System.out.println();
         System.out.println("Binary tree printed ");
         tree.printTree(0);
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public Node getLeft() {
+        return left;
+    }
+
+    public void setLeft(Node left) {
+        this.left = left;
+    }
+
+    public Node getRight() {
+        return right;
+    }
+
+    public void setRight(Node right) {
+        this.right = right;
     }
 }
