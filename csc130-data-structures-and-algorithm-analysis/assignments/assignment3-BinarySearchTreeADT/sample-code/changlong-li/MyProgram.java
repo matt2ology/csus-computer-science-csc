@@ -4,15 +4,16 @@ class MyProgram
     {
         BinaryTree tree = new BinaryTree();
         
+        int[] numberArray = { 10, 43, 18, 6, 50, 8 };
+        for (int numbers : numberArray) {
+            tree.add(numbers);
+        }
+        
+        int[] numberTestArray = { 10, 43, 18, 6, 50, 8, 4, 48, 1, 99, 555, 9000, 9001 };
+        for (int numbers : numberTestArray) {
+            System.out.println("Tree contains " + numbers + " : " + tree.contains(numbers));
+        }
         System.out.println("The following shows the tree structure printed by printTree().");
-        tree.add(10);
-        tree.add(43);
-        tree.add(18);
-        tree.add(6);
-        tree.add(50);
-        tree.add(8);
-        tree.add(4);
-        tree.add(48);
         tree.printTree();
         System.out.println("remove node 4 with 0 children");
         tree.remove(4);
