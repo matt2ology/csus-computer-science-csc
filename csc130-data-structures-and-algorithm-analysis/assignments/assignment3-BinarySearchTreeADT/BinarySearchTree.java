@@ -96,6 +96,7 @@ public class BinarySearchTree {
      * Set left and right to null.
      */
     public void clear() {
+        System.out.println("Clearing all nodes in tree");
         getRoot().clear(getRoot());
         root = null;
         System.out.println("The Tree is now empty...");
