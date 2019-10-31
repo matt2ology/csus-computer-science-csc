@@ -99,7 +99,7 @@ public class BinarySearchTree {
         System.out.println("Clearing all nodes in tree");
         getRoot().clear(getRoot());
         root = null;
-        System.out.println("The Tree is now empty...");
+        System.out.println("The tree is now empty...");
     }
 
     /**
