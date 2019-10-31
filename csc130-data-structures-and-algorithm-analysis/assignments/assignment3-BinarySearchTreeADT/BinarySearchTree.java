@@ -92,6 +92,16 @@ public class BinarySearchTree {
     }
 
     /**
+     * Removes all the nodes from the tree. It is best to use a recursive postorder.
+     * Set left and right to null.
+     */
+    public void clear() {
+        getRoot().clear(getRoot());
+        root = null;
+        System.out.println("The Tree is now empty...");
+    }
+
+    /**
      * Starts recursion from the root node.
      */
     public void printInorder() {
@@ -119,14 +129,6 @@ public class BinarySearchTree {
         if (getRoot() != null) {
             getRoot().printTree(0); // Start with a zero indent
         }
-    }
-
-    /**
-     * Removes all the nodes from the tree. It is best to use a recursive postorder.
-     * Set left and right to null.
-     */
-    public void clear() {
-
     }
 
     public Node getRoot() {
