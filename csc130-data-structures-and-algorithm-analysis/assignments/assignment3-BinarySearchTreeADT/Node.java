@@ -276,16 +276,14 @@ public class Node {
      * Removes all the nodes from the tree. It is best to use a recursive postorder.
      * Set left and right to null.
      */
-    public void clear() {
-        /* first print data of node */
-        if (getLeft() != null) {
-            /* then recur on left sutree */
-            getLeft().printPostorder();
-        } else if (getRight() != null) {
-            /* now recur on right subtree */
-            getRight().printPostorder();
+    public void clear(Node root) {
+        if (root == null) {
+            return;
+        } else {
+            clear(root.getLeft());
+            clear(root.getRight());
+            root = null;
         }
-        System.out.print(getData() + "  ");
     }
 
     /**
