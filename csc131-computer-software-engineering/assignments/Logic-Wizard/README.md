@@ -2,7 +2,7 @@
 
 ## Vision
 
-An app for quickly creating and testing circuit diagrams.
+A streamlined and easy to use logic simulator application that allows for fast creation and testing user's circut design.
 
 ## Features
 
