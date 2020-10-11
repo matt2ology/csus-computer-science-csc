@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f993c5-d3dd-4c0a-825e-7c37e26260aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/A1Prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Codename_One_Libraries.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1Prj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assignment/assignment00-CN1-installation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assignment/assignment01-fall2020-v004-class-associations&amp;interfaces.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="57f993c5-d3dd-4c0a-825e-7c37e26260aa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,5 +68,9 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2633" y="449" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602458427996" />
+    <state x="3547" y="299" width="585" height="801" key="find.popup" timestamp="1602458547264">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3547" y="299" width="585" height="801" key="find.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1602458547264" />
   </component>
 </project>
