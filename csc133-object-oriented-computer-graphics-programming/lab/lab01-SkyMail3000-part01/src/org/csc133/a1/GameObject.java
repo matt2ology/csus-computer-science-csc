@@ -59,4 +59,16 @@ public abstract class GameObject {
         return location;
     }
 
+    /**
+     * By default, game objects provide the ability to have their location changed,
+     * unless it is explicitly stated that a certain type of game object has a
+     * location which cannot be changed once it is created.
+     * @param newX
+	 * @param newY
+     */
+    public void setLocation(double newX, double newY) {
+        this.location.set(0, newX);
+		this.location.set(1, newY);
+    }
+
 }
