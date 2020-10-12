@@ -42,9 +42,10 @@ public abstract class GameObject {
 
     private int color;
     // All game objects have a color
+    
+    // For use of GameWorld values WorldWidth and WorldHeight
     GameWorld gw = new GameWorld();
 
-    // For use of GameWorld values WorldWidth and WorldHeight
     /**
      * Constructs a game object, setting its RGB color values and location in the
      * world.
