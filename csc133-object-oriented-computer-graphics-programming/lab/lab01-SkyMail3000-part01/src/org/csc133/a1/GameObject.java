@@ -22,8 +22,6 @@ public abstract class GameObject {
 
     /**
      * All game objects provide the ability for external code to obtain their size.
-     * However, they do not provide the ability to have their size changed once it
-     * is created.
      * 
      * @return Game object size
      */
