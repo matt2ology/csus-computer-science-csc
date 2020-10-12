@@ -10,7 +10,7 @@ public class Fixed extends GameObject {
     /**
      * @return Returns the next sequenceNumberID for the SkyScrapers to distinguish
      */
-    public int GetsequenceNumberID() {
+    public int getSequenceNumberID() {
         return sequenceNumberID;
     }
 }
