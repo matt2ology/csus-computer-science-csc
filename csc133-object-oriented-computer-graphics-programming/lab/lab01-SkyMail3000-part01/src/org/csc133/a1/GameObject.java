@@ -145,6 +145,17 @@ public abstract class GameObject {
     }
 
     /**
+     * By default, game objects <b>provide the ability to have their color
+     * changed</b>, unless it is explicitly stated that a certain type of game
+     * object has a color which cannot be changed once it is created.
+     * 
+     * @param color
+     */
+    public void setColor(int color) {
+        this.color = color;
+    }
+
+    /**
      * @return The int value of max world width
      */
     public static int getWorldWidth() {
