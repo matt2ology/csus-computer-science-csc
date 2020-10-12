@@ -1,4 +1,4 @@
-# CSC28 - DDiscrete Structures for Computer Science
+# CSC28 - Discrete Structures for Computer Science
 *Prerequisite(s): MATH 26A or MATH 29; and CSC 20; CSC 20 may be taken concurrently.*
 
 ## Term Typically Offered: Fall, Spring
