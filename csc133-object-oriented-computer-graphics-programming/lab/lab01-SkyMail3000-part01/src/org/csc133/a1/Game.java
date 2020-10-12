@@ -29,6 +29,7 @@ import java.lang.String;
  */
 public class Game extends Form {
     private GameWorld gw;
+    private char hotKey;
 
     /**
      * The <b>Game constructor</b> instantiates a <b>GameWorld</b>, calls a
@@ -42,6 +43,14 @@ public class Game extends Form {
         gw = new GameWorld();
         gw.init();
         play();
+    }
+
+    private void setKey(char key) {
+        this.hotKey = key;
+    }
+
+    private char getKey() {
+        return this.hotKey;
     }
 
     /**
