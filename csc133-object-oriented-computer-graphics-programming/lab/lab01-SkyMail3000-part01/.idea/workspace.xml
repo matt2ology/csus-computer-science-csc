@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57f993c5-d3dd-4c0a-825e-7c37e26260aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/A1Prj/A1Prj.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/A1Prj/A1Prj.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/csc133/a1/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/csc133/a1/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/csc133/a1/SkyScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/csc133/a1/SkyScraper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2633" y="449" key="SettingsEditor" timestamp="1602458427996">
