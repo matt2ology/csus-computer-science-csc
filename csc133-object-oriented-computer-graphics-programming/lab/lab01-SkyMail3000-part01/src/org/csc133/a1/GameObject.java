@@ -19,4 +19,15 @@ public abstract class GameObject {
     public static final int WORLD_WIDTH = 1024;
     // non-negative values Y initially should be in the range 0.0 to 768.0
     public static final int WORLD_HEIGHT = 768;
+
+    /**
+     * All game objects provide the ability for external code to obtain their size.
+     * However, they do not provide the ability to have their size changed once it
+     * is created.
+     * 
+     * @return Game object size
+     */
+    public int getSize() {
+        return size;
+    }
 }
