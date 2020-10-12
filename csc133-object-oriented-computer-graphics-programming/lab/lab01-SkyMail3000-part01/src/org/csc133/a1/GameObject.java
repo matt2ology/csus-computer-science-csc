@@ -53,20 +53,20 @@ public abstract class GameObject {
      * Constructs a game object, setting its location in the world.
      */
     public GameObject() {
-        // Random xCoordinates
-        double xCoordinates = Math.round((WORLD_WIDTH * randomValue.nextDouble() * 10.0)) / 10.0;
-        double yCoordinates = Math.round((WORLD_HEIGHT * randomValue.nextDouble() * 10.0)) / 10.0;
-        // Random yCoordinates
-        // For the instances where xCoordinates or yCoordinates will be greater than
+        // Random xCoordinate
+        double xCoordinate = Math.round((WORLD_WIDTH * randomValue.nextDouble() * 10.0)) / 10.0;
+        double yCoordinate = Math.round((WORLD_HEIGHT * randomValue.nextDouble() * 10.0)) / 10.0;
+        // Random yCoordinate
+        // For the instances where xCoordinate or yCoordinate will be greater than
         // WORLD max values
-        if (xCoordinates > WORLD_WIDTH) {
-            xCoordinates = WORLD_WIDTH;
+        if (xCoordinate > WORLD_WIDTH) {
+            xCoordinate = WORLD_WIDTH;
         }
-        if (yCoordinates > WORLD_HEIGHT) {
-            yCoordinates = WORLD_HEIGHT;
+        if (yCoordinate > WORLD_HEIGHT) {
+            yCoordinate = WORLD_HEIGHT;
         }
 
-        location = new Point2D(xCoordinates, yCoordinates);
+        location = new Point2D(xCoordinate, yCoordinate);
     }
 
     /**
