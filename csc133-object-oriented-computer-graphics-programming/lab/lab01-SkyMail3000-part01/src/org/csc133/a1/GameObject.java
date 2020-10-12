@@ -42,11 +42,8 @@ public abstract class GameObject {
 
     private int color;
     // All game objects have a color
-    public static final int WORLD_WIDTH = 1024;
-    // non-negative values X initially should be in the range 0.0 to 1024.0
-    public static final int WORLD_HEIGHT = 768;
-    // non-negative values Y initially should be in the range 0.0 to 768.0
-
+    GameWorld = new GameWorld();
+    // For use of GameWorld values WorldWidth and WorldHeight
     /**
      * Constructs a game object, setting its RGB color values and location in the
      * world.
