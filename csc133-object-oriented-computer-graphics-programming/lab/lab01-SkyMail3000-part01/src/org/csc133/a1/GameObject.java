@@ -33,6 +33,8 @@ public abstract class GameObject {
     // For instance, size of one of the refueling blimp may be 15 while size of
     // refueling blimp can may be 20.
 
+    public Random randomValue = new Random();
+
     private Point2D location;
     // All game objects have a location
 
