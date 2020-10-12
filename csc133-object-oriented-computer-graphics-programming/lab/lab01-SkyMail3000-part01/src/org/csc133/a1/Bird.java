@@ -1,4 +1,4 @@
-import org.csc133.a1.Moveable;
+package org.csc133.a1;
 
 import java.util.Random;
 
