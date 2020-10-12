@@ -42,7 +42,7 @@ public abstract class GameObject {
 
     private int color;
     // All game objects have a color
-    GameWorld=new GameWorld();
+    GameWorld gw = new GameWorld();
 
     // For use of GameWorld values WorldWidth and WorldHeight
     /**
