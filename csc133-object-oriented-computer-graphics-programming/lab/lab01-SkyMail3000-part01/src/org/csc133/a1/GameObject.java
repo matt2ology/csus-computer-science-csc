@@ -12,6 +12,6 @@ package org.csc133.a1;
  * with changeable locations <i>(which can move or be moved about the
  * world).</i>
  */
-public class GameObject {
+public abstract class GameObject {
     
 }
