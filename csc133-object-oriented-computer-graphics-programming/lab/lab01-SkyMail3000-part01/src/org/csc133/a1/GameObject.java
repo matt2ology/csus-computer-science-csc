@@ -84,9 +84,9 @@ public abstract class GameObject {
      * are contained in the world. All game objects provide the ability for external
      * code to obtain their location.
      * 
-     * @return float
+     * @return The Point2D object representing the entire location of the object
      */
-    public float getLocation() {
+    public Point2D getLocation() {
         return location;
     }
 
