@@ -1,5 +1,6 @@
 package org.csc133.a1;
 
+import java.util.Random;
 import java.util.Vector;
 
 /**
