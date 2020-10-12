@@ -48,7 +48,8 @@ public abstract class GameObject {
     // non-negative values Y initially should be in the range 0.0 to 768.0
 
     /**
-     * Constructs a game object, setting its RGB color values and location in the world.
+     * Constructs a game object, setting its RGB color values and location in the
+     * world.
      * 
      * @param redValue
      * @param greenValue
@@ -99,7 +100,7 @@ public abstract class GameObject {
         location = new Point2D(xCoordinate, yCoordinate);
     }
 
-        /**
+    /**
      * Constructs a game object, setting only its color.
      * 
      * @param colorValue
