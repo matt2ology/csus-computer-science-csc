@@ -58,15 +58,15 @@ public abstract class GameObject {
         setSize(sizeValue);
         Random randomValue = new Random();
         // Arbitrary method to get random xCoordinate
-        double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double xCoordinate = Math.round((GameWorld.getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Arbitrary method to get random yCoordinate
-        double yCoordinate = Math.round((getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double yCoordinate = Math.round((GameWorld.getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Instances xCoordinate or yCoordinate will be greater than WORLD max values
-        if (xCoordinate > getWorldWidth()) {
-            xCoordinate = getWorldWidth();
+        if (xCoordinate > GameWorld.getWorldWidth()) {
+            xCoordinate = GameWorld.getWorldWidth();
         }
-        if (yCoordinate > getWorldHeight()) {
-            yCoordinate = getWorldHeight();
+        if (yCoordinate > GameWorld.getWorldHeight()) {
+            yCoordinate = GameWorld.getWorldHeight();
         }
 
         location = new Point2D(xCoordinate, yCoordinate);
@@ -83,15 +83,15 @@ public abstract class GameObject {
         setSize(sizeValue);
         Random randomValue = new Random();
         // Arbitrary method to get random xCoordinate
-        double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double xCoordinate = Math.round((GameWorld.getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Arbitrary method to get random yCoordinate
-        double yCoordinate = Math.round((getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double yCoordinate = Math.round((GameWorld.getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Instances xCoordinate or yCoordinate will be greater than WORLD max values
-        if (xCoordinate > getWorldWidth()) {
-            xCoordinate = getWorldWidth();
+        if (xCoordinate > GameWorld.getWorldWidth()) {
+            xCoordinate = GameWorld.getWorldWidth();
         }
-        if (yCoordinate > getWorldHeight()) {
-            yCoordinate = getWorldHeight();
+        if (yCoordinate > GameWorld.getWorldHeight()) {
+            yCoordinate = GameWorld.getWorldHeight();
         }
 
         location = new Point2D(xCoordinate, yCoordinate);
@@ -106,15 +106,15 @@ public abstract class GameObject {
         setColor(colorValue);
         Random randomValue = new Random();
         // Arbitrary method to get random xCoordinate
-        double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double xCoordinate = Math.round((GameWorld.getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Arbitrary method to get random yCoordinate
-        double yCoordinate = Math.round((getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
+        double yCoordinate = Math.round((GameWorld.getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
         // Instances xCoordinate or yCoordinate will be greater than WORLD max values
-        if (xCoordinate > getWorldWidth()) {
-            xCoordinate = getWorldWidth();
+        if (xCoordinate > GameWorld.getWorldWidth()) {
+            xCoordinate = GameWorld.getWorldWidth();
         }
-        if (yCoordinate > getWorldHeight()) {
-            yCoordinate = getWorldHeight();
+        if (yCoordinate > GameWorld.getWorldHeight()) {
+            yCoordinate = GameWorld.getWorldHeight();
         }
 
         location = new Point2D(xCoordinate, yCoordinate);
@@ -215,20 +215,6 @@ public abstract class GameObject {
      */
     public void setColor(int color) {
         this.color = color;
-    }
-
-    /**
-     * @return The int value of max world width
-     */
-    public static int getWorldWidth() {
-        return WORLD_WIDTH;
-    }
-
-    /**
-     * @return The int value of max world height
-     */
-    public static int getWorldHeight() {
-        return WORLD_HEIGHT;
     }
 
 }
