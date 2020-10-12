@@ -75,6 +75,31 @@ public abstract class GameObject {
     }
 
     /**
+     * Constructs a game object, setting its color and location in the world.
+     * 
+     * @param colorValue
+     * @param sizeValue
+     */
+    public GameObject(int colorValue, int sizeValue) {
+        setColor(colorValue);
+        setSize(sizeValue);
+        Random randomValue = new Random();
+        // Arbitrary method to get random xCoordinate
+        double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
+        // Arbitrary method to get random yCoordinate
+        double yCoordinate = Math.round((getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
+        // Instances xCoordinate or yCoordinate will be greater than WORLD max values
+        if (xCoordinate > getWorldWidth()) {
+            xCoordinate = getWorldWidth();
+        }
+        if (yCoordinate > getWorldHeight()) {
+            yCoordinate = getWorldHeight();
+        }
+
+        location = new Point2D(xCoordinate, yCoordinate);
+    }
+
+    /**
      * All game objects provide the ability for external code to obtain their size.
      * 
      * @return Game object size
