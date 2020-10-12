@@ -85,6 +85,7 @@ public abstract class GameObject {
 
     /**
      * Assigns the size of a game object
+     * 
      * @param sizeValue
      */
     public void setSize(int sizeValue) {
