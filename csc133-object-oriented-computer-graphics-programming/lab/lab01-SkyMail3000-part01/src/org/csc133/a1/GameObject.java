@@ -48,9 +48,11 @@ public abstract class GameObject {
     // non-negative values Y initially should be in the range 0.0 to 768.0
 
     /**
-     * Constructs a game object, setting its location in the world.
+     * Constructs a game object, setting its color and location in the world.
      */
-    public GameObject() {
+    public GameObject(int redValue, int greenValue, int blueValue, int sizeValue) {
+        setColor(redValue, greenValue, blueValue);
+        setSize(sizeValue);
         Random randomValue = new Random();
         // Arbitrary method to get random xCoordinate
         double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
