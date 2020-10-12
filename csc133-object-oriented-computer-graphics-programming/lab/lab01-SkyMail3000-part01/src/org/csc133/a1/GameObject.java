@@ -122,4 +122,18 @@ public abstract class GameObject {
         this.color = ColorUtil.rgb(redValue, greenValue, blueValue);
     }
 
+    /**
+     * @return The int value of max world width
+     */
+    public static int getWorldWidth() {
+        return WORLD_WIDTH;
+    }
+
+    /**
+     * @return The int value of max world height
+     */
+    public static int getWorldHeight() {
+        return WORLD_HEIGHT;
+    }
+
 }
