@@ -47,6 +47,18 @@ public abstract class GameObject {
     // non-negative values Y initially should be in the range 0.0 to 768.0
 
     /**
+     * Constructs a game object, setting its location in the world.
+     */
+    public GameObject() {
+        Random randomValue = new Random();
+        this.location = new Vector<>();
+        this.location.setSize(4);
+        this.location.set(0, randomValue.nextFloat() * WORLD_WIDTH); // Random x value between
+        this.location.set(1, randomValue.nextFloat() * WORLD_HEIGHT); // Random y value between
+
+    }
+
+    /**
      * All game objects provide the ability for external code to obtain their size.
      * 
      * @return Game object size
