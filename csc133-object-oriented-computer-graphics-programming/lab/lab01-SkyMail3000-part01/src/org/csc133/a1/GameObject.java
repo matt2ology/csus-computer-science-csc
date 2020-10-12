@@ -77,6 +77,14 @@ public abstract class GameObject {
     }
 
     /**
+     * Assigns the size of a game object
+     * @param sizeValue
+     */
+    public void setSize(int sizeValue) {
+        this.size = sizeValue;
+    }
+
+    /**
      * The point (X,Y) is the center of the object. Hence, initial locations of all
      * game objects should always be set to values such that the objects’ centers
      * are contained in the world. All game objects provide the ability for external
