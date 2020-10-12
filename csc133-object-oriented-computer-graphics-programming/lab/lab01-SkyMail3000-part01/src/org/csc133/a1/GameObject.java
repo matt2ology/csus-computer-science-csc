@@ -1,7 +1,7 @@
 package org.csc133.a1;
 
 import java.util.Random;
-import java.util.Vector;
+import com.codename1.ui.geom.Point2D;
 import com.codename1.charts.util.ColorUtil;
 
 /**
