@@ -49,6 +49,10 @@ public abstract class GameObject {
 
     /**
      * Constructs a game object, setting its color and location in the world.
+     * @param redValue
+     * @param greenValue
+     * @param blueValue
+     * @param sizeValue
      */
     public GameObject(int redValue, int greenValue, int blueValue, int sizeValue) {
         setColor(redValue, greenValue, blueValue);
