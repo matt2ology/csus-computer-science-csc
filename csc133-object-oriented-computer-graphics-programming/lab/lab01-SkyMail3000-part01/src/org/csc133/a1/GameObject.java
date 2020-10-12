@@ -102,6 +102,14 @@ public abstract class GameObject {
     }
 
     /**
+     * @param newLocation - location of the object in world space
+     */
+    public void SetLocation(Point2D newLocation) {
+        location.setX(Math.round((newLocation.getX() * 10.0)) / 10.0);
+        location.setY(Math.round((newLocation.getY() * 10.0)) / 10.0);
+    }
+
+    /**
      * All game objects <b>provide the ability for external code to obtain their
      * color.</b>
      */
