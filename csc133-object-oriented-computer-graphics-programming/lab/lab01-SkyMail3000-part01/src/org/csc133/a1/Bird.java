@@ -20,6 +20,8 @@ import com.codename1.charts.util.ColorUtil;
  */
 public class Bird extends Moveable {
     Random random = new Random();
+    // For use of GameWorld values WorldWidth and WorldHeight
+    GameWorld gw = new GameWorld();
 
     public Bird() {
         /*
