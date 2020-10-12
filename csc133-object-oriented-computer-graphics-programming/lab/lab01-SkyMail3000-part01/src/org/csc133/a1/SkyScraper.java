@@ -2,7 +2,9 @@ package org.csc133.a1;
 
 import com.codename1.charts.util.ColorUtil;
 
-import javafx.scene.input.GestureEvent;
+import java.util.Random;
+
+// import javafx.scene.input.GestureEvent;
 
 /**
  * <h1>SkyScrapers</h1> are fixed game objects that have an attribute
