@@ -51,17 +51,17 @@ public abstract class GameObject {
      * Constructs a game object, setting its location in the world.
      */
     public GameObject() {
-        // Random xCoordinate
-        double xCoordinate = Math.round((WORLD_WIDTH * randomValue.nextDouble() * 10.0)) / 10.0;
-        double yCoordinate = Math.round((WORLD_HEIGHT * randomValue.nextDouble() * 10.0)) / 10.0;
-        // Random yCoordinate
-        // For the instances where xCoordinate or yCoordinate will be greater than
-        // WORLD max values
-        if (xCoordinate > WORLD_WIDTH) {
-            xCoordinate = WORLD_WIDTH;
+        Random randomValue = new Random();
+        // Arbitrary method to get random xCoordinate
+        double xCoordinate = Math.round((getWorldWidth() * randomValue.nextDouble() * 10.0)) / 10.0;
+        // Arbitrary method to get random yCoordinate
+        double yCoordinate = Math.round((getWorldHeight() * randomValue.nextDouble() * 10.0)) / 10.0;
+        // Instances xCoordinate or yCoordinate will be greater than WORLD max values
+        if (xCoordinate > getWorldWidth()) {
+            xCoordinate = getWorldWidth();
         }
-        if (yCoordinate > WORLD_HEIGHT) {
-            yCoordinate = WORLD_HEIGHT;
+        if (yCoordinate > getWorldHeight()) {
+            yCoordinate = getWorldHeight();
         }
 
         location = new Point2D(xCoordinate, yCoordinate);
