@@ -79,4 +79,23 @@ public abstract class GameObject {
         this.location.set(1, newY);
     }
 
+    /**
+     * All game objects <b>provide the ability for external code to obtain their
+     * color.</b>
+     */
+    public int getColor() {
+        return color;
+    }
+
+    /**
+     * By default, game objects <b>provide the ability to have their color
+     * changed</b>, unless it is explicitly stated that a certain type of game
+     * object has a color which cannot be changed once it is created.
+     * 
+     * @param newColor
+     */
+    public void setColor(int newColor) {
+        this.color = newColor;
+    }
+
 }
