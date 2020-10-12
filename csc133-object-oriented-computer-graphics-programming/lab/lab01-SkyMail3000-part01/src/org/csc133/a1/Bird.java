@@ -62,11 +62,13 @@ public class Bird extends Moveable {
     // TODO: performance of the helicopter in the same way as described above.
 
     public void boundaryBird() {
-        if ((this.getSize() + this.getXcoordinate()) > getWorldWidth() || (this.getXcoordinate() + this.getSize() > 0)) {
+        if ((this.getSize() + this.getXcoordinate()) > GameWorld.getWorldWidth()
+                || (this.getXcoordinate() + this.getSize() > 0)) {
             this.setHeading(random.nextInt(180));
 
         }
-        if ((this.getSize() + this.getYcoordinate()) > getWorldWidth() || (this.getSize() + this.getYcoordinate()) < 0) {
+        if ((this.getSize() + this.getYcoordinate()) > GameWorld.getWorldWidth()
+                || (this.getSize() + this.getYcoordinate()) < 0) {
             this.setHeading(random.nextInt(180));
         }
     }
