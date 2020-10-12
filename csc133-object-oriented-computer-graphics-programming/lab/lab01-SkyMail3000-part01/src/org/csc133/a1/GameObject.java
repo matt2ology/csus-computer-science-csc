@@ -33,7 +33,7 @@ public abstract class GameObject {
     // For instance, size of one of the refueling blimp may be 15 while size of
     // refueling blimp can may be 20.
 
-    private Vector<Float> location;
+    private Point2D location;
     // All game objects have a location
 
     // All objects of the same class have the same color (chosen by you), assigned
