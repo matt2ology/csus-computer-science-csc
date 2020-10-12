@@ -106,10 +106,12 @@ public abstract class GameObject {
      * changed</b>, unless it is explicitly stated that a certain type of game
      * object has a color which cannot be changed once it is created.
      * 
-     * @param newColor
+     * @param redValue
+     * @param greenValue
+     * @param blueValue
      */
-    public void setColor(int newColor) {
-        this.color = newColor;
+    public void setColor(int redValue, int greenValue, int blueValue) {
+        this.color = ColorUtil.rgb(redValue, greenValue, blueValue);
     }
 
 }
