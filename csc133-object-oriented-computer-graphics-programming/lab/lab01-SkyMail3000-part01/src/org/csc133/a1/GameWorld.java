@@ -1,5 +1,7 @@
 package org.csc133.a1;
-
+/**
+ * This class manipulates data in the game model.
+ */
 public class GameWorld {
     public void init() {
         // code here to create the
