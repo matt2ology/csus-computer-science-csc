@@ -96,9 +96,9 @@ public abstract class GameObject {
      * @param newX
      * @param newY
      */
-    public void setLocation(float newX, float newY) {
-        this.location.set(0, newX);
-        this.location.set(1, newY);
+    public void setLocation(double newX, double newY) {
+        this.location.setX(Math.round((newX * 10.0)) / 10);
+        this.location.setY(Math.round((newY * 10.0)) / 10);
     }
 
     /**
