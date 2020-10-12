@@ -21,17 +21,15 @@ public abstract class GameObject {
      */
     private int size;
 
-    /*
-     * As will be specified in the later assignments, each type of game object has a
-     * different shape which can be bounded by a square. The size attribute provides
-     * the length of this bounding square. All SkyScrapers and all helicopters have
-     * the same size (chosen by you), assigned when they are created (e.g, size of
-     * all SkyScrapers can be 10 and size of all helicopters can be 40). Sizes of
-     * the rest of the game objects are chosen randomly when created, and
-     * constrained to a reasonable positive integer value (e.g., between 10 to 50).
-     * For instance, size of one of the refueling blimp may be 15 while size of
-     * refueling blimp can may be 20.
-     */
+    // As will be specified in the later assignments, each type of game object has a
+    // different shape which can be bounded by a square. The size attribute provides
+    // the length of this bounding square. All SkyScrapers and all helicopters have
+    // the same size (chosen by you), assigned when they are created (e.g, size of
+    // all SkyScrapers can be 10 and size of all helicopters can be 40). Sizes of
+    // the rest of the game objects are chosen randomly when created, and
+    // constrained to a reasonable positive integer value (e.g., between 10 to 50).
+    // For instance, size of one of the refueling blimp may be 15 while size of
+    // refueling blimp can may be 20.
 
     // All game objects have a location
     private Vector<Float> position;
