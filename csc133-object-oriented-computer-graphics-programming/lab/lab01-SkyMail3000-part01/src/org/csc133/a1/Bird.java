@@ -49,7 +49,7 @@ public class Bird extends Moveable {
      * while they move so as to not run in a straight line.
      */
     public void move() {
-        this.setHeading(super.getHeading() + Random.nextInt(5));
+        this.setHeading(super.getHeading() + random.nextInt(5));
     }
 
     /**
