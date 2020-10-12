@@ -89,6 +89,20 @@ public abstract class GameObject {
     }
 
     /**
+     * @return The double value for the X Coordinate in world space
+     */
+    public double getXcoordinate() {
+        return location.getX();
+    }
+
+    /**
+     * @return The double value for the Y Coordinate in world space
+     */
+    public double getYcoordinate() {
+        return location.getY();
+    }
+
+    /**
      * By default, game objects provide the ability to have their location changed,
      * unless it is explicitly stated that a certain type of game object has a
      * location which cannot be changed once it is created.
