@@ -33,7 +33,12 @@ public abstract class GameObject {
 
     private Vector<Float> location;
     // All game objects have a location
-    private Vector<Float> position;
+
+    // All objects of the same class have the same color (chosen by you), assigned
+    // when the object is created (e.g, SkyScrapers could be blue, helicopters could
+    // be red, refueling blimps can be green).
+
+    private int color;
     // All game objects have a color
     private int color;
     // non-negative values X initially should be in the range 0.0 to 1024.0
