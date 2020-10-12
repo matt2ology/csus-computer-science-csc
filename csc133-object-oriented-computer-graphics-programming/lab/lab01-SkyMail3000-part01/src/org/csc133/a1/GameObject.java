@@ -64,6 +64,7 @@ public abstract class GameObject {
             yCoordinates = WORLD_HEIGHT;
         }
 
+        location = new Point2D(xCoordinates, yCoordinates);
     }
 
     /**
