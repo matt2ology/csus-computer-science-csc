@@ -46,4 +46,17 @@ public abstract class GameObject {
     public int getSize() {
         return size;
     }
+
+    /**
+     * The point (X,Y) is the center of the object. Hence, initial locations of all
+     * game objects should always be set to values such that the objects’ centers
+     * are contained in the world. All game objects provide the ability for external
+     * code to obtain their location.
+     * 
+     * @return float
+     */
+    public float getLocation() {
+        return location;
+    }
+
 }
