@@ -35,6 +35,8 @@ public abstract class GameObject {
 
     // All game objects have a location
     private Vector<Float> position;
+    // All game objects have a color
+    private int color;
     // non-negative values X initially should be in the range 0.0 to 1024.0
     public static final int WORLD_WIDTH = 1024;
     // non-negative values Y initially should be in the range 0.0 to 768.0
