@@ -11,5 +11,7 @@ package org.csc133.a1;
  * world).</i>
  */
 public abstract class GameObject {
-    
+    // All game objects have a location
+    private float location;
+
 }
