@@ -2,6 +2,7 @@ package org.csc133.a1;
 
 import java.util.Random;
 import java.util.Vector;
+import com.codename1.charts.util.ColorUtil;
 
 /**
  * <b>Holds a collection of game objects and other state variables.</b><br>
