@@ -9,7 +9,7 @@ import com.codename1.charts.util.ColorUtil;
  * This class manipulates data in the game model. The game world contains a
  * collection which aggregates objects of abstract type GameObject.
  */
-public class GameWorld extends Observable {
+public class GameWorld {
     private static final int WORLD_WIDTH = 1024;
     // non-negative values X initially should be in the range 0.0 to 1024.0
     private static final int WORLD_HEIGHT = 768;
@@ -83,6 +83,17 @@ public class GameWorld extends Observable {
      * described above.
      */
     public void increaseSpeed() {
+		IIterator itr = gameObjects.getIterator();
+		while(itr.hasNext())
+		{
+			GameObjects tempObject = itr.getNext();
+			if(tempObject instanceof Helicopter)
+			{
+				((Helicopter)tempObject).increaseSpeed();
+			}
+		}
+		this.setChanged();
+		this.notifyObservers(this);
     }
 
     // Press 'b'
