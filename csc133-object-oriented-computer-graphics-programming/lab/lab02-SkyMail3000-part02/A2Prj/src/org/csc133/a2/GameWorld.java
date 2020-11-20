@@ -2,7 +2,7 @@ package org.csc133.a2;
 
 import java.util.ArrayList;
 import java.util.Random;
-
+import java.util.Observable;
 import com.codename1.charts.util.ColorUtil;
 import com.codename1.ui.geom.Point;
 import com.codename1.ui.Command;
@@ -86,17 +86,15 @@ public class GameWorld extends Observable {
      * described above.
      */
     public void increaseSpeed() {
-		IIterator itr = gameObjects.getIterator();
-		while(itr.hasNext())
-		{
-			GameObjects tempObject = itr.getNext();
-			if(tempObject instanceof Helicopter)
-			{
-				((Helicopter)tempObject).increaseSpeed();
-			}
-		}
-		this.setChanged();
-		this.notifyObservers(this);
+        IIterator itr = gameObjects.getIterator();
+        while (itr.hasNext()) {
+            GameObjects tempObject = itr.getNext();
+            if (tempObject instanceof Helicopter) {
+                ((Helicopter) tempObject).increaseSpeed();
+            }
+        }
+        this.setChanged();
+        this.notifyObservers(this);
     }
 
     // Press 'b'
@@ -126,6 +124,15 @@ public class GameWorld extends Observable {
      * “tick” command, below.
      */
     public void turnLeftHelicopter() {
+        IIterator itr = gameObjects.getIterator();
+        while (itr.hasNext()) {
+            GameObjects tempObject = itr.getNext();
+            if (tempObject instanceof Helicopter) {
+                ((Helicopter)tempObject).turnLeft();
+            }
+        }
+        this.setChanged();
+        this.notifyObservers(this);
     }
 
     // Press 'r'
@@ -136,18 +143,15 @@ public class GameWorld extends Observable {
      * helicopter’s heading.
      */
     public void turnRightHelicopter() {
-		IIterator itr = gameObjects.getIterator();
-		while(itr.hasNext())
-		{
-			GameObjects tempObject = itr.getNext();
-			if(tempObject instanceof Helicopter)
-			{
-				((Helicopter)tempObject).turnRight();
-			}
-		}
-		
-		this.setChanged();
-		this.notifyObservers(this);        
+        IIterator itr = gameObjects.getIterator();
+        while (itr.hasNext()) {
+            GameObjects tempObject = itr.getNext();
+            if (tempObject instanceof Helicopter) {
+                ((Helicopter) tempObject).turnRight();
+            }
+        }
+        this.setChanged();
+        this.notifyObservers(this);
     }
 
     // Press 'c'
@@ -209,6 +213,52 @@ public class GameWorld extends Observable {
      * with each tick)
      */
     public void gameTick() {
+        timer++;
+
+        IIterator itr = gameObjects.getIterator();
+        while (itr.hasNext()) {
+            GameObjects tempObject = itr.getNext();
+            if (tempObject instanceof Helicopter) {
+                if (((Helicopter) tempObject).getEnergyLevel() >= 0
+                        && ((Helicopter) tempObject).getDamageLevel() < ((Helicopter) tempObject).getMaxDamageLevel()) {
+                    ((Helicopter) tempObject).move();
+                    ((Helicopter) tempObject).energyLevelTick();
+                    IIterator itr3 = gameObjects.getIterator();
+                    while (itr3.hasNext()) {
+                        GameObjects tempObject_3 = itr3.getNext();
+                        if (tempObject_3 instanceof Bird) {
+                            ((Bird) tempObject_3).move();
+                        }
+
+                    }
+                } else if (((Helicopter) tempObject).getLife() != 0) {
+                    System.out.println("You has lost 1 life");
+                    exit(3);
+                    int temp_last_base = ((Helicopter) tempObject).get();
+                    IIterator itr_2 = gameObjects.getIterator();
+                    while (itr_2.hasNext()) {
+                        GameObjects tempObject_2 = itr_2.getNext();
+                        if (tempObject_2 instanceof Bases) {
+                            if (temp_last_base == (((Bases) tempObject_2).getSequenceNumber())) {
+                                float base_x = (((Bases) tempObject_2).getX());
+                                float base_y = (((Bases) tempObject_2).getY());
+                                ((Helicopter) tempObject).resetCyborg(base_x, base_y);
+                                if (getSound()) {
+                                    lifeSound.play();
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    exit(2);
+                }
+            }
+        }
+        checkCollision();
+        if (getSound())
+            bgSound.play();
+        this.setChanged();
+        this.notifyObservers(this);
     }
 
     // Press 'd'
