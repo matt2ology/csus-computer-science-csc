@@ -83,7 +83,7 @@ public class GameWorld {
      * described above.
      */
     public void increaseSpeed() {
-		IIterator itr = gameObjects.getIterator();
+        IIterator itr = gameObjects.getIterator();
 		while(itr.hasNext())
 		{
 			GameObjects tempObject = itr.getNext();
@@ -123,15 +123,6 @@ public class GameWorld {
      * “tick” command, below.
      */
     public void turnLeftHelicopter() {
-        IIterator itr = gameObjects.getIterator();
-        while (itr.hasNext()) {
-            GameObjects tempObject = itr.getNext();
-            if (tempObject instanceof Helicopter) {
-                ((Helicopter)te mpObject).turnLeft();
-            }
-        }
-        this.setChanged();
-        this.notifyObservers(this);
     }
 
     // Press 'r'
