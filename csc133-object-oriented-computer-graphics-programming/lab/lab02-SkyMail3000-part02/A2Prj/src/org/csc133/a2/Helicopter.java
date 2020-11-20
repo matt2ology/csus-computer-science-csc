@@ -191,10 +191,6 @@ public class Helicopter extends Moveable implements ISteerable {
         return false;
     }
 
-    public int getFuelLevel() {
-        return fuelLevel;
-    }
-
     public void setFuelLevel(int fuelLevel) {
         this.fuelLevel = fuelLevel;
     }
