@@ -103,17 +103,15 @@ public class GameWorld {
      * helicopter is zero.
      */
     public void decreaseSpeed() {
-		IIterator itr = gameObjects.getIterator();
-		while(itr.hasNext())
-		{
-			GameObjects tempObject = itr.getNext();
-			if(tempObject instanceof Helicopter)
-			{
-				((Helicopter)tempObject).decreaseSpeed();;
-			}
-		}
-		this.setChanged();
-		this.notifyObservers(this);        
+        IIterator itr = gameObjects.getIterator();
+        while (itr.hasNext()) {
+            GameObjects tempObject = itr.getNext();
+            if (tempObject instanceof Helicopter) {
+                ((Helicopter) tempObject).decreaseSpeed();
+            }
+        }
+        this.setChanged();
+        this.notifyObservers(this);
     }
 
     // Press'l'
