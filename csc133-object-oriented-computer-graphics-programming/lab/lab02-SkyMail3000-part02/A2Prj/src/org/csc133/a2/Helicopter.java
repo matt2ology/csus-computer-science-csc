@@ -168,13 +168,13 @@ public class Helicopter extends Moveable implements ISteerable {
         this.maximumSpeed = maximumSpeed;
     }
 
-    public int getFuelLevel() {
-        return fuelLevel;
+    public void increaseSpeed() {
+        int currentSpeed = getSpeed();
+        if (!isMaximumSpeed()) {
+            this.setSpeed(++currentSpeed);
+        }
     }
 
-    public void setFuelLevel(int fuelLevel) {
-        this.fuelLevel = fuelLevel;
-    }
     public void decreaseSpeed() {
         int currSpeed = getSpeed();
         if (currSpeed > 0) {
@@ -182,7 +182,22 @@ public class Helicopter extends Moveable implements ISteerable {
         } else {
 
         }
+    }
 
+    public boolean isMaximumSpeed() {
+        if (this.getSpeed() >= this.getMaximumSpeed()) {
+            return true;
+        }
+        return false;
+    }
+
+    public int getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public void setFuelLevel(int fuelLevel) {
+        this.fuelLevel = fuelLevel;
+    }
 
     public int getFuelConsumptionRate() {
         return fuelConsumptionRate;
