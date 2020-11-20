@@ -2,7 +2,7 @@ package org.csc133.a2;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Observable;
+
 import com.codename1.charts.util.ColorUtil;
 import com.codename1.ui.geom.Point;
 import com.codename1.ui.Command;
@@ -12,7 +12,7 @@ import com.codename1.ui.Dialog;
  * This class manipulates data in the game model. The game world contains a
  * collection which aggregates objects of abstract type GameObject.
  */
-public class GameWorld {
+public class GameWorld extends Observable {
     private static final int WORLD_WIDTH = 1024;
     // non-negative values X initially should be in the range 0.0 to 1024.0
     private static final int WORLD_HEIGHT = 768;
