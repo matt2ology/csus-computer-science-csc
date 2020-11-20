@@ -191,6 +191,10 @@ public class Helicopter extends Moveable implements ISteerable {
         return false;
     }
 
+    public int getFuelLevel() {
+        return fuelLevel;
+    }
+
     public void setFuelLevel(int fuelLevel) {
         this.fuelLevel = fuelLevel;
     }
@@ -199,12 +203,12 @@ public class Helicopter extends Moveable implements ISteerable {
         return fuelConsumptionRate;
     }
 
-    public int getFuelLevel() {
-        return fuelLevel;
-    }
-
     public void setFuelConsumptionRate(int fuelConsumptionRate) {
         this.fuelConsumptionRate = fuelConsumptionRate;
+    }
+
+    public void fuelLevelTick() {
+        this.setFuelLevel(this.getFuelLevel() - this.getfuelConsumptionRate());
     }
 
     public int getDamageLevel() {
