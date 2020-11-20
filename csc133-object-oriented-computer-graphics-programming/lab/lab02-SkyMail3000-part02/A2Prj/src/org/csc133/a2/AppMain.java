@@ -38,32 +38,32 @@ public class AppMain {
         addNetworkErrorListener(err -> {
             // prevent the event from propagating
             err.consume();
-            if(err.getError() != null) {
+            if (err.getError() != null) {
                 Log.e(err.getError());
             }
             Log.sendLogAsync();
-            Dialog.show("Connection Error", "There was a networking error in the connection to " + err.getConnectionRequest().getUrl(), "OK", null);
-        });        
+            Dialog.show("Connection Error",
+                    "There was a networking error in the connection to " + err.getConnectionRequest().getUrl(), "OK",
+                    null);
+        });
     }
-    
+
     public void start() {
-        if(current != null){
+        if (current != null) {
             current.show();
             return;
         }
-        Form hi = new Form("Hi World", BoxLayout.y());
-        hi.add(new Label("Hi World"));
-        hi.show();
+        new Game();
     }
 
     public void stop() {
         current = getCurrentForm();
-        if(current instanceof Dialog) {
-            ((Dialog)current).dispose();
+        if (current instanceof Dialog) {
+            ((Dialog) current).dispose();
             current = getCurrentForm();
         }
     }
-    
+
     public void destroy() {
     }
 
