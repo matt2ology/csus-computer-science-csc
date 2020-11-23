@@ -64,6 +64,17 @@ public class Helicopter extends Moveable implements ISteerable {
         setDamageLevel(0);
         setLastSkyScraperReached(1);
     }
+    // TODO: Make sub-class playerHelicopter
+    public void resetHelicopter(float x, float y) {
+        this.setX(x);
+        this.setY(y);
+        this.setHeading(0);
+        this.setMaximumSpeed(30);
+        this.setFuelConsumptionRate(1);
+        this.setFuelLevel(20);
+        this.setDamageLevel(0);
+        this.life--;
+    }
 
     @Override
     public void turnLeft() {
