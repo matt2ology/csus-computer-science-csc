@@ -13,6 +13,15 @@ public class Game extends Form{
         gw.init();
         play();
     }
+
+    /**
+     * <h1><code>play()</code></h1>
+     * <p>
+     * Accepts keyboard commands from the player and invokes appropriate methods in
+     * GameWorld to manipulate and display the data and game state values in the
+     * game model.
+     * </p>
+     */
     private void play() {
         // code here to accept and
         // execute user commands that
