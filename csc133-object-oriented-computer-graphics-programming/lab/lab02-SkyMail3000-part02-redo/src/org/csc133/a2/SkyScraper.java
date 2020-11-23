@@ -4,6 +4,7 @@
  * 10).
  */
 public class SkyScraper extends Fixed {
-    //Each SkyScraper is a numbered marker that acts as a waypoint on the flight path
+    // Each SkyScraper is a numbered marker that acts as a waypoint on the flight
+    // path
     private int sequenceNumber;
 }
