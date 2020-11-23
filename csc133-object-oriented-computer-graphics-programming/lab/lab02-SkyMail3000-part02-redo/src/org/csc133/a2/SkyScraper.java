@@ -3,7 +3,6 @@
  * you), assigned when they are created (e.g, size of all SkyScrapers can be
  * 10).
  */
-public class SkyScraper {
+public class SkyScraper extends Fixed {
 
-    
 }
