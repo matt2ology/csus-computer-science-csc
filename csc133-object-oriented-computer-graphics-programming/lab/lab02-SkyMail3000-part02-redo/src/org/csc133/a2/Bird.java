@@ -1,5 +1,5 @@
 /**
- * Bird is a movable object
+ * Bird is a movable object.
  */
 public class Bird {
 
