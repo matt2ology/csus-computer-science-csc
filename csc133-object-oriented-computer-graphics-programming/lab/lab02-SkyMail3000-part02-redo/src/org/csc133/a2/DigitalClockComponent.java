@@ -1,13 +1,14 @@
 package org.csc133.a2;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
+
+import com.codename1.ui.Component;
+import com.codename1.ui.Graphics;
 import java.util.Calendar;
 
 import com.codename1.charts.util.ColorUtil;
+import com.codename1.ui.Image;
+import com.codename1.ui.geom.Dimension;
 
-import javafx.scene.image.Image;
 
 /**
  * DigitalClockComponent
@@ -89,7 +90,7 @@ public class DigitalClockComponent extends Component {
     protected Dimension calcPreferredSize() {
         return new Dimension(colonImage.getWidth() * numDigitsShowing, colonImage.getHeight());
     }
-
+    @Override
     public void paint(Graphics g) {
         super.paint(g);
         final int COLOR_PAD = 1;
@@ -107,7 +108,7 @@ public class DigitalClockComponent extends Component {
         int displayY = getY() + (getHeight() - displayDigitHeight) / 2;
 
     }
-
+    @Override
     public void paint(Graphics g) {
         g.setColor(ColorUtil.BLACK);
         g.fillRect(getX(), getY(), getWidth(), getHeight());
