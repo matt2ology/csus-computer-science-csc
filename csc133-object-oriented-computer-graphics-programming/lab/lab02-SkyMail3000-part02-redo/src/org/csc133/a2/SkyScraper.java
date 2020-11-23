@@ -4,5 +4,6 @@
  * 10).
  */
 public class SkyScraper extends Fixed {
-
+    //SkyScrapers are fixed game objects that have an attribute sequenceNumber.
+    private int sequenceNumber;
 }
