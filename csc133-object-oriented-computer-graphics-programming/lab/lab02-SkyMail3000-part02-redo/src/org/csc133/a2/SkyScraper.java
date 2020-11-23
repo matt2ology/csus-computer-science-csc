@@ -4,6 +4,6 @@
  * 10).
  */
 public class SkyScraper extends Fixed {
-    //SkyScrapers are fixed game objects that have an attribute sequenceNumber.
+    //Each SkyScraper is a numbered marker that acts as a waypoint on the flight path
     private int sequenceNumber;
 }
