@@ -1,4 +1,5 @@
 package org.csc133.a2;
+
 import java.nio.channels.AcceptPendingException;
 
 import com.codename1.ui.Form;
@@ -6,8 +7,10 @@ import com.codename1.ui.Form;
 import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.And;
 
 import jdk.nashorn.internal.runtime.regexp.joni.ast.AnchorNode;
-public class Game extends Form{
+
+public class Game extends Form {
     private GameWorld gw;
+
     public Game() {
         gw = new GameWorld();
         gw.init();
