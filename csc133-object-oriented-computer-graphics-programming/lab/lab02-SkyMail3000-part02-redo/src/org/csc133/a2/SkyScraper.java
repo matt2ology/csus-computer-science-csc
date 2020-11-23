@@ -1,3 +1,5 @@
+package org.csc133.a2;
+
 /**
  * SkyScraper is a fixed object.
  */
