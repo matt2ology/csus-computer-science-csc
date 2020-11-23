@@ -1,5 +1,5 @@
 package org.csc133.a2;
-
+// java -cp out\artifacts\A2Prj\A2Prj.jar;JavaSE.jar com.codename1.impl.javase.Simulator org.csc133.a2.AppMain
 
 import static com.codename1.ui.CN.*;
 import com.codename1.ui.Display;
