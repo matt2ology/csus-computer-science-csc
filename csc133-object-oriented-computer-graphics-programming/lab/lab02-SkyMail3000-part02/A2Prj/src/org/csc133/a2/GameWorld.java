@@ -128,7 +128,7 @@ public class GameWorld extends Observable {
         while (itr.hasNext()) {
             GameObjects tempObject = itr.getNext();
             if (tempObject instanceof Helicopter) {
-                ((Helicopter)tempObject).turnLeft();
+                ((Helicopter) tempObject).turnLeft();
             }
         }
         this.setChanged();
@@ -214,52 +214,47 @@ public class GameWorld extends Observable {
      */
     public void gameTick() {
         timer++;
-
         IIterator itr = gameObjects.getIterator();
         while (itr.hasNext()) {
             GameObjects tempObject = itr.getNext();
             if (tempObject instanceof Helicopter) {
-                if (((Helicopter) tempObject).getEnergyLevel() >= 0
-                        && ((Helicopter) tempObject).getDamageLevel() < ((Helicopter) tempObject).getMaxDamageLevel()) {
+                if (((Helicopter) tempObject).getEnergyLevel() != 0) {
                     ((Helicopter) tempObject).move();
+                    ((Helicopter) tempObject).setSteeringDirection(0);
                     ((Helicopter) tempObject).energyLevelTick();
+
                     IIterator itr3 = gameObjects.getIterator();
                     while (itr3.hasNext()) {
                         GameObjects tempObject_3 = itr3.getNext();
-                        if (tempObject_3 instanceof Bird) {
-                            ((Bird) tempObject_3).move();
+                        if (tempObject_3 instanceof Drone) {
+                            ((Drone) tempObject_3).checkBoundary();
+                            ((Drone) tempObject_3).moveDrone();
+                            ((Drone) tempObject_3).move();
                         }
-
                     }
                 } else if (((Helicopter) tempObject).getLife() != 0) {
                     System.out.println("You has lost 1 life");
-                    exit(3);
-                    int temp_last_base = ((Helicopter) tempObject).get();
+                    int temp_last_skyscraper = ((Helicopter) tempObject).getLastSkyScraperReached();
                     IIterator itr_2 = gameObjects.getIterator();
                     while (itr_2.hasNext()) {
                         GameObjects tempObject_2 = itr_2.getNext();
-                        if (tempObject_2 instanceof Bases) {
-                            if (temp_last_base == (((Bases) tempObject_2).getSequenceNumber())) {
-                                float base_x = (((Bases) tempObject_2).getX());
-                                float base_y = (((Bases) tempObject_2).getY());
-                                ((Helicopter) tempObject).resetCyborg(base_x, base_y);
-                                if (getSound()) {
-                                    lifeSound.play();
-                                }
+                        if (tempObject_2 instanceof SkyScraper) {
+                            if (temp_last_skyscraper == (((SkyScraper) tempObject_2).getSequenceNumber())) {
+                                float skyscraper_x = (((SkyScraper) tempObject_2).getX());
+                                float skyscraper_y = (((SkyScraper) tempObject_2).getY());
+                                ((Helicopter) tempObject).resetHelicopter(skyscraper_x, skyscraper_y);
                             }
                         }
                     }
                 } else {
-                    exit(2);
+                    System.out.println("Game is over!!!");
+                    System.exit(0);
                 }
-            }
-        }
-        checkCollision();
-        if (getSound())
-            bgSound.play();
+            } // end if (tempObject instanceof Helicopter)
+        } // end while (itr.hasNext())
         this.setChanged();
         this.notifyObservers(this);
-    }
+    }// end gameTick()
 
     // Press 'd'
     /**
