@@ -11,6 +11,9 @@ import jdk.nashorn.internal.runtime.regexp.joni.ast.AnchorNode;
 public class Game extends Form {
     private GameWorld gw;
 
+    /**
+     * <code>Game constructor</code> is to call a method name play() to actually begin the game.
+     */
     public Game() {
         gw = new GameWorld();
         gw.init();
