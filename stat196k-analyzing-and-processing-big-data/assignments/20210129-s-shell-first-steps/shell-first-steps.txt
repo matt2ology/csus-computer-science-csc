@@ -1,0 +1,47 @@
+Script started on 2021-01-29 13:36:29-08:00 [TERM="xterm-256color" TTY="/dev/tty2" COLUMNS="172" LINES="27"]
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads[00m$ mkdir stat196k_exercise1
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads[00m$ cd stat196k_exercise1
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ pwd
+/mnt/c/Users/matrn/Downloads/stat196k_exercise1
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ echo "1" > data1.csv && echo "2" > data2.csv
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ cat data1.csv
+1
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ cat data2.csv
+2
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ mkdir data
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ mv *.csv data
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ ls -la data && pwd && ls -la
+total 0
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [0m[34;42m.[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [34;42m..[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:37 [01;32mdata1.csv[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:37 [01;32mdata2.csv[0m
+/mnt/c/Users/matrn/Downloads/stat196k_exercise1
+total 0
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [0m[34;42m.[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:36 [34;42m..[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [34;42mdata[0m
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ cp data/*csv .
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ ls -la && ls -la data
+total 0
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [0m[34;42m.[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:36 [34;42m..[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [34;42mdata[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:38 [01;32mdata1.csv[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:38 [01;32mdata2.csv[0m
+total 0
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [0m[34;42m.[0m
+drwxrwxrwx 1 theodore theodore 512 Jan 29 13:38 [34;42m..[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:37 [01;32mdata1.csv[0m
+-rwxrwxrwx 1 theodore theodore   2 Jan 29 13:37 [01;32mdata2.csv[0m
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads/stat196k_exercise1[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads/stat196k_exercise1[00m$ cd .. && rm -rf stat196k_exercise1
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads[00m$ ls -la
+total 4
+drwxrwxrwx 1 theodore theodore  512 Jan 29 13:38 [0m[34;42m.[0m
+drwxrwxrwx 1 theodore theodore  512 Jan 21 00:52 [34;42m..[0m
+-rwxrwxrwx 1 theodore theodore  282 Jul 28  2020 [01;32mdesktop.ini[0m
+-rwxrwxrwx 1 theodore theodore 3584 Jan 29 13:38 [01;32mshell-first-steps.txt[0m
+]0;theodore@Theodore: /mnt/c/Users/matrn/Downloads[01;32mtheodore@Theodore[00m:[01;34m/mnt/c/Users/matrn/Downloads[00m$ exit
+exit
+
+Script done on 2021-01-29 13:39:06-08:00 [COMMAND_EXIT_CODE="0"]
