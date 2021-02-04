@@ -11,7 +11,7 @@ public class FloatingPointPosition {
     private float y_position;
 
     /**
-     * Construct a position point
+     * Construct a position point where point (X,Y) is the center of the object.
      * 
      * @param x_position
      * @param y_position
@@ -38,7 +38,8 @@ public class FloatingPointPosition {
     }
 
     /**
-     * Sets a new point location for objects
+     * Sets a new point location for objects. The point (X,Y) is the center of the
+     * object.
      * 
      * @param new_x_position
      * @param new_y_position
