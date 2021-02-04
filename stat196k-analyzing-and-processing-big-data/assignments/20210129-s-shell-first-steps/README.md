@@ -2,7 +2,7 @@
 
 **Due** Feb 2 by 11:59pm | **Points** 5 | **Submitting** a text entry box
 
-Complete the exercise at the end of [shell-first-steps](../lecture-notes/20210126-shell-first-steps.pdf)
+Complete the exercise at the end of [shell-first-steps](stat196k-analyzing-and-processing-big-data/lecture-notes/20210126-shell-first-steps.pdf)
 
 -------
 
