@@ -51,7 +51,7 @@
     7. a.txt
     8. b.txt
 
-    **There are seven files in the bucket.**
+    **There are eight files in the bucket.**
 
 4. Time how long it takes to download one of the files from S3 to your EC2 instance. What is a lower bound for the network bandwidth?
 
