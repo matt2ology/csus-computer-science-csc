@@ -1,0 +1,36 @@
+# S - Cloud Object Storage
+**Due** Sunday by 11:59pm | **Points** 5 | **Submitting** a text entry box
+
+Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu/fitzgerald/cloud-object-storage/)
+
+---
+## Set-up
+
+1. **Login** [AWS Educate](https://www.awseducate.com/signin/SiteLogin)
+2. My Classrooms > Classroom
+3. AWS Console
+4. EC2 Instance
+   - A
+      1. Click Instance ID
+      2. Can copy public IPv4 DNS
+   - B
+      1. Click Instance ID
+      2. Click Connect
+      3. Connect to instance > SSH client
+      4. Naviage to step 4 on list and copy "**Connect to your instance using its Public DNS**"
+
+5. In terminal: ssh ec2-user@hostname
+
+---
+
+## Exercise
+
+Submit your answers to these questions along with bash commands and output.
+
+1. SSH to an EC2 instance.
+2. Find which files are in the bucket stat196k-data-examples.
+3. How large are these files?
+4. How many files are in the bucket?
+5. Time how long it takes to download one of the files from S3 to your EC2 instance. What is a lower bound for the network bandwidth?
+6. How long does it take to download the same file to your local machine?
+7. How much faster is it to access the data in S3 from an EC2 instance versus downloading it?
