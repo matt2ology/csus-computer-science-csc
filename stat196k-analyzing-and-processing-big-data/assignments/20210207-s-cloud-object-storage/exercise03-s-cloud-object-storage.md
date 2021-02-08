@@ -31,6 +31,15 @@
     |                 4 |         4 Bytes          | a.txt                                                 |
     |                 4 |         4 Bytes          | b.txt                                                 |
 
+   - \- (**0 Bytes**)
+   - 2018.csv.gz (**3.9 GiB**)
+   - 20190203.csv (**39.4 MiB**)
+   - 20190204.csv (**62.7 MiB**)
+   - GDELT_2.0_Events_Column_Labels_Header_Row_Sep2016.csv (**26.7 KiB**)
+   - a.csv (**6 Bytes**)
+   - a.txt (**4 Bytes**)
+   - b.txt (**4 Bytes**)
+
 3. How many files are in the bucket?
 
     1. \-
