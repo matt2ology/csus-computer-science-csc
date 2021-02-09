@@ -1,9 +1,11 @@
 # S - Cloud Object Storage
+
 **Due** Sunday by 11:59pm | **Points** 5 | **Submitting** a text entry box
 
 Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu/fitzgerald/cloud-object-storage/)
 
 ---
+
 ## Set-up
 
 1. **Login** [AWS Educate](https://www.awseducate.com/signin/SiteLogin)
@@ -20,6 +22,14 @@ Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu
       4. Naviage to step 4 on list and copy "**Connect to your instance using its Public DNS**"
 
 5. In terminal: ssh ec2-user@hostname
+
+---
+
+## Resources
+
+- https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1/556411#556411
+
+- https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html
 
 ---
 
