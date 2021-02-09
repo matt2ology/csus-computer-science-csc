@@ -27,9 +27,9 @@ Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu
 
 ## Resources
 
-- https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1/556411#556411
+- [What do 'real', 'user' and 'sys' mean in the output of time(1)?](https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1/556411#556411)
 
-- https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html
+- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html)
 
 ---
 
