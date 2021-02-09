@@ -1,3 +1,5 @@
+# Exercise03: S - Cloud Object Storage
+
 - [Exercise03: S - Cloud Object Storage](#exercise03-s---cloud-object-storage)
   - [1. Find which files are in the bucket stat196k-data-examples](#1-find-which-files-are-in-the-bucket-stat196k-data-examples)
   - [2. How large are these files?](#2-how-large-are-these-files)
@@ -13,8 +15,6 @@
   - [6. How much faster is it to access the data in S3 from an EC2 instance versus downloading it?](#6-how-much-faster-is-it-to-access-the-data-in-s3-from-an-ec2-instance-versus-downloading-it)
     - [6.1 FILE ONE: 2018.csv.gz](#61-file-one-2018csvgz)
     - [6.2 FILE TWO: 20190203.csv](#62-file-two-20190203csv)
-
-# Exercise03: S - Cloud Object Storage
 
 ## 1. Find which files are in the bucket stat196k-data-examples
 
