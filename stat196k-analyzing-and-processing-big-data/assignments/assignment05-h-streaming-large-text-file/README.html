@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment05&colon; H-Homework Streaming Large Text File</title>
+        <style>
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="assignment05-h-homework-streaming-large-text-file">Assignment05: H-Homework Streaming Large Text File</h1>
+<p><strong>Due</strong> Saturday by 11:59pm | <strong>Points</strong> 20 | <strong>Submitting</strong> a file upload | <strong>File Types</strong> pdf, html, and txt</p>
+<p>Do the exercise on the bottom of <a href="http://webpages.csus.edu/fitzgerald/homework-streaming-large-text-file/">Homework Streaming Large Text File</a></p>
+<ul>
+<li><a href="#assignment05-h-homework-streaming-large-text-file">Assignment05: H-Homework Streaming Large Text File</a>
+<ul>
+<li><a href="#announcements">Announcements</a></li>
+<li><a href="#background">Background</a>
+<ul>
+<li><a href="#goldstein-score">Goldstein Score</a></li>
+</ul>
+</li>
+<li><a href="#assignment">Assignment</a></li>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#1---subset">1 - Subset</a>
+<ul>
+<li><a href="#11-how-many-columns-are-there">1.1 How many columns are there?</a></li>
+<li><a href="#12-do-the-data-values-in-each-column-seem-to-match-the-column-definitions">1.2 Do the data values in each column seem to match the column definitions?</a></li>
+<li><a href="#13-what-character-delimits-the-records">1.3 What character delimits the records?</a></li>
+<li><a href="#14-what-is-the-cameo-event-code-what-event-does-this-correspond-to-and-what-is-the-goldstein-score">1.4 What is the CAMEO event code, what event does this correspond to, and what is the Goldstein score?</a></li>
+<li><a href="#15-are-the-urls-to-the-news-articles-still-live-and-do-they-match-the-cameo-event-code">1.5 Are the URL's to the news articles still live, and do they match the CAMEO event code?</a></li>
+<li><a href="#16-does-the-goldstein-score-appear-to-be-doing-what-it-was-designed-to-do">1.6 Does the Goldstein score appear to be doing what it was designed to do?</a></li>
+</ul>
+</li>
+<li><a href="#2---histogram">2 - Histogram</a>
+<ul>
+<li><a href="#21-how-long-does-your-program-take-to-run">2.1 How long does your program take to run?</a></li>
+<li><a href="#22-explain-in-detail-what-each-command-in-the-pipeline-does-and-how-they-work-together">2.2 Explain in detail what each command in the pipeline does and how they work together</a></li>
+<li><a href="#23-plot-and-interpret-the-histogram-youll-probably-want-to-download-the-summary-statistics-around-20-numbers-to-your-personal-computer-to-plot-the-histogram-do-you-notice-anything-strange">2.3 Plot and interpret the histogram. You'll probably want to download the summary statistics (around 20 numbers) to your personal computer to plot the histogram. Do you notice anything strange?</a></li>
+<li><a href="#24-exactly-how-many-events-rows-are-in-this-data">2.4 Exactly how many events (rows) are in this data?</a></li>
+</ul>
+</li>
+<li><a href="#3---performance">3 - Performance</a>
+<ul>
+<li><a href="#performance-validation">Performance Validation</a></li>
+<li><a href="#performance-validation-conclusion">Performance Validation Conclusion</a></li>
+<li><a href="#31-what-are-the-bottlenecks">3.1 What are the bottlenecks?</a></li>
+<li><a href="#32-run-and-time-your-program-on-an-ec2-instance-with-more-vcpus-and-a-faster-network-and-show-the-results-of-top-once-more-is-the-program-faster-on-the-more-expensive-instance">3.2 Run and time your program on an EC2 instance with more vCPU's and a faster network and show the results of <code>top</code> once more. Is the program faster on the more expensive instance?</a></li>
+<li><a href="#33-are-you-benefitting-from-pipeline-parallelism">3.3 Are you benefitting from pipeline parallelism?</a></li>
+<li><a href="#34-whats-the-bottleneck-now">3.4 What's the bottleneck now?</a></li>
+<li><a href="#35-compare-and-comment-on-the-financial-cost-of-using-a-more-expensive-instance-versus-the-t2micro">3.5 Compare and comment on the financial cost of using a more expensive instance versus the t2.micro</a></li>
+</ul>
+</li>
+<li><a href="#4---extra-credit-challenge">4 - Extra Credit Challenge</a></li>
+</ul>
+</li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>Calculate summary statistics from a data stream</li>
+<li>Use pipelines to process a file larger than memory</li>
+</ul>
+<h2 id="announcements">Announcements</h2>
+<ul>
+<li>The question &quot;How much longer does X take than Y&quot; is usually most useful when answered in relative terms.
+For example, if the transfer took 1.9 seconds, and now it takes 79.2 seconds, then say that the second way is 79.2/1.9 = 42 times slower than the first.</li>
+<li>Check for comments / feedback on skills assignments.</li>
+<li>will post skills assignment solutions next week.</li>
+</ul>
+<p>123 GO - what was the last kind of physical exercise you did?</p>
+<h2 id="background">Background</h2>
+<p>The <a href="https://www.gdeltproject.org/">GDELT Project</a> is the Global Database of Events, Language, and Tone.
+It describes itself as:</p>
+<blockquote>
+<p>A Global Database of Society.
+Supported by Google Jigsaw, the GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.</p>
+</blockquote>
+<p>The events from 2018 are available in a single file at the S3 URI <code>s3://stat196k-data-examples/2018.csv.gz</code>.
+This file is 3.8 GB, compressed.
+Here are the <a href="https://stat196k-data-examples.s3.amazonaws.com/GDELT_2.0_Events_Column_Labels_Header_Row_Sep2016.csv">column definitions</a>.</p>
+<h3 id="goldstein-score">Goldstein Score</h3>
+<blockquote>
+<p>Each CAMEO event code is assigned a numeric score from -10 to +10, capturing the theoretical potential impact that type of event will have on the stability of a country.
+This is known as the Goldstein Scale.
+This field specifies the Goldstein score for each event type.
+<strong>NOTE:</strong> this score is based on the type of event, not the specifics of the actual event record being recorded‚ thus two riots, one with 10 people and one with 10,000, will both receive the same Goldstein score.
+This can be aggregated to various levels of time resolution to yield an approximation of the stability of a location over time.</p>
+</blockquote>
+<p>I believe this is the <a href="http://eventdata.parusanalytics.com/cameo.dir/CAMEO.SCALE.txt">CAMEO event code mapping</a> to Goldstein scores.</p>
+<h2 id="assignment">Assignment</h2>
+<p>Turn in two files:</p>
+<ul>
+<li>A PDF or HTML document containing your answers to the following questions in a neatly organized report.</li>
+<li>A file with extension <code>.sh.txt</code> showing all the code necessary to reproduce your work.
+The <code>.sh</code> is for shell script, and this is normally the only extension you need.
+The <code>.txt</code> allows Canvas to render it as plain text in the web browser, so I can grade it.</li>
+</ul>
+<p>I suggest you use markdown through something like pandoc, Rmarkdown, or Jupyter notebooks to create your report.
+The <a href="https://raw.githubusercontent.com/clarkfitzg/csus_website/master/_posts/2021-02-05-homework-streaming-large-text-file.html">markdown source for the assignment</a> is on Github, so you can copy and paste from there.
+MS Word and other GUI programs should work fine too.</p>
+<h2 id="questions">Questions</h2>
+<h3 id="1---subset">1 - Subset</h3>
+<p><strong><em>5 pts</em></strong></p>
+<p><strong>Download a small subset of the data (100 rows is plenty) to your personal computer, and examine it using any software you like. Briefly describe this subset of the data by picking out a couple rows that look interesting to you.</strong></p>
+<h4 id="11-how-many-columns-are-there">1.1 How many columns are there?</h4>
+<p>Based on the <a href="GDELT_2.0_Events_Column_Labels_Header_Row_Sep2016.csv">column definitions</a> there are 61 columns; in addition, you can run:</p>
+<pre><code class="language-bash"><div>&gt; **On ec2 instance:** $ ssh -i ~/.ssh/id_rsa ec2-user@ec2-100-27-27-57.compute-1.amazonaws.com
+&gt;
+&gt; &gt; $ aws s3 cp s3://stat196k-data-examples/2018.csv.gz - --no-sign-request | gunzip | head -n 100 &gt; first100Rows.csv
+&gt; &gt;
+&gt; &gt; $ cat -T first100Rows.csv | head -1 | grep -o <span class="hljs-string">&quot;\^I&quot;</span> | wc -l
+</div></code></pre>
+<p>and see that it outputs <code>60</code>. Ignoring the last column all tableIds are followed by a delimiter separating each data type to their corresponding column/tableIds; as a result, the number of delimiters counted in any given table or csv/tsv file is <strong>n-1</strong> of the number of columns listed in the table.</p>
+<p>UNIX Commands</p>
+<ul>
+<li><strong><code>cat</code></strong> - Concatenate files and print on the standard output
+<ul>
+<li><code>-T, --show-tabs</code> - Display TAB characters as ^I</li>
+</ul>
+</li>
+<li><strong><code>grep</code></strong> - Searches for PATTERNS in each FILE. PATTERNS is one or more patterns separated by newline characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted when grep is used in a shell command.A FILE of “-” stands for standard input. If no FILE is given, recursive searches examine the working directory, and non-recursive searches read standard input
+<ul>
+<li><code>-o, --only-matching</code> - Print only the matched (non-empty) parts of a matching line, with each such part on a separate output line</li>
+</ul>
+</li>
+<li><strong><code>gunzip</code></strong> - Takes a list of files on its command line and replaces each file whose name ends with .gz, -gz, .z, -z, or _z (ignoring case) and which begins with the correct magic number with an uncompressed file without the original extension.</li>
+<li><strong><code>head</code></strong> - Output the first part of files
+<ul>
+<li>with the leading <code>-</code>, print all but the last NUM lines of each file
+<ul>
+<li>As used above it outputs the first 100 lines of the file and the second time just the first line</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><code>wc</code></strong> - Print newline, word, and byte counts for each file
+<ul>
+<li><strong><code>-l, --lines</code></strong> - Print the newline counts</li>
+</ul>
+</li>
+</ul>
+<h4 id="12-do-the-data-values-in-each-column-seem-to-match-the-column-definitions">1.2 Do the data values in each column seem to match the column definitions?</h4>
+<p>Yes if you don't have the proper formatting/alignment; for, not all columns need to have a value and are left blank (tabbed over). So when read not aligned it may seem that a value is assigned to the second column, but is actually meant for the sixth column because values in columns three through five are left blank.</p>
+<h4 id="13-what-character-delimits-the-records">1.3 What character delimits the records?</h4>
+<p>Escape character for tab <code>\t</code><br>
+<strong>OR</strong></p>
+<blockquote>
+<p>cat -T first100Rows.csv</p>
+</blockquote>
+<p>will output <code>^I</code> as representation of the tab delimiter. For example:</p>
+<pre><code>719024869 ^I20170101 ^I201701 ^I2017 ^I2017.0027 ^IAGR ^IFARMER ^I ^I ^I ^I
+</code></pre>
+<h4 id="14-what-is-the-cameo-event-code-what-event-does-this-correspond-to-and-what-is-the-goldstein-score">1.4 What is the CAMEO event code, what event does this correspond to, and what is the Goldstein score?</h4>
+<p><strong>The CAMEO event code</strong> is a there level hierarchal codification that articulates the action that Actor1 performed upon Actor2 in events around the world. Form left to right, the first number (can be zero leading: 01 vs 12) sets the Superordinate (<strong>ex. 02: APPEAL</strong>), appended to that sets the Basic level (<strong>ex. 025: Appeal to yield</strong>), and depending on the situation the last number to be appended is the Subordinate level (<strong>ex. 0251: Appeal for easing of administrative sanctions</strong>). In use these raw CAMEO action code describes the action that Actor1 performed upon Actor2; for example, <em>Human Rights Watch also called on Yemen, Algeria and Malaysia to immediately lift bans on newspapers closed in recent days for printing the
+caricatures</em>.</p>
+<p><strong>The Goldstein score is</strong> based on CAMEO event code each is assigned a numeric score from -10 to +10, where a positive number denotes that the region is doing well/contributed to good versus a negative number denotes that the region isn't doing well/is unstable, capturing the theoretical potential impact that type of event will have on the stability of a country; for example, a Goldstein score of -7.6 as a result of Armed force mobilization <strong>VS</strong> a Goldstein score of 7.4 as a result of Extend economic aid.</p>
+<h4 id="15-are-the-urls-to-the-news-articles-still-live-and-do-they-match-the-cameo-event-code">1.5 Are the URL's to the news articles still live, and do they match the CAMEO event code?</h4>
+<p>Most are still live, but others like the article to <a href="https://www.channelnewsasia.com/news/world/after-trump-criticism--china-denies-selling-oil-illicitly-to-north-korea-9819368">After Trump criticism China denies selling oil illicitly to North Korea</a>; nevertheless, given the short descriptions of the articles they do seem to match the CAMEO event code and fits the Goldstein score as well.</p>
+<h4 id="16-does-the-goldstein-score-appear-to-be-doing-what-it-was-designed-to-do">1.6 Does the Goldstein score appear to be doing what it was designed to do?</h4>
+<p>Yes although relatively arbitrary in what sets a type of event to be assigned a lower score than another; for example, a &quot;Non-military destruction/injury&quot; is given a Goldstein score of -8.7 a versus a &quot;Non-injury destructive action&quot; is given a Goldstein score of -8.3 are both terrible events it should be kept in mind for the general public that the &quot;score is based on the type of event, not the specifics of the actual event
+record being recorded – thus two riots, one with 10 people and one with 10,000, will both receive the same Goldstein score. This can be aggregated to various levels of time resolution to yield an approximation of the stability of a location over time&quot;</p>
+<h3 id="2---histogram">2 - Histogram</h3>
+<p><strong><em>10 pts</em></strong></p>
+<p><strong>Create a histogram of the Goldstein scores for all of 2018, using the integers as bin endpoints for the histogram. It's possible to do this in less than 10 minutes using a single shell pipeline on a t2 micro instance with 1 vCPU, 1 GiB memory, and 8 GiB storage.</strong></p>
+<h4 id="21-how-long-does-your-program-take-to-run">2.1 How long does your program take to run?</h4>
+<p><strong>It took 6 minutes 58 seconds.</strong></p>
+<pre><code class="language-bash"><div>&gt; **On ec2 instance:** $ ssh -i ~/.ssh/id_rsa ec2-user@PublicDNS-hostname.com
+&gt;
+&gt; &gt; $ time aws s3 cp s3://stat196k-data-examples/2018.csv.gz - --no-sign-request | gunzip | cut -f 31 | awk <span class="hljs-string">&#x27;{print int($1)}&#x27;</span> | sort -n | uniq -c &gt; allGoldsteinScores.csv
+
+    Outs all values as int (no decimals/fractional values)
+    13 -10
+    1 -9
+    1 -8
+    .
+    .
+    .
+    real    6m58.523s
+    user    6m39.716s
+    sys     0m18.233s
+</div></code></pre>
+<h4 id="22-explain-in-detail-what-each-command-in-the-pipeline-does-and-how-they-work-together">2.2 Explain in detail what each command in the pipeline does and how they work together</h4>
+<p>This command measures the time it takes to copy the 2018.csv.gz from the s3 bucket, unzip its contents, pulls all values in the 31st column of the table, sorts it in ascending order, counts the repeated values, and outputs the results into file named &quot;allGoldsteinScoresCounted.txt&quot;</p>
+<pre><code class="language-bash"><div>&gt; **On ec2 instance:** $ ssh -i ~/.ssh/id_rsa ec2-user@PublicDNS-hostname.com
+&gt;
+&gt; &gt; $ time aws s3 cp s3://stat196k-data-examples/2018.csv.gz - --no-sign-request | gunzip | cut -f 31 | sort -n | uniq -c &gt; allGoldsteinScoresCounted.txt
+</div></code></pre>
+<ol>
+<li><code>time</code> - Run programs and summarize system resource usage</li>
+<li><code>aws</code> - The AWS Command Line Interface is a unified tool to manage your AWS services</li>
+<li><code>s3</code> - An Amazon S3 bucket is a public cloud storage resource available in Amazon Web Services' (AWS) Simple Storage Service (S3), an object storage offering. Amazon S3 buckets, which are similar to file folders, store objects, which consist of data and its descriptive metadata.</li>
+<li><code>cp</code> - Copies a local file or S3 object to another location locally or in S3.
+<ol>
+<li>Using the s3 protocol go to s3://stat196k-data-examples</li>
+</ol>
+</li>
+<li><code>--no-sign-request</code> - (boolean) Do not sign requests. Credentials will not be loaded if this argument is provided.</li>
+<li><code>gunzip</code> - Takes a list of files on its command line and replaces each file whose name ends with .gz, -gz, .z, -z, or _z (ignoring case) and which begins with the correct magic number with an uncompressed file without the original extension.</li>
+<li><code>cut</code> - Remove sections from each line of files
+<ol>
+<li><code>-f 31</code> - Remove the 31st section from each line of files</li>
+</ol>
+</li>
+<li><code>sort</code> - Sort lines of text files
+<ol>
+<li><code>-n</code> - Compare according to string numerical value</li>
+</ol>
+</li>
+<li><code>uniq</code> - Report or omit repeated lines
+<ol>
+<li><code>-c</code> - Prefix lines by the number of occurrences</li>
+</ol>
+</li>
+<li><code>&gt;</code> - Redirects output to a file, overwriting the file.
+<ol>
+<li>Writes output into file named allGoldsteinScoresCounted.txt</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>This command measures the time it takes to copy the 2018.csv.gz from the s3 bucket, unzip its contents, pulls all values in the 31st column of the table, converts all numbers into integer (non-decimal/fractional values), sorts it in ascending order, counts the repeated values, and outputs the results into file named &quot;allIntegerGoldsteinScoresCounted.txt&quot;</p>
+<pre><code class="language-bash"><div>&gt; **On ec2 instance:** $ ssh -i ~/.ssh/id_rsa ec2-user@PublicDNS-hostname.com
+&gt;
+&gt; &gt; $ time aws s3 cp s3://stat196k-data-examples/2018.csv.gz - --no-sign-request | gunzip | cut -f 31 | awk <span class="hljs-string">&#x27;{print int($1)}&#x27;</span> | sort -n | uniq -c &gt; allIntegerGoldsteinScoresCounted.txt
+</div></code></pre>
+<ol>
+<li><code>time</code> - Run programs and summarize system resource usage</li>
+<li><code>aws</code> - The AWS Command Line Interface is a unified tool to manage your AWS services</li>
+<li><code>s3</code> - An Amazon S3 bucket is a public cloud storage resource available in Amazon Web Services' (AWS) Simple Storage Service (S3), an object storage offering. Amazon S3 buckets, which are similar to file folders, store objects, which consist of data and its descriptive metadata.</li>
+<li><code>cp</code> - Copies a local file or S3 object to another location locally or in S3.
+<ol>
+<li>Using the s3 protocol go to s3://stat196k-data-examples</li>
+</ol>
+</li>
+<li><code>--no-sign-request</code> - (boolean) Do not sign requests. Credentials will not be loaded if this argument is provided.</li>
+<li><code>gunzip</code> - Takes a list of files on its command line and replaces each file whose name ends with .gz, -gz, .z, -z, or _z (ignoring case) and which begins with the correct magic number with an uncompressed file without the original extension.</li>
+<li><code>cut</code> - Remove sections from each line of files
+<ol>
+<li><code>-f 31</code> - Remove the 31st section from each line of files</li>
+</ol>
+</li>
+<li><code>awk '{print int($1)}'</code> - For every line print the contents of the first field</li>
+<li><code>sort</code> - Sort lines of text files
+<ol>
+<li><code>-n</code> - Compare according to string numerical value</li>
+</ol>
+</li>
+<li><code>uniq</code> - Report or omit repeated lines
+<ol>
+<li><code>-c</code> - Prefix lines by the number of occurrences</li>
+</ol>
+</li>
+<li><code>&gt;</code> - Redirects output to a file, overwriting the file.
+<ol>
+<li>Writes output into file named allIntegerGoldsteinScoresCounted.txt</li>
+</ol>
+</li>
+</ol>
+<h4 id="23-plot-and-interpret-the-histogram-youll-probably-want-to-download-the-summary-statistics-around-20-numbers-to-your-personal-computer-to-plot-the-histogram-do-you-notice-anything-strange">2.3 Plot and interpret the histogram. You'll probably want to download the summary statistics (around 20 numbers) to your personal computer to plot the histogram. Do you notice anything strange?</h4>
+<p>Yes there are 191 entries without an assigned Goldstien Score.</p>
+<p><img src="file:///s:\github\csus-computer-science-csc\stat196K-analyzing-and-processing-big-data\assignments\assignment05-h-streaming-large-text-file\results\2018-goldsteinScoreHistogram.PNG" alt="2018 Goldstein Score Histogram">
+<em>note:</em> the frquency with a blank interval is a result that they were not assigned a goldstein score.</p>
+<pre><code class="language-bash"><div>&gt; **On <span class="hljs-built_in">local</span> machine**
+&gt;
+&gt; &gt; $ scp -i ~/.ssh/id_rsa ec2-user@ec2-100-27-27-57.compute-1.amazonaws.com:~/allGoldsteinScoresCounted.txt ./
+&gt; &gt;
+&gt; &gt; $ cat data/allGoldsteinScoresCounted.txt | head -20 &gt; data/firstTwentyGoldsteinScoresCounted.txt
+</div></code></pre>
+<h4 id="24-exactly-how-many-events-rows-are-in-this-data">2.4 Exactly how many events (rows) are in this data?</h4>
+<p>There are 43 events (rows) in this data.</p>
+<pre><code class="language-bash"><div>&gt; $ cat -n data/allGoldsteinScoresCounted.txt
+</div></code></pre>
+<h3 id="3---performance">3 - Performance</h3>
+<p><strong><em>5 pts</em></strong></p>
+<p><strong>Print and interpret the output of <code>top</code> while your program is running.</strong></p>
+<p><img src="file:///s:\github\csus-computer-science-csc\stat196K-analyzing-and-processing-big-data\assignments\assignment05-h-streaming-large-text-file\results\top.png" alt="resourceMonotorOfProgram"></p>
+<pre><code class="language-bash"><div>&gt; Using pipeline <span class="hljs-built_in">command</span>
+&gt;
+&gt; &gt; $ time aws s3 cp s3://stat196k-data-examples/2018.csv.gz - --no-sign-request | gunzip | cut -f 31 | sort -n | uniq -c &gt; allGoldsteinScoresCounted.txt
+</div></code></pre>
+<h4 id="performance-validation">Performance Validation</h4>
+<p><strong>In testing I will be adhearing to the following:</strong></p>
+<ul>
+<li><strong>Standard Deviation (SD, s):</strong> amount of variability in a data set.
+<ul>
+<li>How tightly packed around mean are the data?</li>
+</ul>
+</li>
+<li><strong>Standard Error (SE, sM):</strong> how far is the sampled average likely to be from the true average.
+<ul>
+<li>SD normalized to number of samples.</li>
+</ul>
+</li>
+<li><strong>Relative Standard Error (RSE):</strong> Standard error as a percentage of the mean.
+<ul>
+<li>SE normalized across multiple types of measurements.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>test</th>
+<th style="text-align:center">coldRun</th>
+<th style="text-align:center">run01</th>
+<th style="text-align:center">run02</th>
+<th style="text-align:center">run03</th>
+<th style="text-align:left">AVG</th>
+<th style="text-align:left">SD</th>
+<th style="text-align:left">SE</th>
+<th style="text-align:left">RSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>test01</td>
+<td style="text-align:center">22</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">22</td>
+<td style="text-align:left">21.67</td>
+<td style="text-align:left">1.528</td>
+<td style="text-align:left">0.882</td>
+<td style="text-align:left">4.07%</td>
+</tr>
+<tr>
+<td>test02</td>
+<td style="text-align:center">52</td>
+<td style="text-align:center">53</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">52</td>
+<td style="text-align:left">51.67</td>
+<td style="text-align:left">1.528</td>
+<td style="text-align:left">0.882</td>
+<td style="text-align:left">1.71%</td>
+</tr>
+<tr>
+<td>test03</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">55</td>
+<td style="text-align:center">49</td>
+<td style="text-align:center">47</td>
+<td style="text-align:left">50.33</td>
+<td style="text-align:left">4.163</td>
+<td style="text-align:left">2.403</td>
+<td style="text-align:left">4.78%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>test01</strong> and <strong>test02</strong> have the same SD and SE because the datapoints are equally distributed around the AVG and they have the same number of runs (3).</p>
+<p><strong>test02</strong> has a lower RSE than <strong>test01</strong> because a SE of 0.882 is less significant to an AVG of 51.67 than it is to an AVG of 21.67.</p>
+<p><strong>test03</strong> has a higher RSE than <strong>test02</strong> because <strong>test03</strong>’s SE is significantly higher than <strong>test02</strong>’s while their AVG is about the same.</p>
+<hr>
+<table>
+<thead>
+<tr>
+<th>test</th>
+<th style="text-align:center">coldRun</th>
+<th style="text-align:center">run01</th>
+<th style="text-align:center">run02</th>
+<th style="text-align:center">run03</th>
+<th style="text-align:left">run04</th>
+<th style="text-align:left">run05</th>
+<th style="text-align:left">AVG</th>
+<th style="text-align:left">SD</th>
+<th style="text-align:left">SE</th>
+<th style="text-align:left">RSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>test04</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">55</td>
+<td style="text-align:center">49</td>
+<td style="text-align:center">47</td>
+<td style="text-align:left">54</td>
+<td style="text-align:left">47</td>
+<td style="text-align:left">50.4</td>
+<td style="text-align:left">3.847</td>
+<td style="text-align:left">1.720</td>
+<td style="text-align:left">3.41%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>test04</strong> has almost identical AVG as <strong>test03</strong>, however SD is marginally lower and SE is significantly lower. Because <strong>test04</strong> has 5 warm runs instead of 3, the SE is lower even with a similar SD. The RSE drops significantly as runs increase.</p>
+<h4 id="performance-validation-conclusion">Performance Validation Conclusion</h4>
+<p>RSE is a useful statistic for analyzing the variance present in benchmarking datasets.</p>
+<p><strong>Proposal:</strong> ensure data falls within 5% RSE threshold unless there is a technically valid explanation for the variance.</p>
+<ul>
+<li>If data does not meet this RSE threshold, increase the number of test runs (in increments of 2) until it does.</li>
+</ul>
+<h4 id="31-what-are-the-bottlenecks">3.1 What are the bottlenecks?</h4>
+<p>At a glance the CPU load roughly evenly distributed; however, we see that <code>gzip</code> uses almost half of the CPU power, so our bottle neck is <code>gzip</code>.</p>
+<h4 id="32-run-and-time-your-program-on-an-ec2-instance-with-more-vcpus-and-a-faster-network-and-show-the-results-of-top-once-more-is-the-program-faster-on-the-more-expensive-instance">3.2 Run and time your program on an EC2 instance with more vCPU's and a faster network and show the results of <code>top</code> once more. Is the program faster on the more expensive instance?</h4>
+<p>No; however, during my test I found that <strong>t2.nano</strong> runs faster and cheaper than our default <strong>t2.micro</strong> instance.</p>
+<p><img src="file:///s:\github\csus-computer-science-csc\stat196K-analyzing-and-processing-big-data\assignments\assignment05-h-streaming-large-text-file\results\allTypesResults02.png" alt="result"></p>
+<h4 id="33-are-you-benefitting-from-pipeline-parallelism">3.3 Are you benefitting from pipeline parallelism?</h4>
+<p>Generally yes; howver, we do have outliers that perform super duper amazing (t2.nano instance) and a disappointing results produced from the (t2.small instance).  Beyond that a majority of the instance have performed around and/or around 50 percent.</p>
+<h4 id="34-whats-the-bottleneck-now">3.4 What's the bottleneck now?</h4>
+<p>Still <code>gzip</code> and then <code>uniq</code>, but only because it's the only program to run last in my pipe.</p>
+<h4 id="35-compare-and-comment-on-the-financial-cost-of-using-a-more-expensive-instance-versus-the-t2micro">3.5 Compare and comment on the financial cost of using a more expensive instance versus the t2.micro</h4>
+<p>Is it worth it?  Yes only for the t2.nano instance.</p>
+<p><strong>Remember to terminate these more expensive machines immediately after you use them!</strong>
+Otherwise, you may quickly run through your $50 credit and have to spend your own money.
+<a href="https://s3.amazonaws.com/awseducate-starter-account-services/AWS_Educate_Starter_Accounts_and_AWS_Services.pdf">AWS Services Supported</a> says that our Educate accounts can only use these kinds of instances: &quot;t2.small&quot;, &quot;t2.micro&quot;, &quot;t2.nano&quot;, &quot;m4.large&quot;, &quot;c4.large&quot;, &quot;c5.large&quot;, &quot;m5.large&quot;, &quot;t2.medium&quot;, &quot;m4.xlarge&quot;, &quot;c4.xlarge&quot;, &quot;c5.xlarge&quot;, &quot;t2.2xlarge&quot;, &quot;m5.2xlarge&quot;, &quot;t2.large&quot;, &quot;t2.xlarge&quot;, &quot;m5.xlarge&quot;.</p>
+<h3 id="4---extra-credit-challenge">4 - Extra Credit Challenge</h3>
+<p><strong><em>0 pts, optional</em></strong></p>
+<p>Starting with the same 3.8 GB file on S3, calculate the summary statistics necessary for the histogram as fast as possible.
+You can use the shell or any other programming language together with any EC2 instance available through your AWS Educate account.
+Hint: look into software like <a href="https://www.gnu.org/software/parallel/">GNU parallel</a> and <a href="http://zlib.net/pigz/">pigz</a>.
+Turn in any extra code you write.
+The student with the fastest program gets a minimal amount of extra credit and a maximal amount of glory.</p>
+<hr>
+<h2 id="resources">Resources</h2>
+<p>Blog post <a href="https://loige.co/aws-command-line-s3-content-from-stdin-or-to-stdout/">streaming with S3</a></p>
+<ul>
+<li>
+<p>1 Subset</p>
+<p><strong>Download a small subset of the data (100 rows is plenty) to your personal computer, and examine it using any software you like. Briefly describe this subset of the data by picking out a couple rows that look interesting to you.</strong></p>
+<ul>
+<li>1.1 How many columns are there?
+<ul>
+<li><a href="https://stackoverflow.com/questions/15517363/how-to-count-number-of-tabs-in-each-line-using-shell-script">How to count number of tabs in each line using shell script?</a></li>
+<li><a href="https://linuxconfig.org/how-to-count-number-of-columns-in-csv-file-using-bash-shell">How to count number of columns in CSV file using bash shell</a></li>
+</ul>
+</li>
+<li>1.2 Do the data values in each column seem to match the column definitions?</li>
+<li>1.3 What character delimits the records?</li>
+<li>1.4 What is the CAMEO event code, what event does this correspond to, and what is the Goldstein score?
+<ul>
+<li><a href="http://data.gdeltproject.org/documentation/GDELT-Data_Format_Codebook.pdf">GDELT-Data_Format_Codebook.pdf</a></li>
+<li><a href="http://data.gdeltproject.org/documentation/GDELT-Event_Codebook-V2.0.pdf">THE GDELT EVENT DATABASE DATA FORMAT CODEBOOK V2.0</a></li>
+<li><a href="http://web.pdx.edu/~kinsella/jgscale.html">Goldstein Scale for WEIS Data</a></li>
+</ul>
+</li>
+<li>1.5 Are the URL's to the news articles still live, and do they match the CAMEO event code?</li>
+<li>1.6 Does the Goldstein score appear to be doing what it was designed to do?</li>
+</ul>
+</li>
+<li>
+<p>2 Histogram</p>
+<p><strong>Create a histogram of the Goldstein scores for all of 2018, using the integers as bin endpoints for the histogram. It's possible to do this in less than 10 minutes using a single shell pipeline on a t2 micro instance with 1 vCPU, 1 GiB memory, and 8 GiB storage.</strong></p>
+<ul>
+<li>2.1 How long does your program take to run?
+<ul>
+<li><a href="https://peteris.rocks/blog/pipes-as-input-output-files/">Pipes as input/output files</a></li>
+<li><a href="https://www.youtube.com/watch?v=sz_dsktIjt4&amp;ab_channel=MissingSemester">VIDEO - Cambridge Missing Semester Lecture 4: Data Wrangling (2020)</a></li>
+<li><a href="https://missing.csail.mit.edu/2020/data-wrangling/">Data Wrangling Lecture Notes</a></li>
+</ul>
+</li>
+<li>2.2 Explain in detail what each command in the pipeline does and how they work together
+<ul>
+<li><a href="https://docs.aws.amazon.com/cli/latest/reference/">aws options</a></li>
+</ul>
+</li>
+<li>2.3 Plot and interpret the histogram. You'll probably want to download the summary statistics (around 20 numbers) to your personal computer to plot the histogram. Do you notice anything strange?
+<ul>
+<li><a href="https://www.qimacros.com/histogram-excel/how-to-determine-histogram-bin-interval/">How to Determine Histogram Bin Width and Bin Intervals</a></li>
+<li><a href="https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data">How to plot a histogram using Matplotlib in Python with a list of data?</a></li>
+<li><a href="https://stackoverflow.com/questions/30606970/scp-first-line-of-a-file-to-another-system">SCP first line of a file to another system</a></li>
+<li><a href="https://unix.stackexchange.com/questions/188285/how-to-copy-a-file-from-a-remote-server-to-a-local-machine">How to copy a file from a remote server to a local machine?</a></li>
+<li><a href="https://stackoverflow.com/questions/1450393/how-do-you-read-from-stdin">How do you read from stdin?</a></li>
+<li><a href="https://www.geeksforgeeks.org/difference-between-input-and-sys-stdin-readline/">Difference between input() and sys.stdin.readline()</a></li>
+<li><a href="https://www.geeksforgeeks.org/python-pandas-dataframe/">Python | Pandas DataFrame</a></li>
+<li><a href="https://realpython.com/python-histograms/">Python Histogram Plotting: NumPy, Matplotlib, Pandas &amp; Seaborn</a></li>
+<li><s><a href="https://golangdocs.com/plotting-in-golang-histogram-barplot-boxplot">Plotting in Golang – Histogram, BarPlot, BoxPlot</a></s></li>
+</ul>
+</li>
+<li>2.4 Exactly how many events (rows) are in this data?</li>
+</ul>
+</li>
+<li>
+<p>3 Performance</p>
+<ul>
+<li>3.1 What are the bottlenecks?
+<ul>
+<li><a href="https://tmuxcheatsheet.com/">Tmux Cheat Sheet &amp; Quick Reference</a></li>
+</ul>
+</li>
+<li>3.2 Run and time your program on an EC2 instance with more vCPU's and a faster network and show the results of <code>top</code> once more. Is the program faster on the more expensive instance?</li>
+<li>3.3 Are you benefitting from pipeline parallelism?</li>
+<li>3.4 What's the bottleneck now?</li>
+<li>3.5 Compare and comment on the financial cost of using a more expensive instance versus the t2.micro.</li>
+</ul>
+</li>
+</ul>
+
+    </body>
+    </html>
