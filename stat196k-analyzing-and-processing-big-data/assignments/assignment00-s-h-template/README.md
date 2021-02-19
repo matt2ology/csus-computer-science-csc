@@ -2,7 +2,7 @@
 
 **Due** ... | **Points** % | **Submitting** ...
 
-Do the exercise on the bottom of []()
+Do the exercise on the bottom of [text](link)
 
 ---
 
@@ -30,4 +30,3 @@ Do the exercise on the bottom of []()
 ---
 
 ## Exercise
-
