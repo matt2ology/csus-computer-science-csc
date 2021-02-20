@@ -1,6 +1,6 @@
-# Example usage:
+# Example02 usage:
 #
-# $ seq 3 | julia hello2.jl bye
+# $ seq 3 | julia hello_example02.jl bye
 # hello 1bye
 # hello 2bye
 # hello 3bye

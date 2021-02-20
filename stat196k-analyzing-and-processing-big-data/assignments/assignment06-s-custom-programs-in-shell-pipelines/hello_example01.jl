@@ -1,6 +1,6 @@
 # Example01 usage:
 #
-# $ seq 3 | julia hello.jl
+# $ seq 3 | julia hello_example01.jl
 # hello 1
 # hello 2
 # hello 3
