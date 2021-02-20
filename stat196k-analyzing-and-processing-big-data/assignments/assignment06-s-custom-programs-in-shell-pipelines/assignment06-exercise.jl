@@ -2,4 +2,6 @@ function main()
     # do stuff
 end
 
-main()
+if abspath(PROGRAM_FILE) == @__FILE__
+    main()
+end
