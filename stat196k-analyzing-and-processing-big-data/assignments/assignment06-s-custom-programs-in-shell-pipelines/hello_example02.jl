@@ -1,13 +1,13 @@
 # Example02 usage:
 #
 # $ seq 3 | julia hello_example02.jl bye
-# hello 1bye
-# hello 2bye
-# hello 3bye
+# hello 1 bye
+# hello 2 bye
+# hello 3 bye
 
 
 function greet(x, after = "")
-    println("hello " * x * after)
+    println("hello " * x * " " * after)
 end
 
 
