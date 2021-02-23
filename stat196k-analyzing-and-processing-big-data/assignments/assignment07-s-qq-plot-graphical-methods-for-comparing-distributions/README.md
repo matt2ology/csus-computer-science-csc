@@ -1,5 +1,9 @@
 # S - QQ plot
 
+**Due** Thursday by 11:59pm | **Points** 5 | **Submitting** a file upload | **File Types** png, jpeg, jpg, and pdf
+
+Exercise at the bottom of http://webpages.csus.edu/fitzgerald/graphical-methods-for-comparing-distributions/
+
 - [S - QQ plot](#s---qq-plot)
   - [Announcements](#announcements)
   - [Resources](#resources)
@@ -10,10 +14,6 @@
   - [quantiles](#quantiles)
   - [QQ plots](#qq-plots)
   - [Exercise](#exercise)
-
-**Due** Thursday by 11:59pm | **Points** 5 | **Submitting** a file upload | **File Types** png, jpeg, jpg, and pdf
-
-Exercise at the bottom of http://webpages.csus.edu/fitzgerald/graphical-methods-for-comparing-distributions/
 
 ---
 
