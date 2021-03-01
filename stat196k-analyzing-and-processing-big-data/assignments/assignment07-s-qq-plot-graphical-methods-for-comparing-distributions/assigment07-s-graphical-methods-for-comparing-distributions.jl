@@ -9,6 +9,7 @@ function main()
 
     # Cosine Distribution
     ## The cosine Distribution is a probability distribution that is both continuous—for non-negative random variables—and stable.
+    # Object representing a cosine distribution
     cosine_distribution = Cosine(5)
     # Plots the probability density function (PDF) of the above cosine Distribution
     savefig(plot(cosine_distribution, lw=5 ,title="cosine Distribution With 5 Degrees of Freedom"), 
