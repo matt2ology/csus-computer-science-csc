@@ -12,7 +12,7 @@ function main()
     # Object representing a cosine distribution
     cosine_distribution = Cosine(5)
     # Plots the probability density function (PDF) of the above cosine Distribution
-    savefig(plot(cosine_distribution, lw=5 ,title="cosine Distribution With 5 Degrees of Freedom"), 
+    savefig(plot(cosine_distribution, lw=5 ,title="Cosine Distribution With 5 Degrees of Freedom"), 
             OUTPUT_FOLDER_PATH * "cosine-distribution-with-5-degrees-of-freedom")
 
     # Histograms
