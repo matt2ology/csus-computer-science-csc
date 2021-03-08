@@ -1,4 +1,5 @@
 using Logging
+
 """
     shuf.jl
 works for the following cases:
@@ -17,36 +18,23 @@ works for the following cases:
 ```
 New test cases :
 ```bash
-$ time seq 1e9 | julia shuf.jl samples 100 integers from 1 to 1 billion
+\$ time seq 1e9 | julia shuf.jl samples 100 integers from 1 to 1 billion
 ```
 """
 
-function reservoir_sample_simple()
-    reservoirArray = [] # 0-element Array{Int64,1}
-    resultArray = [] # 0-element Array{Int64,1}
+function reservoir_sample_simple(inputStream, reservoir_size=100)
+    reservoirArray = Any[]
     # fill the reservoir array
-    for line in eachline()
+    for line in eachline(inputStream)
         push!(reservoirArray, line)
-        @info "Data streamed-in " * line, reservoirArray
     end
-    lengthOfReservoirArray = length(reservoirArray)
-    count = lengthOfReservoirArray + 1
-    @info "Data: " lengthOfReservoirArray random_index
-    # replace elements with gradually decreasing probability
-    
-end
-
-function reservoir_sample_simple02(stream, size=100)
-    sample = Array{eltype(stream)}(size)
-    for i in 1:size
-        sample[i] = splice!(stream, rand(eachindex(stream)))
-    end
-    return sample
+    return reservoirArray
 end
 
 function main()
-    println(reservoir_sample_simple02(stdin))
-    
+    for element in reservoir_sample_simple(stdin)
+        println(element)
+    end
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
