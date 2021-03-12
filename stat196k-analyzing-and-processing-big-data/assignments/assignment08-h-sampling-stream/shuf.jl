@@ -1,5 +1,5 @@
 using Logging
-
+using ArgParse
 """
     shuf.jl
 works for the following cases:
@@ -22,21 +22,51 @@ New test cases :
 ```
 """
 
-function reservoir_sample_simple(inputStream, reservoir_size=100)
-    reservoirArray = Any[]
+function get_user_sample_size()
+    return parse(Int, ARGS[1])
+end
+
+# Separate function into something that works on any data stream
+function reservoir_sample_simple(stream_of_inputs, reservoir_size=100)
+    numberOfLines = 0
+
+    reservoirArray = Any[zeros(Int,1,reservoir_size)]
+
+    @info reservoirArray size(reservoirArray)
     # fill the reservoir array
-    for line in eachline(inputStream)
-        push!(reservoirArray, line)
+    for (index,line) in eachline(stream_of_inputs)
+        if index <= reservoir_size
+            #push!(reservoirArray, line)
+            numberOfLines += 1
+        else
+            break
+        end
     end
-    return reservoirArray
+    println(length(reservoirArray))
+    # replace elements with gradually decreasing probability
+    ## i = 0
+    ## for element in reservoirArray
+    ##     randomNumber = rand(1:length(reservoirArray))
+    ##     if randomNumber < numberOfLines
+    ##         push!(resultArray, element)
+    ##     end
+    ## end
+    ## return resultArray
 end
 
 function main()
-    for element in reservoir_sample_simple(stdin)
-        println(element)
+    try
+        reservoir_sample_simple(stdin,get_user_argument_number())
+    catch 
+        reservoir_sample_simple(stdin)
     end
+    #for element in reservoir_sample_simple(stdin)
+    #    println(element)
+    #end
+    # reservoir_sample_simple(stdin)
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
     main()
 end
+
