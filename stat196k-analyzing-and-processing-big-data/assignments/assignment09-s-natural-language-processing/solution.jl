@@ -46,7 +46,7 @@ function question4()
     prepare!(CORPUS, strip_punctuation | strip_case | stem_words)
     @info "Preprocess document or corpus based on the input flags: strip punctuation, replace upper case with lower case, and stem all words" prepare!(CORPUS, strip_punctuation | strip_case | stem_words)
     update_lexicon!(CORPUS)
-    @info "update_lexicon!(CORPUS)" update_lexicon!(CORPUS)
+    @info "update_lexicon!(CORPUS)" update_lexicon!(CORPUS) lexicon(CORPUS)
     @info "CORPUS WITH update_lexicon" CORPUS
     document_term_matrix = DocumentTermMatrix(CORPUS)
     @info "DocumentTermMatrix(CORPUS) <-- A DocumentTermMatrix object is a special type: " document_term_matrix
@@ -79,17 +79,18 @@ function question5()
     println(text(DOCUMENT02))
     crps = Corpus([StringDocument(text(DOCUMENT01)),
                              StringDocument(text(DOCUMENT02))])
-    update_lexicon!(crps)
+    @info "" update_lexicon!(crps)
+    @info "" lexicon(crps)
     document_term_matrix = DocumentTermMatrix(crps)
     @info "A DocumentTermMatrix object is a special type. If you would like to use a simple sparse matrix, call dtm() on this object:" dtm(document_term_matrix)
     @info "If you would like to use a dense matrix instead, you can pass this as an argument to the dtm function:" dtm(document_term_matrix, :dense)
 end
 
 function main()
-    question3()
-    println("\n")
-    question4()
-    println("\n")
+    # question3()
+    # println("\n")
+    # question4()
+    # println("\n")
     question5()
 end
 
