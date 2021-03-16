@@ -36,5 +36,5 @@ their descriptions.
 
 ## References
 
-- [^1]: [Learn the use of footnotes in Markdown](https://www.markdownguide.org/extended-syntax/#footnotes)
+- [^1]: [MarkdownFootnotes](https://www.markdownguide.org/extended-syntax/#footnotes)
 - d
