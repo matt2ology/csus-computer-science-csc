@@ -26,15 +26,14 @@
                 201943609349300809_public.xml
                 201943609349300904_public.xml
 
+---
+
 ## Assignment
 
-Use NLP to convert[^1] the text descriptions of each nonprofit into the rows of one
-big document term matrix. The resulting matrix will have one row for every 990
-form that has a description, and one column for every word in the lexicon. In
-the next assignment we will use this matrix to cluster the nonprofits based on
-their descriptions.
+Use NLP, Natural Language Processing, to convert the text descriptions of each
+nonprofit into the rows of one big document term matrix. The resulting matrix
+will have one row for every 990 form that has a description, and one column for
+every word in the lexicon. In the next assignment we will use this matrix to
+cluster the nonprofits based on their descriptions.
 
 ## References
-
-- [^1]: Footnotes learned here <https://www.markdownguide.org/extended-syntax/#footnotes>
-- d
