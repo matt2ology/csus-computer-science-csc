@@ -7,6 +7,8 @@ the next assignment we will use this matrix to cluster the nonprofits based on
 their descriptions. 
 =#
 
+using EzXML # For XML/HTML handling tools for primates
+
 function main()
     # do stuff
 end
