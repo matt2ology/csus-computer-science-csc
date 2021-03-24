@@ -50,7 +50,7 @@ public class LinkedList {
         public Object getElement() {
             return Data;
         }
-    }
+    } // END OF private class Node
 
     //Internal data for LinkedList
     private Node head = null;
