@@ -40,9 +40,15 @@ cluster the nonprofits based on their descriptions.
 
 ### Your program should do the following
 
-1. Extract the organization name, one or more text elements that describe the nonprofit, and another element that can be used as a proxy for size, such as revenue, number of employees, etc.
-   1. Organization name `<BusinessName>`
+1. Extract the organization name, one or more text elements that describe the
+   nonprofit, and another element that can be used as a proxy for size, such as
+   revenue, number of employees, etc.
+
+   1. Organization name 
+      1. `<BusinessName>`
    2. Nonprofit description
+   3. Revenue
+   4. Number of employees
 
 2. Process the text descriptions using a similar process as [described in class](Introduction%20Natural%20Language%20Processing%20-%20Clark%20Fitzgerald.pdf).
 3. Create and save the term document matrix.
@@ -59,8 +65,21 @@ cluster the nonprofits based on their descriptions.
 
 ## References
 
+- [Installing, updating, and uninstalling the AWS CLI version 2 on Linux](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
 - [JuliaIO/EzXML - XML/HTML handling tools for primates](https://juliahub.com/ui/Packages/EzXML/Hh8vo/1.1.0)
   - Install EzXML.jl as follows:
     > julia -e 'using Pkg; Pkg.add("EzXML")'
 - [XPath Syntax](https://www.w3schools.com/xml/xpath_syntax.asp)
 - [Search for files in a folder](https://stackoverflow.com/questions/20484581/search-for-files-in-a-folder)
+- [Julia: OOP or not](https://stackoverflow.com/questions/33755737/julia-oop-or-not#:~:text=Julia%20is%20not%20object%2Doriented,very%20similar%20to%20objects%20though.&text=So%20you%20can%20do%20a,distinctly%20different%20than%20OOP%20languages.)
+  - SO FUSTRATING THIS ASSIGNMENT WOULD BE A LOT EASIER IF I CAN UTILIZE  
+    POLYMORPHISM
+- [Class demonstration](990_from_class_example.jl)
+  - If you assign/return `findfirst("//Desc/text()", doc)` the XML node is given.
+    So, rather than text contained in the node what is given is the XML node
+    meaning that entire XML document continues to exist in memory, which will
+    use up all the memory, even if you have an instance with 32 GB of memory.
+    - The way to fix this is to return only
+      `nodecontent(findfirst("//Desc/text()", doc))`
+- [rofinn/FilePaths ](https://juliahub.com/ui/Packages/FilePaths/PrU4O/0.8.2)
+  - A type based approach to working with filesystem paths in julia
