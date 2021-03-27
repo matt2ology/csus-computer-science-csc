@@ -44,7 +44,7 @@ cluster the nonprofits based on their descriptions.
    nonprofit, and another element that can be used as a proxy for size, such as
    revenue, number of employees, etc.
 
-   1. Organization name 
+   1. Organization name
       1. `<BusinessName>`
    2. Nonprofit description
    3. Revenue
