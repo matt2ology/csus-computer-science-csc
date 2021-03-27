@@ -2,31 +2,31 @@
 # 
 # designing functions
 # debugging
-#
+# 
 # Notes: 
 # http://webpages.csus.edu/fitzgerald/julia-debugger-tutorial/
-#
-#
-#Side note: for interview:
+# 
+# 
+# Side note: for interview:
 # Make sure you have ready answers for these questions:
-#
+# 
 # Prepare like 5 or so examples in your head.
-#
+# 
 # 1. Why do you want to come / work here?
 # 2. What does your development process look like when analyzing data?
 # 3. Tell us about a time you failed.
 # 4. 
-#
+# 
 # What does your development process look like when analyzing data?
 # For example:
-#
+# 
 # How do you write code?
 # When do you write a function?
 # How do you write a function?
 # What do you do when you encounter an error?
-#
 # 
-#
+# 
+# 
 # Debuggers save you time, and improve your mental model of the language.
 
 
@@ -62,10 +62,10 @@ c2 = getcontent2(f, "//Desc/text()")
 # another option:
 # process all the files that we have.
 
-files2019 = readdir("2019irs990/", join = true)
+files2019 = readdir("2019irs990/", join=true)
 
 # How to process the files? <--
-#
+# 
 # Will getcontent work directly on these files?
 # 123 GO- yes, no, idk
 
@@ -81,13 +81,13 @@ break_on(:error)
 # xmlfile
 # xpath
 # doc
-#
-#
+# 
+# 
 
 """
     Read an XML file and extract text for a node of interest
 """
-function getcontent3(xmlfile, xpath = "//Desc/text()")
+function getcontent3(xmlfile, xpath="//Desc/text()")
     doc = readxml(xmlfile)
     d = findfirst(xpath, doc)
     nodecontent(d)
@@ -107,7 +107,7 @@ function getcontent4(xmlfile)
     
     d = findfirst("//Desc/text()", doc)
 
-    #<Description>PROVIDED FOOD, CLOTHING, SHELTER AND EDUCATION FOR HUNDREDS OF HOMELESS WOMEN AND CHILDREN IN AFGHANISTAN</Description>
+    # <Description>PROVIDED FOOD, CLOTHING, SHELTER AND EDUCATION FOR HUNDREDS OF HOMELESS WOMEN AND CHILDREN IN AFGHANISTAN</Description>
     if isnothing(d)
         d = findfirst("//Description/text()", doc)
     end
