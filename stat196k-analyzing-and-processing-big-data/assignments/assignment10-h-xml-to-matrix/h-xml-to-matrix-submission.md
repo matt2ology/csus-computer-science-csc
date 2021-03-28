@@ -84,6 +84,6 @@ cluster the nonprofits based on their descriptions.
 - [rofinn/FilePaths ](https://juliahub.com/ui/Packages/FilePaths/PrU4O/0.8.2)
   - A type based approach to working with filesystem paths in julia
 - [About IRSx.info](http://www.irsx.info/metadata/forms.html)
-  - This project was originally built for ProPublica, an independent, nonprofit\
-    newsroom that runs NonProfit Explorer, a database of nonprofit organizations,\
+  - This project was originally built for ProPublica, an independent, nonprofit
+    newsroom that runs NonProfit Explorer, a database of nonprofit organizations,
     their tax returns, and federal audits of them when available.
