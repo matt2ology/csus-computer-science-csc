@@ -8,12 +8,13 @@ their descriptions. =#
 
 using EzXML # For XML/HTML handling tools for primates
 
-
-
 function main()
     IRS990_FILEPATHS = readdir("data/2019", join=true) # Array of file paths
-    document = readxml("201900079349100000_public.xml")
-
+    # reads the entire XML file
+    document = readxml("example/201900079349100000_public.xml")
+    for file in IRS990_FILEPATHS
+        println(file)
+    end
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
