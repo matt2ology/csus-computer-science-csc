@@ -45,6 +45,7 @@ function get_organization_name(document, array_of_xpath_strings)
     # If none of the Xpath values are found `missing` will be returned
     return missing
 end
+
 """
     get_nonprofit_description(document,array_of_xpath_strings)
 Takes in a document and an array of _Nonprofit Description_ Xpath strings to find,
@@ -68,6 +69,7 @@ function get_nonprofit_description(document, array_of_xpath_strings)
     # If none of the Xpath values are found `missing` will be returned
     return missing
 end
+
 """
     get_revenue(document,array_of_xpath_strings)
 Takes in a document and an array of _Revenue_ Xpath strings to find,
@@ -91,6 +93,7 @@ function get_revenue(document, array_of_xpath_strings)
     # If none of the Xpath values are found `missing` will be returned
     return missing
 end
+
 """
     get_number_of_employees(document,array_of_xpath_strings)
 Takes in a document and an array of _Number of Employees_ Xpath strings to find,
