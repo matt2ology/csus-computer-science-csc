@@ -29,7 +29,7 @@ and returns the first one that matches the document. If Xpath not found will
 return `missing`
 """
 function get_organization_name(document, array_of_xpath_strings)
-    @info "Searching for organization_name"
+    @info "Searching for organization_name..."
     for xpath in array_of_xpath_strings
         found_xml_node = findfirst(xpath, document)
         """
@@ -52,7 +52,7 @@ and returns the first one that matches the document. If Xpath not found will
 return `missing`
 """
 function get_nonprofit_description(document, array_of_xpath_strings)
-    @info "Searching for nonprofit_description"
+    @info "Searching for nonprofit_description..."
     for xpath in array_of_xpath_strings
         found_xml_node = findfirst(xpath, document)
         """
@@ -75,7 +75,7 @@ and returns the first one that matches the document. If Xpath not found will
 return `missing`
 """
 function get_revenue(document, array_of_xpath_strings)
-    @info "Searching for revenue"
+    @info "Searching for revenue..."
     for xpath in array_of_xpath_strings
         found_xml_node = findfirst(xpath, document)
         """
@@ -98,7 +98,7 @@ and returns the first one that matches the document. If Xpath not found will
 return `missing`
 """
 function get_number_of_employees(document, array_of_xpath_strings)
-    @info "Searching for number_of_employees"
+    @info "Searching for number_of_employees..."
     for xpath in array_of_xpath_strings
         found_xml_node = findfirst(xpath, document)
         """
