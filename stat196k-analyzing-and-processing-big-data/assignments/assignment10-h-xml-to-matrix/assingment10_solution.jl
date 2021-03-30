@@ -17,11 +17,21 @@ A wrapper function to collect the respective data and place results into a dicti
 function get_content(xml_file)
     @info "Getting content"
     document = readxml(xml_file)
-    organization_name = get_organization_name(document, ["//ReturnHeader/Filer/BusinessName/BusinessNameLine1Txt", "//IRS990/DoingBusinessAsName/BusinessNameLine1Txt"])
-    organization_description = get_nonprofit_description(document, ["//IRS990/ActivityOrMissionDesc", "//IRS990/Desc", "//IRS990EZ/ProgramSrvcAccomplishmentGrp/DescriptionProgramSrvcAccomTxt"])
-    organization_revenue = get_revenue(document, ["//IRS990/RevenueAmt", "//IRS990/TotalRevenueGrp/TotalRevenueColumnAmt"])
+    organization_name = get_organization_name(document, 
+                                ["//ReturnHeader/Filer/BusinessName/BusinessNameLine1Txt",
+                                 "//IRS990/DoingBusinessAsName/BusinessNameLine1Txt"])
+    organization_description = get_nonprofit_description(document, 
+                                ["//IRS990/ActivityOrMissionDesc",
+                                 "//IRS990/Desc",
+                                 "//IRS990EZ/ProgramSrvcAccomplishmentGrp/DescriptionProgramSrvcAccomTxt"])
+    organization_revenue = get_revenue(document, 
+                                ["//IRS990/RevenueAmt",
+                                 "//IRS990/TotalRevenueGrp/TotalRevenueColumnAmt"])
     @info "Building dictionary"
-    Dict("file" => xml_file, "organization" => organization_name, "description" => organization_description, "size_proxy" => organization_revenue)
+    Dict("file" => xml_file,
+         "organization" => organization_name,
+         "description" => organization_description,
+         "size_proxy" => organization_revenue)
 end
 
 """
@@ -140,7 +150,7 @@ function main()
     @info "Creating the term document matrix"
     CORPUS = Corpus(testStrings)
     remove_case!(CORPUS)
-    prepare!(CORPUS,strip_punctuation)
+    prepare!(CORPUS, strip_punctuation)
     stem!(CORPUS)
     standardize!(CORPUS, StringDocument)
     update_lexicon!(CORPUS)
