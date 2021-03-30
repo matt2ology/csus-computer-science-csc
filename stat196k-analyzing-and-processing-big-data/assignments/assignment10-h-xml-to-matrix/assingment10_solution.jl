@@ -10,7 +10,6 @@ using EzXML # For XML/HTML handling tools for primates
 
 function main()
     IRS990_FILE = readdir("data/2019/", join=true) # Array of file paths
-    println(getcontent3("example/201900079349100000_public.xml", "//Desc/text()"))
 
 end
 
