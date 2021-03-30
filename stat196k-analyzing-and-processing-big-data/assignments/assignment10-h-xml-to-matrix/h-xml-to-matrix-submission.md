@@ -173,9 +173,15 @@ cluster the nonprofits based on their descriptions.
    > test
 4. How long did your program take to run? (It should be less than half an hour,
    but no problem if it takes longer, either.)
-   > test
+   > Too long I had my system's thermal managment configured for "cool" where
+   > the processor is adjusted to help maintain a cooler system; as a result,
+   > thats meant most of the operation was running in a reduced system peformance.
+   > In addition it was probably slowed due to my `@info` statements
+   >
+   > Nevertheless, it took about a hour or so...
 5. Which part of the program took the longest?
-   > test
+   > maping of the data; for, the program has to go to each of the file, search
+   > its contents, and then build out the dictionary.
 
 ## References
 
