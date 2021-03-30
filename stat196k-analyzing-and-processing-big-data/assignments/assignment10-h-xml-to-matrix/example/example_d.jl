@@ -1,6 +1,6 @@
 using EzXML
-using Debugger
-break_on(:error)
+## using Debugger
+## break_on(:error)
 
 """
     Read an XML file and extract text for a node of interest
@@ -8,10 +8,10 @@ break_on(:error)
 function getcontent3(xmlfile, xpath="//Desc/text()")
     doc = readxml(xmlfile)
     d = findfirst(xpath, doc)
-    nodecontent(d)
+    return nodecontent(d)
 end
 
-files2019 = readdir("data/2019/", join=true)
+files2019 = readdir("sample-data/2019-sample", join=true)
 
-# Is this the same error? No.
-@run descriptions = map(getcontent3, files2019)
+## @run descriptions = map(getcontent3, files2019)
+descriptions = map(getcontent3, files2019)

@@ -1,6 +1,6 @@
 using EzXML
-using Debugger
-break_on(:error)
+## using Debugger
+## break_on(:error)
 
 function getcontent2(xmlfile, xpath)
     doc = readxml(xmlfile)
@@ -8,15 +8,10 @@ function getcontent2(xmlfile, xpath)
     nodecontent(d)
 end
 
-# another option:
-# process all the files that we have.
+files2019 = readdir("sample-data/2019-sample/", join=true)
+file = "201900079349100000_public.xml"
+## @run descriptions = map(getcontent2, files2019, "//Desc/text()")
+descriptions = map(getcontent2, file, "//Desc/text()")
 
-files2019 = readdir("data/2019/", join=true)
-
-# How to process the files? <--
-# 
-# Will getcontent work directly on these files?
-# 123 GO- yes, no, idk
-
-# Goal: apply getcontent2 to all of our files
-@run descriptions = map(getcontent2, files2019, "//Desc/text()")
+@info "example_c.jl" file descriptions
+@info "example_c.jl" typeof(file) typeof(descriptions)
