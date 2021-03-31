@@ -5,22 +5,10 @@
   - [Announcements](#announcements)
   - [Data](#data)
   - [Assignment](#assignment)
-    - [Your program should do the following](#your-program-should-do-the-following)
-    - [Run your program, and report the following](#run-your-program-and-report-the-following)
-
-  - [Goals](#goals)
-  - [Announcements](#announcements)
-  - [Data](#data)
-  - [Assignment](#assignment)
-
-    - [Your program should do the following](#your-program-should-do-the-following)
-    - [Run your program, and report the following](#run-your-program-and-report-the-following)
-
-  - [Announcements](#announcements)
-  - [Data](#data)
-  - [Assignment](#assignment)
-    - [Your program should do the following](#your-program-should-do-the-following)
-    - [Run your program, and report the following](#run-your-program-and-report-the-following)
+    - [Script](#script)
+    - [Questions](#questions)
+    - [Submission](#submission)
+    - [Extra Credit](#extra-credit)
 
 ## Goals
 
@@ -45,9 +33,8 @@ aws s3 cp s3://stat196k-data-examples/2019irs990.zip ./ --no-sign-request
 This will download a 2.8 GB zip file containing around a half million IRS 990
 forms for 2019. When you unzip it, the directory will be 16 GB on disk. This
 means you'll need to use an EC2 instance with at least 22 GB of hard drive
-available. These files are not the same as the ones provided by AWS; I removed
-the schema to make them easier to process. For the curious,
-[this shell script creates the zip file](https://github.com/clarkfitzg/stat196K/blob/main/irs990.sh).
+available. These files are not the same as the ones [provided by AWS](https://registry.opendata.aws/irs990/); I removed the schema to make them easier to process.
+For the curious, [this shell script, irs990.sh, creates the zip file](https://github.com/clarkfitzg/stat196K/blob/main/irs990.sh).
 
 ## Assignment
 
@@ -57,7 +44,9 @@ form that has a description, and one column for every word in the lexicon. In
 the next assignment we will use this matrix to cluster the nonprofits based on
 their descriptions.
 
-### Your program should do the following
+### Script
+
+**Write a Julia script to process the data, including the following steps:**
 
 1. Extract the organization name, one or more text elements that describe the
    nonprofit, and another element that can be used as a proxy for size, such as
@@ -65,12 +54,52 @@ their descriptions.
 2. Process the text descriptions using a similar process as [described in class](Introduction%20Natural%20Language%20Processing%20-%20Clark%20Fitzgerald.pdf).
 3. Create and save the term document matrix.
 
-### Run your program, and report the following
+\* _If you want to use another language then you may, but you're on your own for support._
+
+### Questions
+
+**Run your program, and report the following**
 
 1. How many of the returns were you able to process?
-2. Show one explicit example of how you processed the text.
-   What was the input and output?
+
+2. Show and interpret one explicit example of what you extracted from one tax
+   return, including the text description before and after processing.
+
 3. What are the dimensions of your term document matrix?
-4. How long did your program take to run? (It should be less than half an hour,
-   but no problem if it takes longer, either.)
-5. Which part of the program took the longest?
+
+4. How long did your program take to run? (Less than 30 minutes is easily
+   attainable, but no problem if it takes longer, either.)
+
+5. Which parts of the program took the longest time to run?
+
+### Submission
+
+Turn in a single PDF file or text document answering these questions and include
+the text of your script either at the end of the document, or in the body,
+Jupyter Notebook style. I only want to look at one document, which is different
+than previous assignments.
+
+For resubmissions, leave a comment in the submission comments box saying what you changed.
+
+### Extra Credit
+
+Worth 1 point, but so much glory.
+
+Implement an approach to "unsplit" the concatenated words that we saw in the
+description field, for example:
+
+    THE GNU PROJECT DOES COLLABORATIVE DEVELOPMENT AND DISTRIBUTION OF ANOPERATING SYSTEM (OS)
+    THAT RESPECTS USERS' FREEDOM. GNU SOFTWARE ISLICENSED FREELY SO THAT USERS CAN RUN, SHARE,
+    STUDY AND MODIFY ITHOWEVER IS BEST FOR THEM. THE GNU SYSTEM IS USED MOST POPULARLY WITHTHE
+    KERNEL LINUX, FORMING THE GNU/LINUX OS USED ON MILLIONS OFCOMPUTERS WORLDWIDE, INCLUDING THE
+    MAJORITY OF WEB AND EMAIL SERVERS. THE FSF SUPPORTS GNU WITH RESOURCES FOR COORDINATION,
+    PLANNING,SOFTWARE DEVELOPMENT INFRASTRUCTURE, WEB AND DOWNLOAD HOSTING,COPYRIGHT STEWARDSHIP,
+    PROGRAMMING WORK, AND PUBLIC PROMOTION.
+
+**This contains obvious errors:**
+
+- `ANOPERATING` should be `AN OPERATING`
+- `ISLICENSED` should be `IS LICENSED`
+- `ITHOWEVER` should be `IT HOWEVER`
+- `WITHTHE` should be `WITH THE`
+- and so on...
