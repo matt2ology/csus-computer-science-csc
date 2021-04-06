@@ -21,8 +21,8 @@ function get_content(xml_file)
                                 ["//ReturnHeader/Filer/BusinessName/BusinessNameLine1Txt",
                                  "//IRS990/DoingBusinessAsName/BusinessNameLine1Txt"])
     organization_description = get_nonprofit_description(document, 
-                                ["//IRS990/ActivityOrMissionDesc",
-                                 "//IRS990/Desc",
+                                ["//IRS990/Desc",
+                                "//IRS990/ActivityOrMissionDesc",
                                  "//IRS990EZ/ProgramSrvcAccomplishmentGrp/DescriptionProgramSrvcAccomTxt"])
     organization_revenue = get_revenue(document, 
                                 ["//IRS990/RevenueAmt",
@@ -30,7 +30,7 @@ function get_content(xml_file)
     @info "Building dictionary"
     Dict("file" => xml_file,
          "organization" => organization_name,
-         "description" => organization_description,
+         "activity_mission_description" => organization_description,
          "size_proxy" => organization_revenue)
 end
 
@@ -131,21 +131,31 @@ function get_number_of_employees(document, array_of_xpath_strings)
 end
 
 function main()
-    IRS990_2019_FILES = readdir("data/2019/", join=true) # Array of file paths
+    IRS990_2019_FILES = readdir("example/sample-data/2019-sample/", join=true) # Array of file paths
     
     dictionary_of_xml_node_text = Dict()
     dictionary_of_xml_node_text = map(get_content, IRS990_2019_FILES)
 
     @info "Processing description text"
-    description = [entry["organization_description"] for entry in dictionary_of_xml_node_text]
-    
-    string_test = [StringDocument(" ")]
-    collection_of_files_processed = collect(Int, size(IRS990_2019_FILES))
-    for file in 1:collection_of_files_processed[1]
-        push!(string_test, StringDocument(description[file]))
+   # description_text = [entry["activity_mission_description"] for entry in dictionary_of_xml_node_text]
+   # 
+   # string_test = [StringDocument(" ")]
+   # collection_of_files_processed = collect(Int, size(IRS990_2019_FILES))
+   # for file in 1:collection_of_files_processed[1]
+   #     push!(string_test, StringDocument(description_text[file]))
+   # end
+   # 
+   # println("The total number of processed description text: ", collection_of_files_processed[1])
+
+    m = [x["activity_mission_description"] for x in dictionary_of_xml_node_text]
+
+    testStrings = [StringDocument(" ")]
+    x = collect(Int, size(IRS990_2019_FILES))
+    for i in 1:x[1]
+        push!(testStrings, StringDocument(m[i]))
     end
 
-    println("The total number of processed description text: ", collection_of_files_processed[1])
+    println("The count of how many were processed was: ", x[1])
 
     @info "Creating the term document matrix"
     CORPUS = Corpus(testStrings)
