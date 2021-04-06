@@ -1,4 +1,4 @@
-# S - Hypothetical Examples of Clusters
+# S - Hypothetical Examples of Clusters - Response
 
 **Due** Apr 8 | **Points** 5 points possible | **Submitting** discussion
 
@@ -14,4 +14,4 @@ to collect the data.
 ## Response
 
 Suppose we have a data set of people who pronounce caramel as caramel and people
-who prounounce GIF as GIF 
+who prounounce GIF as GIF
