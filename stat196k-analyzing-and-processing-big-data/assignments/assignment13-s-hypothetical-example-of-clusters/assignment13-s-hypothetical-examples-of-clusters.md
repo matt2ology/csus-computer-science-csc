@@ -14,7 +14,7 @@ to collect the data.
 ## Response
 
 A game that started a multibillion-dollar franchise, generated fans of young and 
-old, the original Pokémon games versions Red and Green was published in 1996 for 
+old, the original Pokémon games versions Red and Green were published in 1996 for 
 the Gameboy. Suppose that we had a data set of children who played the games for 
 a random sample of children who picked `Bulbasaur` (a `grass type`), `Charmander` 
 (a `fire type`), or `Squirtle` (a `water type`) as their Starter Pokémon.
