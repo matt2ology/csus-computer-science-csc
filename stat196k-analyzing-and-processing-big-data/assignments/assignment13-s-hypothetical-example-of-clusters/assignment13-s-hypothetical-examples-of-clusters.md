@@ -26,4 +26,4 @@ knowledge that Brock, the first Gym Leader, is a `rock type` Gym Lea
 successful and well-off Adults were children who picked `Squirtle` as their
 Starter Pokémon because `water type` Pokémon are `super effective` against `rock types`.
 
-![What would YOU do for a time machine?](be_like_water.jpeg)
+![What would YOU do for a time machine?](./be_like_water.jpeg)
