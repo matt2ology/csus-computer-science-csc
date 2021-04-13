@@ -6,10 +6,10 @@ function main()
     terms = Serialization.deserialize("./data/terms.jldata")
     
     @info "" length(irs990extract) size(termfreq) length(terms)
-    println()
+    println() # Blank lines for white space between outputs
     
     println(join(terms[termfreq[55, 1:end].nzind]," "))
-    println()
+    println() # Blank lines for white space between outputs
     println(lowercase(irs990extract[55]["mission"]))
 
 end
