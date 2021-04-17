@@ -8,11 +8,11 @@
   - [Dates](#dates)
   - [Resources](#resources)
   - [Data](#data)
-  - [1 Exploratory Data Analysis](#1-exploratory-data-analysis)
-  - [2 Selecting a Subset](#2-selecting-a-subset)
-  - [3 Principal Components Analysis](#3-principal-components-analysis)
-  - [4 Clustering](#4-clustering)
-  - [5 Extra Credit](#5-extra-credit)
+  - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
+  - [2. Selecting a Subset](#2-selecting-a-subset)
+  - [3. Principal Components Analysis](#3-principal-components-analysis)
+  - [4. Clustering](#4-clustering)
+  - [5. Extra Credit](#5-extra-credit)
 
 ## Some Rubric
 
@@ -76,7 +76,7 @@ Once you unzip the file, you can load each object into Julia as follows.
 terms = Serialization.deserialize("terms.jldata")
 ```
 
-## 1 Exploratory Data Analysis
+## 1. Exploratory Data Analysis
 
 (5 pts)
 
@@ -91,7 +91,7 @@ terms = Serialization.deserialize("terms.jldata")
 
 Come up with your own question similar to the questions above, and answer it.
 
-## 2 Selecting a Subset
+## 2. Selecting a Subset
 
 (5 pts)
 
@@ -104,7 +104,7 @@ Try using a subset of the data, the most important subset.
 
 We'll use this subset for the remainder of the assignment.
 
-## 3 Principal Components Analysis
+## 3. Principal Components Analysis
 
 (5 pts)
 
@@ -125,7 +125,7 @@ Hints:
 1. Transpose the matrix to follow the structure described in the [MultivariateStats documentation](https://multivariatestatsjl.readthedocs.io/en/stable/pca.html#fit)
 1. If the program is too slow, try converting from a dense to a sparse matrix.
 
-## 4 Clustering
+## 4. Clustering
 
 (5 pts)
 
@@ -159,7 +159,7 @@ function close_centroids(knn_model)
 end
 ```
 
-## 5 Extra Credit
+## 5. Extra Credit
 
 (1 pt)
 
