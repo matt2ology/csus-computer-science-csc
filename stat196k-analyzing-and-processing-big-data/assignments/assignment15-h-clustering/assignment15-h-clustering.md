@@ -6,7 +6,7 @@
   - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
   - [2. Selecting a Subset](#2-selecting-a-subset)
   - [3. Principal Components Analysis](#3-principal-components-analysis)
-    - [H.ints](#hints)
+    - [Hints](#hints)
   - [4. Clustering](#4-clustering)
   - [5. Extra Credit](#5-extra-credit)
 
