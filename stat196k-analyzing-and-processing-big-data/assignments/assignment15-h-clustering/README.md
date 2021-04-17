@@ -17,7 +17,7 @@
 ## Some Rubric
 
 | Criteria  | Ratings    |             |             |                |                 |          | Pts              |
-| :-------- | :--------- | :---------- | :---------- | :------------- | :-------------- | :------- | :--------------- |
+| :--------: | :--------- | :---------- | :---------- | :------------- | :-------------- | :------- | :--------------- |
 | Outcome Q1 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
 |           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
 | Outcome Q2 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
