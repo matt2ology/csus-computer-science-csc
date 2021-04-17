@@ -8,11 +8,11 @@
   - [Dates](#dates)
   - [Resources](#resources)
   - [Data](#data)
-  - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
-  - [2. Selecting a Subset](#2-selecting-a-subset)
-  - [3. Principal Components Analysis](#3-principal-components-analysis)
-  - [4. Clustering](#4-clustering)
-  - [5. Extra Credit](#5-extra-credit)
+  - [1. Exploratory Data Analysis (5 pts)](#1-exploratory-data-analysis-5-pts)
+  - [2. Selecting a Subset (5 pts)](#2-selecting-a-subset-5-pts)
+  - [3. Principal Components Analysis (5 pts)](#3-principal-components-analysis-5-pts)
+  - [4. Clustering (5 pts)](#4-clustering-5-pts)
+  - [5. Extra Credit (1 pt)](#5-extra-credit-1-pt)
 
 ## Some Rubric
 
@@ -76,9 +76,7 @@ Once you unzip the file, you can load each object into Julia as follows.
 terms = Serialization.deserialize("terms.jldata")
 ```
 
-## 1. Exploratory Data Analysis
-
-(5 pts)
+## 1. Exploratory Data Analysis (5 pts)
 
 1. Relatively how many terms appear in exactly one document?
 2. Relatively how many terms appear at least 5 times?
@@ -91,9 +89,7 @@ terms = Serialization.deserialize("terms.jldata")
 
 Come up with your own question similar to the questions above, and answer it.
 
-## 2. Selecting a Subset
-
-(5 pts)
+## 2. Selecting a Subset (5 pts)
 
 What do you do when your program doesn't run?
 Try using a subset of the data, the most important subset.
@@ -104,9 +100,7 @@ Try using a subset of the data, the most important subset.
 
 We'll use this subset for the remainder of the assignment.
 
-## 3. Principal Components Analysis
-
-(5 pts)
+## 3. Principal Components Analysis (5 pts)
 
 Fit the first 10 principal components, i.e. project the data down into a 10 dimensional subspace.
 
@@ -125,9 +119,7 @@ Hints:
 1. Transpose the matrix to follow the structure described in the [MultivariateStats documentation](https://multivariatestatsjl.readthedocs.io/en/stable/pca.html#fit)
 1. If the program is too slow, try converting from a dense to a sparse matrix.
 
-## 4. Clustering
-
-(5 pts)
+## 4. Clustering (5 pts)
 
 Apply k means with k = 3 to the principal components of the subset of data.
 This means you should be fitting k means to a data matrix with 10,000 observations, and 10 features, which are the scores for each of the 10 principal components.
@@ -159,9 +151,7 @@ function close_centroids(knn_model)
 end
 ```
 
-## 5. Extra Credit
-
-(1 pt)
+## 5. Extra Credit (1 pt)
 
 Fit k means with k = 3 to the entire original `termfreq` data.
 This takes around 18 hours to run.
