@@ -18,13 +18,13 @@
 
 | Criteria  | Ratings    |             |             |                |                 |          | Pts              |
 | :-------- | :--------- | :---------- | :---------- | :------------- | :-------------- | :------- | :--------------- |
-| OutcomeQ1 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
+| Outcome Q1 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
 |           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
-| OutcomeQ2 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
+| Outcome Q2 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
 |           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
-| OutcomeQ3 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
+| Outcome Q3 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
 |           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
-| OutcomeQ4 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
+| Outcome Q4 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
 |           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
 |           |            |             |             |                |                 |          | Total Points: 20 |
 
