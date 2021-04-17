@@ -64,7 +64,7 @@ Fit the first 10 principal components, i.e. project the data down into a 10 dime
    Explain.
    > PLACE_HOLDER
 
-### H.ints
+### Hints
 
 1. Resources for interpreting principal components: [Making sense of principal component analysis, eigenvectors & eigenvalues](https://stats.stackexchange.com/q/2691/103118) [PCA and proportion of variance explained](https://stats.stackexchange.com/q/22569/103118)
 1. Transpose the matrix to follow the structure described in the [MultivariateStats documentation](https://multivariatestatsjl.readthedocs.io/en/stable/pca.html#fit)
