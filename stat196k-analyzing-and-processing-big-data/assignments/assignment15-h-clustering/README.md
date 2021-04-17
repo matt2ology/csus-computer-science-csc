@@ -16,17 +16,17 @@
 
 ## Some Rubric
 
-| Criteria  | Ratings    |             |             |                |                 |          | Pts              |
+|  Criteria  | Ratings    |             |             |                |                 |          | Pts              |
 | :--------: | :--------- | :---------- | :---------- | :------------- | :-------------- | :------- | :--------------- |
 | Outcome Q1 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
-|           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
+|            | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
 | Outcome Q2 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
-|           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
+|            | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
 | Outcome Q3 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
-|           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
+|            | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
 | Outcome Q4 | 5 pts      | 4 pts       | 3 pts       | 2 pts          | 1 pts           | 0 pts    | 5 pts            |
-|           | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
-|           |            |             |             |                |                 |          | Total Points: 20 |
+|            | Full Marks | minor issue | some issues | serious issues | tried something | No Marks |                  |
+|            |            |             |             |                |                 |          | Total Points: 20 |
 
 ---
 
