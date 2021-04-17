@@ -3,14 +3,14 @@
 **Due** Apr 19 by 11:59pm | **Points** 20 | **Submitting** a file upload | **File Types** pdf
 
 - [Assignment 15 - Homework - Clustering](#assignment-15---homework---clustering)
-  - [1 Exploratory Data Analysis](#1-exploratory-data-analysis)
-  - [2 Selecting a Subset](#2-selecting-a-subset)
-  - [3 Principal Components Analysis](#3-principal-components-analysis)
-    - [Hints](#hints)
-  - [4 Clustering](#4-clustering)
-  - [5 Extra Credit](#5-extra-credit)
+  - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
+  - [2. Selecting a Subset](#2-selecting-a-subset)
+  - [3. Principal Components Analysis](#3-principal-components-analysis)
+    - [H.ints](#hints)
+  - [4. Clustering](#4-clustering)
+  - [5. Extra Credit](#5-extra-credit)
 
-## 1 Exploratory Data Analysis
+## 1. Exploratory Data Analysis
 
 (5 pts)
 
@@ -30,7 +30,7 @@
 
 Come up with your own question similar to the questions above, and answer it.
 
-## 2 Selecting a Subset
+## 2. Selecting a Subset
 
 (5 pts)
 
@@ -46,7 +46,7 @@ Try using a subset of the data, the most important subset.
 
 We'll use this subset for the remainder of the assignment.
 
-## 3 Principal Components Analysis
+## 3. Principal Components Analysis
 
 (5 pts)
 
@@ -64,13 +64,13 @@ Fit the first 10 principal components, i.e. project the data down into a 10 dime
    Explain.
    > PLACE_HOLDER
 
-### Hints
+### H.ints
 
 1. Resources for interpreting principal components: [Making sense of principal component analysis, eigenvectors & eigenvalues](https://stats.stackexchange.com/q/2691/103118) [PCA and proportion of variance explained](https://stats.stackexchange.com/q/22569/103118)
 1. Transpose the matrix to follow the structure described in the [MultivariateStats documentation](https://multivariatestatsjl.readthedocs.io/en/stable/pca.html#fit)
 1. If the program is too slow, try converting from a dense to a sparse matrix.
 
-## 4 Clustering
+## 4. Clustering
 
 (5 pts)
 
@@ -118,7 +118,7 @@ function close_centroids(knn_model)
 end
 ```
 
-## 5 Extra Credit
+## 5. Extra Credit
 
 (1 pt)
 
