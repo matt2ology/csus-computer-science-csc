@@ -9,6 +9,7 @@
     - [Hints](#hints)
   - [4. Clustering (5 pts)](#4-clustering-5-pts)
   - [5. Extra Credit (1 pt)](#5-extra-credit-1-pt)
+  - [CLI](#cli)
 
 ## 1. Exploratory Data Analysis (5 pts)
 
@@ -117,3 +118,7 @@ This takes around 18 hours to run.
 Did k means again find a group of mission statements that are very similar, following the same pattern as in the previous question?
 
 > PLACE_HOLDER
+
+## CLI
+
+> aws s3 cp s3://stat196k-data-examples/processed990.zip ./ --no-sign-request
