@@ -9,12 +9,42 @@
     - [Hints](#hints)
   - [4. Clustering (5 pts)](#4-clustering-5-pts)
   - [5. Extra Credit (1 pt)](#5-extra-credit-1-pt)
-  - [CLI](#cli)
+  - [Notes](#notes)
+  - [Work cited / resorces / help](#work-cited--resorces--help)
 
 ## 1. Exploratory Data Analysis (5 pts)
 
 1. Relatively how many terms appear in exactly one document?
-   > PLACE_HOLDER
+
+   ```julia
+   using DelimitedFiles # To use `writedlm` function
+   using Serialization
+   using Statistics
+   irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+   termfreq = Serialization.deserialize("./data/termfreq.jldata")
+   terms = Serialization.deserialize("./data/terms.jldata")
+   number_of_terms_in_document = []
+   number_of_documents = length(irs990extract)
+   for row_of_documents in 1:number_of_documents
+      row = termfreq[row_of_documents,1:end].nzind
+      println(length(row))
+      push!(number_of_terms_in_document,length(row))
+   end
+   println("***")
+   println("Minimum: ",Statistics.minimum(number_of_terms_in_document))
+   println("Maximum: ",Statistics.maximum(number_of_terms_in_document))
+   println("Average: ",Statistics.mean(number_of_terms_in_document))
+   println("***")
+   # takes about 5m20.298s to run
+   writedlm( "numberOfTerms.txt",  A, ',')
+   # $ cat numberOfTerms.txt | sort -n | uniq -c > uniq.txt
+   ```
+
+   > On average there are about 21.718225497827696 terms across all documents.
+   >
+   > In any one document relatively there can be as much as 18 terms and as
+   > little as 3 terms in a single document
+
 2. Relatively how many terms appear at least 5 times?
    > PLACE_HOLDER
 3. Show the 20 most frequent words.
@@ -119,6 +149,23 @@ Did k means again find a group of mission statements that are very similar, foll
 
 > PLACE_HOLDER
 
-## CLI
+## Notes
 
-> aws s3 cp s3://stat196k-data-examples/processed990.zip ./ --no-sign-request
+- A sparse matrix and what sparsity means is that most of the entries are zeros
+  - extract just one row I get a sparse vector out so one dimensional vector
+
+```julia
+    > irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+    > termfreq = Serialization.deserialize("./data/termfreq.jldata")
+    > terms = Serialization.deserialize("./data/terms.jldata")
+    > length(irs990extract)
+260783
+    > size(termfreq)
+(260783, 79653) # 260783 number of rows in our matrix and corresponds to
+
+# row of termfreq that corresponds to the first element of irs990extract
+   > row1 = termfreq[1,1:end].nzind
+
+```
+
+## Work cited / resorces / help
