@@ -62,7 +62,7 @@ function getcontent(xmlFile)
     Dict("file"=>xmlFile, "org"=>orgName, "mission"=>d, "sizeProxy"=>size)
 end
 
-files2019 = readdir("/sample-data/2019-sample/", join=true)
+files2019 = readdir("sample-data/2019-sample", join=true)
 
 # When this is done, the dictionary will be filled to be processed
 # Getting all text from files into Dict
