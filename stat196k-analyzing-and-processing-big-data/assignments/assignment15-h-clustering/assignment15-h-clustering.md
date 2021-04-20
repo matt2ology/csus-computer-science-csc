@@ -61,7 +61,6 @@
    irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
    termfreq = Serialization.deserialize("./data/termfreq.jldata")
    terms = Serialization.deserialize("./data/terms.jldata")
-   # size(termfreq[1:end,1].nzind)[1] #
    number_of_terms_counter = 0
    document = termfreq[1:end,:]
    terms_appeared = termfreq = 0 .< document
