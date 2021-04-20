@@ -46,7 +46,7 @@
    println("Average: ",Statistics.mean(number_of_terms_in_document))
    println("***")
    # takes about 5m20.298s to run
-   writedlm( "numberOfTerms.txt",  A, ',')
+   writedlm( "numberOfTerms.txt",  number_of_documents, ',')
    # $ cat numberOfTerms.txt | sort -n | uniq -c > uniq.txt
    ```
 
