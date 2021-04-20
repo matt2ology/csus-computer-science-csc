@@ -10,7 +10,6 @@
   - [4. Clustering (5 pts)](#4-clustering-5-pts)
   - [5. Extra Credit (1 pt)](#5-extra-credit-1-pt)
   - [Notes](#notes)
-  - [Work cited / resorces / help](#work-cited--resorces--help)
 
 ## 1. Exploratory Data Analysis (5 pts)
 
@@ -79,11 +78,69 @@
    Words like "and", "to", "the" aren't especially meaningful.
    Which is the first word that you feel may be meaningful for characterizing the nonprofit?
    Why?
-   > PLACE_HOLDER
+
+   ```julia
+   using Serialization
+   using Statistics
+   irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+   termfreq = Serialization.deserialize("./data/termfreq.jldata")
+   terms = Serialization.deserialize("./data/terms.jldata")
+
+   top_twenty_array = Array{Int64}(undef, 20, 2)
+   for term in 1:length(terms)
+      for index in 1:20
+         if length(termfreq[1:end,term].nzind) > top_twenty_array[index,1]
+               for row in 20:index
+                  top_twenty_array[row,1] = top_twenty_array[row-1,1]
+                  top_twenty_array[row,2] = top_twenty_array[row-1,2]
+               end
+               top_twenty_array[index,1] = length(termfreq[1:end,term].nzind)
+               top_twenty_array[index,2] = term
+               break
+         end
+      end
+   end
+   for row in 1:20
+      println(terms[top_twenty_array[row,2]])
+   end
+   ```
+
+   > `school` for it loosely argues that for a non-profit organization to exist
+   > with a focus to our education it may imply that our public education system
+   > lacks staff, resources, or basic assistance that our society/government fails to provide
+
 4. How many documents contain "sacramento"?
-   > PLACE_HOLDER
+
+   ```julia
+   julia>for term_column in 1:length(terms)# 79653
+            if(cmp(terms[term_column], "sacramento")==0)
+                  println("index = ", term_column)
+            end #end if
+         end #end for
+   index = 63171
+   ```
+
+   `sacramento` is stored in index = 63171
+
+   ```julia
+   using Serialization
+   using Statistics
+   irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+   termfreq = Serialization.deserialize("./data/termfreq.jldata")
+   terms = Serialization.deserialize("./data/terms.jldata")
+   sacramento_document_counter = 0
+   for document_row in 1:length(irs990extract) # 260783
+      if(cmp(terms[63171], "sacramento")==0)
+         sacramento_document_counter += 1
+      end
+   end
+   println(sacramento_document_counter)
+   ```
+
+   > 260783 documents contains "sacramento"
+
 5. What's one element in `irs990extract` where the mission contains "sacramento"?
-   > PLACE_HOLDER
+   >
 
 Come up with your own question similar to the questions above, and answer it.
 
@@ -91,6 +148,13 @@ Come up with your own question similar to the questions above, and answer it.
 
 What do you do when your program doesn't run?
 Try using a subset of the data, the most important subset.
+
+```julia
+first10k = 1:10_000
+termfreq10k = termfreq[first10k,:]
+termAppeared = 0 .< termfreq10k # So if these terms are positive and the term did appear
+wordAppearanceCount = sum(termAppeared, dims = 1)
+```
 
 1. Use one or more of the fields in `irs990extract` to define and pick the 10,000 largest nonprofits.
    > PLACE_HOLDER
@@ -195,5 +259,3 @@ Did k means again find a group of mission statements that are very similar, foll
    > row1 = termfreq[1,1:end].nzind
 
 ```
-
-## Work cited / resorces / help
