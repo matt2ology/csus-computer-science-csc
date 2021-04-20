@@ -17,6 +17,16 @@
 1. Relatively how many terms appear in exactly one document?
 
    ```julia
+      julia> irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+      julia> termfreq = Serialization.deserialize("./data/termfreq.jldata")
+      julia> terms = Serialization.deserialize("./data/terms.jldata")
+      julia> termfreq[1,1:end].nzind
+   84-element Vector{Int64}
+   ```
+
+   > In the first document there are a total of 84 terms.
+
+   ```julia
    using DelimitedFiles # To use `writedlm` function
    using Serialization
    using Statistics
