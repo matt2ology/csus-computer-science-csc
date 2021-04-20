@@ -46,7 +46,27 @@
    > little as 3 terms in a single document
 
 2. Relatively how many terms appear at least 5 times?
-   > PLACE_HOLDER
+
+   ```julia
+   # takes 0m6.408s to run
+   irs990extract = Serialization.deserialize("./data/irs990extract.jldata")
+   termfreq = Serialization.deserialize("./data/termfreq.jldata")
+   terms = Serialization.deserialize("./data/terms.jldata")
+   # size(termfreq[1:end,1].nzind)[1] #
+   number_of_terms_counter = 0
+   document = termfreq[1:end,:]
+   terms_appeared = termfreq = 0 .< document
+   count_of_words_appeared = sum(terms_appeared, dims = 1)
+   for word in 1:length(terms)
+      if count_of_words_appeared[word] >= 5
+         number_of_terms_counter += 1
+      end
+   end
+   println(number_of_terms_counter)
+   ```
+
+   > 14235 terms appear at least 5 times.
+
 3. Show the 20 most frequent words.
    Words like "and", "to", "the" aren't especially meaningful.
    Which is the first word that you feel may be meaningful for characterizing the nonprofit?
