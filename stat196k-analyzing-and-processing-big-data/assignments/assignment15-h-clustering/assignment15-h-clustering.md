@@ -52,8 +52,7 @@
 
    > On average there are about 21.718225497827696 terms across all documents.
    >
-   > In any one document relatively there can be as much as 18 terms and as
-   > little as 3 terms in a single document
+   > In any one document relatively there can be as much as [18 terms and as little as 3 terms in a single document](./output/uniq_sorted.txt)
 
 2. Relatively how many terms appear at least 5 times?
 
