@@ -34,7 +34,7 @@
    termfreq = Serialization.deserialize("./data/termfreq.jldata")
    terms = Serialization.deserialize("./data/terms.jldata")
    number_of_terms_in_document = []
-   number_of_documents = length(irs990extract)
+   number_of_documents = length(irs990extract) # 260783
    for row_of_documents in 1:number_of_documents
       row = termfreq[row_of_documents,1:end].nzind
       println(length(row))
