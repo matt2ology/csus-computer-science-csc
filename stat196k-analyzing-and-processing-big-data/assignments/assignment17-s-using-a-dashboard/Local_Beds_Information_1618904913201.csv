@@ -1,0 +1,1265 @@
+﻿"State","County","Hospital Type","Hospital","Licensed Beds","Staffed Beds","ICU Beds","Bed Utilization"
+"California","Glenn","Critical Access Hospital","Glenn Medical Center",47,15,3,1
+"Delaware","New Castle","Psychiatric Hospital","MeadowWood Behavioral Health Hospital",120,100,0,1
+"Florida","Broward","Psychiatric Hospital","South Florida State Hospital",350,49,0,1
+"Florida","Herdo","Psychiatric Hospital","Springbrook Hospital",66,66,0,1
+"Hawaii","Hawaii","Critical Access Hospital","Kau Hospital",21,8,1,1
+"Indiana","Tippecanoe","Psychiatric Hospital","Sycamore Springs",48,48,0,1
+"Kansas","Rush","Critical Access Hospital","Rush County Memorial Hospital",25,16,3,1
+"Louisiana","Jefferson","Psychiatric Hospital","Oceans Behavioral Hospital Greater New Orleans - Kenner",30,46,0,1
+"Michigan","Washtenaw","Psychiatric Hospital","Center for Forensic Psychiatry",240,240,0,1
+"Mississippi","Tallahatchie","Critical Access Hospital","Tallahatchie General Hospital (AKA Tallahatchie Critical Access Hospital)",18,9,2,1
+"Missouri","St. Louis City","Psychiatric Hospital","St Louis Psychiatric Rehabilitation Center",180,180,0,1
+"Montana","Deer Lodge","Psychiatric Hospital","Montana State Hospital",174,174,0,1
+"Nebraska","Adams","Psychiatric Hospital","Hastings Regional Center",30,30,0,1
+"North Carolina","Granville","Psychiatric Hospital","Central Regional Hospital",338,338,0,1
+"Texas","Howard","Psychiatric Hospital","Big Spring State Hospital",144,144,0,1
+"Utah","Millard","Critical Access Hospital","Fillmore Community Hospital (FKA Fillmore Community Medical Center)",19,7,3,1
+"West Virginia","Lewis","Psychiatric Hospital","William R Sharpe Jr Hospital",150,150,0,1
+"Louisiana","East Feliciana","Psychiatric Hospital","Eastern Louisiana Mental Health System (AKA East Lousiana State Hospital)",334,334,0,0.9992
+"New York","Albany","Psychiatric Hospital","Capital District Psychiatric Center",105,105,0,0.9992
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","Oklahoma Heart Hospital South",44,44,8,0.9985
+"Georgia","DeKalb","Psychiatric Hospital","Georgia Regional Hospital-Atlanta",334,114,0,0.994
+"Alabama","Mobile","Long Term Acute Care Hospital","Infirmary LTAC Hospital",31,22,5,0.9929
+"Arizona","Maricopa","Psychiatric Hospital","Copper Springs",72,72,0,0.9919
+"New York","Orange","Psychiatric Hospital","Mid-Hudson Forensic Psychiatric Center",285,285,0,0.9906
+"Missouri","Bucha","Psychiatric Hospital","Northwest Missouri Psychiatric Rehabilitation Center",108,108,0,0.9902
+"New York","New York City","Short Term Acute Care Hospital","The Specialty Hospital at Terence Cardinal Cooke Health Care Center (AKA ArchCare)",56,56,9,0.9901
+"Massachusetts","Bristol","Psychiatric Hospital","Taunton State Hospital",45,45,0,0.9893
+"Texas","Kerr","Psychiatric Hospital","Kerrville State Hospital",218,218,0,0.9878
+"Florida","Martin","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital at Martin Health (FKA HealthSouth Rehabilitation Hospital at Martin Health)",64,64,0,0.9864
+"New York","Bronx","Psychiatric Hospital","Bronx Psychiatric Center",156,156,0,0.9829
+"Alabama","Houston","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Dothan (FKA Healthsouth Rehab Dothan)",51,51,0,0.9793
+"Connecticut","Fairfield","Psychiatric Hospital","Greater Bridgeport Community Mental Health Center",62,62,0,0.9788
+"Mississippi","Harrison","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital - Partner of Memorial Hospital at Gulfport (FKA HealthSouth Rehabilitation Hospital of Gulfport)",33,33,0,0.9786
+"Ohio","Hamilton","Psychiatric Hospital","Summit Behavioral Healthcare Hospital",291,291,0,0.9782
+"Missouri","St. Louis City","Psychiatric Hospital","Metropolitan St Louis Psychiatric Center",50,50,0,0.9778
+"Florida","Miami-Dade","Rehabilitation Hospital","West Gables Rehabilitation Hospital",60,60,0,0.9777
+"New York","Suffolk","Psychiatric Hospital","Pilgrim Psychiatric Center",273,273,0,0.9773
+"Delaware","New Castle","Psychiatric Hospital","Rockford Center",138,137,2,0.9768
+"Missouri","Jackson","Psychiatric Hospital","Center for Behavioral Medicine (FKA Western Missouri Mental Health Center)",65,65,0,0.9753
+"Texas","Lubbock","Rehabilitation Hospital","South Plains Rehabilitation Hospital",40,40,0,0.9742
+"New Jersey","Somerset","Long Term Acute Care Hospital","Matheny Medical and Educational Center (FKA Matheny School & Hospital)",101,101,16,0.9728
+"New York","Monroe","Short Term Acute Care Hospital","Unity Hospital",311,283,14,0.9717
+"California","Santa Barbara","Psychiatric Hospital","Santa Barbara County Psychiatric Health Facility",16,16,0,0.9711
+"California","Los Angeles","Short Term Acute Care Hospital","Ronald Reagan UCLA Medical Center",445,445,120,0.971
+"New York","Saratoga","Psychiatric Hospital","Four Winds Saratoga",88,88,0,0.9708
+"Florida","Baker","Psychiatric Hospital","Northeast Florida State Hospital",1138,60,0,0.9698
+"Connecticut","Tolland","Psychiatric Hospital","Natchaug Hospital",57,57,0,0.9685
+"Louisiana","East Baton Rouge","Psychiatric Hospital","Oceans Behavioral Hospital Baton Rouge",20,20,0,0.9675
+"California","Santa Cruz","Psychiatric Hospital","Santa Cruz County Psychiatric Health Facility",16,16,0,0.9672
+"Delaware","Kent","Psychiatric Hospital","Dover Behavioral Health System",104,99,0,0.9665
+"Pennsylvania","Montour","Psychiatric Hospital","Danville State Hospital",161,161,0,0.9652
+"Georgia","Muscogee","Psychiatric Hospital","West Central Georgia Regional Hospital",58,40,0,0.9648
+"Maine","Penobscot","Psychiatric Hospital","Northern Light Acadia Hospital",100,68,1,0.9646
+"Oklahoma","Cleveland","Psychiatric Hospital","Griffin Memorial Hospital",182,120,0,0.9634
+"Tennessee","Sullivan","Long Term Acute Care Hospital","Select Specialty Hospital - Tri Cities",33,33,9,0.9629
+"Delaware","New Castle","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Middletown (FKA HealthSouth Rehabilitation Hospital of Middletown)",40,37,1,0.9628
+"Arizona","Maricopa","Psychiatric Hospital","Valley Hospital",122,122,1,0.962
+"Connecticut","Hartford","Long Term Acute Care Hospital","Hospital for Special Care",228,228,35,0.9607
+"Louisiana","Morehouse","Psychiatric Hospital","Cypress Grove Behavioral Health Hospital (FKA Liberty Healthcare - Bastrop)",60,60,0,0.9603
+"Texas","Cherokee","Psychiatric Hospital","Rusk State Hospital",288,288,0,0.9599
+"Ohio","Athens","Psychiatric Hospital","Appalachian Behavioral Healthcare Hospital",92,92,0,0.9593
+"Alabama","Tuscaloosa","Psychiatric Hospital","Bryce Hospital",268,98,0,0.9591
+"Mississippi","Hinds","Long Term Acute Care Hospital","Select Specialty Hospital - Belhaven",25,25,7,0.9589
+"New Hampshire","Merrimack","Psychiatric Hospital","New Hampshire Hospital",168,168,0,0.9575
+"Louisiana","Rapides","Psychiatric Hospital","Longleaf Hospital (FKA Crossroads Regional Hospital)",92,96,0,0.9574
+"New York","Nassau","Short Term Acute Care Hospital","North Shore University Hospital",764,764,87,0.9573
+"Delaware","Kent","Rehabilitation Hospital","PAM Rehabilitation Hospital of Dover",34,34,0,0.9559
+"Oklahoma","Tulsa","Rehabilitation Hospital","St John Rehabilitation Hospital",40,40,4,0.9559
+"Michigan","Wayne","Psychiatric Hospital","StoneCrest Center",162,162,0,0.9553
+"New York","New York City","Short Term Acute Care Hospital","Memorial Sloan Kettering Cancer Center",514,498,25,0.9552
+"New York","Kings","Psychiatric Hospital","Kingsboro Psychiatric Center",163,163,0,0.9541
+"Texas","Brazoria","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Pearland (FKA HealthSouth Pearland Rehabilitation Hospital)",40,40,1,0.9537
+"Texas","Victoria","Long Term Acute Care Hospital","PAM Specialty Hospital of Victoria South",23,23,4,0.9535
+"Missouri","St. Francois","Psychiatric Hospital","Southeast Missouri Mental Health Center",338,338,0,0.9533
+"Pennsylvania","Berks","Psychiatric Hospital","Wernersville State Hospital",266,266,0,0.9533
+"Ohio","Van Wert","Psychiatric Hospital","Ridgeview Behavioral Hospital",86,84,0,0.9525
+"California","Los Angeles","Psychiatric Hospital","Aurora Charter Oak Hospital",134,134,0,0.9519
+"Washington","King","Short Term Acute Care Hospital","Harborview Medical Center",413,321,89,0.9514
+"California","Alameda","Short Term Acute Care Hospital","Alameda Hospital",66,37,8,0.9512
+"New York","Erie","Psychiatric Hospital","Buffalo Psychiatric Center",159,159,0,0.9504
+"Massachusetts","Bristol","Psychiatric Hospital","Fuller Hospital (FKA Arbour - Fuller Memorial Hospital)",103,103,0,0.9492
+"South Carolina","Florence","Long Term Acute Care Hospital","Regency Hospital of Florence",40,40,12,0.9482
+"Minnesota","Crow Wing","Psychiatric Hospital","Community Behavioral Health Hospital - Baxter",16,16,0,0.9478
+"Arizona","Maricopa","Psychiatric Hospital","Haven Behavioral Hospital of Phoenix",57,57,0,0.9476
+"Texas","Brazos","Rehabilitation Hospital","CHI St Joseph Health Rehabilitation Hospital",49,49,2,0.9476
+"Texas","Victoria","Rehabilitation Hospital","PAM Rehabilitation Hospital of Victoria",26,26,0,0.9462
+"Illinois","Kane","Psychiatric Hospital","Elgin Mental Health Center",383,383,0,0.9461
+"Louisiana","East Baton Rouge","Psychiatric Hospital","Apollo Behavioral Health Hospital",18,24,0,0.9461
+"District of Columbia","District of Columbia","Short Term Acute Care Hospital","George Washington University Hospital",395,333,56,0.946
+"Illinois","Sangamon","Psychiatric Hospital","McFarland Mental Health Center",142,142,0,0.946
+"Massachusetts","Worcester","Psychiatric Hospital","TaraVista Behavioral Health Center",108,108,0,0.9456
+"New York","Bronx","Long Term Acute Care Hospital","ArchCare at Calvary Hospital - Bronx Campus",200,225,31,0.9452
+"Missouri","Callaway","Psychiatric Hospital","Fulton State Hospital",38,38,0,0.9449
+"Colorado","Denver","Psychiatric Hospital","Colorado Mental Health Institute Fort Logan",94,94,0,0.9448
+"Georgia","Clayton","Psychiatric Hospital","Riverwoods Behavioral Health System",85,75,0,0.944
+"Massachusetts","Middlesex","Psychiatric Hospital","Walden Behavioral Care",45,24,0,0.9435
+"Illinois","DuPage","Rehabilitation Hospital","Marianjoy Rehabilitation Hospital",127,100,0,0.943
+"California","Orange","Short Term Acute Care Hospital","College Hospital Costa Mesa",122,122,21,0.9427
+"Pennsylvania","Philadelphia","Psychiatric Hospital","Friends Hospital",192,192,1,0.9419
+"Florida","Hardee","Critical Access Hospital","AdventHealth Wauchula (FKA Florida Hospital Wauchula)",25,25,4,0.9417
+"Massachusetts","Suffolk","Psychiatric Hospital","Dr Solomon Carter Fuller Mental Health Center",60,60,0,0.9413
+"Indiana","Vigo","Psychiatric Hospital","Hamilton Center",16,16,0,0.9411
+"Massachusetts","Suffolk","Rehabilitation Hospital","Spaulding Rehabilitation Hospital Boston",264,132,5,0.941
+"Alabama","Russell","Rehabilitation Hospital","Regional Rehabilitation Hospital",58,58,2,0.9406
+"New Jersey","Camden","Psychiatric Hospital","Northbrook Behavioral Health Hospital",158,150,0,0.9402
+"Georgia","Cherokee","Short Term Acute Care Hospital","Northside Hospital Cherokee",126,150,20,0.9399
+"Alabama","Madison","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of North Alabama (FKA Healthsouth Rehab of North Alabama)",70,70,0,0.9392
+"Hawaii","Honolulu","Critical Access Hospital","Kahuku Medical Center",15,15,3,0.9392
+"West Virginia","Cabell","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals Huntington",28,28,9,0.9378
+"Michigan","Macomb","Psychiatric Hospital","Behavioral Center of Michigan",42,42,0,0.9375
+"Pennsylvania","Lebanon","Psychiatric Hospital","WellSpan Philhaven (FKA Philhaven Behavioral Healthcare Services)",103,103,0,0.9375
+"Washington","King","Psychiatric Hospital","Navos West Seattle Campus",40,70,0,0.9369
+"Oklahoma","Tulsa","Rehabilitation Hospital","PAM Rehabilitation Hospital of Tulsa",42,41,0,0.9367
+"Massachusetts","Suffolk","Short Term Acute Care Hospital","Dana Farber Cancer Institute",30,30,5,0.9365
+"Massachusetts","Worcester","Psychiatric Hospital","Worcester Recovery Center and Hospital (FKA Worcester State Hospital)",166,290,0,0.9362
+"Texas","Kaufman","Psychiatric Hospital","Terrell State Hospital",288,288,0,0.9361
+"Florida","Seminole","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Altamonte Springs (FKA HealthSouth Rehabilitation Hospital of Altamonte Springs)",60,60,1,0.9354
+"Mississippi","Lamar","Psychiatric Hospital","South Mississippi State Hospital",50,50,0,0.9348
+"Michigan","Wayne","Short Term Acute Care Hospital","DMC Detroit Receiving Hospital",248,191,49,0.9346
+"California","Los Angeles","Psychiatric Hospital","BHC Alhambra Hospital",97,97,0,0.9345
+"Michigan","Washtenaw","Long Term Acute Care Hospital","Select Specialty Hospital - Ann Arbor",36,36,8,0.9344
+"Massachusetts","Middlesex","Short Term Acute Care Hospital","Lahey Hospital & Medical Center - Burlington (FKA Lahey Clinic Hospital)",345,335,52,0.9333
+"Pennsylvania","Montgomery","Psychiatric Hospital","Norristown State Hospital",309,374,0,0.9332
+"Louisiana","Ascension","Psychiatric Hospital","St James Behavioral Health Hospital",28,32,0,0.9329
+"North Carolina","Mecklenburg","Short Term Acute Care Hospital","Atrium Health Pineville (FKA Carolinas HealthCare System Pineville)",250,154,30,0.9328
+"Massachusetts","Suffolk","Psychiatric Hospital","Arbour Hospital",136,136,0,0.9325
+"Alabama","Montgomery","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Montgomery (FKA Healthsouth Rehab Hospital of Montgomery)",70,70,3,0.9323
+"Rhode Island","Providence","Psychiatric Hospital","Butler Hospital",143,143,0,0.9316
+"Pennsylvania","Berks","Psychiatric Hospital","Haven Behavioral Hospital of Eastern Pennsylvania",67,82,0,0.9315
+"Maryland","Wicomico","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Salisbury (FKA HealthSouth Chesapeake Rehabilitation Hospital)",59,64,0,0.9314
+"Kentucky","Kenton","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Northern Kentucky (FKA HealthSouth Northern Kentucky Rehabilitation Hospital)",51,51,0,0.9313
+"Texas","Tarrant","Short Term Acute Care Hospital","John Peter Smith Hospital (AKA JPS Health Network)",542,422,71,0.9309
+"California","Los Angeles","Psychiatric Hospital","College Hospital Cerritos",187,187,0,0.9307
+"New Jersey","Hudson","Psychiatric Hospital","Hudson Meadowview Psychiatric Hospital",174,84,0,0.9307
+"Massachusetts","Norfolk","Psychiatric Hospital","Bournewood Hospital",100,100,0,0.9303
+"Colorado","Pueblo","Psychiatric Hospital","Colorado Mental Health Institute at Pueblo",494,478,0,0.93
+"South Carolina","Anderson","Psychiatric Hospital","Patrick B Harris Psychiatric Hospital",200,130,0,0.9298
+"Minnesota","Douglas","Psychiatric Hospital","Community Behavioral Health Hospital - Alexandria",16,16,0,0.9288
+"California","Los Angeles","Short Term Acute Care Hospital","City of Hope Helford Clinical Research Hospital",217,217,18,0.9287
+"Georgia","Fulton","Short Term Acute Care Hospital","Grady Hospital (AKA Grady Memorial Hospital Corporation)",953,674,193,0.9286
+"Arizona","Maricopa","Psychiatric Hospital","St Lukes Behavioral Health Center",127,124,0,0.9283
+"New Jersey","Essex","Psychiatric Hospital","Essex County Hospital Center",180,180,0,0.9282
+"California","Los Angeles","Long Term Acute Care Hospital","Kindred Hospital - Los Angeles",81,81,5,0.9279
+"Texas","Cameron","Psychiatric Hospital","Rio Grande State Center",55,55,0,0.9279
+"Florida","Flagler","Short Term Acute Care Hospital","AdventHealth Palm Coast (FKA Florida Hospital Flagler)",99,99,18,0.9269
+"Texas","Hidalgo","Long Term Acute Care Hospital","Solara Specialty Hospitals McAllen",53,52,8,0.9268
+"Texas","Grayson","Rehabilitation Hospital","Carrus Rehabilitation Hospital",24,24,0,0.9265
+"Texas","Collin","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Richardson (FKA HealthSouth Rehabilitation Hospital of Richardson)",50,50,0,0.9259
+"Texas","Travis","Psychiatric Hospital","Austin State Hospital",263,263,0,0.9254
+"Georgia","Coweta","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Newnan (FKA HealthSouth Rehabilitation Hospital of Newnan)",50,50,0,0.9249
+"South Carolina","Richland","Psychiatric Hospital","G Werber Bryan Psychiatric Hospital",530,411,0,0.9249
+"Arizona","Maricopa","Rehabilitation Hospital","Dignity Health East Valley Rehabilitation Hospital",50,50,0,0.9247
+"Louisiana","Lincoln","Psychiatric Hospital","Allegiance Health Center of Ruston",28,28,0,0.9234
+"California","Sacramento","Psychiatric Hospital","Sierra Vista Hospital",171,171,0,0.9227
+"North Dakota","Grant","Critical Access Hospital","Jacobson Memorial Hospital & Care Center",25,25,5,0.922
+"Oklahoma","Muskogee","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals Muskogee",64,64,10,0.9216
+"Oklahoma","Pontotoc","Psychiatric Hospital","Rolling Hills Hospital",60,60,0,0.9216
+"California","Sacramento","Psychiatric Hospital","Heritage Oaks Hospital",125,125,0,0.9207
+"Ohio","Summit","Psychiatric Hospital","Northcoast Behavioral Healthcare Hospital",258,258,0,0.9204
+"New York","New York City","Psychiatric Hospital","Kirby Forensic Psychiatric Center",218,218,0,0.92
+"New York","Richmond","Short Term Acute Care Hospital","Staten Island University Hospital - North Campus",472,543,54,0.9198
+"Massachusetts","Hampden","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Western Massachusetts (FKA Healthsouth Rehabilitation Hospital of Western Massachusetts)",53,53,0,0.9195
+"Massachusetts","Barnstable","Psychiatric Hospital","Cape Cod and Islands Community Mental Health Center (AKA Pocasset Mental Health Center)",16,16,0,0.9189
+"Florida","Leon","Short Term Acute Care Hospital","Tallahassee Memorial HealthCare",772,386,30,0.9188
+"Louisiana","St. James","Psychiatric Hospital","Beacon Behavioral Hospital - Lutcher",19,19,0,0.9169
+"New Jersey","Atlantic","Long Term Acute Care Hospital","Acuity Specialty Hospital of New Jersey",30,30,11,0.9165
+"New Jersey","Union","Psychiatric Hospital","Runnells Hospital",44,44,0,0.9164
+"Iowa","Bucha","Psychiatric Hospital","Independence Mental Health Institute",95,56,0,0.9162
+"Pennsylvania","Montgomery","Psychiatric Hospital","Brooke Glen Behavioral Hospital",146,146,2,0.916
+"Florida","Pasco","Long Term Acute Care Hospital","AdventHealth Connerton (FKA Florida Hospital at Connerton - Long Term Acute Care)",77,77,4,0.9156
+"Indiana","Marshall","Psychiatric Hospital","Doctors NeuroPsychiatric Hospital",37,37,0,0.9154
+"Texas","Webb","Rehabilitation Hospital","Laredo Rehabilitation Hospital",20,20,2,0.9153
+"Nevada","Clark","Short Term Acute Care Hospital","Sunrise Hospital & Medical Center",719,604,84,0.9149
+"California","San Joaquin","Psychiatric Hospital","St Josephs Behavioral Health Center",35,35,0,0.9145
+"Illinois","Cook","Rehabilitation Hospital","Shirley Ryan AbilityLab (FKA the Rehabilitation Institute of Chicago)",242,225,4,0.9144
+"Massachusetts","Suffolk","Long Term Acute Care Hospital","Hebrew SeniorLife - Hebrew Rehabilitation Center",675,667,104,0.9144
+"Pennsylvania","Philadelphia","Psychiatric Hospital","Belmont Behavioral Hospital",171,171,0,0.9143
+"Texas","Dallas","Psychiatric Hospital","Medical City Green Oaks Hospital (FKA Green Oaks Hospital)",124,124,0,0.9142
+"Georgia","Gwinnett","Psychiatric Hospital","SummitRidge Hospital",96,96,0,0.9141
+"Florida","Volusia","Long Term Acute Care Hospital","Select Specialty Hospital - Daytona Beach",34,34,8,0.9134
+"Missouri","Cedar","Psychiatric Hospital","Southwest Missouri Psychiatric Rehabilitation Center",16,16,12,0.9123
+"Massachusetts","Middlesex","Psychiatric Hospital","McLean Hospital",324,218,1,0.9122
+"Massachusetts","Bristol","Psychiatric Hospital","Southcoast Behavioral Health",142,142,0,0.9119
+"West Virginia","Cabell","Psychiatric Hospital","Mildred Mitchell-Bateman Hospital",110,110,0,0.9118
+"New York","Monroe","Psychiatric Hospital","Rochester Psychiatric Center",174,174,0,0.9117
+"District of Columbia","District of Columbia","Psychiatric Hospital","St Elizabeths Hospital",292,292,0,0.9116
+"Maine","Penobscot","Short Term Acute Care Hospital","Northern Light Eastern Maine Medical Center",411,313,44,0.911
+"Minnesota","Beltrami","Psychiatric Hospital","Community Behavioral Health Hospital - Bemidji",16,16,0,0.9108
+"North Carolina","Wake","Psychiatric Hospital","Holly Hill Hospital",285,285,2,0.9093
+"Maryland","Dorchester","Psychiatric Hospital","Eastern Shore Hospital Center",80,84,0,0.9089
+"New York","Bronx","Short Term Acute Care Hospital","Montefiore Hospital - Moses Campus",816,1459,86,0.9087
+"Vermont","Washington","Psychiatric Hospital","Vermont Psychiatric Care Hospital",8,25,0,0.9076
+"Washington","King","Critical Access Hospital","Snoqualmie Valley Hospital",28,25,4,0.9075
+"Arkansas","Pulaski","Psychiatric Hospital","Arkansas State Hospital",222,230,0,0.9073
+"Texas","El Paso","Short Term Acute Care Hospital","THOP East Campus (FKA Sierra Providence East Medical Center)",182,182,24,0.9069
+"Louisiana","Lafayette","Psychiatric Hospital","Vermilion Behavioral Health System",78,78,0,0.9066
+"Delaware","New Castle","Long Term Acute Care Hospital","Select Specialty Hospital - Wilmington",35,35,7,0.9063
+"Florida","Bay","Short Term Acute Care Hospital","Ascension Sacred Heart Hospital Bay (AKA Bay Medical Sacred Heart)",323,123,57,0.9061
+"New York","Westchester","Psychiatric Hospital","Four Winds Westchester",175,175,0,0.9056
+"West Virginia","Wood","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Parkersburg (FKA HealthSouth Western Hills Regional Rehabilitation Hospital)",40,40,0,0.9055
+"Ohio","Franklin","Psychiatric Hospital","Twin Valley Behavioral Healthcare Hospital",228,228,0,0.9053
+"Massachusetts","Suffolk","Short Term Acute Care Hospital","Brigham and Womens Hospital",763,804,50,0.9052
+"Florida","Sarasota","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Sarasota (FKA Healthsouth Rehab Hospital of Sarasota)",96,96,4,0.9048
+"Massachusetts","Worcester","Short Term Acute Care Hospital","AdCare Hospital of Worcester",114,114,20,0.9048
+"New York","Monroe","Short Term Acute Care Hospital","Strong Memorial Hospital",886,761,127,0.9048
+"New Hampshire","Rockingham","Short Term Acute Care Hospital","Portsmouth Regional Hospital",220,148,16,0.9047
+"North Carolina","Guilford","Long Term Acute Care Hospital","Select Specialty Hospital - Greensboro",30,30,6,0.9036
+"California","Santa Clara","Short Term Acute Care Hospital","Stanford Hospital",583,447,59,0.9033
+"Virginia","Bristol","Rehabilitation Hospital","The Rehabilitation Hospital of Bristol (FKA the Rehabilitation Hospital of Southwest Virginia)",25,25,0,0.9031
+"Michigan","Wayne","Psychiatric Hospital","Walter P Reuther Psychiatric Hospital",180,180,0,0.9029
+"Colorado","Larimer","Rehabilitation Hospital","Northern Colorado Rehabilitation Hospital",40,40,9,0.9014
+"Indiana","Vanderburgh","Psychiatric Hospital","Evansville State Hospital",168,168,0,0.9011
+"California","Santa Clara","Psychiatric Hospital","San Jose Behavioral Health",80,80,0,0.9009
+"Pennsylvania","Warren","Psychiatric Hospital","Warren State Hospital",152,152,0,0.9008
+"California","Alameda","Short Term Acute Care Hospital","Highland Hospital",169,169,24,0.9006
+"New Jersey","Mercer","Psychiatric Hospital","Trenton Psychiatric Hospital",450,450,0,0.9
+"Virginia","Staunton","Psychiatric Hospital","Western State Hospital",84,84,0,0.8991
+"California","Los Angeles","Long Term Acute Care Hospital","Kindred Hospital South Bay (FKA Vista Hospital of South Bay)",54,54,4,0.8981
+"Kentucky","Warren","Rehabilitation Hospital","Southern Kentucky Rehabilitation Hospital",60,60,3,0.8976
+"Louisiana","Caddo","Long Term Acute Care Hospital","PAM Specialty Hospital of Shreveport South (FKA LifeCare Hospitals of Shreveport - Pierremont Campus)",64,30,9,0.8964
+"Indiana","Johnson","Psychiatric Hospital","Valle Vista Health System",68,68,0,0.8961
+"California","Orange","Psychiatric Hospital","Newport Bay Hospital",36,36,0,0.896
+"Massachusetts","Norfolk","Psychiatric Hospital","Human Resource Institute (AKA HRI Hospital)",66,66,0,0.8959
+"California","San Diego","Psychiatric Hospital","Alvarado Parkway Institute Behavioral Health System - La Mesa",66,66,0,0.8951
+"California","San Bernardino","Long Term Acute Care Hospital","Kindred Hospital Rancho (FKA Rancho Specialty Hospital)",55,55,8,0.8946
+"Oklahoma","Oklahoma","Rehabilitation Hospital","Mercy Rehabilitation Hospital Oklahoma City",50,50,0,0.8946
+"North Carolina","Mecklenburg","Short Term Acute Care Hospital","Novant Health Matthews Medical Center (FKA Presbyterian Hospital Matthews)",157,123,10,0.894
+"Georgia","Chatham","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Savannah (FKA Rehabilitation Hospital of Savannah)",50,50,0,0.8932
+"Alabama","Etowah","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Gadsden (FKA Healthsouth Gadsden Rehabilitation Hospital)",44,44,0,0.893
+"Massachusetts","Suffolk","Short Term Acute Care Hospital","Boston Medical Center",582,399,71,0.893
+"North Carolina","Forsyth","Psychiatric Hospital","Old Vineyard Behavioral Health Services",164,164,0,0.8927
+"Pennsylvania","Philadelphia","Psychiatric Hospital","Kirkbride Center",25,25,238,0.8924
+"Louisiana","Jefferson","Psychiatric Hospital","Perimeter Behavioral Hospital of New Orleans (FKA Lake Pines Hospital)",36,36,0,0.8921
+"Louisiana","Jefferson Davis","Psychiatric Hospital","Jennings Senior Care Hospital",16,16,0,0.8916
+"Michigan","Wayne","Psychiatric Hospital","The Samaritan Center",55,55,0,0.8913
+"Indiana","St. Joseph","Psychiatric Hospital","Medical Behavioral Hospital of Mishawaka",30,30,0,0.8911
+"Texas","Harris","Short Term Acute Care Hospital","University of Texas MD Anderson Cancer Center",670,670,56,0.8909
+"California","Solano","Psychiatric Hospital","Adventist Health Vallejo",61,61,0,0.8907
+"Pennsylvania","Philadelphia","Psychiatric Hospital","Haven Behavioral Hospital of Philadelphia",67,36,0,0.8907
+"New Jersey","Union","Psychiatric Hospital","Summit Oaks Hospital",126,122,1,0.8905
+"Texas","Gregg","Psychiatric Hospital","Oceans Behavioral Hospital Longview (FKA Audubon Behavioral Healthcare Longview)",24,24,0,0.8903
+"New York","Queens","Psychiatric Hospital","Creedmoor Psychiatric Center",349,349,0,0.89
+"New York","Erie","Short Term Acute Care Hospital","Roswell Park Comprehensive Cancer Center (FKA Roswell Park Cancer Institute)",133,133,16,0.8899
+"Ohio","Butler","Psychiatric Hospital","Beckett Springs",96,96,0,0.8893
+"Pennsylvania","Centre","Psychiatric Hospital","The Meadows Psychiatric Center",119,111,0,0.8878
+"New Mexico","Bernalillo","Psychiatric Hospital","Central Desert Behavioral Health Center",26,26,0,0.8874
+"Pennsylvania","Franklin","Psychiatric Hospital","Roxbury Treatment Center (FKA Roxbury Psychiatric Hospital)",112,112,60,0.8869
+"New York","Queens","Short Term Acute Care Hospital","NewYork-Presbyterian Queens",535,476,29,0.8867
+"Kansas","Hodgeman","Critical Access Hospital","Hodgeman County Health Center",50,25,4,0.8865
+"Ohio","Cuyahoga","Psychiatric Hospital","Highland Springs",72,72,0,0.8865
+"Florida","Miami-Dade","Long Term Acute Care Hospital","Select Specialty Hospital - Miami",47,47,18,0.8863
+"Mississippi","Lee","Psychiatric Hospital","North Mississippi State Hospital",50,50,0,0.8863
+"Kansas","Mitchell","Critical Access Hospital","Mitchell County Hospital Health Systems",25,17,4,0.8859
+"Pennsylvania","Allegheny","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Sewickley (FKA HealthSouth Rehabilitation Hospital of Sewickley)",44,55,0,0.8857
+"California","Alameda","Short Term Acute Care Hospital","Eden Medical Center",130,126,24,0.8856
+"Montana","Teton","Critical Access Hospital","Benefis Teton Medical Center",25,25,4,0.885
+"New York","Nassau","Short Term Acute Care Hospital","NYU Langone Hospital - Long Island (FKA NYU Winthrop Hospital)",591,511,29,0.8846
+"California","Riverside","Short Term Acute Care Hospital","Loma Linda University Medical Center Murrieta",111,111,12,0.8842
+"Maryland","Baltimore","Psychiatric Hospital","Sheppard Pratt - Towson Campus (AKA Sheppard & Enoch Pratt Hospital)",322,258,0,0.8841
+"Oklahoma","Oklahoma","Long Term Acute Care Hospital","Select Specialty Hospital - Oklahoma City",72,72,11,0.8841
+"Ohio","Lucas","Psychiatric Hospital","Northwest Ohio Psychiatric Hospital",116,116,0,0.8838
+"Texas","Bexar","Long Term Acute Care Hospital","PAM Specialty Hospital of San Antonio (FKA Promise Specialty Hospital - San Antonio)",26,26,6,0.8837
+"New York","Ontario","Short Term Acute Care Hospital","UR Medicine Thompson Health (AKA FF Thompson Hospital)",113,62,7,0.8833
+"West Virginia","Cabell","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Huntington (FKA HealthSouth Rehabilitation Hospital of Huntington)",62,62,0,0.8832
+"Louisiana","Orleans","Psychiatric Hospital","Seaside Behavioral Center - New Orleans",47,47,0,0.8831
+"Louisiana","Rapides","Long Term Acute Care Hospital","Riverside Hospital of Louisiana",28,28,4,0.8829
+"New York","New York City","Short Term Acute Care Hospital","Mount Sinai Medical Center (AKA the Mount Sinai Hospital)",1134,1037,75,0.8817
+"Oklahoma","Pittsburg","Psychiatric Hospital","Carl Albert Community Mental Health Center",15,15,0,0.8814
+"Missouri","Clay","Psychiatric Hospital","Signature Psychiatric Hospital",36,72,0,0.8812
+"Virginia","Fredericksburg","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Fredericksburg",58,58,0,0.8808
+"District of Columbia","District of Columbia","Psychiatric Hospital","Psychiatric Institute of Washington",124,130,0,0.8801
+"Utah","Utah","Psychiatric Hospital","Utah State Hospital",384,341,0,0.88
+"Arizona","Maricopa","Psychiatric Hospital","Quail Run Behavioral Health",102,102,0,0.8797
+"California","Los Angeles","Rehabilitation Hospital","California Rehabilitation Institute (FKA Century City Doctors Hospital)",138,138,0,0.8795
+"Georgia","Fulton","Long Term Acute Care Hospital","Shepherd Center",152,152,24,0.8795
+"New York","Suffolk","Short Term Acute Care Hospital","John T Mather Memorial Hospital of Port Jefferson (AKA Mather Hospital)",248,195,12,0.8794
+"Kansas","Wyandotte","Long Term Acute Care Hospital","Select Specialty Hospital - Kansas City",40,40,6,0.879
+"New York","Monroe","Short Term Acute Care Hospital","Highland Hospital",261,241,14,0.879
+"Texas","Harris","Psychiatric Hospital","UTHealth Harris County Psychiatric Center",251,251,0,0.8787
+"Wisconsin","Wood","Short Term Acute Care Hospital","Marshfield Medical Center - Marshfield (FKA Ministry Saint Josephs Hospital)",504,201,12,0.8783
+"New York","Suffolk","Psychiatric Hospital","Brunswick Hospital Center Psychiatric Hospital (AKA Brunswick Hall)",124,124,0,0.8776
+"Texas","Bexar","Psychiatric Hospital","Laurel Ridge Treatment Center",208,208,1,0.8776
+"Texas","Wichita","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Wichita Falls (FKA HealthSouth Rehabilitation Hospital of Wichita Falls)",63,63,0,0.8775
+"Minnesota","Wright","Psychiatric Hospital","Community Behavioral Health Hospital - Annandale",16,16,0,0.8772
+"Louisiana","Jefferson","Long Term Acute Care Hospital","Ochsner Extended Care Hospital",32,32,5,0.8771
+"Oregon","Marion","Psychiatric Hospital","Oregon State Hospital - Salem",577,577,0,0.8769
+"Michigan","Macomb","Long Term Acute Care Hospital","Select Specialty Hospital - Macomb",36,36,15,0.8763
+"New Jersey","Burlington","Rehabilitation Hospital","Kessler Institute for Rehabilitation - Marlton (FKA Marlton Rehabilitation Hospital)",61,61,0,0.8761
+"Louisiana","Avoyelles","Psychiatric Hospital","Beacon Behavioral Hospital - Bunkie",18,18,0,0.876
+"Pennsylvania","Philadelphia","Short Term Acute Care Hospital","Hospital of the University of Pennsylvania",790,748,110,0.876
+"Florida","Escambia","Long Term Acute Care Hospital","Select Specialty Hospital - Pensacola",75,75,14,0.8753
+"South Carolina","Horry","Psychiatric Hospital","Lighthouse Behavioral Health Hospital",105,95,0,0.8752
+"Virginia","Danville","Psychiatric Hospital","Southern Virginia Mental Health Institute",72,72,0,0.8745
+"South Carolina","Charleston","Short Term Acute Care Hospital","Medical University of South Carolina",713,467,114,0.8744
+"Alabama","Baldwin","Short Term Acute Care Hospital","Thomas Hospital",150,129,17,0.8743
+"Pennsylvania","Lancaster","Rehabilitation Hospital","Lancaster Rehabilitation Hospital",59,59,0,0.8741
+"Virginia","James City","Short Term Acute Care Hospital","Eastern State Hospital",40,40,7,0.8739
+"Arizona","Maricopa","Long Term Acute Care Hospital","Select Specialty Hospital - Phoenix",48,48,11,0.8738
+"California","Los Angeles","Childrens Hospital","Childrens Hospital Los Angeles",495,379,48,0.8736
+"West Virginia","Monongalia","Short Term Acute Care Hospital","JW Ruby Memorial Hospital",690,613,65,0.8735
+"Georgia","Chatham","Psychiatric Hospital","Georgia Regional Hospital-Savannah",262,112,0,0.8733
+"Texas","Nueces","Rehabilitation Hospital","Corpus Christi Rehabilitation Hospital (FKA Esplanade Rehabilitation Hospital)",35,35,4,0.8733
+"Washington","Thurston","Short Term Acute Care Hospital","Providence St Peter Hospital",390,307,42,0.8733
+"Florida","Marion","Short Term Acute Care Hospital","Ocala Regional Medical Center",256,200,66,0.8731
+"New York","New York City","Psychiatric Hospital","NY Gracie Square Hospital",133,133,0,0.873
+"New York","Westchester","Rehabilitation Hospital","Burke Rehabilitation Hospital",150,150,0,0.8729
+"North Carolina","Wayne","Psychiatric Hospital","Cherry Hospital",259,259,0,0.8725
+"Florida","Lake","Short Term Acute Care Hospital","Orlando Health South Lake Hospital",170,140,16,0.8724
+"South Carolina","Spartanburg","Rehabilitation Hospital","Spartanburg Rehabilitation Institute",40,40,4,0.8722
+"South Carolina","Horry","Short Term Acute Care Hospital","Grand Strand Medical Center",371,325,56,0.8716
+"Alabama","Mobile","Short Term Acute Care Hospital","USA Health University Hospital (FKA University of South Alabama Medical Center)",406,183,32,0.8715
+"New York","Suffolk","Short Term Acute Care Hospital","South Shore University Hospital (FKA Southside Hospital)",305,284,36,0.8708
+"Texas","El Paso","Psychiatric Hospital","El Paso Psychiatric Center",74,74,0,0.8706
+"South Carolina","York","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Rock Hill",50,50,0,0.8703
+"Tennessee","Shelby","Long Term Acute Care Hospital","Select Specialty Hospital - Memphis",39,39,8,0.87
+"Pennsylvania","Montgomery","Psychiatric Hospital","The Horsham Clinic",206,206,0,0.8688
+"Georgia","DeKalb","Short Term Acute Care Hospital","Emory University Hospital",605,601,114,0.8685
+"Florida","Duval","Rehabilitation Hospital","Brooks Rehabilitation Hospital",160,160,0,0.8681
+"Florida","Sarasota","Long Term Acute Care Hospital","PAM Specialty Hospital of Sarasota (FKA Complex Care Hospital at Ridgelake)",40,40,6,0.8679
+"California","Contra Costa","Short Term Acute Care Hospital","Contra Costa Regional Medical Center",124,124,8,0.8671
+"Illinois","Champaign","Psychiatric Hospital","The Pavilion Hospital",77,77,0,0.8671
+"Louisiana","Ouachita","Long Term Acute Care Hospital","Louisiana Extended Care of West Monroe",21,21,5,0.8669
+"Alabama","Jefferson","Rehabilitation Hospital","Encompass Health Lakeshore Rehabilitation Hospital (FKA Healthsouth Lakeshore Hospital)",100,100,0,0.8667
+"Georgia","Richmond","Rehabilitation Hospital","Walton Rehabilitation Hospital (FKA HealthSouth Walton Rehabilitation Hospital)",60,60,0,0.8663
+"Pennsylvania","Dauphin","Short Term Acute Care Hospital","UPMC Pinnacle Harrisburg (FKA Harrisburg Hospital)",627,493,20,0.8661
+"New York","Kings","Short Term Acute Care Hospital","NYU Langone Hospital - Brooklyn (FKA NYU Lutheran Medical Center)",444,323,18,0.866
+"Arizona","Pima","Short Term Acute Care Hospital","Tucson Medical Center (AKA TMC HealthCare)",596,441,36,0.8657
+"New Jersey","Ocean","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Toms River (FKA Healthsouth Rehabilitation Hospital of Toms River)",92,98,0,0.8654
+"Washington","Pierce","Psychiatric Hospital","Western State Hospital",806,771,0,0.8654
+"Illinois","Winnebago","Rehabilitation Hospital","Van Matre Encompass Health Rehabilitation Hospital (FKA Van Matre HealthSouth Rehabilitation Hospital)",61,61,0,0.8653
+"Arizona","Maricopa","Psychiatric Hospital","Oasis Behavioral Health",82,146,0,0.8648
+"Florida","Palm Beach","Long Term Acute Care Hospital","Select Specialty Hospital - Palm Beach",60,60,11,0.8644
+"Tennessee","Shelby","Psychiatric Hospital","Lakeside Behavioral Health System (FKA Lakeside Hospital)",290,298,0,0.8642
+"New York","Monroe","Short Term Acute Care Hospital","Rochester General Hospital",528,470,40,0.864
+"California","Los Angeles","Psychiatric Hospital","Resnick Neuropsychiatric Hospital",74,74,1,0.8626
+"New Mexico","Dona Ana","Rehabilitation Hospital","Rehabilitation Hospital of Southern New Mexico",40,40,3,0.8623
+"New Mexico","Doña Ana","Rehabilitation Hospital","Rehabilitation Hospital of Southern New Mexico",40,40,3,0.8623
+"Virginia","Albemarle","Rehabilitation Hospital","UVA Encompass Health Rehabilitation Hospital (FKA UVA-HealthSouth Rehabilitation Hospital)",50,50,0,0.8623
+"Michigan","Kent","Psychiatric Hospital","Forest View Hospital",108,108,0,0.862
+"Kentucky","Fayette","Long Term Acute Care Hospital","Continuing Care Hospital",23,23,4,0.861
+"Massachusetts","Worcester","Short Term Acute Care Hospital","UMass Memorial Medical Center - University Campus",421,609,82,0.8607
+"Arkansas","Garland","Rehabilitation Hospital","CHI St Vincent Hot Springs Rehabilitation Hospital",40,40,3,0.8606
+"Arizona","Maricopa","Rehabilitation Hospital","HonorHealth Rehabilitation Hospital (FKA Scottsdale Rehabilitation Hospital)",50,50,0,0.8605
+"New York","Chemung","Short Term Acute Care Hospital","St Josephs Hospital",125,20,4,0.8602
+"Tennessee","Davidson","Short Term Acute Care Hospital","Vanderbilt University Medical Center",1025,626,229,0.8602
+"Tennessee","Knox","Long Term Acute Care Hospital","Select Specialty Hospital - North Knoxville",33,68,11,0.8601
+"Texas","Fort Bend","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Sugar Land (FKA Healthsouth Rehabilitation Hospital - Sugarland)",50,50,0,0.86
+"Florida","Orange","Long Term Acute Care Hospital","Select Specialty Hospital - Orlando North",35,35,9,0.8599
+"Oklahoma","Lincoln","Critical Access Hospital","Stroud Regional Medical Center",25,25,4,0.8598
+"Idaho","Bingham","Psychiatric Hospital","State Hospital South",120,106,0,0.8597
+"Indiana","Marion","Psychiatric Hospital","NeuroPsychiatric Hospital of Indianapolis",50,50,0,0.8596
+"Massachusetts","Bristol","Psychiatric Hospital","Corrigan Mental Health Center (AKA Dr John C Corrigan Mental Health Center)",16,16,0,0.8591
+"Oregon","Lane","Short Term Acute Care Hospital","PeaceHealth Sacred Heart Medical Center at RiverBend (FKA Sacred Heart Riverbend)",347,383,46,0.8583
+"Missouri","St. Louis City","Short Term Acute Care Hospital","SSM Health Saint Louis University Hospital",344,292,79,0.8579
+"California","Butte","Short Term Acute Care Hospital","Oroville Hospital",133,153,10,0.8576
+"Massachusetts","Suffolk","Short Term Acute Care Hospital","Beth Israel Deaconess Medical Center",673,694,77,0.8574
+"West Virginia","Kanawha","Long Term Acute Care Hospital","Select Specialty Hospital - Charleston",32,32,11,0.8574
+"California","Humboldt","Psychiatric Hospital","Humboldt County - Sempervirens Psychiatric Health Facility",16,16,0,0.8566
+"New York","Rockland","Psychiatric Hospital","Rockland Psychiatric Center",415,415,0,0.8565
+"New Jersey","Burlington","Psychiatric Hospital","Hampton Behavioral Health Center",120,120,0,0.8562
+"Virginia","Loudoun","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Northern Virginia (FKA Healthsouth Rehabilitation Hospital of Northern Virginia)",60,60,0,0.8561
+"Texas","Travis","Short Term Acute Care Hospital","Dell Seton Medical Center at the University of Texas",211,211,60,0.8552
+"Texas","Travis","Short Term Acute Care Hospital","St Davids South Austin Medical Center",334,334,30,0.8552
+"Georgia","Chatham","Short Term Acute Care Hospital","Memorial Health University Medical Center",512,537,20,0.855
+"Florida","Marion","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Ocala (FKA HealthSouth Rehabilitation Hospital of Ocala)",70,70,0,0.8548
+"Iowa","Cherokee","Psychiatric Hospital","Cherokee Mental Health Institute",58,36,0,0.8544
+"Michigan","Kent","Rehabilitation Hospital","Mary Free Bed Rehabilitation Hospital",119,119,1,0.8538
+"Kentucky","Fayette","Rehabilitation Hospital","Cardinal Hill Rehabilitation Hospital",158,158,0,0.8536
+"New York","Saratoga","Short Term Acute Care Hospital","Saratoga Hospital",171,171,30,0.8536
+"Illinois","Cook","Psychiatric Hospital","Hartgrove Hospital (AKA Hartgrove Behavioral Health System)",160,160,0,0.8535
+"Oklahoma","Comanche","Psychiatric Hospital","Jim Taliaferro Community Mental Health Center",30,14,0,0.853
+"Pennsylvania","Philadelphia","Short Term Acute Care Hospital","Penn Presbyterian Medical Center",350,316,44,0.8529
+"Arizona","Maricopa","Psychiatric Hospital","Aurora Behavioral Health System - West (FKA Aurora Phoenix Hospital)",100,100,0,0.8528
+"Iowa","Polk","Long Term Acute Care Hospital","Select Specialty Hospital - Des Moines",30,30,7,0.8524
+"New Jersey","Essex","Long Term Acute Care Hospital","Columbus Hospital LTACH",63,63,10,0.8522
+"Florida","Herdo","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Spring Hill (FKA Healthsouth Rehab of Spring Hill)",80,80,0,0.8521
+"Florida","Alachua","Long Term Acute Care Hospital","Select Specialty Hospital - Gainesville",48,48,9,0.8519
+"Florida","Miami-Dade","Long Term Acute Care Hospital","Select Specialty Hospital - Miami Lakes (FKA Promise Hospital of Miami)",60,60,15,0.8513
+"Louisiana","St. Tammany","Psychiatric Hospital","Covington Behavioral Health (FKA Greenbrier Behavioral Health Hospital)",60,62,0,0.8511
+"New York","Rensselaer","Short Term Acute Care Hospital","Samaritan Hospital - St Marys Campus",20,20,4,0.851
+"California","San Diego","Psychiatric Hospital","Aurora San Diego Hospital",101,95,0,0.8504
+"California","Fresno","Short Term Acute Care Hospital","Clovis Community Medical Center",208,208,24,0.8503
+"Arizona","Maricopa","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of East Valley",60,70,5,0.8499
+"Louisiana","Morehouse","Rehabilitation Hospital","Sterlington Rehabilitation Hospital",10,10,0,0.8499
+"Kansas","Johnson","Rehabilitation Hospital","Rehabilitation Hospital of Overland Park",45,45,0,0.8492
+"Nevada","Clark","Short Term Acute Care Hospital","Valley Hospital Medical Center",306,281,20,0.8486
+"Arizona","Maricopa","Short Term Acute Care Hospital","Banner Gateway Medical Center",177,165,24,0.8477
+"Michigan","Tuscola","Psychiatric Hospital","Caro Center",118,118,0,0.8476
+"Ohio","Hamilton","Psychiatric Hospital","Blueridge Vista Health and Wellness",44,44,0,0.8471
+"Massachusetts","Suffolk","Short Term Acute Care Hospital","Massachusetts General Hospital",1043,993,103,0.847
+"North Carolina","Harnett","Psychiatric Hospital","Good Hope Hospital",16,16,0,0.8469
+"California","Sacramento","Short Term Acute Care Hospital","University of California Davis Medical Center (AKA UC Davis Medical Center)",625,598,84,0.8465
+"California","Riverside","Long Term Acute Care Hospital","Kindred Hospital Riverside (FKA Vista Hospital of Riverside)",40,40,8,0.8464
+"North Carolina","Durham","Long Term Acute Care Hospital","Select Specialty Hospital - Durham",30,30,5,0.8452
+"Kentucky","Boone","Rehabilitation Hospital","Gateway Rehabilitation Hospital",40,40,0,0.8447
+"District of Columbia","District of Columbia","Short Term Acute Care Hospital","MedStar Georgetown University Hospital",609,393,57,0.8444
+"Missouri","St. Charles","Psychiatric Hospital","CenterPointe Hospital",104,104,0,0.8444
+"Ohio","Franklin","Short Term Acute Care Hospital","The James Cancer Hospital and Solove Research Institute",308,344,44,0.8441
+"Pennsylvania","Philadelphia","Psychiatric Hospital","Fairmount Behavioral Health System (FKA Fairmount Hospital)",239,172,1,0.8437
+"Missouri","St. Louis","Short Term Acute Care Hospital","Christian Hospital",482,205,18,0.8434
+"Montana","Musselshell","Critical Access Hospital","Roundup Memorial Healthcare",25,25,4,0.8433
+"North Carolina","Durham","Short Term Acute Care Hospital","Duke University Hospital",979,961,103,0.8428
+"Colorado","Arapahoe","Long Term Acute Care Hospital","Craig Hospital",93,93,14,0.8427
+"New Hampshire","Merrimack","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Concord (FKA HealthSouth Rehabilitation Hospital of Concord)",50,50,3,0.8426
+"Wisconsin","Marathon","Psychiatric Hospital","North Central Health Care - Wausau Campus",16,16,0,0.8425
+"Illinois","Cook","Psychiatric Hospital","Chicago Behavioral Hospital",138,145,0,0.8422
+"New Jersey","Monmouth","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Tinton Falls (FKA HealthSouth Rehabilitation Hospital of Tinton Falls)",60,60,0,0.8421
+"California","Santa Clara","Short Term Acute Care Hospital","Regional Medical Center of San Jose",264,258,34,0.8418
+"Texas","Nueces","Rehabilitation Hospital","PAM Rehabilitation Hospital and LTACH of Corpus Christi",40,19,2,0.8414
+"Florida","Okaloosa","Short Term Acute Care Hospital","Fort Walton Beach Medical Center",237,189,23,0.8409
+"Virginia","Richmond City","Short Term Acute Care Hospital","VCU Medical Center Main Hospital",811,695,113,0.8405
+"Virginia","Virginia Beach","Short Term Acute Care Hospital","Sentara Princess Anne Hospital",174,160,16,0.8405
+"North Carolina","Buncombe","Short Term Acute Care Hospital","Mission Hospital - Memorial Campus",815,679,146,0.8404
+"Montana","Granite","Critical Access Hospital","Granite County Medical Center",25,25,4,0.8401
+"New Jersey","Mercer","Short Term Acute Care Hospital","Capital Health Regional Medical Center",237,134,32,0.8401
+"Texas","Collin","Short Term Acute Care Hospital","Baylor Scott & White the Heart Hospital Baylor - Plano",106,110,20,0.8398
+"Florida","Alachua","Short Term Acute Care Hospital","North Florida Regional Medical Center",432,381,41,0.8397
+"Tennessee","Madison","Rehabilitation Hospital","West Tennessee Healthcare Rehabilitation Hospital Jackson (FKA Spire Jackson Rehabilitation Hospital)",48,48,0,0.8395
+"Minnesota","Otter Tail","Psychiatric Hospital","Community Behavioral Health Hospital - Fergus Falls",16,16,0,0.8394
+"New Mexico","Bernalillo","Psychiatric Hospital","Haven Behavioral Hospital of Albuquerque",48,48,0,0.8394
+"New Hampshire","Rockingham","Rehabilitation Hospital","Northeast Rehabilitation Hospital - Salem",67,67,0,0.8391
+"Idaho","Kootenai","Rehabilitation Hospital","Rehabilitation Hospital of the Northwest",30,30,9,0.8388
+"Texas","Harris","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals Houston Medical Center",35,35,16,0.8386
+"Texas","Travis","Psychiatric Hospital","Austin Lakes Hospital",58,58,0,0.8386
+"New York","New York City","Short Term Acute Care Hospital","NewYork-Presbyterian Lower Manhattan Hospital (AKA New York Downtown Hospital)",180,132,20,0.8381
+"Texas","Tarrant","Psychiatric Hospital","Mesa Springs",72,72,2,0.838
+"New York","Kings","Short Term Acute Care Hospital","NewYork-Presbyterian Brooklyn Methodist Hospital (FKA New York Methodist Hospital)",591,516,38,0.8379
+"Ohio","Lucas","Long Term Acute Care Hospital","Regency Hospital of Toledo",45,45,8,0.8379
+"Kentucky","Casey","Critical Access Hospital","Casey County Hospital",24,24,4,0.8375
+"North Carolina","Cumberland","Short Term Acute Care Hospital","Cape Fear Valley Medical Center",634,490,48,0.8375
+"Alabama","Shelby","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Shelby County (FKA HealthSouth Pelham)",34,34,0,0.8372
+"Michigan","Wayne","Rehabilitation Hospital","DMC Rehabilitation Institute of Michigan",69,69,1,0.8372
+"Florida","Pinellas","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Largo (FKA Healthsouth Rehabilitation Hospital of Largo)",70,70,6,0.8369
+"New York","Suffolk","Short Term Acute Care Hospital","Long Island Community Hospital (FKA Brookhaven Memorial Hospital Medical Center)",306,209,10,0.8369
+"South Carolina","Greenville","Psychiatric Hospital","The Carolina Center for Behavioral Health",138,130,0,0.8366
+"New York","Onondaga","Short Term Acute Care Hospital","Upstate University Hospital - Downtown Campus",420,615,71,0.8365
+"New Jersey","Bergen","Short Term Acute Care Hospital","Hackensack University Medical Center",781,687,35,0.8363
+"Texas","Caldwell","Long Term Acute Care Hospital","PAM Specialty Hospital of Luling",34,34,6,0.8363
+"Louisiana","Lafayette","Psychiatric Hospital","Oceans Behavioral Hospital Broussard",38,38,0,0.8355
+"North Carolina","Brunswick","Psychiatric Hospital","Carolina Dunes Behavioral Health (FKA Strategic Behavioral Center - Wilmington)",40,40,0,0.8355
+"California","Los Angeles","Short Term Acute Care Hospital","Mission Community Hospital",85,60,10,0.8346
+"Montana","Yellowstone","Long Term Acute Care Hospital","Advanced Care Hospital of Montana",40,40,12,0.8346
+"Nevada","Clark","Short Term Acute Care Hospital","MountainView Hospital",407,363,47,0.8346
+"Louisiana","Red River","Rehabilitation Hospital","Specialty Rehabilitation Hospital",12,12,0,0.8345
+"New York","New York City","Psychiatric Hospital","New York State Psychiatric Institute",21,21,0,0.8344
+"Massachusetts","Hampden","Long Term Acute Care Hospital","Western Massachusetts Hospital",100,87,14,0.8343
+"Tennessee","Hamilton","Rehabilitation Hospital","Siskin Hospital for Physical Rehab",80,86,0,0.8343
+"Mississippi","Hinds","Long Term Acute Care Hospital","Select Specialty Hospital - Jackson",53,53,13,0.8334
+"New Jersey","Bergen","Psychiatric Hospital","Ramapo Ridge Psychiatric Hospital",58,58,0,0.8334
+"Wyoming","Niobrara","Critical Access Hospital","Niobrara Health & Life Center",24,24,4,0.833
+"Washington","King","Psychiatric Hospital","Fairfax Behavioral Health (AKA Fairfax Behavioral Health Kirkland)",157,221,0,0.8327
+"Texas","Dallas","Rehabilitation Hospital","Baylor Scott & White Institute for Rehabilitation - Dallas",92,92,0,0.832
+"Rhode Island","Providence","Short Term Acute Care Hospital","Miriam Hospital",247,246,36,0.8319
+"Montana","Prairie","Critical Access Hospital","Prairie Community Hospital",22,22,4,0.8315
+"Nevada","Clark","Short Term Acute Care Hospital","Desert Springs Hospital Medical Center",293,201,34,0.8315
+"Michigan","Washtenaw","Short Term Acute Care Hospital","University Hospital",1000,932,30,0.8314
+"Montana","Daniels","Critical Access Hospital","Daniels Memorial Healthcare Center",25,25,4,0.8312
+"Florida","Clay","Short Term Acute Care Hospital","Orange Park Medical Center",317,273,28,0.8311
+"Texas","Collin","Rehabilitation Hospital","PAM Rehabilitation Hospital of Allen (FKA Twin Creeks Hospital)",40,40,0,0.8311
+"Louisiana","East Baton Rouge","Long Term Acute Care Hospital","KPC Promise Hospital of Baton Rouge (FKA Promise Hospital of Baton Rouge - Main Campus)",54,50,8,0.831
+"New York","Suffolk","Psychiatric Hospital","South Oaks Hospital",202,202,0,0.8309
+"Indiana","Marion","Rehabilitation Hospital","Community Rehabilitation Hospital North",60,60,0,0.8308
+"Vermont","Windham","Psychiatric Hospital","Brattleboro Retreat",149,119,0,0.8303
+"New York","Suffolk","Short Term Acute Care Hospital","Stony Brook University Hospital",603,725,76,0.8302
+"Washington","Pierce","Short Term Acute Care Hospital","St Clare Hospital",106,106,31,0.8302
+"Kansas","Sedgwick","Long Term Acute Care Hospital","Select Specialty Hospital - Wichita",48,48,8,0.8299
+"Louisiana","Lafayette","Long Term Acute Care Hospital","AMG Specialty Hospital - Lafayette",18,18,4,0.8297
+"Texas","Nueces","Long Term Acute Care Hospital","PAM Specialty Hospital of Corpus Christi North",22,41,6,0.8295
+"North Carolina","Cumberland","Long Term Acute Care Hospital","Highsmith-Rainey Specialty Hospital",66,66,8,0.8293
+"Indiana","Marion","Psychiatric Hospital","Assurance Health Indianapolis",23,23,0,0.828
+"Pennsylvania","Lehigh","Long Term Acute Care Hospital","Good Shepherd Specialty Hospital",32,32,5,0.8277
+"Massachusetts","Suffolk","Long Term Acute Care Hospital","Lemuel Shattuck Hospital",260,260,40,0.8275
+"Illinois","Cook","Short Term Acute Care Hospital","Advocate Christ Medical Center",788,711,123,0.8274
+"Missouri","Camden","Psychiatric Hospital","Osage Beach Center for Cognitive Disorders",14,12,0,0.8272
+"California","Los Angeles","Short Term Acute Care Hospital","Cedars-Sinai Medical Center",889,880,72,0.8269
+"Pennsylvania","Dauphin","Short Term Acute Care Hospital","Penn State Health Milton S Hershey Medical Center",548,548,77,0.8268
+"Minnesota","Ramsey","Short Term Acute Care Hospital","Regions Hospital",474,443,34,0.8267
+"Montana","Broadwater","Critical Access Hospital","Billings Clinic Broadwater (FKA Broadwater Health Center)",25,25,4,0.8261
+"District of Columbia","District of Columbia","Short Term Acute Care Hospital","MedStar Washington Hospital Center",912,701,92,0.8259
+"New York","New York City","Short Term Acute Care Hospital","NewYork-Presbyterian/Weill Cornell Medical Center",862,862,214,0.8258
+"Pennsylvania","Westmoreland","Psychiatric Hospital","Torrance State Hospital",362,353,0,0.8257
+"Washington","King","Psychiatric Hospital","Cascade Behavioral Health Hospital",135,88,0,0.8257
+"Florida","Osceola","Short Term Acute Care Hospital","Osceola Regional Medical Center",404,345,52,0.8255
+"Massachusetts","Essex","Psychiatric Hospital","Haverhill Pavilion Behavioral Health Hospital (FKA the Whittier Pavilion)",10,71,0,0.8248
+"Arizona","Maricopa","Short Term Acute Care Hospital","Mayo Clinic Hospital - Arizona",292,264,30,0.8246
+"Montana","Roosevelt","Critical Access Hospital","Roosevelt Medical Center",25,25,6,0.8246
+"Texas","Harris","Psychiatric Hospital","West Oaks Hospital",160,160,0,0.824
+"Maryland","Baltimore City","Short Term Acute Care Hospital","The Johns Hopkins Hospital",1095,952,90,0.8239
+"New York","Kings","Short Term Acute Care Hospital","Maimonides Medical Center",711,641,40,0.8239
+"Virginia","Norfolk","Short Term Acute Care Hospital","Sentara Leigh Hospital",247,247,20,0.823
+"Arkansas","Washington","Psychiatric Hospital","Vantage Point Behavioral Health Hospital (FKA Vista Health Fayetteville)",114,70,0,0.8229
+"North Carolina","Nash","Long Term Acute Care Hospital","PAM Specialty Hospital of Rocky Mount (FKA LifeCare Hospitals of North Carolina)",50,50,8,0.8227
+"Texas","El Paso","Psychiatric Hospital","El Paso Behavioral Health System (FKA University Behavioral Health of El Paso)",166,166,0,0.8217
+"Maine","Cumberland","Psychiatric Hospital","Spring Harbor Hospital",100,100,0,0.8216
+"Montana","Sweet Grass","Critical Access Hospital","Pioneer Medical Center",25,25,4,0.8213
+"Tennessee","Shelby","Rehabilitation Hospital","Baptist Memorial Rehabilitation Hospital",49,49,0,0.8212
+"Ohio","Hamilton","Short Term Acute Care Hospital","The Jewish Hospital - Mercy Health",209,170,54,0.821
+"Montana","Liberty","Critical Access Hospital","Liberty Medical Center (FKA Liberty County Hospital)",25,25,4,0.8207
+"Texas","Wichita","Psychiatric Hospital","North Texas State Hospital - Witchita Falls Campus",312,312,0,0.8203
+"Connecticut","New Haven","Psychiatric Hospital","Connecticut Mental Health Center",32,32,0,0.8202
+"Minnesota","Olmsted","Psychiatric Hospital","Community Behavioral Health Hospital - Rochester",16,16,0,0.82
+"California","San Francisco","Short Term Acute Care Hospital","UCSF Helen Diller Medical Center at Parnassus Heights",590,785,122,0.8194
+"Texas","Harris","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Cypress (FKA Healthsouth Rehabilitation Hospital of Cypress)",60,60,0,0.8193
+"Georgia","Colquitt","Short Term Acute Care Hospital","Turning Point Hospital",69,43,6,0.8192
+"Texas","Dallas","Rehabilitation Hospital","Methodist Rehabilitation Hospital",50,50,0,0.819
+"Florida","Leon","Long Term Acute Care Hospital","Select Specialty Hospital - Tallahassee",48,48,11,0.8183
+"South Dakota","Minnehaha","Long Term Acute Care Hospital","Select Specialty Hospital - South Dakota",24,24,5,0.8182
+"Florida","Hillsborough","Short Term Acute Care Hospital","Tampa General Hospital (AKA Florida Health Sciences Center)",1006,898,101,0.8176
+"California","Los Angeles","Short Term Acute Care Hospital","College Medical Center (FKA Pacific Hospital of Long Beach)",121,221,8,0.8175
+"Louisiana","Lincoln","Psychiatric Hospital","Serenity Springs Specialty Hospital",18,18,0,0.8175
+"Georgia","Lowndes","Psychiatric Hospital","Greenleaf Behavioral Health Hospital",113,113,0,0.8174
+"Texas","Harris","Short Term Acute Care Hospital","Houston Methodist Baytown Hospital (FKA Houston Methodist San Jacinto Hospital)",230,215,24,0.8166
+"Washington","Clark","Short Term Acute Care Hospital","Legacy Salmon Creek Medical Center",220,166,16,0.8164
+"Colorado","Adams","Short Term Acute Care Hospital","UCHealth University of Colorado Hospital",698,667,144,0.8163
+"Georgia","Cobb","Short Term Acute Care Hospital","WellStar Kennestone Hospital",633,633,55,0.8163
+"New York","Nassau","Short Term Acute Care Hospital","Mount Sinai South Nassau (FKA South Nassau Communities Hospital)",455,318,10,0.8162
+"Colorado","Larimer","Long Term Acute Care Hospital","Northern Colorado Long Term Acute Hospital",20,20,4,0.8161
+"Mississippi","Hinds","Short Term Acute Care Hospital","University Hospital (FKA the University of Mississippi Medical Center)",697,697,40,0.8161
+"Louisiana","Rapides","Psychiatric Hospital","Oceans Behavioral Hospital Alexandria",24,24,0,0.8159
+"New Jersey","Morris","Short Term Acute Care Hospital","Morristown Medical Center",657,620,44,0.8159
+"Alabama","Jefferson","Short Term Acute Care Hospital","UAB Hospital",1157,1100,85,0.8155
+"Nebraska","Lancaster","Rehabilitation Hospital","Madonna Rehabilitation Hospital - Lincoln",61,61,3,0.8152
+"Georgia","Richmond","Short Term Acute Care Hospital","Doctors Hospital of Augusta",354,260,60,0.8147
+"Maryland","Baltimore City","Short Term Acute Care Hospital","Levindale Hebrew Geriatric Center & Hospital",120,120,21,0.8147
+"Ohio","Stark","Psychiatric Hospital","Heartland Behavioral Healthcare Hospital",126,126,0,0.8147
+"Kentucky","Fayette","Short Term Acute Care Hospital","UK Albert B Chandler Hospital (AKA Kentucky Hospital)",524,524,146,0.8146
+"New Jersey","Cumberland","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Vineland (FKA HealthSouth Rehabilitation Hospital of Vineland)",41,41,0,0.8143
+"Georgia","Chatham","Long Term Acute Care Hospital","Landmark Hospital of Savannah",25,25,5,0.8142
+"California","Sacramento","Long Term Acute Care Hospital","Vibra Hospital of Sacramento (FKA Kindred Hospital Sacramento)",58,58,11,0.8138
+"Connecticut","Hartford","Short Term Acute Care Hospital","Hartford Hospital",867,702,84,0.8135
+"Tennessee","Loudon","Short Term Acute Care Hospital","Fort Loudoun Medical Center",50,30,5,0.8135
+"Connecticut","Middlesex","Psychiatric Hospital","Connecticut Valley Hospital",386,386,0,0.8134
+"Alaska","Anchorage","Psychiatric Hospital","North Star Behavioral Health (FKA North Star Hospital)",74,104,0,0.8133
+"Florida","Alachua","Rehabilitation Hospital","UF Health Rehab Hospital",60,40,0,0.8133
+"Florida","St. Lucie","Psychiatric Hospital","Port St Lucie Hospital",75,75,0,0.8131
+"Virginia","Fairfax","Psychiatric Hospital","Northern Virginia Mental Health Institute",94,94,0,0.8131
+"California","Orange","Long Term Acute Care Hospital","Kindred Hospital - Brea",48,48,4,0.8127
+"Florida","Herdo","Short Term Acute Care Hospital","Oak Hill Hospital",350,280,24,0.8127
+"California","Mendocino","Critical Access Hospital","Adventist Health Howard Memorial (FKA Frank R Howard Memorial Hospital)",25,25,4,0.8124
+"Connecticut","New Haven","Short Term Acute Care Hospital","Yale New Haven Hospital",581,581,88,0.8124
+"Georgia","Bleckley","Critical Access Hospital","Bleckley Memorial Hospital",25,15,3,0.8124
+"New Jersey","Somerset","Psychiatric Hospital","Hackensack Meridian Health Carrier Clinic",281,207,1,0.8122
+"Colorado","Garfield","Short Term Acute Care Hospital","Valley View Hospital",78,41,5,0.8118
+"Texas","Tarrant","Psychiatric Hospital","Millwood Hospital",134,134,0,0.8117
+"Alabama","Jefferson","Psychiatric Hospital","Hill Crest Behavioral Health Services (FKA Hill Crest Hospital)",94,78,0,0.8114
+"Mississippi","Rankin","Psychiatric Hospital","Mississippi State Hospital",1479,87,0,0.8114
+"Michigan","Wayne","Short Term Acute Care Hospital","Beaumont Hospital - Dearborn (FKA Oakwood Hospital - Dearborn)",632,567,17,0.811
+"Georgia","Hall","Short Term Acute Care Hospital","Northeast Georgia Medical Center Gainesville",657,542,85,0.8109
+"Missouri","St. Louis","Rehabilitation Hospital","Mercy Rehabilitation Hospital St Louis (FKA St Johns Mercy Rehabilitation Hospi)",90,90,0,0.8107
+"Pennsylvania","Philadelphia","Rehabilitation Hospital","Magee Rehabilitation Hospital",80,96,0,0.8107
+"Oregon","Washington","Psychiatric Hospital","Cedar Hills Hospital",98,98,0,0.8105
+"Kentucky","Jefferson","Psychiatric Hospital","The Brook Hospital - Dupont",88,68,0,0.8104
+"Oklahoma","Tulsa","Psychiatric Hospital","Parkside Psychiatric Hospital & Clinic",51,70,0,0.8103
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","Oklahoma Heart Hospital North",98,99,17,0.8102
+"Kansas","Johnson","Psychiatric Hospital","Cottonwood Springs",72,72,0,0.8096
+"Oregon","Multnomah","Short Term Acute Care Hospital","OHSU Hospital - Portland (AKA OHSU Hospital - Marquam Hill Campus)",576,549,79,0.8095
+"Wisconsin","Waukesha","Rehabilitation Hospital","ProHealth Rehabilitation Hospital of Wisconsin",40,40,0,0.8095
+"Maine","Kennebec","Psychiatric Hospital","Riverview Psychiatric Hospital",92,92,0,0.8094
+"New Mexico","Bernalillo","Short Term Acute Care Hospital","University of New Mexico Hospital (AKA UNM Hospital)",527,451,48,0.8093
+"Kansas","Lyon","Critical Access Hospital","Newman Regional Health",25,20,6,0.809
+"Michigan","Oakland","Short Term Acute Care Hospital","Beaumont Hospital - Troy",520,495,56,0.8087
+"Illinois","Cook","Long Term Acute Care Hospital","RML Specialty Hospital Hinsdale",115,184,19,0.8085
+"California","San Francisco","Psychiatric Hospital","Jewish Home & Rehab Center (AKA San Francisco Campus for Jewish Living)",13,13,0,0.8084
+"New Jersey","Mercer","Short Term Acute Care Hospital","Capital Health Medical Center - Hopewell",221,161,16,0.8084
+"Arizona","Pima","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals Tucson",34,34,6,0.8075
+"California","San Bernardino","Psychiatric Hospital","Loma Linda University Behavioral Medicine Center",99,89,0,0.8068
+"Florida","Broward","Religious Non-Medical Health Care Institution","Daystar (Christian Science Nursing)",4,4,0,0.8068
+"California","Los Angeles","Psychiatric Hospital","Del Amo Hospital",166,166,0,0.8067
+"Washington","Pierce","Short Term Acute Care Hospital","St Joseph Medical Center",366,374,82,0.8067
+"Tennessee","Davidson","Psychiatric Hospital","Middle Tennessee Mental Health Institute",300,207,46,0.8065
+"Texas","Harris","Rehabilitation Hospital","Memorial Hermann Rehabilitation Hospital - Katy",35,35,0,0.8065
+"Massachusetts","Suffolk","Childrens Hospital","Boston Childrens Hospital",415,415,121,0.8063
+"Tennessee","Davidson","Long Term Acute Care Hospital","Select Specialty Hospital - Nashville",70,70,11,0.806
+"Missouri","St. Louis","Rehabilitation Hospital","SSM Health Rehabilitation Hospital - Richmond Heights",35,125,0,0.8057
+"North Carolina","Orange","Short Term Acute Care Hospital","UNC Medical Center (FKA University of North Carolina Hospitals - Memorial Hospital)",923,812,32,0.8057
+"Pennsylvania","Philadelphia","Childrens Hospital","Childrens Hospital of Philadelphia (AKA CHOP)",564,576,88,0.8057
+"Colorado","Phillips","Critical Access Hospital","Haxtun Hospital District (AKA Haxtun Health)",25,25,4,0.8056
+"California","Sacramento","Religious Non-Medical Health Care Institution","Olive Glen Foundation",6,6,0,0.8055
+"Michigan","Ingham","Long Term Acute Care Hospital","Sparrow Specialty Hospital",30,30,5,0.8049
+"Georgia","Polk","Critical Access Hospital","Polk Medical Center",25,25,4,0.8048
+"California","Sonoma","Short Term Acute Care Hospital","Sutter Santa Rosa Regional Hospital (FKA Sutter Medical Center of Santa Rosa)",84,74,12,0.8046
+"Texas","Comal","Rehabilitation Hospital","New Braunfels Regional Rehabilitation Hospital",40,40,2,0.8046
+"New Jersey","Ocean","Psychiatric Hospital","Barnabas Health Behavioral Health Center",40,40,0,0.8043
+"Rhode Island","Providence","Short Term Acute Care Hospital","Rhode Island Hospital",719,635,137,0.8041
+"Texas","Tarrant","Short Term Acute Care Hospital","Medical City Fort Worth (FKA Plaza Medical Center of Fort Worth)",348,209,44,0.8041
+"Illinois","Cook","Psychiatric Hospital","AMITA Health Alexian Brothers Behavioral Health Hospital Hoffman Estates",141,141,0,0.804
+"Texas","Tarrant","Rehabilitation Hospital","Texas Rehabilitation Hospital of Arlington",40,40,0,0.804
+"Michigan","Genesee","Long Term Acute Care Hospital","Select Specialty Hospital - Flint",26,26,5,0.8039
+"Washington","Snohomish","Short Term Acute Care Hospital","Providence Regional Medical Center Everett - Colby Campus",501,495,49,0.8038
+"Washington","Pierce","Short Term Acute Care Hospital","MultiCare Tacoma General Hospital",567,365,48,0.8035
+"Michigan","Wayne","Short Term Acute Care Hospital","Henry Ford Hospital",877,693,128,0.8033
+"Kansas","Washington","Critical Access Hospital","Hanover Hospital",25,119,4,0.8032
+"New Mexico","Bernalillo","Short Term Acute Care Hospital","Presbyterian Hospital",453,453,47,0.8032
+"New York","Orange","Short Term Acute Care Hospital","Garnet Health Medical Center (FKA Orange Regional Medical Center)",383,329,40,0.8029
+"Tennessee","Davidson","Short Term Acute Care Hospital","TriStar Skyline Medical Center",233,233,45,0.8019
+"Texas","Dallas","Short Term Acute Care Hospital","William P Clements Jr University Hospital (FKA UT Southwestern University Hospital - St Paul)",459,459,72,0.8018
+"Washington","Benton","Psychiatric Hospital","Lourdes Counseling Center",32,22,0,0.8017
+"Washington","Spokane","Psychiatric Hospital","Eastern State Hospital",297,342,0,0.8015
+"Washington","Lincoln","Critical Access Hospital","Odessa Memorial Healthcare Center",25,25,4,0.8014
+"Texas","Dallas","Psychiatric Hospital","Garland Behavioral Hospital",72,72,0,0.8013
+"California","Los Angeles","Short Term Acute Care Hospital","LAC & USC Medical Center",600,594,148,0.8012
+"New Mexico","Bernalillo","Long Term Acute Care Hospital","AMG Specialty Hospital - Albuquerque",25,25,6,0.8012
+"Arizona","Maricopa","Psychiatric Hospital","Aurora Behavioral Health System - East (FKA Aurora Behavioral Healthcare - Tempe Hospital)",138,138,0,0.801
+"Oklahoma","Tulsa","Psychiatric Hospital","Tulsa Center for Behavioral Health",56,56,0,0.8008
+"Arizona","Maricopa","Short Term Acute Care Hospital","St Josephs Hospital and Medical Center",586,501,32,0.8007
+"New York","Erie","Short Term Acute Care Hospital","Erie County Medical Center (AKA ECMC)",573,354,38,0.8005
+"North Dakota","Cass","Psychiatric Hospital","Prairie St Johns",110,110,2,0.8005
+"Illinois","DuPage","Short Term Acute Care Hospital","Edward Hospital (FKA Edward Heart Hospital)",354,294,25,0.8003
+"Florida","Bay","Short Term Acute Care Hospital","Gulf Coast Regional Medical Center",223,223,20,0.8002
+"Georgia","Fulton","Short Term Acute Care Hospital","Emory Johns Creek Hospital",110,110,14,0.8002
+"Louisiana","Rapides","Psychiatric Hospital","Central Louisiana State Hospital (AKA Pineville Hospital)",196,148,0,0.8002
+"Washington","Whatcom","Short Term Acute Care Hospital","PeaceHealth St Joseph Medical Center",253,207,24,0.8001
+"Wyoming","Natrona","Psychiatric Hospital","Wyoming Behavioral Institute",85,85,0,0.8001
+"Ohio","Summit","Rehabilitation Hospital","Summa Rehab Hospital",60,60,0,0.7999
+"Ohio","Lorain","Psychiatric Hospital","ClearVista Health and Wellness",52,52,0,0.7998
+"California","San Bernardino","Long Term Acute Care Hospital","Kindred Hospital - Ontario",91,91,7,0.7992
+"Louisiana","Orleans","Short Term Acute Care Hospital","University Medical Center New Orleans (FKA Medical Center of Louisiana at New Orleans and Interim LSU Public Hospital)",446,306,56,0.7992
+"Nevada","Clark","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Henderson (FKA Healthsouth Rehabilitation Hospital of Henderson)",90,90,3,0.7991
+"New York","Westchester","Short Term Acute Care Hospital","St Johns Riverside Hospital - Andrus Pavilion",225,319,16,0.7991
+"California","San Francisco","Short Term Acute Care Hospital","Zuckerberg San Francisco General Hospital (FKA San Francisco General Hospital)",284,284,58,0.7986
+"South Carolina","Greenville","Psychiatric Hospital","Springbrook Behavioral Health",62,116,0,0.7986
+"Tennessee","Knox","Short Term Acute Care Hospital","Fort Sanders Regional Medical Center",517,285,45,0.7986
+"Massachusetts","Norfolk","Short Term Acute Care Hospital","South Shore Hospital",393,390,34,0.7985
+"Texas","Collin","Short Term Acute Care Hospital","Medical City Plano (FKA Medical Center of Plano)",603,459,41,0.7984
+"Washington","King","Short Term Acute Care Hospital","Virginia Mason Seattle Medical Center",371,220,28,0.7984
+"Louisiana","East Baton Rouge","Rehabilitation Hospital","The NeuroMedical Center Rehabilitation Hospital",27,27,0,0.7983
+"Pennsylvania","Blair","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Altoona (FKA Healthsouth Rehabilitation Hospital of Altoona)",80,80,0,0.7981
+"Illinois","Cook","Short Term Acute Care Hospital","UChicago Medicine Mitchell Hospital (AKA Bernard A Mitchell Hospital)",805,678,87,0.7979
+"North Dakota","Stutsman","Psychiatric Hospital","North Dakota State Hospital",140,108,0,0.7975
+"New York","Nassau","Short Term Acute Care Hospital","Long Island Jewish Medical Center",1025,524,53,0.7974
+"Tennessee","Shelby","Long Term Acute Care Hospital","Regional One Health Extended Care Hospital",24,30,5,0.7974
+"California","Orange","Short Term Acute Care Hospital","UCI Medical Center (FKA UC Irvine Medical Center)",402,352,58,0.7973
+"Pennsylvania","Bucks","Rehabilitation Hospital","St Mary Rehabilitation Hospital",50,50,0,0.7973
+"Colorado","Arapahoe","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Littleton",40,60,0,0.7971
+"Virginia","Norfolk","Short Term Acute Care Hospital","Sentara Norfolk General Hospital",525,471,60,0.7971
+"District of Columbia","District of Columbia","Childrens Hospital","Childrens National Medical Center (AKA Childrens National Health System)",323,323,73,0.797
+"Nebraska","Douglas","Short Term Acute Care Hospital","Nebraska Medical Center",718,568,73,0.7969
+"Virginia","Loudoun","Short Term Acute Care Hospital","Inova Loudoun Hospital",167,153,23,0.7967
+"Florida","Lee","Psychiatric Hospital","Park Royal Hospital",114,103,0,0.7961
+"Texas","Harris","Psychiatric Hospital","Cypress Creek Hospital",128,128,0,0.7959
+"Virginia","Arlington","Short Term Acute Care Hospital","Virginia Hospital Center - Arlington",394,305,32,0.7959
+"Washington","Pierce","Short Term Acute Care Hospital","MultiCare Good Samaritan Hospital",286,313,20,0.7958
+"Massachusetts","Plymouth","Short Term Acute Care Hospital","Beth Israel Deaconess Hospital - Plymouth",164,145,13,0.7957
+"Kansas","Barber","Critical Access Hospital","Medicine Lodge Memorial Hospital",25,22,4,0.7955
+"North Carolina","Pitt","Short Term Acute Care Hospital","Vidant Medical Center (FKA Pitt County Memorial Hospital)",974,847,71,0.7951
+"North Carolina","Onslow","Psychiatric Hospital","Brynn Marr Hospital",84,84,0,0.795
+"Ohio","Cuyahoga","Short Term Acute Care Hospital","Hillcrest Hospital",500,385,23,0.7948
+"Oklahoma","Tulsa","Short Term Acute Care Hospital","Ascension St John Medical Center (FKA St John Medical Center)",677,495,63,0.7944
+"Florida","Sumter","Long Term Acute Care Hospital","Select Specialty Hospital - The Villages (FKA Promise Hospital of Florida at the Villages)",40,40,6,0.7941
+"Missouri","Greene","Long Term Acute Care Hospital","Select Specialty Hospital - Springfield",44,44,8,0.7941
+"Texas","Harris","Psychiatric Hospital","Sacred Oak Medical Center",20,20,0,0.7933
+"California","Fresno","Short Term Acute Care Hospital","Saint Agnes Medical Center",436,385,40,0.7932
+"Kansas","Jewell","Critical Access Hospital","Jewell County Hospital",25,21,4,0.7932
+"New York","Kings","Short Term Acute Care Hospital","NYC Health and Hospitals - Coney Island (FKA Coney Island Hospital)",371,292,22,0.7932
+"Utah","Salt Lake","Short Term Acute Care Hospital","University of Utah Hospital",630,472,65,0.7931
+"Georgia","Miller","Critical Access Hospital","Miller County Hospital",25,25,4,0.7923
+"Arkansas","Pulaski","Rehabilitation Hospital","CHI St Vincent Rehabilitation Hospital - North (FKA St Vincent North Rehabilitation Hospital)",80,40,0,0.7922
+"Washington","Benton","Short Term Acute Care Hospital","Kadlec Regional Medical Center (AKA Kadlec Health System)",270,248,30,0.7915
+"Wisconsin","Racine","Long Term Acute Care Hospital","Lakeview Specialty Hospital & Rehab",39,39,6,0.7915
+"California","Orange","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Tustin (FKA HealthSouth Tustin Rehabilitation Hospital)",48,48,0,0.7914
+"Washington","King","Short Term Acute Care Hospital","Seattle Cancer Care Alliance",20,20,4,0.7914
+"Montana","Lewis and Clark","Psychiatric Hospital","Shodair Childrens Hospital",30,30,0,0.7913
+"New York","Bronx","Short Term Acute Care Hospital","BronxCare Hospital Center - Fulton Campus",170,454,31,0.7912
+"Texas","Dallas","Rehabilitation Hospital","Mesquite Rehabilitation Institute",30,30,2,0.791
+"California","Fresno","Rehabilitation Hospital","San Joaquin Valley Rehabilitation Hospital",62,62,0,0.7908
+"Arizona","Pima","Psychiatric Hospital","Cornerstone Behavioral Health - El Dorado",36,36,0,0.7899
+"California","San Diego","Short Term Acute Care Hospital","Sharp Chula Vista Medical Center",349,243,35,0.7899
+"Minnesota","Pennington","Psychiatric Hospital","Sanford Behavioral Health Hospital",16,16,0,0.7899
+"Nevada","Clark","Long Term Acute Care Hospital","PAM Specialty Hospital of Las Vegas (FKA Complex Care Hospital at Tenaya)",70,70,12,0.7899
+"North Dakota","Cass","Long Term Acute Care Hospital","Vibra Hospital of Fargo (FKA Kindred Hospital Fargo)",31,31,7,0.7898
+"Michigan","Wayne","Long Term Acute Care Hospital","Select Specialty Hospital - Downriver",35,71,11,0.7896
+"Virginia","James City","Psychiatric Hospital","The Pavilion at Williamsburg Place",66,66,0,0.7896
+"Michigan","Macomb","Psychiatric Hospital","Harbor Oaks Hospital",134,134,0,0.7893
+"Connecticut","New Haven","Long Term Acute Care Hospital","Gaylord Hospital (AKA Gaylord Specialty Healthcare)",137,137,21,0.7892
+"Nevada","Clark","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Las Vegas (FKA Healthsouth Rehabilitation Hospital of Las Vegas)",79,79,0,0.7892
+"Maryland","Montgomery","Rehabilitation Hospital","Adventist HealthCare Rehabilitation - Rockville (FKA Adventist Rehabilitation Hospital - Rockville)",87,53,0,0.7891
+"New Hampshire","Merrimack","Short Term Acute Care Hospital","Concord Hospital (AKA Capital Region Health Care)",295,206,18,0.7889
+"New York","Albany","Short Term Acute Care Hospital","Albany Medical Center",748,740,65,0.7889
+"California","Shasta","Long Term Acute Care Hospital","Vibra Hospital of Northern California (FKA Northern California Rehab Hospital)",56,56,9,0.7888
+"Louisiana","East Baton Rouge","Psychiatric Hospital","Seaside Health System - Baton Rouge",64,64,0,0.7887
+"Georgia","Bibb","Short Term Acute Care Hospital","The Medical Center Navicent Health (FKA Medical Center of Central Georgia)",637,619,77,0.7884
+"Minnesota","Anoka","Psychiatric Hospital","Anoka-Metro Regional Treatment Center",200,200,0,0.7884
+"Hawaii","Honolulu","Rehabilitation Hospital","Rehabilitation Hospital of the Pacific",82,82,0,0.7883
+"Michigan","Kalamazoo","Psychiatric Hospital","Kalamazoo Psychiatric Hospital",183,183,0,0.7883
+"Minnesota","Ramsey","Short Term Acute Care Hospital","M Health Fairview St Josephs Hospital (FKA HealthEast St Josephs Hospital)",401,197,48,0.7878
+"New Jersey","Middlesex","Childrens Hospital","PSE&G Childrens Specialized Hospital",68,68,26,0.7878
+"Vermont","Windsor","Critical Access Hospital","Mt Ascutney Hospital and Health Center",35,25,4,0.7878
+"Florida","Miami-Dade","Short Term Acute Care Hospital","Aventura Hospital and Medical Center",407,351,77,0.7876
+"New Jersey","Morris","Psychiatric Hospital","Greystone Park Psychiatric Hospital",468,468,0,0.7876
+"New Jersey","Essex","Rehabilitation Hospital","Kessler Institute for Rehabilitation - West Orange",152,152,0,0.7875
+"Texas","Montgomery","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital Vision Park (FKA Reliant Hospital North Houston)",60,60,0,0.7875
+"Washington","Grays Harbor","Short Term Acute Care Hospital","Grays Harbor Community Hospital - West/Main Campus",140,49,8,0.7873
+"Wisconsin","Milwaukee","Short Term Acute Care Hospital","Ascension SE Wisconsin Hospital - Franklin Campus (FKA Ascension Wheaton Franciscan Healthcare - Franklin)",52,44,8,0.7873
+"Texas","Tarrant","Short Term Acute Care Hospital","Texas Health Fort Worth (FKA Texas Health Harris Methodist Hospital Fort Worth)",707,651,42,0.787
+"California","Orange","Long Term Acute Care Hospital","Kindred Hospital - Westminster",109,109,16,0.7869
+"New York","Suffolk","Short Term Acute Care Hospital","Peconic Bay Medical Center",140,124,10,0.7868
+"Arizona","Maricopa","Short Term Acute Care Hospital","Chandler Regional Medical Center",338,96,49,0.7866
+"Texas","Collin","Short Term Acute Care Hospital","Methodist Richardson Medical Center",269,172,25,0.7864
+"California","Alameda","Long Term Acute Care Hospital","Kindred Hospital - San Francisco Bay Area",99,99,10,0.7856
+"California","San Diego","Short Term Acute Care Hospital","UC San Diego Medical Center - Hillcrest",390,381,58,0.7851
+"Ohio","Cuyahoga","Short Term Acute Care Hospital","Cleveland Clinic Main Campus",1268,1310,213,0.7851
+"Nebraska","Lancaster","Long Term Acute Care Hospital","Select Specialty Hospital - Lincoln",24,24,6,0.7846
+"Texas","Bexar","Short Term Acute Care Hospital","University Hospital (AKA University Health)",1034,623,64,0.7846
+"Georgia","DeKalb","Psychiatric Hospital","Peachford Hospital",246,246,0,0.7845
+"Arizona","Maricopa","Short Term Acute Care Hospital","Banner - University Medical Center Phoenix (FKA Banner Good Samaritan Medical Center)",766,656,46,0.7841
+"Florida","Hillsborough","Short Term Acute Care Hospital","Moffitt Cancer Center (AKA H Lee Moffitt Cancer Center & Research Institute)",218,206,30,0.7839
+"Iowa","Webster","Short Term Acute Care Hospital","Trinity Regional Medical Center",200,40,8,0.7836
+"Texas","Tarrant","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of City View (FKA Healthsouth Rehab of Cityview)",62,62,0,0.7835
+"South Carolina","Anderson","Rehabilitation Hospital","AnMed Health Rehabilitation Hospital",60,60,0,0.7829
+"Georgia","DeKalb","Long Term Acute Care Hospital","Emory Long-Term Acute Care (FKA DeKalb Medical Long Term Acute Care at Downtown Decatur)",76,38,6,0.7828
+"Maryland","Montgomery","Psychiatric Hospital","Adventist HealthCare Shady Grove Medical Center - Mental Health",329,185,27,0.7828
+"Arkansas","Sebastian","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Fort Smith (FKA HealthSouth Rehabilitation Hospital of Fort Smith)",80,60,0,0.7827
+"Pennsylvania","Philadelphia","Short Term Acute Care Hospital","Girard Medical Center",51,51,9,0.7827
+"Texas","Travis","Long Term Acute Care Hospital","Texas NeuroRehab Center",47,49,7,0.7827
+"Virginia","Fairfax","Short Term Acute Care Hospital","Inova Fairfax Hospital (AKA Inova Fairfax Medical Campus)",923,833,106,0.7824
+"Georgia","Bartow","Short Term Acute Care Hospital","Cartersville Medical Center",119,119,21,0.7823
+"Maine","Kennebec","Short Term Acute Care Hospital","MaineGeneral Medical Center - Alfond Center for Health (FKA Augusta Campus)",287,182,16,0.7823
+"Virginia","Fairfax","Psychiatric Hospital","Dominion Hospital",116,116,0,0.7818
+"New Jersey","Camden","Psychiatric Hospital","Ancora Psychiatric Hospital",515,515,0,0.7811
+"Michigan","Clinton","Psychiatric Hospital","Cedar Creek Hospital",41,41,0,0.781
+"Texas","Denton","Psychiatric Hospital","Carrollton Springs",78,78,0,0.7807
+"Texas","Lubbock","Psychiatric Hospital","Sunrise Canyon Hospital",30,30,0,0.7807
+"Florida","Collier","Psychiatric Hospital","The Willough at Naples",87,87,0,0.7805
+"Florida","St. Lucie","Short Term Acute Care Hospital","Lawnwood Regional Medical Center & Heart Institute",392,312,36,0.7805
+"Florida","Alachua","Short Term Acute Care Hospital","UF Health Shands Hospital (FKA Shands at the University of Florida)",1014,742,170,0.78
+"Tennessee","Hardeman","Psychiatric Hospital","Western Mental Health Institute",187,150,0,0.78
+"New York","Queens","Short Term Acute Care Hospital","NYC Health and Hospitals - Elmhurst (FKA Elmhurst Hospital Center)",545,358,20,0.7799
+"Utah","Salt Lake","Psychiatric Hospital","UU Health Care - University Neuropsychiatric Institute",178,160,0,0.7797
+"North Carolina","Mecklenburg","Short Term Acute Care Hospital","Atrium Health Carolinas Medical Center",1211,1124,78,0.7793
+"Texas","Angelina","Psychiatric Hospital","Oceans Behavioral Hospital Lufkin (FKA Audubon Behavioral Healthcare Lufkin)",24,24,0,0.7788
+"Kentucky","Allen","Critical Access Hospital","The Medical Center at Scottsville",25,25,4,0.7783
+"Nevada","Clark","Short Term Acute Care Hospital","Dignity Health St Rose Dominican - Siena Campus",326,326,50,0.7783
+"Virginia","Chesterfield","Short Term Acute Care Hospital","St Francis Medical Center",130,130,16,0.7776
+"Virginia","Prince William","Short Term Acute Care Hospital","Sentara Northern Virginia Medical Center (FKA Potomac Hospital)",183,147,16,0.7775
+"Iowa","Polk","Short Term Acute Care Hospital","Iowa Methodist Medical Center",460,600,36,0.7772
+"Florida","Broward","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Sunrise (FKA Healthsouth Sunrise Rehab Hospital)",126,126,0,0.777
+"Texas","Harris","Short Term Acute Care Hospital","HCA Houston Healthcare Clear Lake (FKA Clear Lake Regional Medical Center)",532,506,86,0.777
+"Texas","Bexar","Psychiatric Hospital","San Antonio State Hospital",302,302,0,0.7769
+"North Carolina","Mecklenburg","Rehabilitation Hospital","Carolinas Rehabilitation - Charlotte",70,150,1,0.7768
+"Massachusetts","Hampden","Short Term Acute Care Hospital","Baystate Medical Center",724,705,32,0.7767
+"Alabama","Mobile","Short Term Acute Care Hospital","Springhill Medical Center",263,188,20,0.7766
+"California","Sonoma","Psychiatric Hospital","Aurora Santa Rosa Hospital",95,95,0,0.7764
+"Ohio","Franklin","Short Term Acute Care Hospital","Ohio State University Wexner Medical Center (AKA Ohio State University Hospital)",1106,982,97,0.7761
+"California","Placer","Short Term Acute Care Hospital","Sutter Roseville Medical Center",328,264,32,0.7753
+"Maryland","Baltimore","Short Term Acute Care Hospital","Greater Baltimore Medical Center (AKA GBMC HealthCare)",257,82,24,0.7751
+"Louisiana","East Baton Rouge","Long Term Acute Care Hospital","AMG Specialty Hospital - Zachary (FKA AMG Specialty Hospital - Feliciana)",16,16,4,0.775
+"Washington","King","Short Term Acute Care Hospital","Swedish Medical Center - Cherry Hill Campus (FKA Providence Seattle Medical Center)",385,181,56,0.7749
+"California","Riverside","Short Term Acute Care Hospital","Temecula Valley Hospital",140,140,20,0.7746
+"New York","Kings","Short Term Acute Care Hospital","Brooklyn Hospital Center at Downtown Campus",464,272,12,0.7746
+"North Dakota","Cass","Short Term Acute Care Hospital","Sanford Broadway Medical Center",380,468,67,0.7746
+"Texas","Hays","Rehabilitation Hospital","Warm Springs Rehabilitation Hospital of Kyle (AKA PAM Rehabilitation Hospital of Kyle)",40,40,0,0.7743
+"Texas","Grayson","Long Term Acute Care Hospital","Carrus Specialty Hospital",33,33,9,0.7742
+"Tennessee","Hamilton","Short Term Acute Care Hospital","Erlanger Baroness Hospital (FKA Erlanger Medical Center - Baroness Campus)",688,680,102,0.774
+"Texas","Hidalgo","Short Term Acute Care Hospital","Doctors Hospital at Renaissance Health (AKA DHR Health)",235,235,58,0.774
+"Virginia","Hanover","Short Term Acute Care Hospital","Memorial Regional Medical Center",225,225,24,0.7739
+"Florida","Lake","Psychiatric Hospital","LifeStream Behavioral Center",46,66,20,0.7736
+"North Carolina","Mecklenburg","Short Term Acute Care Hospital","Novant Health Presbyterian Medical Center (FKA Presbyterian Hospital)",624,521,40,0.7736
+"California","San Bernardino","Short Term Acute Care Hospital","Desert Valley Hospital",148,148,18,0.7728
+"Tennessee","Putnam","Short Term Acute Care Hospital","Cookeville Regional Medical Center",247,211,38,0.7728
+"Tennessee","Rutherford","Short Term Acute Care Hospital","Ascension Saint Thomas Rutherford (FKA Middle Tennessee Medical Center)",286,285,68,0.7725
+"Florida","Orange","Psychiatric Hospital","Central Florida Behavioral Hospital",174,174,2,0.7723
+"Texas","Angelina","Long Term Acute Care Hospital","PAM Specialty Hospital of Lufkin (FKA Health Memorial Specialty Hospital at CHI St Lukes Health)",26,26,4,0.7723
+"Virginia","Lynchburg","Short Term Acute Care Hospital","Centra Lynchburg General Hospital",534,358,37,0.7719
+"Nevada","Clark","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Desert Canyon (FKA Healthsouth Desert Canyon Rehabilitation Hospital)",50,50,0,0.7718
+"Missouri","Jackson","Short Term Acute Care Hospital","Truman Medical Center Hospital Hill (FKA Truman Medical Center Health Sciences District)",199,238,41,0.7715
+"New York","Queens","Short Term Acute Care Hospital","NYC Health and Hospitals - Queens (FKA Queens Hospital Center)",269,200,16,0.7715
+"Michigan","Oakland","Psychiatric Hospital","Havenwyck Hospital",213,213,0,0.7713
+"New Jersey","Bergen","Short Term Acute Care Hospital","The Valley Hospital (AKA Valley Health System)",446,388,14,0.7711
+"New York","Bronx","Short Term Acute Care Hospital","NYC Health and Hospitals - Jacobi (FKA Jacobi Medical Center)",457,326,40,0.771
+"Nevada","Clark","Short Term Acute Care Hospital","Henderson Hospital",170,165,16,0.7709
+"Michigan","Kent","Psychiatric Hospital","Pine Rest Christian Hospital",198,198,0,0.7708
+"Alabama","Houston","Short Term Acute Care Hospital","Southeast Health (FKA Southeast Alabama Medical Center)",420,342,40,0.7707
+"Ohio","Clark","Psychiatric Hospital","Mental Health Services for Clark County",16,16,0,0.7703
+"California","San Diego","Long Term Acute Care Hospital","Kindred Hospital - San Diego",70,70,8,0.77
+"Indiana","Lake","Long Term Acute Care Hospital","Vibra Hospital of Northwestern Indiana",40,40,7,0.7699
+"Pennsylvania","Dauphin","Psychiatric Hospital","Pennsylvania Psychiatric Institute",89,89,0,0.7697
+"Illinois","Peoria","Short Term Acute Care Hospital","OSF Saint Francis Medical Center",629,629,67,0.7696
+"Florida","Miami-Dade","Psychiatric Hospital","Southern Winds Hospital",72,72,0,0.7695
+"Indiana","Warrick","Rehabilitation Hospital","Encompass Health Deaconess Rehabilitation Hospital (FKA Healthsouth Deaconess Rehab)",98,98,0,0.7694
+"Florida","Pasco","Short Term Acute Care Hospital","Morton Plant North Bay Hospital",150,192,22,0.7692
+"Texas","Jefferson","Long Term Acute Care Hospital","CHRISTUS DUBUIS Hospital of Beaumont",33,33,6,0.7692
+"New York","Westchester","Short Term Acute Care Hospital","White Plains Hospital",292,292,8,0.769
+"Arizona","Pima","Psychiatric Hospital","Palo Verde Behavioral Health",84,84,0,0.7687
+"Illinois","Cook","Short Term Acute Care Hospital","Rush University Medical Center",715,576,56,0.7683
+"Oregon","Multnomah","Short Term Acute Care Hospital","Providence Portland Medical Center",483,368,36,0.7682
+"Maryland","Charles","Short Term Acute Care Hospital","University of Maryland Charles Regional Medical Center (FKA Civista Medical Center)",99,93,10,0.7677
+"California","San Diego","Psychiatric Hospital","Sharp Mesa Vista Hospital",159,158,0,0.7676
+"Minnesota","Hennepin","Short Term Acute Care Hospital","M Health Fairview University of Minnesota Medical Center - West Bank Hospital",1700,778,48,0.7676
+"Virginia","Petersburg","Psychiatric Hospital","Poplar Springs Hospital",208,95,0,0.7674
+"Florida","Duval","Short Term Acute Care Hospital","Mayo Clinic Hospital - Florida",304,304,54,0.7672
+"Tennessee","Davidson","Short Term Acute Care Hospital","TriStar Summit Medical Center",196,188,12,0.7666
+"Georgia","Gwinnett","Short Term Acute Care Hospital","Northside Hospital Gwinnett (FKA Gwinnett Medical Center - Lawrenceville)",353,462,46,0.7664
+"Illinois","Cook","Short Term Acute Care Hospital","Northwestern Memorial Hospital",894,879,106,0.7664
+"New York","New York City","Short Term Acute Care Hospital","Tisch Hospital",844,725,212,0.7662
+"Texas","Harris","Short Term Acute Care Hospital","CHI St Lukes Health - Patients Medical Center",61,61,8,0.7661
+"Florida","Lee","Short Term Acute Care Hospital","Gulf Coast Medical Center",647,356,36,0.7658
+"New York","Erie","Short Term Acute Care Hospital","Buffalo General Medical Center (FKA Buffalo General Hospital)",484,377,101,0.7656
+"Arizona","Coconino","Psychiatric Hospital","The Guidance Center Inpatient Office",16,16,0,0.7654
+"New Jersey","Atlantic","Rehabilitation Hospital","Bacharach Institute for Rehabilitation",80,52,0,0.7654
+"Texas","Brazoria","Short Term Acute Care Hospital","HCA Houston Healthcare Pearland (FKA Pearland Medical Center)",53,49,8,0.7654
+"Colorado","Arapahoe","Short Term Acute Care Hospital","Swedish Medical Center",408,327,58,0.7645
+"Kentucky","Jefferson","Short Term Acute Care Hospital","UofL Hospital (AKA University of Louisville Hospital)",404,348,72,0.7645
+"Massachusetts","Essex","Long Term Acute Care Hospital","Whittier Rehabilitation Hospital - Bradford",60,60,9,0.7645
+"Indiana","Elkhart","Psychiatric Hospital","Oaklawn Psychiatric Center",16,16,0,0.7643
+"Pennsylvania","York","Short Term Acute Care Hospital","WellSpan York Hospital",585,522,60,0.7643
+"Montana","Wheatland","Critical Access Hospital","Wheatland Memorial Healthcare",25,25,4,0.7641
+"New Mexico","Bernalillo","Rehabilitation Hospital","Lovelace UNM Rehabilitation Hospital (FKA Lovelace Rehabilitation Hospital)",62,62,0,0.764
+"Texas","Harris","Psychiatric Hospital","Behavioral Hospital of Bellaire",122,122,0,0.764
+"New York","Bronx","Short Term Acute Care Hospital","NYC Health and Hospitals - Lincoln (FKA Lincoln Medical & Mental Health Center)",362,287,38,0.7638
+"New York","New York City","Short Term Acute Care Hospital","Mount Sinai Beth Israel (FKA Mount Sinai Beth Israel Medical Center Brooklyn Hospital Center)",696,466,28,0.7636
+"Minnesota","Ramsey","Short Term Acute Care Hospital","United Hospital",546,326,21,0.7635
+"Georgia","Peach","Critical Access Hospital","Medical Center of Peach County",25,25,4,0.7634
+"Texas","Bexar","Short Term Acute Care Hospital","Methodist Hospital - Stone Oak",242,227,28,0.7633
+"North Carolina","Wake","Short Term Acute Care Hospital","Duke Raleigh Hospital",186,175,42,0.7632
+"New York","Nassau","Short Term Acute Care Hospital","St Francis Hospital & Heart Center (AKA St Francis Hospital - The Heart Center)",364,364,57,0.7631
+"Arkansas","Pulaski","Short Term Acute Care Hospital","University of Arkansas for Medical Sciences Medical Center (AKA UAMS)",450,450,28,0.7629
+"Minnesota","Pennington","Critical Access Hospital","Sanford Thief River Falls Medical Center",26,25,4,0.7628
+"Pennsylvania","Montgomery","Short Term Acute Care Hospital","Valley Forge Medical Center and Hospital",50,50,9,0.7628
+"Texas","Galveston","Psychiatric Hospital","Devereux Advanced Behavioral Health - Texas League City",132,132,0,0.7626
+"North Carolina","Wake","Short Term Acute Care Hospital","WakeMed Raleigh Campus",739,596,21,0.7625
+"Florida","Broward","Short Term Acute Care Hospital","Cleveland Clinic Florida",206,230,48,0.7624
+"Illinois","Cook","Psychiatric Hospital","Chicago Read Mental Health Center",24,24,0,0.7623
+"Maryland","Baltimore City","Childrens Hospital","Kennedy Krieger Institute",31,50,19,0.7623
+"Texas","Taylor","Long Term Acute Care Hospital","ContinueCARE Hospital at Hendrick Medical Center (FKA Hendrick Center for Extended Care)",23,19,5,0.7622
+"Tennessee","Knox","Long Term Acute Care Hospital","Select Specialty Hospital - Knoxville",35,35,5,0.7619
+"West Virginia","Kanawha","Psychiatric Hospital","Highland Hospital (FKA Highland - Charleston Hospital)",104,104,0,0.7619
+"California","Stanislaus","Short Term Acute Care Hospital","Doctors Medical Center Modesto",394,380,22,0.7615
+"Texas","Harris","Childrens Hospital","Texas Childrens Hospital",809,813,252,0.7612
+"Texas","Midland","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Midland Odessa (FKA HealthSouth Rehabilitation Hospital of Midland/Odessa)",80,80,0,0.7611
+"Maryland","Baltimore City","Short Term Acute Care Hospital","Grace Medical Center (FKA Bon Secours Baltimore Hospital)",71,50,8,0.7609
+"New Jersey","Middlesex","Short Term Acute Care Hospital","Robert Wood Johnson University Hospital New Brunswick",600,600,44,0.7609
+"New Jersey","Ocean","Rehabilitation Hospital","Shore Rehabilitation Institute",40,40,0,0.7605
+"Colorado","Arapahoe","Long Term Acute Care Hospital","Kindred Hospital Aurora",37,37,6,0.7604
+"West Virginia","Monongalia","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Morgantown (FKA HealthSouth MountainView Regional Rehabilitation Hospital)",96,96,0,0.7603
+"Texas","Collin","Short Term Acute Care Hospital","Medical City McKinney (FKA Medical Center of Mckinney)",260,157,16,0.7598
+"Texas","Harris","Short Term Acute Care Hospital","Advanced Diagnostics Hospital East (FKA Victory Surgical Hospital East Houston)",4,16,1,0.7597
+"Georgia","Toombs","Short Term Acute Care Hospital","Meadows Health (FKA Meadows Regional Medical Center)",57,52,8,0.7596
+"Tennessee","Shelby","Psychiatric Hospital","Crestwyn Behavioral Health",80,80,0,0.7596
+"Texas","Harris","Rehabilitation Hospital","TIRR Memorial Hermann (AKA TIRR Memorial Hermann Rehab Hospital)",134,134,2,0.7596
+"Tennessee","Cumberland","Short Term Acute Care Hospital","Cumberland Medical Center",189,73,12,0.7593
+"New York","Albany","Short Term Acute Care Hospital","St Peters Hospital",482,482,33,0.7591
+"Kentucky","Warren","Psychiatric Hospital","Rivendell Behavioral Health Services - Kentucky",125,81,0,0.759
+"Washington","Garfield","Critical Access Hospital","Garfield County Public Hospital (AKA Garfield Country Hospital District)",45,25,4,0.7588
+"Washington","King","Childrens Hospital","Seattle Childrens Hospital",371,361,91,0.7585
+"California","Fresno","Short Term Acute Care Hospital","Community Regional Medical Center",685,663,88,0.7581
+"Utah","Salt Lake","Psychiatric Hospital","Marian Center at St Joseph Villa",14,12,0,0.758
+"Arizona","Maricopa","Short Term Acute Care Hospital","HonorHealth Deer Valley Medical Center",204,204,36,0.7578
+"Hawaii","Honolulu","Short Term Acute Care Hospital","The Queens Medical Center",535,650,58,0.7577
+"California","Los Angeles","Short Term Acute Care Hospital","Martin Luther King Jr Community Hospital",131,131,20,0.7576
+"Florida","Manatee","Short Term Acute Care Hospital","Manatee Memorial Hospital",295,295,35,0.7573
+"Missouri","Jackson","Short Term Acute Care Hospital","Saint Lukes Hospital of Kansas City",548,442,71,0.7573
+"Texas","Bell","Short Term Acute Care Hospital","Baylor Scott & White Medical Center - Temple",574,608,70,0.7566
+"Texas","Williamson","Psychiatric Hospital","Rock Springs",72,72,3,0.7559
+"Virginia","Suffolk","Short Term Acute Care Hospital","Sentara Obici Hospital",178,155,12,0.7559
+"Massachusetts","Plymouth","Psychiatric Hospital","High Point Hospital",72,72,0,0.7558
+"New York","Oneida","Short Term Acute Care Hospital","Faxton St Lukes Healthcare - St Lukes Campus",370,219,11,0.7557
+"Florida","Santa Rosa","Psychiatric Hospital","West Florida Community Care Center",100,100,0,0.7553
+"Georgia","Bibb","Rehabilitation Hospital","Rehabilitation Hospital Navicent Health (FKA Central Georgia Rehab Hospital)",58,58,0,0.7553
+"New Jersey","Essex","Short Term Acute Care Hospital","Newark Beth Israel Medical Center",667,422,35,0.7552
+"Texas","Tarrant","Rehabilitation Hospital","Texas Rehabilitation Hospital of Fort Worth",66,66,0,0.7552
+"Florida","Miami-Dade","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Miami (FKA Healthsouth Rehab Hospital of Miami)",60,60,0,0.7549
+"Missouri","Jackson","Childrens Hospital","Childrens Mercy Adele Hall Campus",314,314,41,0.7549
+"Oklahoma","Tulsa","Psychiatric Hospital","Brookhaven Hospital",64,64,0,0.7549
+"West Virginia","Cabell","Psychiatric Hospital","River Park Hospital",165,116,0,0.7548
+"California","Alameda","Psychiatric Hospital","Fremont Hospital",148,148,0,0.7547
+"Florida","Manatee","Psychiatric Hospital","Centerstone Bradenton (FKA Manatee Glens Hospital)",37,37,15,0.7546
+"Pennsylvania","Cumberland","Short Term Acute Care Hospital","UPMC Carlisle (FKA UPMC Pinnacle Carlisle Regional Medical Center)",165,66,10,0.7544
+"Texas","Dallas","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Dallas (FKA HealthSouth Rehabilitation Hospital of Dallas)",60,60,0,0.7543
+"Nevada","Clark","Short Term Acute Care Hospital","Summerlin Hospital Medical Center",485,390,59,0.7542
+"California","Los Angeles","Psychiatric Hospital","Tarzana Treatment Centers",60,4,0,0.7541
+"Florida","Duval","Short Term Acute Care Hospital","Baptist Medical Center Jacksonville (FKA BMC Downtown)",489,439,120,0.7539
+"Florida","Pinellas","Short Term Acute Care Hospital","St Anthonys Hospital",393,308,18,0.7538
+"Louisiana","St. Martin","Psychiatric Hospital","Genesis Behavioral Hospital",18,18,0,0.7536
+"New York","New York City","Short Term Acute Care Hospital","Mount Sinai Morningside (FKA Mount Sinai St Lukes)",495,485,57,0.7533
+"Oklahoma","Woodward","Psychiatric Hospital","Northwest Center for Behavioral Health",28,24,0,0.7533
+"Tennessee","Shelby","Short Term Acute Care Hospital","Methodist University Hospital",617,617,105,0.7533
+"Alabama","Jefferson","Childrens Hospital","Childrens of Alabama",332,341,6,0.7531
+"Missouri","Greene","Short Term Acute Care Hospital","Cox Medical Center South",646,596,74,0.753
+"Texas","Harris","Psychiatric Hospital","Oceans Behavioral Hospital Katy",48,48,0,0.753
+"Ohio","Franklin","Rehabilitation Hospital","OhioHealth Rehabilitation Hospital",74,74,0,0.7524
+"Nevada","Clark","Short Term Acute Care Hospital","Spring Valley Hospital Medical Center",364,328,28,0.752
+"Massachusetts","Norfolk","Psychiatric Hospital","Aspire Health Alliance (FKA South Shore Mental Health)",16,16,0,0.7519
+"Pennsylvania","Monroe","Short Term Acute Care Hospital","St Lukes Monroe Campus",98,98,12,0.7519
+"Tennessee","Davidson","Short Term Acute Care Hospital","Ascension Saint Thomas West (FKA St Thomas Hospital)",541,341,88,0.7518
+"Maryland","Montgomery","Short Term Acute Care Hospital","Holy Cross Germantown Hospital",70,58,8,0.7517
+"Ohio","Hamilton","Short Term Acute Care Hospital","University of Cincinnati Medical Center (FKA University Hospital)",518,518,44,0.7513
+"Wisconsin","Dane","Rehabilitation Hospital","UW Health Rehabilitation Hospital",50,50,0,0.7513
+"New York","Suffolk","Short Term Acute Care Hospital","St Charles Hospital",243,167,16,0.7512
+"Wisconsin","Dane","Psychiatric Hospital","Mendota Mental Health Institute",394,379,0,0.7512
+"Florida","Brevard","Long Term Acute Care Hospital","Kindred Hospital Melbourne",60,60,8,0.7511
+"South Carolina","Lancaster","Psychiatric Hospital","Rebound Behavioral Health Hospital",63,46,0,0.7511
+"Maryland","Calvert","Short Term Acute Care Hospital","CalvertHealth Medical Center (FKA Calvert Memorial Hospital)",73,41,4,0.7509
+"Texas","Cameron","Rehabilitation Hospital","South Texas Rehabilitation Hospital",40,40,2,0.7505
+"Tennessee","Knox","Short Term Acute Care Hospital","Parkwest Medical Center",307,354,30,0.7503
+"Texas","Collin","Psychiatric Hospital","WellBridge Greater Dallas (FKA Oceans Behavioral Hospital Plano)",48,48,0,0.7502
+"Ohio","Franklin","Religious Non-Medical Health Care Institution","Glenmont (Christian Science Nursing Facility)",25,25,0,0.7497
+"South Carolina","Greenville","Short Term Acute Care Hospital","Greenville Memorial Hospital",864,697,58,0.7496
+"Arkansas","Benton","Critical Access Hospital","Ozarks Community Hospital of Gravette (AKA Ozarks Community Health System)",25,25,4,0.7495
+"Louisiana","Caddo","Short Term Acute Care Hospital","Ochsner LSU Health Shreveport - Academic Medical Center (FKA University Health Shreveport)",452,359,10,0.7495
+"South Carolina","Lexington","Psychiatric Hospital","Three Rivers Behavioral Health",122,122,0,0.7494
+"Texas","Dallas","Short Term Acute Care Hospital","Baylor Scott & White Medical Center - Sunnyvale (FKA Texas Regional Medical Center at Sunnyvale)",70,70,8,0.7494
+"Nebraska","Sarpy","Short Term Acute Care Hospital","Bellevue Medical Center",91,58,8,0.7493
+"Arizona","Yuma","Rehabilitation Hospital","Yuma Rehabilitation Hospital",51,41,0,0.749
+"Pennsylvania","Allegheny","Short Term Acute Care Hospital","UPMC Presbyterian",1542,1129,160,0.7489
+"Florida","Orange","Short Term Acute Care Hospital","Orlando Health Orlando Regional Medical Center",898,808,71,0.7488
+"Ohio","Lake","Psychiatric Hospital","Windsor Laurelwood Center for Behavioral Medicine",159,159,0,0.7488
+"Michigan","Genesee","Short Term Acute Care Hospital","McLaren Flint",342,305,18,0.7486
+"Maryland","Carroll","Short Term Acute Care Hospital","Carroll Hospital",161,153,12,0.7481
+"Texas","Tarrant","Short Term Acute Care Hospital","Medical City Arlington (FKA Medical Center of Arlington)",433,336,45,0.7481
+"Wisconsin","Brown","Psychiatric Hospital","Brown County Community Treatment Center",16,16,0,0.7481
+"Maine","Cumberland","Short Term Acute Care Hospital","Maine Medical Center (AKA MMC - Bramhall)",637,575,32,0.748
+"New Hampshire","Grafton","Short Term Acute Care Hospital","Dartmouth-Hitchcock Medical Center",396,401,48,0.748
+"Arizona","Pima","Psychiatric Hospital","Sonora Behavioral Health Hospital",140,140,0,0.7475
+"Texas","Tarrant","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of the Mid-Cities (FKA HealthSouth Rehabilitation Hospital of the Mid-Cities)",60,60,0,0.7473
+"Wisconsin","Milwaukee","Psychiatric Hospital","Aurora Psychiatric Hospital",105,96,0,0.7472
+"Wisconsin","Milwaukee","Short Term Acute Care Hospital","Froedtert Hospital",783,663,107,0.7471
+"North Carolina","New Hanover","Short Term Acute Care Hospital","New Hanover Regional Medical Center",769,677,29,0.747
+"Oklahoma","Oklahoma","Rehabilitation Hospital","Valir Rehabilitation Hospital",50,50,0,0.7469
+"Maryland","Montgomery","Short Term Acute Care Hospital","Adventist HealthCare Shady Grove Medical Center",329,185,21,0.7467
+"Vermont","Chittenden","Short Term Acute Care Hospital","The University of Vermont Medical Center (FKA Fletcher Allen Health Care Hospital)",562,422,66,0.7467
+"Illinois","Cook","Childrens Hospital","Ann & Robert H Lurie Childrens Hospital of Chicago",288,336,40,0.7464
+"Arizona","Maricopa","Psychiatric Hospital","Banner Behavioral Health Hospital",156,156,0,0.746
+"New Mexico","McKinley","Short Term Acute Care Hospital","RMCHCS Hospital (AKA Rehoboth McKinley Christian Health Care Services)",70,25,5,0.7459
+"Tennessee","Shelby","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of North Memphis - Partner of Methodist Healthcare (FKA HealthSouth Rehabilitation Hospital-North)",50,50,0,0.7455
+"Texas","Williamson","Short Term Acute Care Hospital","St Davids Round Rock Medical Center",171,157,18,0.7455
+"Texas","Bexar","Rehabilitation Hospital","Warm Springs Rehabilitation Hospital of San Antonio",65,65,1,0.7454
+"Idaho","Ada","Psychiatric Hospital","Lifeways Hospital Boise (FKA Safe Haven Hospital of Treasure Valley)",16,16,0,0.7448
+"Nebraska","Douglas","Short Term Acute Care Hospital","CHI Health Creighton University Medical Center - Bergan Mercy (FKA Alegent Health Bergan Mercy Medical Center)",396,385,52,0.7448
+"Wisconsin","Waukesha","Psychiatric Hospital","Rogers Memorial Hospital - Oconomowoc",90,90,0,0.7442
+"California","Alameda","Psychiatric Hospital","Heritage Psychiatric Health Facility",26,26,0,0.7441
+"North Carolina","Forsyth","Short Term Acute Care Hospital","Wake Forest Baptist Medical Center",885,804,126,0.7441
+"Wisconsin","Dane","Short Term Acute Care Hospital","University Hospital",672,586,38,0.7441
+"Missouri","Jackson","Short Term Acute Care Hospital","Saint Lukes East Hospital",203,184,16,0.744
+"California","Lake","Critical Access Hospital","Sutter Lakeside Hospital",30,25,4,0.7439
+"Colorado","El Paso","Psychiatric Hospital","Cedar Springs Hospital",76,86,0,0.7436
+"Illinois","Williamson","Short Term Acute Care Hospital","SIH Herrin Hospital",114,85,8,0.7436
+"Florida","Pasco","Short Term Acute Care Hospital","Regional Medical Center Bayonet Point",290,290,20,0.7432
+"North Carolina","Buncombe","Long Term Acute Care Hospital","Asheville Specialty Hospital",34,34,5,0.7426
+"Florida","Brevard","Short Term Acute Care Hospital","Holmes Regional Medical Center",550,514,64,0.7425
+"New York","Suffolk","Short Term Acute Care Hospital","Good Samaritan Hospital Medical Center",437,437,44,0.7424
+"Florida","Escambia","Short Term Acute Care Hospital","Baptist Hospital",492,266,37,0.7419
+"Arizona","Maricopa","Short Term Acute Care Hospital","Banner Desert Medical Center",595,615,51,0.7418
+"South Carolina","Charleston","Long Term Acute Care Hospital","Vibra Hospital of Charleston (FKA Kindred Hospital Charleston)",59,59,9,0.7417
+"Ohio","Cuyahoga","Short Term Acute Care Hospital","Southwest General Health Center",350,182,40,0.7415
+"Indiana","Allen","Short Term Acute Care Hospital","Parkview Regional Medical Center",542,542,124,0.7413
+"Texas","Dallas","Short Term Acute Care Hospital","Parkland Health and Hospital System (AKA Parkland Memorial Hospital)",882,777,61,0.7413
+"Missouri","St. Louis City","Rehabilitation Hospital","The Rehabilitation Institute of St Louis - Central West End",96,131,0,0.7412
+"Tennessee","Williamson","Psychiatric Hospital","Rolling Hills Hospital",85,80,0,0.7412
+"California","Kern","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Bakersfield (FKA HealthSouth Bakersfield Rehabilitation Hospital)",86,86,1,0.741
+"New Jersey","Middlesex","Short Term Acute Care Hospital","Princeton Medical Center (FKA University Medical Center of Princeton at Plainsboro)",429,206,24,0.741
+"South Carolina","Florence","Short Term Acute Care Hospital","McLeod Regional Medical Center",517,461,81,0.741
+"Arkansas","Craighead","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Jonesboro (FKA HealthSouth Rehabilitation Hospital of Jonesboro)",80,80,0,0.7409
+"Washington","Columbia","Critical Access Hospital","Dayton General Hospital (AKA Columbia County Health System)",62,25,4,0.7408
+"Nevada","Clark","Psychiatric Hospital","Spring Mountain Treatment Center",110,110,1,0.7407
+"North Carolina","Mecklenburg","Short Term Acute Care Hospital","Atrium Health University City (FKA Carolinas Healthcare System University)",100,100,8,0.7406
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","SSM Health St Anthony Hospital - Oklahoma City",773,436,21,0.7403
+"California","San Bernardino","Short Term Acute Care Hospital","St Mary Medical Center",212,213,20,0.7401
+"Virginia","Virginia Beach","Short Term Acute Care Hospital","Sentara Virginia Beach General Hospital",273,239,22,0.74
+"Hawaii","Maui","Short Term Acute Care Hospital","Maui Memorial Medical Center",219,219,20,0.7397
+"Louisiana","St. Tammany","Psychiatric Hospital","Beacon Behavioral Hospital - Northshore (FKA Magnolia Behavioral Healthcare)",22,22,0,0.7397
+"Oklahoma","Tulsa","Short Term Acute Care Hospital","Saint Francis Hospital",1088,869,100,0.7397
+"Illinois","Cook","Short Term Acute Care Hospital","AMITA Health Resurrection Medical Center Chicago (FKA Presence Resurrection Medical Center)",337,227,41,0.7395
+"Texas","Dallas","Short Term Acute Care Hospital","Zale Lipshy Pavilion - William P Clements Jr University Hospital (AKA Zale Lipshy University Hospital)",94,94,20,0.7391
+"Louisiana","Ouachita","Long Term Acute Care Hospital","Specialty Hospital",32,32,5,0.739
+"Massachusetts","Barnstable","Short Term Acute Care Hospital","Cape Cod Hospital",259,239,11,0.7389
+"Texas","Smith","Rehabilitation Hospital","CHRISTUS Trinity Mother Frances Rehabilitation Hospital",94,94,0,0.7389
+"South Carolina","Richland","Short Term Acute Care Hospital","Prisma Health Richland Hospital (FKA Palmetto Health Richland)",641,627,46,0.7387
+"Arizona","Pima","Rehabilitation Hospital","Encompass Health Rehabilitation Institute of Tucson",80,80,0,0.7386
+"Tennessee","Shelby","Short Term Acute Care Hospital","Baptist Memorial Hospital - Memphis",706,642,59,0.7384
+"Michigan","Oakland","Short Term Acute Care Hospital","Beaumont Hospital - Royal Oak",1079,1007,138,0.738
+"California","Kern","Short Term Acute Care Hospital","Bakersfield Heart Hospital",47,47,11,0.7379
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","University of Oklahoma Medical Center (AKA OU Medical Center)",804,732,114,0.7378
+"South Carolina","Richland","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Columbia",96,96,0,0.7378
+"Texas","Dallas","Psychiatric Hospital","Hickory Trail Hospital",86,86,0,0.7376
+"Pennsylvania","Montour","Short Term Acute Care Hospital","Geisinger Medical Center",559,524,68,0.7374
+"Ohio","Trumbull","Psychiatric Hospital","Generations Behavioral Health - Youngstown",76,76,0,0.7371
+"Texas","Ector","Long Term Acute Care Hospital","ContinueCARE Hospital at Medical Center",25,25,4,0.7371
+"Ohio","Cuyahoga","Short Term Acute Care Hospital","University Hospitals Cleveland Medical Center (FKA University Hospitals Case Medical Center)",611,611,69,0.737
+"Texas","Collin","Short Term Acute Care Hospital","Baylor Scott & White Medical Center - Plano",160,118,16,0.737
+"Georgia","DeKalb","Rehabilitation Hospital","Emory Rehabilitation Hospital",56,56,0,0.7367
+"Wisconsin","Kenosha","Short Term Acute Care Hospital","Aurora Medical Center in Kenosha",74,74,12,0.7367
+"Illinois","Champaign","Short Term Acute Care Hospital","Carle Foundation Hospital",393,411,26,0.7365
+"New York","Dutchess","Short Term Acute Care Hospital","Vassar Brothers Medical Center",365,365,20,0.7365
+"Nevada","Clark","Psychiatric Hospital","Spring Mountain Sahara",30,30,1,0.7362
+"Pennsylvania","Allegheny","Short Term Acute Care Hospital","West Penn Hospital",338,260,48,0.7361
+"California","Los Angeles","Short Term Acute Care Hospital","St Francis Medical Center",384,384,36,0.736
+"Georgia","Pickens","Short Term Acute Care Hospital","Piedmont Mountainside Hospital",52,52,6,0.7359
+"Texas","Dallas","Short Term Acute Care Hospital","Baylor University Medical Center - Dallas",914,824,128,0.7358
+"Kentucky","Boone","Short Term Acute Care Hospital","St Elizabeth Florence",231,129,18,0.7357
+"Missouri","Jackson","Short Term Acute Care Hospital","Research Medical Center",504,374,28,0.7356
+"New Jersey","Camden","Short Term Acute Care Hospital","Cooper University Hospital (AKA Cooper University Health Care)",635,575,30,0.7356
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","INTEGRIS Baptist Medical Center",895,684,57,0.7355
+"Louisiana","Jefferson","Long Term Acute Care Hospital","BridgePoint Continuing Care Hospital (FKA Kindred Hospital West Jefferson Hospital - Marrero)",44,44,7,0.7353
+"New Jersey","Essex","Short Term Acute Care Hospital","Saint Barnabas Medical Center",585,557,46,0.7353
+"New Jersey","Cumberland","Short Term Acute Care Hospital","Inspira Medical Center Vineland (FKA South Jersey Healthcare Regional Medical Center)",335,280,24,0.7352
+"Pennsylvania","Cumberland","Long Term Acute Care Hospital","Select Specialty Hospital - Camp Hill",31,92,12,0.735
+"New York","Westchester","Short Term Acute Care Hospital","Westchester Medical Center",652,383,76,0.7346
+"Alabama","Etowah","Short Term Acute Care Hospital","Gadsden Regional Medical Center",346,222,40,0.7344
+"Georgia","Paulding","Short Term Acute Care Hospital","WellStar Paulding Hospital",112,112,8,0.7344
+"Georgia","Chatham","Long Term Acute Care Hospital","Select Specialty Hospital - Savannah",40,40,6,0.7342
+"Virginia","Newport News","Short Term Acute Care Hospital","Riverside Regional Medical Center",576,410,24,0.7342
+"Indiana","Warrick","Psychiatric Hospital","Brentwood Springs (FKA Brentwood Meadows)",48,48,0,0.734
+"Louisiana","Orleans","Psychiatric Hospital","Beacon Behavioral Hospital - New Orleans (FKA Psychiatric Pavillion of New Orleans)",34,34,0,0.734
+"Alabama","Tuscaloosa","Psychiatric Hospital","Mary Starke Harper Geriatric Psychiatry Center",96,126,0,0.7339
+"Pennsylvania","Schuylkill","Short Term Acute Care Hospital","Geisinger St Lukes Hospital",32,32,32,0.7331
+"Texas","Williamson","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Round Rock (FKA HealthSouth Rehabilitation Hospital of Round Rock)",75,75,0,0.7331
+"Massachusetts","Worcester","Rehabilitation Hospital","Fairlawn Rehabilitation Hospital",110,110,1,0.7329
+"Louisiana","East Baton Rouge","Psychiatric Hospital","Baton Rouge Behavioral Hospital (FKA Focus Behavioral Hospital)",47,47,0,0.7328
+"Iowa","Johnson","Short Term Acute Care Hospital","University of Iowa Hospitals & Clinics",1103,717,53,0.7325
+"Ohio","Cuyahoga","Short Term Acute Care Hospital","South Pointe Hospital",344,131,25,0.7324
+"Texas","Smith","Short Term Acute Care Hospital","UT Health Tyler (FKA East Texas Medical Center - Tyler)",424,425,59,0.7323
+"Kansas","Lane","Critical Access Hospital","Lane County Hospital",25,25,4,0.7322
+"Ohio","Hamilton","Short Term Acute Care Hospital","Good Samaritan Hospital",657,324,39,0.7319
+"Louisiana","Natchitoches","Long Term Acute Care Hospital","Louisiana Extended Care of Natchitoches",21,21,4,0.7316
+"Texas","Midland","Psychiatric Hospital","Oceans Behavioral Hospital Permian Basin (FKA Allegiance Hospital of Midland)",62,62,0,0.7312
+"Alabama","Tuscaloosa","Short Term Acute Care Hospital","DCH Regional Medical Center",583,524,52,0.7311
+"Michigan","Washtenaw","Short Term Acute Care Hospital","St Joseph Mercy Ann Arbor Hospital",524,450,40,0.7311
+"Pennsylvania","Montgomery","Short Term Acute Care Hospital","Einstein Medical Center Montgomery (FKA Montgomery Hospital Medical Center)",171,171,22,0.7311
+"Kansas","Wyandotte","Short Term Acute Care Hospital","The University of Kansas Hospital",936,818,106,0.7308
+"California","Los Angeles","Long Term Acute Care Hospital","Barlow Respiratory Hospital - Main Campus",105,105,6,0.7307
+"Alabama","Montgomery","Short Term Acute Care Hospital","Baptist Medical Center South",432,326,26,0.7305
+"Connecticut","Hartford","Long Term Acute Care Hospital","Sgt John L Levitow Veterans Health Center (AKA Rocky Hill Veterans Home)",125,125,19,0.7301
+"Oklahoma","Tulsa","Short Term Acute Care Hospital","Hillcrest Medical Center",620,434,43,0.73
+"Louisiana","Jefferson","Rehabilitation Hospital","UMRH New Orleans",26,15,0,0.7299
+"Michigan","Wayne","Short Term Acute Care Hospital","Select Specialty Hospital - Northwest Detroit",36,36,6,0.7298
+"Texas","Wichita","Long Term Acute Care Hospital","KPC Promise Hospital of Wichita Falls (FKA Promise Hospital of Wichita Falls)",31,31,6,0.7297
+"Maryland","Prince George's","Short Term Acute Care Hospital","MedStar Southern Maryland Hospital Center",182,153,18,0.7296
+"Illinois","Sangamon","Short Term Acute Care Hospital","Memorial Medical Center",500,390,48,0.7295
+"Texas","Bexar","Short Term Acute Care Hospital","Methodist Hospital",1013,1586,227,0.7295
+"Texas","Dallas","Long Term Acute Care Hospital","Kindred Hospital Dallas Central",60,60,9,0.7295
+"Florida","Miami-Dade","Short Term Acute Care Hospital","Baptist Hospital",728,705,40,0.7294
+"Kansas","Pawnee","Psychiatric Hospital","Larned State Hospital",613,99,0,0.7294
+"Pennsylvania","Bucks","Short Term Acute Care Hospital","St Lukes Quakertown Campus",62,59,11,0.7293
+"Illinois","St. Clair","Short Term Acute Care Hospital","HSHS St Elizabeths Hospital",144,144,16,0.729
+"Texas","Cameron","Long Term Acute Care Hospital","Solara Specialty Hospitals Harlingen",41,41,7,0.7287
+"Maryland","Anne Arundel","Short Term Acute Care Hospital","UM Baltimore Washington Medical Center",285,158,30,0.7285
+"New Jersey","Essex","Short Term Acute Care Hospital","The University Hospital (FKA UMDNJ University Hospital)",519,367,41,0.7283
+"Missouri","Greene","Psychiatric Hospital","Lakeland Behavioral Health System",100,100,0,0.7282
+"New York","Westchester","Short Term Acute Care Hospital","NewYork-Presbyterian Lawrence Hospital (FKA Lawrence Hospital Center)",288,208,18,0.7282
+"Tennessee","Knox","Short Term Acute Care Hospital","University of Tennessee Medical Center",581,672,59,0.7281
+"Florida","Orange","Short Term Acute Care Hospital","Orlando Health - Health Central Hospital",216,211,14,0.7279
+"Arizona","Pima","Short Term Acute Care Hospital","Banner - University Medical Center South (FKA University of Arizona Medical Center - South Campus)",245,144,12,0.7278
+"California","Butte","Short Term Acute Care Hospital","Enloe Medical Center",298,298,33,0.7274
+"Georgia","Clarke","Long Term Acute Care Hospital","Landmark Hospital of Athens",42,42,7,0.7273
+"Utah","Salt Lake","Long Term Acute Care Hospital","KPC Promise Hospital of Salt Lake (FKA Promise Hospital of Salt Lake)",38,41,6,0.7273
+"Colorado","Boulder","Psychiatric Hospital","Centennial Peaks Hospital",104,104,0,0.7266
+"Nevada","Clark","Short Term Acute Care Hospital","Centennial Hills Hospital Medical Center",262,262,16,0.7262
+"Texas","Dallas","Long Term Acute Care Hospital","Vibra Specialty Hospital at DeSoto (FKA Vibra Specialty Hospital Dallas)",40,60,6,0.7261
+"Arkansas","Craighead","Short Term Acute Care Hospital","NEA Baptist Memorial Hospital",228,100,36,0.726
+"West Virginia","Kanawha","Short Term Acute Care Hospital","Saint Francis Hospital",142,36,5,0.726
+"Arizona","Maricopa","Short Term Acute Care Hospital","Abrazo West Campus (FKA West Valley Hospital)",200,191,20,0.7259
+"Ohio","Montgomery","Psychiatric Hospital","Haven Behavioral Hospital of Dayton (FKA Haven Behavioral Senior Care of Dayton)",59,59,0,0.7254
+"Oklahoma","Tulsa","Psychiatric Hospital","Laureate Psychiatric Clinic and Hospital",90,106,2,0.7254
+"Illinois","Cook","Short Term Acute Care Hospital","Advocate Lutheran General Hospital",638,543,33,0.7252
+"Louisiana","Ouachita","Rehabilitation Hospital","Riverbend Rehabilitation Hospital",12,12,0,0.7252
+"Florida","Palm Beach","Short Term Acute Care Hospital","Delray Medical Center",536,339,52,0.7251
+"New York","Kings","Short Term Acute Care Hospital","Kingsbrook Jewish Medical Center",303,161,10,0.725
+"California","Santa Clara","Childrens Hospital","Lucile Packard Childrens Hospital Stanford (AKA Stanford Childrens Health)",396,345,124,0.7246
+"New York","Jefferson","Short Term Acute Care Hospital","Samaritan Medical Center",290,238,10,0.7246
+"New Mexico","Dona Ana","Long Term Acute Care Hospital","Advanced Care Hospital of Southern New Mexico",20,20,6,0.7242
+"New Mexico","Doña Ana","Long Term Acute Care Hospital","Advanced Care Hospital of Southern New Mexico",20,20,6,0.7242
+"Missouri","Boone","Short Term Acute Care Hospital","University Hospital",553,553,82,0.724
+"Ohio","Mahoning","Short Term Acute Care Hospital","Select Specialty Hospital - Boardman",24,24,4,0.7233
+"Texas","Hunt","Psychiatric Hospital","Glen Oaks Hospital",54,54,0,0.7233
+"Illinois","Cook","Short Term Acute Care Hospital","AMITA Health Alexian Brothers Medical Center Elk Grove Village",401,257,36,0.7229
+"New Jersey","Sussex","Short Term Acute Care Hospital","Newton Medical Center",148,130,10,0.7229
+"Florida","Indian River","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Treasure Coast (FKA Healthsouth of Treasure Coast)",80,80,3,0.7226
+"California","Humboldt","Short Term Acute Care Hospital","St Joseph Hospital - Eureka",138,127,12,0.7225
+"California","Sacramento","Psychiatric Hospital","Sutter Center for Psychiatry",73,73,1,0.7225
+"Louisiana","Calcasieu","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals Southwest Louisiana",30,28,5,0.7225
+"Utah","Salt Lake","Childrens Hospital","Primary Childrens Hospital",340,289,44,0.7225
+"New York","Onondaga","Psychiatric Hospital","Hutchings Psychiatric Center",154,154,0,0.7224
+"Georgia","Coweta","Short Term Acute Care Hospital","Piedmont Newnan Hospital",154,164,18,0.7223
+"Georgia","Douglas","Short Term Acute Care Hospital","WellStar Douglas Hospital",108,102,8,0.7222
+"Montana","Chouteau","Critical Access Hospital","Missouri River Medical Center",25,25,4,0.7222
+"Arizona","Yavapai","Rehabilitation Hospital","Mountain Valley Regional Rehabilitation Hospital",44,44,4,0.7221
+"Indiana","Wayne","Short Term Acute Care Hospital","Reid Health (FKA Reid Hospital & Health Care Services)",163,163,30,0.7221
+"Texas","Harris","Long Term Acute Care Hospital","Houston Methodist Continuing Care Hospital (AKA Houston Methodist West Hospital - St Catherine Campus)",102,58,9,0.7217
+"Illinois","Cook","Rehabilitation Hospital","Schwab Rehabilitation Hospital (FKA Schwab Rehab Hospital & Care Network)",102,60,2,0.7216
+"California","Riverside","Short Term Acute Care Hospital","Riverside University Health System Medical Center (FKA Riverside County Regional Medical Center)",362,423,45,0.7215
+"Kentucky","Jefferson","Psychiatric Hospital","Central State Hospital",192,70,0,0.7211
+"California","Los Angeles","Psychiatric Hospital","DSH - Metropolitan (FKA Metropolitan LA State Hospital)",1004,976,0,0.721
+"Iowa","Woodbury","Short Term Acute Care Hospital","MercyOne Siouxland Medical Center (FKA Mercy Medical Center - Sioux City)",484,157,19,0.721
+"Oklahoma","Tulsa","Short Term Acute Care Hospital","Hillcrest Hospital South (FKA Southcrest Hospital)",180,168,15,0.721
+"Washington","King","Short Term Acute Care Hospital","UW Medical Center - Montlake",450,612,81,0.721
+"California","San Joaquin","Short Term Acute Care Hospital","St Josephs Medical Center",355,348,30,0.7209
+"California","Los Angeles","Short Term Acute Care Hospital","Garfield Medical Center",210,182,10,0.7207
+"Arkansas","Miller","Psychiatric Hospital","Riverview Behavioral Health (FKA Vista Health Texarkana)",62,54,0,0.7206
+"Massachusetts","Plymouth","Short Term Acute Care Hospital","Good Samaritan Medical Center",267,267,18,0.7206
+"Michigan","Kent","Short Term Acute Care Hospital","Spectrum Health Butterworth Hospital",852,1095,102,0.7206
+"Michigan","Kent","Long Term Acute Care Hospital","Select Specialty Hospital - Spectrum Health (FKA Select Specialty Hospital - Grand Rapids)",36,36,6,0.7205
+"Pennsylvania","Berks","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Reading (FKA HealthSouth Reading Rehabilitation Hospital)",60,60,0,0.7205
+"Indiana","Marion","Short Term Acute Care Hospital","Community Hospital East",335,335,28,0.7204
+"Indiana","Vanderburgh","Short Term Acute Care Hospital","Deaconess Midtown Hospital",365,365,67,0.7204
+"Nevada","Clark","Rehabilitation Hospital","PAM Rehabilitation Hospital of Centennial Hills",44,44,0,0.7204
+"New York","Kings","Short Term Acute Care Hospital","Interfaith Medical Center",287,153,13,0.7204
+"Virginia","Roanoke City","Short Term Acute Care Hospital","Carilion Roanoke Memorial Hospital",737,621,47,0.7204
+"Ohio","Summit","Long Term Acute Care Hospital","Select Specialty Hospital - Akron",60,60,12,0.7203
+"Maryland","Washington","Short Term Acute Care Hospital","Meritus Medical Center (AKA Meritus Health)",237,215,17,0.7202
+"Washington","King","Short Term Acute Care Hospital","MultiCare Auburn Medical Center",195,73,16,0.7199
+"Texas","Bowie","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Texarkana (FKA Healthsouth Rehab of Texarkana)",60,60,0,0.7198
+"Illinois","DuPage","Short Term Acute Care Hospital","Elmhurst Hospital",259,259,35,0.7196
+"Indiana","Floyd","Rehabilitation Hospital","Southern Indiana Rehabilitation Hospital",34,34,0,0.7196
+"New York","Kings","Short Term Acute Care Hospital","New York Community Hospital of Brooklyn",134,134,7,0.7195
+"Ohio","Montgomery","Long Term Acute Care Hospital","PAM Specialty Hospital of Dayton (FKA LifeCare Hospitals of Dayton)",44,44,10,0.7194
+"Arkansas","Washington","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital - Partner of Washington Regional (FKA HealthSouth Rehabilitation Hospital)",80,80,0,0.7192
+"Georgia","Bibb","Long Term Acute Care Hospital","Regency Hospital of Macon",34,34,11,0.7191
+"Louisiana","Bossier","Psychiatric Hospital","Red River Behavioral Center",20,20,0,0.7189
+"Massachusetts","Berkshire","Short Term Acute Care Hospital","Berkshire Medical Center",298,223,20,0.7189
+"Texas","Wichita","Psychiatric Hospital","Red River Hospital",96,96,0,0.7187
+"Ohio","Ashtabula","Short Term Acute Care Hospital","Glenbeigh Hospital of Rock Creek",114,114,20,0.7186
+"California","San Diego","Short Term Acute Care Hospital","Scripps Mercy Hospital San Diego",446,487,56,0.7185
+"Minnesota","Hennepin","Childrens Hospital","Childrens Hospitals and Clinics of Minnesota - Minneapolis",279,384,42,0.7185
+"Vermont","Washington","Short Term Acute Care Hospital","Central Vermont Medical Center",122,76,14,0.7184
+"Virginia","Henrico","Long Term Acute Care Hospital","Vibra Hospital of Richmond (FKA Kindred Hospital Richmond)",60,60,10,0.7184
+"Maryland","Wicomico","Short Term Acute Care Hospital","TidalHealth Peninsula Regional (FKA Peninsula Regional Medical Center)",266,225,24,0.7183
+"Louisiana","Concordia","Long Term Acute Care Hospital","RiverBridge Specialty Hospital (FKA Promise Hospital of Miss Lou)",40,40,6,0.7181
+"Nevada","Washoe","Short Term Acute Care Hospital","Renown Regional Medical Center",808,643,216,0.7179
+"Arkansas","Saline","Psychiatric Hospital","Rivendell Behavioral Health Services - Arkansas",80,80,0,0.7178
+"Virginia","Smyth","Psychiatric Hospital","Southwestern Virginia Mental Health Institute",109,109,0,0.7178
+"Georgia","Bibb","Short Term Acute Care Hospital","Coliseum Medical Centers",310,201,28,0.7177
+"North Carolina","Buncombe","Rehabilitation Hospital","CarePartners Rehabilitation Hospital",80,74,0,0.7175
+"Alaska","Anchorage","Short Term Acute Care Hospital","Providence Alaska Medical Center",401,391,46,0.7173
+"Texas","Taylor","Rehabilitation Hospital","Encompass Health Rehabilitation Hospital of Abilene (FKA HealthSouth Rehabilitation Hospital of Abilene)",60,60,0,0.7172
+"California","San Diego","Short Term Acute Care Hospital","Palomar Medical Center Downtown Escondido (FKA Palomar Health Downtown Campus)",93,286,48,0.7171
+"Louisiana","St. Landry","Psychiatric Hospital","Oceans Behavioral Hospital Opelousas",36,36,0,0.717
+"Maryland","Washington","Psychiatric Hospital","Brook Lane Psychiatric Center",65,65,0,0.717
+"Missouri","Clay","Long Term Acute Care Hospital","Kindred Hospital Northland",50,50,5,0.7169
+"North Dakota","Bottineau","Critical Access Hospital","St Andrews Health Center",25,25,4,0.7169
+"New York","Schenectady","Short Term Acute Care Hospital","Ellis Hospital",368,331,36,0.7166
+"Maryland","Allegany","Psychiatric Hospital","Thomas B Finan Center",88,88,0,0.7164
+"North Carolina","Guilford","Short Term Acute Care Hospital","Cone Health Moses Cone Hospital (AKA Moses H Cone Memorial Hospital)",883,536,88,0.7164
+"California","San Diego","Short Term Acute Care Hospital","Sharp Grossmont Hospital",448,430,48,0.7159
+"Georgia","Richmond","Short Term Acute Care Hospital","Augusta University Medical Center (FKA Georgia Regents Medical Center)",632,464,68,0.7159
+"Maine","Waldo","Critical Access Hospital","Waldo County General Hospital",25,25,4,0.7159
+"Maryland","Baltimore City","Short Term Acute Care Hospital","MedStar Union Memorial Hospital",185,185,52,0.7156
+"Virginia","Charlottesville","Short Term Acute Care Hospital","University Hospital",612,585,14,0.7156
+"Minnesota","Hennepin","Short Term Acute Care Hospital","Abbott Northwestern Hospital",972,605,30,0.7155
+"Texas","Travis","Short Term Acute Care Hospital","St Davids North Austin Medical Center",379,350,24,0.7153
+"Nevada","Carson City","Short Term Acute Care Hospital","Carson Tahoe Regional Medical Center",211,175,24,0.7152
+"Maryland","Harford","Short Term Acute Care Hospital","UM Upper Chesapeake Medical Center",161,161,14,0.7151
+"Michigan","Wayne","Short Term Acute Care Hospital","Beaumont Hospital - Taylor (FKA Oakwood Hospital - Taylor)",148,99,16,0.7151
+"Minnesota","Hennepin","Short Term Acute Care Hospital","Hennepin County Medical Center (AKA Hennepin Healthcare)",330,330,65,0.715
+"Indiana","Clark","Psychiatric Hospital","Wellstone Regional Hospital",100,100,0,0.7149
+"Michigan","Ingham","Short Term Acute Care Hospital","Sparrow Hospital",573,533,99,0.7149
+"New York","Onondaga","Short Term Acute Care Hospital","St Josephs Health Hospital (FKA St Josephs Hospital Health Center)",451,435,44,0.7149
+"Michigan","Calhoun","Long Term Acute Care Hospital","Select Specialty Hospital - Battle Creek",25,25,5,0.7148
+"Texas","Smith","Short Term Acute Care Hospital","Baylor Scott & White Texas Spine & Joint Hospital",20,20,4,0.7148
+"Hawaii","Honolulu","Short Term Acute Care Hospital","Pali Momi Medical Center",118,118,8,0.7144
+"California","Los Angeles","Short Term Acute Care Hospital","Keck Hospital of USC (FKA USC University Hospital)",401,301,46,0.7142
+"California","Los Angeles","Long Term Acute Care Hospital","Kindred Hospital Baldwin Park (FKA Vista Hospital of San Gabriel Valley)",91,91,8,0.7141
+"Minnesota","Anoka","Short Term Acute Care Hospital","Mercy Hospital",546,469,35,0.7141
+"South Carolina","Greenville","Long Term Acute Care Hospital","Regency Hospital of Greenville",32,32,5,0.7139
+"Alaska","Anchorage","Short Term Acute Care Hospital","Alaska Regional Hospital",250,168,14,0.7138
+"Georgia","Forsyth","Short Term Acute Care Hospital","Northside Hospital Forsyth",304,304,24,0.7138
+"New Jersey","Middlesex","Short Term Acute Care Hospital","JFK Medical Center",498,344,63,0.7137
+"Maryland","Montgomery","Short Term Acute Care Hospital","Adventist HealthCare White Oak Medical Center",178,178,26,0.7132
+"Texas","Collin","Short Term Acute Care Hospital","Texas Health Plano (FKA Texas Health Presbyterian Hospital Plano)",338,292,26,0.7131
+"Pennsylvania","York","Short Term Acute Care Hospital","UPMC Hanover (FKA UPMC Pinnacle Hanover Hanover Hospital)",93,81,14,0.7129
+"Colorado","Larimer","Short Term Acute Care Hospital","UCHealth Medical Center of the Rockies",174,174,20,0.7123
+"Texas","Fort Bend","Psychiatric Hospital","Westpark Springs",72,72,2,0.7123
+"Arizona","Maricopa","Short Term Acute Care Hospital","Mercy Gilbert Medical Center",197,198,24,0.7121
+"Virginia","Virginia Beach","Psychiatric Hospital","Virginia Beach Psychiatric Center",100,100,1,0.7121
+"Hawaii","Maui","Critical Access Hospital","Kula Hospital",9,9,2,0.712
+"Missouri","Greene","Rehabilitation Hospital","Mercy Rehabilitation Hospital Springfield",60,60,0,0.712
+"Nebraska","Douglas","Rehabilitation Hospital","Madonna Rehabilitation Hospital - Omaha",62,62,3,0.7116
+"Virginia","Winchester","Short Term Acute Care Hospital","Winchester Medical Center",455,389,48,0.7116
+"Kentucky","Pike","Short Term Acute Care Hospital","Pikeville Medical Center",340,298,79,0.7115
+"California","Los Angeles","Short Term Acute Care Hospital","Los Angeles Medical Center",460,460,96,0.7114
+"Louisiana","Ouachita","Long Term Acute Care Hospital","Cornerstone Specialty Hospitals West Monroe",47,47,7,0.7113
+"Iowa","Polk","Short Term Acute Care Hospital","MercyOne Des Moines Medical Center (FKA Mercy Medical Center - Des Moines)",656,656,48,0.711
+"South Carolina","Spartanburg","Short Term Acute Care Hospital","Spartanburg Medical Center",540,644,19,0.711
+"Florida","Lee","Short Term Acute Care Hospital","Lee Memorial Hospital",414,355,75,0.7109
+"Washington","King","Short Term Acute Care Hospital","St Francis Hospital",124,124,14,0.7108
+"Alabama","Montgomery","Short Term Acute Care Hospital","Jackson Hospital",344,270,34,0.7107
+"Florida","Pinellas","Short Term Acute Care Hospital","Mease Dunedin Hospital",120,112,20,0.7107
+"Oklahoma","Caddo","Critical Access Hospital","The Physicians Hospital In Anadarko",25,25,4,0.7107
+"Vermont","Rutland","Short Term Acute Care Hospital","Rutland Regional Medical Center",188,124,13,0.7106
+"Louisiana","Lafayette","Short Term Acute Care Hospital","Ochsner Lafayette General Medical Center (FKA Lafayette General Medical Center)",465,380,40,0.7104
+"Colorado","Pueblo","Short Term Acute Care Hospital","Parkview Medical Center",350,268,11,0.7103
+"California","Los Angeles","Psychiatric Hospital","Ocean View Psychiatric Facility",36,36,0,0.7102
+"Vermont","Caledonia","Critical Access Hospital","Northeastern Vermont Regional Hospital",75,25,4,0.71
+"Georgia","Fulton","Short Term Acute Care Hospital","Northside Hospital Atlanta",621,506,28,0.7099
+"New York","New York City","Short Term Acute Care Hospital","Lenox Hill Hospital",632,417,24,0.7098
+"Ohio","Franklin","Psychiatric Hospital","Columbus Springs Dublin (FKA Dublin Springs)",72,144,0,0.7098
+"California","Mariposa","Critical Access Hospital","John C Fremont Healthcare District",18,18,3,0.7096
+"Maryland","Baltimore City","Short Term Acute Care Hospital","Johns Hopkins Bayview Medical Center",350,342,42,0.7095
+"New York","Oneida","Short Term Acute Care Hospital","St Elizabeth Campus (AKA St Elizabeth Medical Center)",201,177,16,0.7095
+"Illinois","Will","Short Term Acute Care Hospital","Silver Cross Hospital",296,259,28,0.7093
+"Kentucky","Kenton","Short Term Acute Care Hospital","St Elizabeth Covington (FKA St Elizabeth Medical Center North)",474,474,46,0.7092
+"Tennessee","Washington","Rehabilitation Hospital","Quillen Rehabilitation Hospital",36,36,0,0.7092
+"Oklahoma","Oklahoma","Short Term Acute Care Hospital","Oklahoma Spine Hospital",25,23,4,0.7091
+"Washington","Spokane","Short Term Acute Care Hospital","Providence Sacred Heart Medical Center",644,612,20,0.7091
+"New York","New York City","Short Term Acute Care Hospital","NYC Health and Hospitals - Bellevue (FKA Bellevue Hospital Center)",912,527,45,0.709
+"Michigan","Saginaw","Short Term Acute Care Hospital","Covenant Medical Center - Harrison",277,474,76,0.7089
+"California","Los Angeles","Short Term Acute Care Hospital","Adventist Health White Memorial (FKA White Memorial Medical Center)",353,353,34,0.7088
+"New York","New York City","Short Term Acute Care Hospital","NYC Health and Hospitals - Harlem (FKA Harlem Hospital Center)",282,231,20,0.7084
+"Connecticut","New Haven","Short Term Acute Care Hospital","MidState Medical Center",144,144,25,0.7083
+"California","Riverside","Psychiatric Hospital","Pacific Grove Hospital (FKA Riverside Center for Behavioral Medicine)",68,68,0,0.7079
+"Texas","Bell","Long Term Acute Care Hospital","Baylor Scott & White Continuing Care Hospital - Temple",48,25,4,0.7079
+"New York","Queens","Short Term Acute Care Hospital","Jamaica Hospital Medical Center",402,285,19,0.7078
+"Massachusetts","Bristol","Long Term Acute Care Hospital","Vibra Hospital of Southeastern Massachusetts",90,90,14,0.7077
+"Virginia","Norfolk","Childrens Hospital","Childrens Hospital of the Kings Daughters",206,180,93,0.7075
+"California","Yuba","Short Term Acute Care Hospital","Rideout - Adventist Health and Rideout (FKA Rideout Memorial Hospital)",221,149,24,0.7073
+"Washington","Thurston","Psychiatric Hospital","South Sound Behavioral Hospital",27,27,0,0.7073
+"Pennsylvania","Lancaster","Short Term Acute Care Hospital","Lancaster General Hospital",632,581,48,0.7072
+"West Virginia","Cabell","Short Term Acute Care Hospital","Cabell Huntington Hospital",313,330,44,0.7072
+"Indiana","St. Joseph","Short Term Acute Care Hospital","Memorial Hospital of South Bend",525,525,46,0.707
+"Pennsylvania","Dauphin","Rehabilitation Hospital","Penn State Hershey Rehabilitation Hospital",76,76,0,0.7068
+"Alabama","Jefferson","Short Term Acute Care Hospital","Grandview Medical Center (FKA Trinity Medical Center)",402,373,72,0.7066
+"Maryland","Prince George's","Short Term Acute Care Hospital","Fort Washington Medical Center",28,28,4,0.7066
+"Texas","Grayson","Short Term Acute Care Hospital","Texoma Medical Center",333,339,52,0.7066
+"Missouri","St. Louis","Childrens Hospital","Ranken Jordan Pediatric Bridge Hospital",60,60,23,0.7065
+"Florida","Collier","Short Term Acute Care Hospital","Physicians Regional Medical Center - Pine Ridge",105,101,24,0.7059
+"Minnesota","Blue Earth","Short Term Acute Care Hospital","Mayo Clinic Hospital - Mankato",272,155,29,0.7057
+"Connecticut","Fairfield","Short Term Acute Care Hospital","Bridgeport Hospital",348,348,32,0.7056
+"New York","New York City","Psychiatric Hospital","Manhattan Psychiatric Center",209,209,0,0.7055
+"Ohio","Allen","Long Term Acute Care Hospital","Kindred Hospital Lima",26,26,4,0.7055
+"Georgia","Clayton","Psychiatric Hospital","Anchor Hospital",122,122,1,0.7054
+"Texas","Montgomery","Short Term Acute Care Hospital","HCA Houston Healthcare Kingwood (FKA Kingwood Medical Center)",419,528,42,0.7052
+"Arizona","Yavapai","Psychiatric Hospital","Windhaven Psychiatric Hospital",16,16,0,0.7051
+"Georgia","Chatham","Short Term Acute Care Hospital","St Josephs Hospital",294,210,22,0.7051
+"Connecticut","New London","Short Term Acute Care Hospital","The William W Backus Hospital (AKA Backus Hospital)",165,165,12,0.7049
+"Georgia","Richmond","Psychiatric Hospital","East Central Regional Hospital",355,110,0,0.7049
+"Louisiana","Caddo","Psychiatric Hospital","Physicians Behavioral Hospital",24,24,0,0.7049
+"Michigan","Saginaw","Long Term Acute Care Hospital","Select Specialty Hospital - Saginaw",32,32,7,0.7049
+"North Carolina","Buncombe","Psychiatric Hospital","Julian F Keith Alcohol and Drug Abuse Treatment Center",80,80,0,0.7049
+"Wisconsin","Fond du Lac","Short Term Acute Care Hospital","St Agnes Hospital",146,115,12,0.7048
+"District of Columbia","District of Columbia","Long Term Acute Care Hospital","BridgePoint Hospital Capitol Hill (FKA Specialty Hospital of Washington - Capital Hill)",60,60,9,0.7047
+"Louisiana","Lafayette","Rehabilitation Hospital","Lafayette Physical Rehabilitation Hospital",32,32,3,0.7047
+"New York","Suffolk","Short Term Acute Care Hospital","Huntington Hospital",348,259,26,0.7046
+"North Dakota","Burleigh","Short Term Acute Care Hospital","Sanford Medical Center Bismarck (FKA Medcenter One)",223,211,13,0.7045
+"Florida","Broward","Short Term Acute Care Hospital","Westside Regional Medical Center",250,250,32,0.7044
+"North Carolina","Forsyth","Short Term Acute Care Hospital","Novant Health Forsyth Medical Center (FKA Forsyth Memorial Hospital)",945,901,68,0.7039
+"Maryland","Howard","Short Term Acute Care Hospital","Howard County General Hospital",225,225,16,0.7038
+"Alabama","Lauderdale","Short Term Acute Care Hospital","North Alabama Medical Center (FKA Eliza Coffee Memorial Hospital)",263,223,36,0.7036
+"Kentucky","Warren","Short Term Acute Care Hospital","The Medical Center at Bowling Green",337,308,16,0.7036
+"Maryland","Montgomery","Short Term Acute Care Hospital","Holy Cross Hospital",377,209,46,0.7036
+"New Mexico","Bernalillo","Long Term Acute Care Hospital","Kindred Hospital - Albuquerque",61,57,6,0.7035
+"Washington","Chelan","Short Term Acute Care Hospital","Central Washington Hospital",198,176,20,0.7035
+"Wisconsin","Milwaukee","Long Term Acute Care Hospital","Select Specialty Hospital - Milwaukee West Allis",34,34,8,0.7034
+"Tennessee","Putnam","Psychiatric Hospital","Ten Broeck Tennessee",38,36,0,0.7033
+"Connecticut","Fairfield","Psychiatric Hospital","Silver Hill Hospital",42,42,0,0.703
+"Pennsylvania","Allegheny","Short Term Acute Care Hospital","UPMC East",155,136,8,0.7028
+"Colorado","Jefferson","Short Term Acute Care Hospital","St Anthony Hospital",237,219,76,0.7027
+"Washington","Skagit","Short Term Acute Care Hospital","Skagit Valley Hospital (AKA Skagit Regional Health)",137,137,24,0.7027
+"Florida","Duval","Short Term Acute Care Hospital","UF Health Jacksonville",603,534,80,0.7025
+"Pennsylvania","Clarion","Psychiatric Hospital","Clarion Psychiatric Center (FKA Clarion Psychiatric Hospital)",112,112,0,0.7024
+"California","Ventura","Short Term Acute Care Hospital","St Johns Pleasant Valley Hospital",58,58,8,0.7019
+"Florida","Duval","Short Term Acute Care Hospital","Memorial Hospital Jacksonville",454,396,51,0.7018
+"Ohio","Summit","Short Term Acute Care Hospital","Akron General",383,383,34,0.7018
+"Pennsylvania","Blair","Short Term Acute Care Hospital","UPMC Altoona",368,346,33,0.7017
+"Virginia","Fairfax","Short Term Acute Care Hospital","Reston Hospital Center",215,191,16,0.7016
+"Ohio","Franklin","Psychiatric Hospital","River Vista Health and Wellness LLC",80,80,0,0.7015
+"Texas","Jefferson","Long Term Acute Care Hospital","Mid Jefferson Extended Care Hospital",48,78,7,0.7015
+"Florida","Volusia","Short Term Acute Care Hospital","AdventHealth Daytona Beach (FKA Florida Hospital Memorial Medical Center)",362,277,46,0.7009
+"North Carolina","Wake","Short Term Acute Care Hospital","WakeMed Cary Hospital",202,196,12,0.7008
+"Pennsylvania","Allegheny","Short Term Acute Care Hospital","Allegheny General Hospital",552,552,76,0.7008
+"Louisiana","St. John the Baptist","Psychiatric Hospital","River Place Behavioral Health",82,82,0,0.7007
+"South Carolina","Greenwood","Rehabilitation Hospital","Greenwood Regional Rehabilitation Hospital",42,42,5,0.7007
+"Mississippi","Forrest","Short Term Acute Care Hospital","Forrest General Hospital",512,429,40,0.7006
+"Oregon","Multnomah","Short Term Acute Care Hospital","Legacy Emanuel Medical Center",554,400,69,0.7004
+"Wisconsin","Dane","Short Term Acute Care Hospital","SSM Health St Marys Hospital - Madison",440,342,27,0.7003
+"Illinois","DuPage","Psychiatric Hospital","Linden Oaks Behavioral Health",108,108,0,0.7001
