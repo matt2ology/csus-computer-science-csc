@@ -1,6 +1,7 @@
 # S - Configuring SQL
 
 **Due** Apr 25 at 11:59pm  | **Points** 5 pts | **Submitting** a text entry box or a file upload | **File Types** png, jpeg, pdf, and jpg
+
 - [S - Configuring SQL](#s---configuring-sql)
   - [Goal](#goal)
   - [Announcements](#announcements)
