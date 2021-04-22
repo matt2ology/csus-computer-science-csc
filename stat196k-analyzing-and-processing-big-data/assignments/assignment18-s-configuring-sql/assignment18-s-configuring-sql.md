@@ -44,7 +44,7 @@ Show:
 26. `Specify template` **set to** "**Amazon S3 URL**"
 27. `Amazon S3 template URL` **use template:** https://stat196k-data-examples.s3.amazonaws.com/CovidLakeStack.template.json
 28. **Click** `Next`
-29. `Specify stack details` Stack name can be what ever you want (I did *stat196k-spring2021*)
+29. `Specify stack details` Stack name can be what ever you want (I did _stat196k-spring2021_)
 30. **Click** `Next`
 31. Don't worry about `Configure stack options` the default works fine
 32. **Click** `Next`
@@ -67,11 +67,12 @@ Show:
 49. Over in `covidcast_data` click the option icon (the three vertical dots)
 50. **Select** `Preview table`
 51. It will run a SQL query for you
-    > SELECT * FROM "covid-19"."covidcast_data" limit 10;
+
+    > SELECT \* FROM "covid-19"."covidcast_data" limit 10;
 
     **Click** `Format query`
 
-    > SELECT *\
+    > SELECT \*\
     > FROM "covid-19"."covidcast_data" limit 10;
 
     The `*` (star) means all columns.
