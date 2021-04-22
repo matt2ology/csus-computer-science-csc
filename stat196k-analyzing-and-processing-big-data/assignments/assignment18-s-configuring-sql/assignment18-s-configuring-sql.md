@@ -12,7 +12,7 @@ Show:
 1. Your username
 2. A successful query
 
-![screenshot of my working AWS Athena instance](assignment18-screenshot-public.png)
+![screenshot of my working AWS Athena instance](./assignment18-aws-athena-screenshot.png)
 
 ## Step-by-step
 
