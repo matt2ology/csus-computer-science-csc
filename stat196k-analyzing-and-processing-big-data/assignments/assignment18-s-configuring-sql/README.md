@@ -9,7 +9,7 @@
   - [Assignment](#assignment)
   - [Background](#background)
 
-See website assignment: http://webpages.csus.edu/fitzgerald/configuring-SQL/#assignment
+See website assignment: <http://webpages.csus.edu/fitzgerald/configuring-SQL/#assignment>
 
 ---
 
