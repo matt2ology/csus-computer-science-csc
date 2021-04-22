@@ -42,7 +42,7 @@ Show:
 24. **Click** `Create stack`
 25. `Prerequisite - Prepare template` Amazon S3 URL"**Template is ready**"
 26. `Specify template` **set to** "**Amazon S3 URL**"
-27. `Amazon S3 template URL` **use template:** https://stat196k-data-examples.s3.amazonaws.com/CovidLakeStack.template.json
+27. `Amazon S3 template URL` **use template:** <https://stat196k-data-examples.s3.amazonaws.com/CovidLakeStack.template.json>
 28. **Click** `Next`
 29. `Specify stack details` Stack name can be what ever you want (I did _stat196k-spring2021_)
 30. **Click** `Next`
