@@ -1,4 +1,6 @@
+# Homework Sampling Stream
 # http://webpages.csus.edu/fitzgerald/homework-sampling-stream/
+# These are Dr. Clark Fitzgerald brief sketches of the core parts of each assignment.
 import Random
 
 """

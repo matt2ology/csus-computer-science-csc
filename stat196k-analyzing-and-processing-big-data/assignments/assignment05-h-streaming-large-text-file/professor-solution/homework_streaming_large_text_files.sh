@@ -1,5 +1,6 @@
 # homework_streaming_large_text_file
 # http://webpages.csus.edu/fitzgerald/homework-streaming-large-text-file/ (Links to an external site.)
+# These are Dr. Clark Fitzgerald brief sketches of the core parts of each assignment.
 
 S3FILE="s3://stat196k-data-examples/2018.csv.gz"
 COL31FILE="s3://stat196k-data-examples/2018_col31.csv.gz"
