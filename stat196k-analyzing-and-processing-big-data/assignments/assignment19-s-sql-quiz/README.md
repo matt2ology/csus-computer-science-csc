@@ -49,13 +49,13 @@ FROM students
 
 What is necessary to join two tables together?
 
-- [ ] both tables must have unique entires in one column
+- both tables must have unique entires in one column
 
-- [ ] one of the two tables must be small
+- one of the two tables must be small
 
-- [ ] both tables must have one column that represents the same data
+- both tables must have one column that represents the same data
 
-- [ ] both tables must have one string column
+- both tables must have one string column
 
 ### Question 6 **(1 pts)**
 
