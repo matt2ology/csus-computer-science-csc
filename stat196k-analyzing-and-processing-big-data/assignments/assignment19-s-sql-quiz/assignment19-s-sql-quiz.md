@@ -34,9 +34,25 @@ SELECT [BLANK] , [BLANK] FROM [BLANK]
 SELECT [BLANK] FROM [BLANK] WHERE [BLANK] < [BLANK]
 ```
 
->```SQL
+> ```SQL
 > SELECT * FROM students WHERE 25 < age
->```
+> ```
+
+If greater than shouldn't the angle bracket be a right angle bracket?
+
+FROM
+
+```SQL
+SELECT [BLANK] FROM [BLANK] WHERE [BLANK] < [BLANK]
+```
+
+TO
+
+```SQL
+SELECT [BLANK] FROM [BLANK] WHERE [BLANK] > [BLANK]
+```
+
+> Professor's responce: "I nearly always write inequalities as `a < b` because I think they read better left to right."
 
 ### **Question 4:** Complete the SQL query to order the rows of the result by the age column
 
@@ -45,7 +61,7 @@ SELECT *
 FROM students
 ```
 
->```SQL
+> ```SQL
 > SELECT *
 > FROM students
 > ORDER BY age
