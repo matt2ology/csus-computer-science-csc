@@ -31,11 +31,11 @@ SELECT [BLANK] , [BLANK] FROM [BLANK]
 ### **Question 3:** Complete the SQL query to return a table containing all rows from the table "students" where the value of the age column is greater than 25
 
 ```SQL
-SELECT [BLANK] FROM [BLANK] WHERE [BLANK] > [BLANK]
+SELECT [BLANK] FROM [BLANK] WHERE [BLANK] < [BLANK]
 ```
 
 >```SQL
-> SELECT * FROM students WHERE age > 25
+> SELECT * FROM students WHERE 25 < age
 >```
 
 ### **Question 4:** Complete the SQL query to order the rows of the result by the age column
