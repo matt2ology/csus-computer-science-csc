@@ -18,7 +18,7 @@ For example, if you want to show this project to a software engineering recruite
 
    1. cloud computing (AWS EC2)
    2. databases (AWS Athena)
-   3. large datasets (say greater than 500 MB- any of the data sets we used in this class 1. will work)
+   3. large datasets (say greater than 500 MB- any of the data sets we used in this class will work)
    4. complex datasets (XML, JSON)
    5. streaming computations (bash pipelines)
    6. Julia programming
