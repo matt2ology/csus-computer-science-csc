@@ -106,7 +106,9 @@ Explain what the signal means, and use this signal to pose and answer a question
 
 Load an external table into your database and use it to ask and answer a new question by joining it with the existing tables.
 
-    For example, we could look at the relationship between political backgrounds and COVID attitudes by finding a table with votes for each party by state or county for the 2020 presidential election.
+```text
+For example, we could look at the relationship between political backgrounds and COVID attitudes by finding a table with votes for each party by state or county for the 2020 presidential election.
+```
 
 > ```sql
 >
