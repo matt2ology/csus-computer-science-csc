@@ -115,6 +115,10 @@ and elaborate on it. What does it mean?
 Find a row in the `covid` table that contains SE (standard error) for one signal.
 Use this to construct and interpret a "quick and dirty" 95% confidence interval for that particular signal in that row.
 
+Using [Athena](https://console.aws.amazon.com/athena/home?region=us-east-1#query)
+
+![Athena: Query Data in S3 using SQL](readme-images/athena_query_data.png)
+
 > [PlaceHolder]
 
 ## Counting (8 points)
