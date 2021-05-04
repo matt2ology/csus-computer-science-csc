@@ -108,7 +108,7 @@ and elaborate on it. What does it mean?
   for this, but it is difficult to tell if these weights account for all
   possible non-response bias.
 
-> [PlaceHolder]
+> This term is to articulate if you don't respond or partake in the survay you will be assumed to be a member of the majority; for example, if you are a Black woman living in a place that is majority White and you don't respond to the survay you are invited to Facebook would use a process called "[imputation](https://g.co/kgs/EnjxXZ)." Facebook would then say "hey, this person might be a White male."
 
 ### Understanding The Data Question #2
 
