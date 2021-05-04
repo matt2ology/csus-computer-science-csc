@@ -16,6 +16,84 @@
 
 ---
 
+## Database Crawler Setup
+
+Following steps used in lecture Apr 28,2021
+
+1. Go to [AWS Glue](https://console.aws.amazon.com/glue/home?region=us-east-1#catalog:tab=crawlers)
+2. Click `Add crawler`
+3. **Specify crawler source type**
+   1. Using `Crawler name`: homework-covid-database
+   2. **No changes** to `Tags, description, security configuration, and classifiers (optional)`
+4. Click `Next`
+5. **Specify crawler source type**
+   1. **Crawler source type**: `Data stores`
+   2. **Repeat crawls of S3 data stores**: `Crawl all folders` _Crawl all folders again with every subsequent crawl._
+6. Click `Next`
+7. **Add a data store**
+   1. **Choose a data store**: `S3`
+   2. **Connection**: Not needed (leave blank)
+   3. **Crawl data in**: `Specified path`
+   4. **Include path** `s3://stat196k-data-examples/covid_db/`
+8. Click `Next`
+9. **Add another data store**: `No` (for now... later to load our own table and bring it into our own database/collection of tables)
+10. **Choose an IAM role**
+    1. Select: `Create an IAM role`
+    2. **IAM role**: `AWSGlueServiceRole-`covid-database
+11. Click `Next`
+12. **Create a schedule for this crawler**
+    1. **Frequency**: `Run on demand`
+13. Click `Next`
+14. **Configure the crawler's output**
+    1. Click `Add database`
+    2. **Database name**: homework-covid-database (same name as crawler)
+    3. **Prefix added to tables (optional)**: Leave blank
+    4. **Description and location (optional)**: Leave blank
+    5. **Resource link name**: Leave blank/unchanged
+    6. **Shared database suggestions**: Leave blank/unchanged
+    7. **Shared database**: Leave blank/unchanged
+    8. **Shared database owner account ID**: Leave blank/unchanged
+15. Click `Create`
+16. **Grouping behavior for S3 data (optional)**: Leave blank
+17. **Configuration options (optional)**: Leave unchanged
+18. Click `Next`
+19. **Review all steps**
+
+    1. **Crawler info**
+       1. **Name** homework-covid-database
+       2. **Tags**: -
+    2. **Data stores**
+       1. **Data store**: S3
+       2. **Include pat**: h s3://stat196k-data-examples/covid_db/
+       3. **Connection**: -
+       4. **Exclude patterns**: -
+    3. **IAM role**
+       1. **IAM role**: arn:aws:iam::503811637238:role/service-role/AWSGlueServiceRole-covid-database
+    4. **Schedule**
+       1. **Schedule**: Run on demand
+    5. **Output**
+       1. **Database**: homework-covid-database
+       2. **Prefix added to tables (optional)**: -
+       3. **Create a single schema for each S3 path**: false
+       4. **Configuration options**
+          1. **Schema updates in the data store**: Update the table definition in the data catalog.
+          2. **Object deletion in the data store**: Mark the table as deprecated in the data catalog.
+
+20. Click `Finish`\
+    ![What it looks like when you've set up properly](readme-images/aws_glue_crawlers.png)
+21. Click `homework-covid-database`
+22. Click `Run crawler` (Will take a moment)
+    1. When completed in `Tables added` you should see 3 added\
+       ![Three tables added](readme-images/aws_glue_three_tables_added.png)
+23. From `Data catalog` > `Databases` > `Tables` (located on the left-hand-side)\
+    ![`Data catalog` > `Databases` > `Tables`](readme-images/data_cataloge_databases_tables.png)
+
+24. You should see three tables
+    1. county
+    2. covid
+    3. states
+       ![Three tables](readme-images/three_tables_shown.png)
+
 ## Understanding The Data (4 points)
 
 ### Understanding The Data Question #1
