@@ -3,6 +3,7 @@
 **Due** May 6 at 11:59pm | **Points** 20 pts | **Submitting** a file upload | **File Types** PDF
 
 - [Assignment21 - Homework COVID Database](#assignment21---homework-covid-database)
+  - [Database Crawler Setup](#database-crawler-setup)
   - [Understanding The Data (4 points)](#understanding-the-data-4-points)
     - [Understanding The Data Question #1](#understanding-the-data-question-1)
     - [Understanding The Data Question #2](#understanding-the-data-question-2)
