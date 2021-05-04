@@ -98,7 +98,15 @@ Following steps used in lecture Apr 28,2021
 
 ### Understanding The Data Question #1
 
-Pick one of the [limitations described in the data documentation](https://cmu-delphi.github.io/delphi-epidata/api/covidcast-signals/fb-survey.html#limitations) and elaborate on it. What does it mean?
+Pick one of the [limitations described in the data documentation](https://cmu-delphi.github.io/delphi-epidata/api/covidcast-signals/fb-survey.html#limitations)
+and elaborate on it. What does it mean?
+
+- `Non-response bias`: The survey is voluntary, and people who accept the
+  invitation when it is presented to them on Facebook may be different from
+  those who do not. The [survey weights provided by Facebook](https://cmu-delphi.github.io/delphi-epidata/api/covidcast-signals/fb-survey.html#survey-weighting)
+  attempt to model the probability of response for each user and hence adjust
+  for this, but it is difficult to tell if these weights account for all
+  possible non-response bias.
 
 > [PlaceHolder]
 
