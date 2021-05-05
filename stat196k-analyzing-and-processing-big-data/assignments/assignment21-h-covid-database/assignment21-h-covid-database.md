@@ -47,15 +47,15 @@ Following steps used in lecture Apr 28,2021
 13. Click `Next`
 14. **Configure the crawler's output**
     1. Click `Add database`
-    2. **Database name**: homework-covid-database (same name as crawler)
+    2. **Database name (same name as crawler)**: homework-covid-database
     3. **Prefix added to tables (optional)**: Leave blank
     4. **Description and location (optional)**: Leave blank
-    5. **Resource link name**: Leave blank/unchanged
-    6. **Shared database suggestions**: Leave blank/unchanged
-    7. **Shared database**: Leave blank/unchanged
-    8. **Shared database owner account ID**: Leave blank/unchanged
+    5. **Resource link name**: Leave blank
+    6. **Shared database suggestions**: Leave blank
+    7. **Shared database**: Leave blank
+    8. **Shared database owner account ID**: Leave blank
 15. Click `Create`
-16. **Grouping behavior for S3 data (optional)**: Leave blank
+16. **Grouping behavior for S3 data (optional)**: Leave unchanged
 17. **Configuration options (optional)**: Leave unchanged
 18. Click `Next`
 19. **Review all steps**
