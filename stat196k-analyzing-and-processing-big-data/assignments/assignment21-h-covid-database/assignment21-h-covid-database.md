@@ -120,7 +120,37 @@ Using [Athena](https://console.aws.amazon.com/athena/home?region=us-east-1#query
 
 ![Athena: Query Data in S3 using SQL](readme-images/athena_query_data.png)
 
-> [PlaceHolder]
+![Athena Query Editor View](readme-images/athena_query_data_view.png)
+
+```SQL
+-- Conditional Query
+SELECT stderr
+FROM covid
+LIMIT 3;
+```
+
+OUTPUT
+
+| data_source | signal                   | geo_type | time_value | geo_value | direction | value      | stderr    | sample_size |
+| ----------- | ------------------------ | -------- | ---------- | --------- | --------- | ---------- | --------- | ----------- |
+| fb-survey   | smoothed_wlarge_event_1d | nation   | 20200908   | us        |           | 15.9247137 | 0.2631875 | 19329.0     |
+| fb-survey   | smoothed_wlarge_event_1d | nation   | 20200909   | us        |           | 15.2445553 | 0.1571114 | 52344.0     |
+| fb-survey   | smoothed_wlarge_event_1d | nation   | 20200910   | us        |           | 14.9683015 | 0.1223318 | 85050.0     |
+
+```julia
+value = 15.9247137
+p_value = 15.9247137/100
+z_confidence_level_value = 1.959964
+s_sample_standard_deviation = 0.2631875
+n_sample_size = 19329.0
+square_root_of_the_sample_size = 100*sqrt((p_value*(1-p_value))/n_sample_size)
+lower_bound = value-(2*square_root_of_the_sample_size)
+upper_bound = value+(2*square_root_of_the_sample_size)
+println("(",lower_bound, ",", upper_bound,")")
+# (15.398338648809686 , 16.451088751190312)
+```
+
+> Using data from the first row we have a 95% confidence interval of (15.398338648809686 , 16.451088751190312)
 
 ## Counting (8 points)
 
@@ -132,9 +162,38 @@ How many observations are there for each signal in the county level `covid` rows
 County level rows means that `geo_type = 'county'`.\
 Show the top 5 `signals` with the most counts.
 
+```text
+Dennis — 04/30/2021
+For question 1 in the 'Counting' section of the homework, when it asks for how many observations... Is it asking for the sum of the 'value' column or is it asking for the COUNT of rows in this query?
+
+Clark — 05/01/2021
+By "number of observations" I mean the COUNT of rows.
+
+Ryan H — 05/01/2021
+for that same question ( 'Counting' question 1 ), we are supposed to find the counts for each signal in the 'county' level.  I am able to do this for one at a time, but when trying to get through all of them (there are around 70), I am getting a little stuck.  Do I want to create a list with each signal name and loop through it?  I feel like there should be an easier way to do this
+
+Clark — 05/02/2021
+Try GROUP BY signal
+```
+
 > ```sql
->
+> SELECT signal, COUNT(signal) as signal_count
+> FROM covid
+> WHERE geo_type = 'county'
+> GROUP BY signal
+> ORDER BY signal_count DESC
+> LIMIT 5;
 > ```
+
+OUTPUT
+
+| signal                    | signal_count |
+| ------------------------- | :----------: |
+| confirmed_incidence_num   |   3459570    |
+| confirmed_cumulative_num  |   3459570    |
+| confirmed_incidence_prop  |   3422517    |
+| confirmed_cumulative_prop |   3422517    |
+| deaths_cumulative_num     |   3401785    |
 
 ### Counting Queston #2
 
@@ -143,7 +202,13 @@ Show the top 5 states with the most counts, including the name of the state.\
 How many observations does California have?
 
 > ```sql
->
+> SELECT geo_value,
+>          COUNT(*) AS observations
+> FROM covid, states
+> WHERE geo_type = 'state'
+>         AND UPPER(covid.geo_value) = states."abbreviation"
+> GROUP BY  geo_value
+> ORDER BY  observations DESC LIMIT 5
 > ```
 
 ### Counting Queston #3
