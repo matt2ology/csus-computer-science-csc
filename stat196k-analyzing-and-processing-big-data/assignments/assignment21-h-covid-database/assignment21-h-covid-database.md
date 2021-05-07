@@ -184,16 +184,15 @@ Try GROUP BY signal
 > ORDER BY signal_count DESC
 > LIMIT 5;
 > ```
-
-OUTPUT
-
-| signal                    | signal_count |
-| ------------------------- | :----------: |
-| confirmed_incidence_num   |   3459570    |
-| confirmed_cumulative_num  |   3459570    |
-| confirmed_incidence_prop  |   3422517    |
-| confirmed_cumulative_prop |   3422517    |
-| deaths_cumulative_num     |   3401785    |
+>
+> OUTPUT
+> | signal                    | signal_count |
+> | ------------------------- | :----------: |
+> | confirmed_incidence_num   |   3459570    |
+> | confirmed_cumulative_num  |   3459570    |
+> | confirmed_incidence_prop  |   3422517    |
+> | confirmed_cumulative_prop |   3422517    |
+> | deaths_cumulative_num     |   3401785    |
 
 ### Counting Queston #2
 
