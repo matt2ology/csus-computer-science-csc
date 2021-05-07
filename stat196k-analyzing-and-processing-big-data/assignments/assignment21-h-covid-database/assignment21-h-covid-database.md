@@ -181,13 +181,13 @@ Show the top 5 `signals` with the most counts.
 > ```
 >
 > OUTPUT
-> | signal                    | signal_count |
+> | signal | signal_count |
 > | ------------------------- | :----------: |
-> | confirmed_cumulative_num  |   3459570    |
-> | confirmed_incidence_num   |   3459570    |
-> | confirmed_cumulative_prop |   3422517    |
-> | confirmed_incidence_prop  |   3422517    |
-> | deaths_cumulative_num     |   3401785    |
+> | confirmed_cumulative_num | 3459570 |
+> | confirmed_incidence_num | 3459570 |
+> | confirmed_cumulative_prop | 3422517 |
+> | confirmed_incidence_prop | 3422517 |
+> | deaths_cumulative_num | 3401785 |
 
 ### Counting Question #2
 
@@ -208,12 +208,12 @@ How many observations does California have?
 > | geo_value | number_of_observations |
 > | :-------: | :--------------------: |
 > |    ny     |         56114          |
-> |    ca     |         56080          |
+> |   `ca`    |        `56080`         |
 > |    fl     |         56050          |
 > |    tx     |         56049          |
 > |    pa     |         55981          |
 >
-> California has 56080 observations
+> **California has 56080 observations**
 
 ### Counting Question #3
 
