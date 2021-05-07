@@ -233,7 +233,7 @@ Does it appear that there are around 20 million survey responses present in the 
 >
 > ![Screenshot of SQL Counting Question #3 result](assignment21-images/counting_question03.png)
 >
-> |  Results   | In decimal form |
+> |  Results   | In Decimal Form |
 > | :--------: | :-------------: |
 > | 1.9646428E |    19646428     |
 >
