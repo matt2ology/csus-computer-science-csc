@@ -199,13 +199,13 @@ Try GROUP BY signal
 > ```
 >
 > OUTPUT
-> | signal | signal_count |
+> | signal                    | signal_count |
 > | ------------------------- | :----------: |
-> | confirmed_incidence_num | 3459570 |
-> | confirmed_cumulative_num | 3459570 |
-> | confirmed_incidence_prop | 3422517 |
-> | confirmed_cumulative_prop | 3422517 |
-> | deaths_cumulative_num | 3401785 |
+> | confirmed_cumulative_num  |   3459570    |
+> | confirmed_incidence_num   |   3459570    |
+> | confirmed_cumulative_prop |   3422517    |
+> | confirmed_incidence_prop  |   3422517    |
+> | deaths_cumulative_num     |   3401785    |
 
 ### Counting Question #2
 
