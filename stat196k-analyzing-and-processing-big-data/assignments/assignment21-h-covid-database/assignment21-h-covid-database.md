@@ -268,6 +268,15 @@ Explain what the signal means, and use this signal to pose and answer a question
 > |  total_responses   | total_sample_size | total_sample_size In Decimal Form |
 > | :----------------: | :---------------: | :-------------------------------: |
 > | 247766.82136179978 |  1.97152085332E7  |           19715208.5332           |
+>
+> > I found the signal `smoothed_whesitancy_reason_cost` to be of most interest;
+> > for, I thought all outlets from mainstream news, local pharmacies, city council,
+> > and the alike have made it clear that the vacines of any approved and
+> > authorized vaccines (Pfizer, Johnson and Johnson, and Moderna ) have made it clear
+> > that both the single and second doses would be free of cost and no fees are to be paid.
+> >
+> > Does the numbers articulte that the message of no cost and free of charge is not
+> > getting across, are these of places with minimal community and social infrastructure?
 
 ### Open Ended Question #2
 
