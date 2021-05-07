@@ -236,9 +236,10 @@ Does it appear that there are around 20 million survey responses present in the 
 > |  Results   | In decimal form |
 > | :--------: | :-------------: |
 > | 1.9646428E |    19646428     |
->> **There is a difference of 353572** from the original data source claims of
->> having around `20 million Facebook survey responses` according to the SQL
->> generated results
+>
+> > **There is a difference of 353572** from the original data source claims of
+> > having around `20 million Facebook survey responses` according to the SQL
+> > generated results
 
 ## Open Ended Questions (8 points)
 
