@@ -257,6 +257,12 @@ Explain what the signal means, and use this signal to pose and answer a question
 > FROM covid
 > WHERE signal = 'smoothed_whesitancy_reason_cost'
 > ```
+>
+> OUTPUT
+>
+> |  total_responses   | total_sample_size | total_sample_size In Decimal Form |
+> | :----------------: | :---------------: | :-------------------------------: |
+> | 247766.82136179978 |  1.97152085332E7  |          1.97152085332E7          |
 
 ### Open Ended Question #2
 
