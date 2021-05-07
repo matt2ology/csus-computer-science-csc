@@ -1,0 +1,4 @@
+"data_source","signal","geo_type","time_value","geo_value","direction","value","stderr","sample_size"
+"fb-survey","smoothed_wlarge_event_1d","nation","20200908","us",,"15.9247137","0.2631875","19329.0"
+"fb-survey","smoothed_wlarge_event_1d","nation","20200909","us",,"15.2445553","0.1571114","52344.0"
+"fb-survey","smoothed_wlarge_event_1d","nation","20200910","us",,"14.9683015","0.1223318","85050.0"
