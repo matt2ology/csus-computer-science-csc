@@ -252,7 +252,10 @@ Pick one of the signals from Delphi's [Facebook survey](https://cmu-delphi.githu
 Explain what the signal means, and use this signal to pose and answer a question using the `covid` table.
 
 > ```sql
->
+> SELECT SUM(value) AS total_responses,
+>          SUM(sample_size) AS total_sample_size
+> FROM covid
+> WHERE signal = 'smoothed_whesitancy_reason_cost'
 > ```
 
 ### Open Ended Question #2
