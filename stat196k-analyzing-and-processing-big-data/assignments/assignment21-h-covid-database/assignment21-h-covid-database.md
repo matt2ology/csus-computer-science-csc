@@ -83,19 +83,19 @@ Following steps used in lecture Apr 28,2021
           2. **Object deletion in the data store**: Mark the table as deprecated in the data catalog.
 
 20. Click `Finish`\
-    ![What it looks like when you've set up properly](readme-images/aws_glue_crawlers.png)
+    ![What it looks like when you've set up properly](assignment21-images/aws_glue_crawlers.png)
 21. Click `homework-covid-database`
 22. Click `Run crawler` (Will take a moment)
     1. When completed in `Tables added` you should see 3 added\
-       ![Three tables added](readme-images/aws_glue_three_tables_added.png)
+       ![Three tables added](assignment21-images/aws_glue_three_tables_added.png)
 23. From `Data catalog` > `Databases` > `Tables` (located on the left-hand-side)\
-    ![`Data catalog` > `Databases` > `Tables`](readme-images/data_cataloge_databases_tables.png)
+    ![`Data catalog` > `Databases` > `Tables`](assignment21-images/data_cataloge_databases_tables.png)
 
 24. You should see three tables
     1. county
     2. covid
     3. states
-       ![Three tables](readme-images/three_tables_shown.png)
+       ![Three tables](assignment21-images/three_tables_shown.png)
 
 ## Understanding The Data (4 points)
 
@@ -125,9 +125,9 @@ Use this to construct and interpret a "quick and dirty" 95% confidence interval 
 
 Using [Athena](https://console.aws.amazon.com/athena/home?region=us-east-1#query)
 
-![Athena: Query Data in S3 using SQL](readme-images/athena_query_data.png)
+![Athena: Query Data in S3 using SQL](assignment21-images/athena_query_data.png)
 
-![Athena Query Editor View](readme-images/athena_query_data_view.png)
+![Athena Query Editor View](assignment21-images/athena_query_data_view.png)
 
 ```SQL
 -- Conditional Query
@@ -208,13 +208,13 @@ How many observations does California have?
 > OUTPUT
 > | geo_value | number_of_observations |
 > | :-------: | :--------------------: |
-> |    ny     |         56114          |
-> |   `ca`    |        `56080`         |
-> |    fl     |         56050          |
-> |    tx     |         56049          |
-> |    pa     |         55981          |
+> | ny | 56114 |
+> | `ca` | `56080` |
+> | fl | 56050 |
+> | tx | 56049 |
+> | pa | 55981 |
 >
->> **California has 56080 observations**
+> > **California has 56080 observations**
 
 ### Counting Question #3
 
@@ -225,7 +225,6 @@ Does it appear that there are around 20 million survey responses present in the 
 > SELECT SUM(sample_size)
 > FROM covid
 > WHERE data_source = 'fb-survey'
->         AND signal = 'raw_cli'
 >         AND geo_type = 'nation'
 >         AND signal = 'raw_cli'
 > ```
