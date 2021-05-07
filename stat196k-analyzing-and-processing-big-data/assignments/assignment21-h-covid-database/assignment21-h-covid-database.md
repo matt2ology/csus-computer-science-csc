@@ -221,7 +221,11 @@ The original data source claims to have around 20 million Facebook survey respon
 Does it appear that there are around 20 million survey responses present in the `covid` table?
 
 > ```sql
->
+> SELECT SUM(sample_size)
+> FROM covid
+> WHERE data_source = 'fb-survey'
+>         AND signal = 'raw_cli'
+>         AND geo_type = 'nation'
 > ```
 
 ## Open Ended Questions (8 points)
