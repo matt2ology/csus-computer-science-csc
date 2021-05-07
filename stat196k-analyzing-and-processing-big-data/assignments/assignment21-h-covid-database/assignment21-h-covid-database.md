@@ -14,6 +14,8 @@
   - [Open Ended Questions (8 points)](#open-ended-questions-8-points)
     - [Open Ended Question #1](#open-ended-question-1)
     - [Open Ended Question #2](#open-ended-question-2)
+  - [References](#references)
+    - [Counting Question #1 - Help](#counting-question-1---help)
 
 ---
 
