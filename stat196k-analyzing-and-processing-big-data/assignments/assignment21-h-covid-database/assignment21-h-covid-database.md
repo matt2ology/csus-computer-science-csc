@@ -164,16 +164,19 @@ Show the top 5 `signals` with the most counts.
 
 ```text
 Dennis — 04/30/2021
-For question 1 in the 'Counting' section of the homework, when it asks for how many observations... 
-Is it asking for the sum of the 'value' column or is it asking for the COUNT of rows in this query?
+For question 1 in the 'Counting' section of the homework, when it asks for how 
+many observations... Is it asking for the sum of the 'value' column or is it 
+asking for the COUNT of rows in this query?
 
 Clark — 05/01/2021
 By "number of observations" I mean the COUNT of rows.
 
 Ryan H — 05/01/2021
-for that same question ( 'Counting' question 1 ), we are supposed to find the counts for each signal in the 'county' level.
-I am able to do this for one at a time, but when trying to get through all of them (there are around 70), I am getting a little stuck.
-Do I want to create a list with each signal name and loop through it?  I feel like there should be an easier way to do this
+for that same question ( 'Counting' question 1 ), we are supposed to find the 
+counts for each signal in the 'county' level. I am able to do this for one at
+a time, but when trying to get through all of them (there are around 70), I am 
+getting a little stuck. Do I want to create a list with each signal name and 
+loop through it?  I feel like there should be an easier way to do this
 
 Clark — 05/02/2021
 Try GROUP BY signal
