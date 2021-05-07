@@ -204,6 +204,16 @@ How many observations does California have?
 > GROUP BY  geo_value
 > ORDER BY  number_of_observations DESC LIMIT 5
 > ```
+>
+> | geo_value | number_of_observations |
+> | :-------: | :--------------------: |
+> |    ny     |         56114          |
+> |    ca     |         56080          |
+> |    fl     |         56050          |
+> |    tx     |         56049          |
+> |    pa     |         55981          |
+>
+> California has 56080 observations
 
 ### Counting Question #3
 
