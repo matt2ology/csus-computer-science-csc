@@ -227,7 +227,19 @@ Does it appear that there are around 20 million survey responses present in the 
 > WHERE data_source = 'fb-survey'
 >         AND signal = 'raw_cli'
 >         AND geo_type = 'nation'
+>         AND signal = 'raw_cli'
 > ```
+>
+> OUTPUT
+>
+> ![Screenshot of SQL Counting Question #3 result](assignment21-images/counting_question03.png)
+>
+> |  Results   | In decimal form |
+> | :--------: | :-------------: |
+> | 1.9646428E |    19646428     |
+>> **There is a difference of 353572** from the original data source claims of
+>> having around `20 million Facebook survey responses` according to the SQL
+>> generated results
 
 ## Open Ended Questions (8 points)
 
