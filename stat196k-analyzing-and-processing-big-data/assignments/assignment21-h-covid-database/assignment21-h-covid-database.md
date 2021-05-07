@@ -156,7 +156,7 @@ println("(",lower_bound, ",", upper_bound,")")
 
 _Include your answers and show SQL queries for the questions below._
 
-### Counting Queston #1
+### Counting Question #1
 
 How many observations are there for each signal in the county level `covid` rows?\
 County level rows means that `geo_type = 'county'`.\
@@ -164,13 +164,16 @@ Show the top 5 `signals` with the most counts.
 
 ```text
 Dennis — 04/30/2021
-For question 1 in the 'Counting' section of the homework, when it asks for how many observations... Is it asking for the sum of the 'value' column or is it asking for the COUNT of rows in this query?
+For question 1 in the 'Counting' section of the homework, when it asks for how many observations... 
+Is it asking for the sum of the 'value' column or is it asking for the COUNT of rows in this query?
 
 Clark — 05/01/2021
 By "number of observations" I mean the COUNT of rows.
 
 Ryan H — 05/01/2021
-for that same question ( 'Counting' question 1 ), we are supposed to find the counts for each signal in the 'county' level.  I am able to do this for one at a time, but when trying to get through all of them (there are around 70), I am getting a little stuck.  Do I want to create a list with each signal name and loop through it?  I feel like there should be an easier way to do this
+for that same question ( 'Counting' question 1 ), we are supposed to find the counts for each signal in the 'county' level.
+I am able to do this for one at a time, but when trying to get through all of them (there are around 70), I am getting a little stuck.
+Do I want to create a list with each signal name and loop through it?  I feel like there should be an easier way to do this
 
 Clark — 05/02/2021
 Try GROUP BY signal
@@ -194,7 +197,7 @@ Try GROUP BY signal
 > | confirmed_cumulative_prop |   3422517    |
 > | deaths_cumulative_num     |   3401785    |
 
-### Counting Queston #2
+### Counting Question #2
 
 How many county level rows does the `covid` table have for each state?\
 Show the top 5 states with the most counts, including the name of the state.\
@@ -210,7 +213,7 @@ How many observations does California have?
 > ORDER BY  number_of_observations DESC LIMIT 5
 > ```
 
-### Counting Queston #3
+### Counting Question #3
 
 The original data source claims to have around 20 million Facebook survey responses.\
 Does it appear that there are around 20 million survey responses present in the `covid` table?
@@ -238,7 +241,8 @@ Explain what the signal means, and use this signal to pose and answer a question
 Load an external table into your database and use it to ask and answer a new question by joining it with the existing tables.
 
 ```text
-For example, we could look at the relationship between political backgrounds and COVID attitudes by finding a table with votes for each party by state or county for the 2020 presidential election.
+For example, we could look at the relationship between political backgrounds and COVID attitudes by finding a table with
+votes for each party by state or county for the 2020 presidential election.
 ```
 
 > ```sql
