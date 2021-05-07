@@ -205,6 +205,7 @@ How many observations does California have?
 > ORDER BY  number_of_observations DESC LIMIT 5
 > ```
 >
+> OUTPUT
 > | geo_value | number_of_observations |
 > | :-------: | :--------------------: |
 > |    ny     |         56114          |
