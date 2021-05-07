@@ -202,12 +202,12 @@ How many observations does California have?
 
 > ```sql
 > SELECT geo_value,
->          COUNT(*) AS observations
+>          COUNT(*) AS number_of_observations
 > FROM covid, states
 > WHERE geo_type = 'state'
 >         AND UPPER(covid.geo_value) = states."abbreviation"
 > GROUP BY  geo_value
-> ORDER BY  observations DESC LIMIT 5
+> ORDER BY  number_of_observations DESC LIMIT 5
 > ```
 
 ### Counting Queston #3
