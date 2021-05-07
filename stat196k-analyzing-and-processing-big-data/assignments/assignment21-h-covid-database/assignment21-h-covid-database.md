@@ -251,6 +251,11 @@ It's sufficient to include a plot for either the first or second question._
 Pick one of the signals from Delphi's [Facebook survey](https://cmu-delphi.github.io/delphi-epidata/api/covidcast-signals/fb-survey.html) that you find personally interesting.\
 Explain what the signal means, and use this signal to pose and answer a question using the `covid` table.
 
+> **Reasons for Hesitancy**
+> | Signal | Description | Survey Item |
+> | :-----------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
+> | `smoothed_whesitancy_reason_cost` | Estimated percentage of respondents who say they are hesitant to get vaccinated because they are worried about the cost, among respondents who answered “Yes, probably”, “No, probably not”, or “No, definitely not” when asked if they would get vaccinated if offered (item V3). This series of items was shown to respondents starting in Wave 8. _Earliest date available: 2021-02-26_ | V5abc |
+
 > ```sql
 > SELECT SUM(value) AS total_responses,
 >          SUM(sample_size) AS total_sample_size
