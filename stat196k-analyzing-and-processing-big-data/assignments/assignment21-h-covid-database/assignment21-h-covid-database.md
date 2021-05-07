@@ -147,10 +147,12 @@ square_root_of_the_sample_size = 100*sqrt((p_value*(1-p_value))/n_sample_size)
 lower_bound = value-(z_confidence_level_value*square_root_of_the_sample_size)
 upper_bound = value+(z_confidence_level_value*square_root_of_the_sample_size)
 println("(",lower_bound, ",", upper_bound,")")
-# (15.398338648809686 , 16.451088751190312)
+# (15.408875624584415 , 16.440551775415585)
 ```
 
-> Using data from the first row we have a 95% confidence interval of (15.398338648809686 , 16.451088751190312)
+> Using data from the first row we have a 95% confidence interval of
+>
+> (15.408875624584415 , 16.440551775415585)
 
 ## Counting (8 points)
 
