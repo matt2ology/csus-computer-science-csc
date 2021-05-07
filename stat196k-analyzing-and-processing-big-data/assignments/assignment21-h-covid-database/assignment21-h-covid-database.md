@@ -170,6 +170,7 @@ County level rows means that `geo_type = 'county'`.\
 Show the top 5 `signals` with the most counts.
 
 ```text
+Help Refrence
 Dennis — 04/30/2021
 For question 1 in the 'Counting' section of the homework, when it asks for how
 many observations... Is it asking for the sum of the 'value' column or is it
