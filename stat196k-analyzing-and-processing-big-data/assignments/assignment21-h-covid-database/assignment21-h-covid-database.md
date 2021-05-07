@@ -213,7 +213,7 @@ How many observations does California have?
 > |    tx     |         56049          |
 > |    pa     |         55981          |
 >
-> **California has 56080 observations**
+>> **California has 56080 observations**
 
 ### Counting Question #3
 
