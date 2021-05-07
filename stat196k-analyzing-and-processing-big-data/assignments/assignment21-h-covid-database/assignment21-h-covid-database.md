@@ -144,8 +144,8 @@ z_confidence_level_value = 1.959964
 s_sample_standard_deviation = 0.2631875
 n_sample_size = 19329.0
 square_root_of_the_sample_size = 100*sqrt((p_value*(1-p_value))/n_sample_size)
-lower_bound = value-(2*square_root_of_the_sample_size)
-upper_bound = value+(2*square_root_of_the_sample_size)
+lower_bound = value-(z_confidence_level_value*square_root_of_the_sample_size)
+upper_bound = value+(z_confidence_level_value*square_root_of_the_sample_size)
 println("(",lower_bound, ",", upper_bound,")")
 # (15.398338648809686 , 16.451088751190312)
 ```
