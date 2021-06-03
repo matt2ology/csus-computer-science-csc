@@ -3,6 +3,11 @@
 _Prerequisite: CSC 131; 3 units._\
 **Meets 06/01/2021 to 07/11/2021**
 
+- [CSC 170 - Software Requirements and Specification (3 Units)](#csc-170---software-requirements-and-specification-3-units)
+  - [Course Description](#course-description)
+  - [OBJECTIVE OF THE COURSE](#objective-of-the-course)
+  - [Instructor: Jagannadha S Chidella](#instructor-jagannadha-s-chidella)
+
 ## Course Description
 
 Analysis and specification of functional and non-functional requirements for real-time
