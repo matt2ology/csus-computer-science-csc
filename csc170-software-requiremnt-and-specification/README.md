@@ -17,6 +17,17 @@ are correct, complete, and testable. Includes modeling techniques, methods for
 representing real-time requirements, and the use of Computer-Aided Software
 Engineering (CASE) tools to illustrate analysis concepts.
 
+## OBJECTIVE OF THE COURSE
+
+Although the name of the class seems it is about requirements,
+this class is much more than that, it is the study of the analysis that happens
+prior to gathering requirements! Hence this is also a management and leadership
+course and this course can very well help you get into a leadership role very
+quickly since you will have to put yourself in the shoes of many roles such as
+all stakeholders including the users, invested people, CIO, CEO and many other
+roles in order to learn how to do a meaningful analysis that benefits your
+organization and the end users.
+
 **Recent Semesters**
 Spring 2021, Fall 2020, Spring 2020, Fall 2018
 
