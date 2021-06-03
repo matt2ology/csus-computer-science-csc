@@ -6,6 +6,7 @@ _Prerequisite: CSC 131; 3 units._\
 - [CSC 170 - Software Requirements and Specification (3 Units)](#csc-170---software-requirements-and-specification-3-units)
   - [Course Description](#course-description)
   - [OBJECTIVE OF THE COURSE](#objective-of-the-course)
+  - [CLASS VIDEO RECORDINGS](#class-video-recordings)
   - [Instructor: Jagannadha S Chidella](#instructor-jagannadha-s-chidella)
 
 ## Course Description
@@ -27,6 +28,11 @@ quickly since you will have to put yourself in the shoes of many roles such as
 all stakeholders including the users, invested people, CIO, CEO and many other
 roles in order to learn how to do a meaningful analysis that benefits your
 organization and the end users.
+
+## CLASS VIDEO RECORDINGS
+
+CLASS VIDEO RECORDINGS PER 16 WEEK SCHEDULE
+(every two to three weeks in 16 week full semester mode is one week in Summer fast pace mode)
 
 **Recent Semesters**
 Spring 2021, Fall 2020, Spring 2020, Fall 2018
