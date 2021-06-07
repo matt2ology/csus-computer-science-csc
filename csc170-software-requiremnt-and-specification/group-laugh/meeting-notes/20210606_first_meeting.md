@@ -6,11 +6,11 @@
   - [Meeting Notes (2021/06/06)](#meeting-notes-20210606)
     - [Introductions](#introductions)
       - [Matt M](#matt-m)
-      - [Dom](#dom)
-      - [Belle](#belle)
-      - [Sharon](#sharon)
-      - [Jarod](#jarod)
-      - [Mohammed](#mohammed)
+      - [Dominic Nance](#dominic-nance)
+      - [Belle Nguyen](#belle-nguyen)
+      - [Sharon Fitzpatrick](#sharon-fitzpatrick)
+      - [Jarod Castillo](#jarod-castillo)
+      - [Mohammed Msallam](#mohammed-msallam)
       - [Yared [yar-ed]](#yared-yar-ed)
     - [Establish a workflow](#establish-a-workflow)
     - [Establish roles or how to "manage" our team](#establish-roles-or-how-to-manage-our-team)
@@ -65,35 +65,35 @@ For today's meeting
 - Watching anime, playing with Raspberry Pi, playing board/card games
 - Durian
 
-#### Dom
+#### Dominic Nance
 
 - Scrum, Java, C
 - Monday, Wed after 5; generally free
 - Like some anime and do some programming on the side
 - Strawberries
 
-#### Belle
+#### Belle Nguyen
 
 - Python, Java, HTML :)
 - Generally available
 - Card game tor (Digimon)
 - Tangeries
 
-#### Sharon
+#### Sharon Fitzpatrick
 
 - Python, CPP, Java, JS, React, Node
 - After 5PM
 - Watercolor, hiking
 - Watermelon
 
-#### Jarod
+#### Jarod Castillo
 
 - JS, Dart, CPP, Python, and yeah
 - Friday, Sat, Sun, afternoon, tues and thurs
 - Gaming, Composes music
 - The Orange honeydew (cantaloupe)
 
-#### Mohammed
+#### Mohammed Msallam
 
 - Java, C, Swift
 - Sunday (morning 12-3)
