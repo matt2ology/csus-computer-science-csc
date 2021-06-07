@@ -57,44 +57,26 @@ The key to the iterative approach does not involve getting feedback on the outpu
 
 ## Question 03
 
-| **Match the following**   |                                |
-| ------------------------- | ------------------------------ |
-| Iteration                 | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
-| Team Lead                 | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
-| Agile Triangle            | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
-| Agile Manifesto           | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
-| Traditional Iron Triangle | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
-| Scrum                     | Maximize outcome               |
-|                           | Leadership and Collobaration   |
-|                           | Feedback on output             |
-|                           | Illusion of control            |
-|                           | Feature by feature development |
-|                           | Adaptive and Best value        |
+| **Match the following**   |                                |                 |                                |
+| ------------------------- | ------------------------------ | --------------- | ------------------------------ |
+| Iteration                 | Maximize outcome               | Team Lead       | Maximize outcome               |
+|                           | Leadership and Collobaration   |                 | Leadership and Collobaration   |
+|                           | Feedback on output             |                 | Feedback on output             |
+|                           | Illusion of control            |                 | Illusion of control            |
+|                           | Feature by feature development |                 | Feature by feature development |
+|                           | Adaptive and Best value        |                 | Adaptive and Best value        |
+| Agile Triangle            | Maximize outcome               | Agile Manifesto | Maximize outcome               |
+|                           | Leadership and Collobaration   |                 | Leadership and Collobaration   |
+|                           | Feedback on output             |                 | Feedback on output             |
+|                           | Illusion of control            |                 | Illusion of control            |
+|                           | Feature by feature development |                 | Feature by feature development |
+|                           | Adaptive and Best value        |                 | Adaptive and Best value        |
+| Traditional Iron Triangle | Maximize outcome               | Scrum           | Maximize outcome               |
+|                           | Leadership and Collobaration   |                 | Leadership and Collobaration   |
+|                           | Feedback on output             |                 | Feedback on output             |
+|                           | Illusion of control            |                 | Illusion of control            |
+|                           | Feature by feature development |                 | Feature by feature development |
+|                           | Adaptive and Best value        |                 | Adaptive and Best value        |
 
 > Iteration
 >
