@@ -122,6 +122,8 @@ Dynamic team roles
 
 ### Group Project Ideas
 
+1. Software: WHAT DO YOU WANT?! (the app for hungry gal-pals)
+
 #### Belle Project Idea
 
 1. Software: Roomate Finder
@@ -129,7 +131,7 @@ Dynamic team roles
 3. Software: Product-scraper (in-stock, price match, make and model)
 4. Software: Damage output calculator (BIGGGUST NHUMMMBUHHHH)
    1. Team composition
-5. Software: WHAT DO YOU WANT?! (the app for hungry gal-pals)
+5. ~~Software: WHAT DO YOU WANT?! (the app for hungry gal-pals)~~
 6. Anime suggestion/recommendation (myAnime list?)
 
 #### Dominic Project Idea
