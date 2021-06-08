@@ -50,10 +50,12 @@ Please fill in the blank.
 The key to the iterative approach does not involve getting feedback on the output from the iteration
 ```
 
-- [x] True
+- [ ] True
 - [ ] False
 
 > - [x] True
+>
+> Iterative approach involves getting feedback and then modifying the product based on the feedback and so on.
 
 ## Question 03
 
@@ -80,27 +82,27 @@ The key to the iterative approach does not involve getting feedback on the outpu
 
 > Iteration
 >
-> > Feature by feature development
+> > `Feature by feature development`
 >
 > Team Lead
 >
-> > Leadership and Collobaration
+> > `Leadership and Collobaration`
 >
 > Agile Triangle
 >
-> > Adaptive and Best value
+> > `Adaptive and Best value`
 >
 > Agile Manifesto
 >
-> > Maximize outcome
+> > `Maximize outcome`
 >
 > Traditional Iron Triangle
 >
-> > Illusion of control
+> > `Illusion of control`
 >
 > Scrum
 >
-> > Feedback on output
+> > `Feedback on output`
 
 ## Question 04
 
@@ -168,7 +170,7 @@ Please Fill in the blank.
 Team members should have idea about what they are doing and they should be [BLANK]
 ```
 
-> Team members should have idea about what they are doing and they should be [BLANK]
+> Team members should have idea about what they are doing and they should be `Self-Organized`
 
 ## Question 10
 
@@ -188,7 +190,7 @@ Please Fill in the blank
 [BLANK] helps the teams to discuss the corrections to be made and opportunities for improvements
 ```
 
-> `Meaningful feedback` helps the teams to discuss the corrections to be made and opportunities for improvements
+> `Retrospectives` helps the teams to discuss the corrections to be made and opportunities for improvements
 
 ## Question 12
 
@@ -226,7 +228,6 @@ Some teams cannot collaborate properly due to:
 - [ ] Command
 
 > - [x] Control
-> - [x] Behavioral styles
 > - [x] Command
 
 ## Question 15
@@ -253,4 +254,4 @@ What is needed for the teams to talk through issues with out drenching ?
 - [ ] Protocol
 - [ ] Management
 
-> - [x] Co-operation
+> - [x] Protocol
