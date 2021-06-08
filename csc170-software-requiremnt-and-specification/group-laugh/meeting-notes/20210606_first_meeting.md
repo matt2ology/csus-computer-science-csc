@@ -12,6 +12,7 @@
       - [Jarod Castillo](#jarod-castillo)
       - [Mohammed Msallam](#mohammed-msallam)
       - [Yared [yar-ed]](#yared-yar-ed)
+      - [Daisy Le](#daisy-le)
     - [Establish a workflow](#establish-a-workflow)
     - [Establish roles or how to "manage" our team](#establish-roles-or-how-to-manage-our-team)
     - [Group Project Ideas](#group-project-ideas)
@@ -107,6 +108,14 @@ For today's meeting
 - The NAPPING KING :)
 - Oranges
 
+#### Daisy Le
+
+- Web dev (HTML, CSS, Javascript)
+- Friday to Sunday (11am-4pm)
+  - Tues (4pm - 9pm)
+- Love sleep, games
+- Mango, advocados, bannanas
+
 ### Establish a workflow
 
 - Preferred means of contact (Discord/email/text/smoke signals)
@@ -122,7 +131,9 @@ Dynamic team roles
 
 ### Group Project Ideas
 
-1. Software: WHAT DO YOU WANT?! (the app for hungry gal-pals)
+- WHAT DO YOU WANT?! (the app for hungry gal-pals)
+- Roomate Finder
+- Budget tracker
 
 #### Belle Project Idea
 
