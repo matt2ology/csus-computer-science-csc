@@ -50,7 +50,7 @@ Please fill in the blank.
 The key to the iterative approach does not involve getting feedback on the output from the iteration
 ```
 
-- [ ] True
+- [x] True
 - [ ] False
 
 > - [x] True
