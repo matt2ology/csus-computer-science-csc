@@ -1,6 +1,6 @@
-# Group Laugh Touch Point Meeting: Monday/Wednesday (2021/06/09) 7:40pm - 9:30pm
+# Group Laugh Touch Point Meeting: Wednesday (2021/06/09) 7:40pm - 9:00pm
 
-- [Group Laugh Touch Point Meeting: Monday/Wednesday (2021/06/09) 7:40pm - 9:30pm](#group-laugh-touch-point-meeting-mondaywednesday-20210609-740pm---930pm)
+- [Group Laugh Touch Point Meeting: Wednesday (2021/06/09) 7:40pm - 9:00pm](#group-laugh-touch-point-meeting-wednesday-20210609-740pm---900pm)
   - [Meeting attendees](#meeting-attendees)
   - [Agenda](#agenda)
   - [Roomate Finder](#roomate-finder)
