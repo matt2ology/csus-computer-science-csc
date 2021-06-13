@@ -9,6 +9,8 @@
     - [Users and stakeholders](#users-and-stakeholders)
       - [Actions](#actions)
     - [Assumptions](#assumptions)
+    - [6 Create a list of TWO assumptions on scope, cost and schedule that will prevent you from doing things that are not needed and prevent you from following a risky path. Scope, cost and schedule form the traditional constraint triangle. (5+5 points)](#6-create-a-list-of-two-assumptions-on-scope-cost-and-schedule-that-will-prevent-you-from-doing-things-that-are-not-needed-and-prevent-you-from-following-a-risky-path-scope-cost-and-schedule-form-the-traditional-constraint-triangle-55-points)
+    - [7 Come up with TWO simple techniques how you will adapt the new Agile triangle (Value, Quality and traditional constraints) instead of the scope, cost, traditional constraint triangle alone. Give ONE specific example each of what you will focus on for Value and Quality and also the traditional constraint triangle. Give ONE example for Value and ONE example for Quality. (5+5 points)](#7-come-up-with-two-simple-techniques-how-you-will-adapt-the-new-agile-triangle-value-quality-and-traditional-constraints-instead-of-the-scope-cost-traditional-constraint-triangle-alone-give-one-specific-example-each-of-what-you-will-focus-on-for-value-and-quality-and-also-the-traditional-constraint-triangle-give-one-example-for-value-and-one-example-for-quality-55-points)
     - [Minimum Viable Product](#minimum-viable-product)
     - [What are must haves](#what-are-must-haves)
     - [Goals and objectives](#goals-and-objectives)
@@ -70,12 +72,23 @@ People need a way to find roomates in a certain location and price range
 5. Assume they are following the End-user license agreement (EULA)
 6. Assume user remembers username and password
 
+### 6 Create a list of TWO assumptions on scope, cost and schedule that will prevent you from doing things that are not needed and prevent you from following a risky path. Scope, cost and schedule form the traditional constraint triangle. (5+5 points)
+
 | Scope                  | Cost                     | Schedule |
 | ---------------------- | ------------------------ | -------- |
 | Uneven split of rentee | No user sign-up cost     |          |
 |                        | Revenue generaged by ADs |          |
 |                        | Boost! (for money)       |          |
 | Assume Users           |                          |          |
+
+### 7 Come up with TWO simple techniques how you will adapt the new Agile triangle (Value, Quality and traditional constraints) instead of the scope, cost, traditional constraint triangle alone. Give ONE specific example each of what you will focus on for Value and Quality and also the traditional constraint triangle. Give ONE example for Value and ONE example for Quality. (5+5 points)
+
+| Value                  | Quality                  | Constraints |
+| ---------------------- | ------------------------ | ----------- |
+| Uneven split of rentee | No user sign-up cost     |             |
+|                        | Revenue generaged by ADs |             |
+|                        | Boost! (for money)       |             |
+| Assume Users           |                          |             |
 
 ### Minimum Viable Product
 
