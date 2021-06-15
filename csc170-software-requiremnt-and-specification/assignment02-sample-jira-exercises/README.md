@@ -9,7 +9,7 @@
 
 Dear students,
 
-1. This exercise is for you to warm up with playing with JIRA hands-on. You can mock things up as you go. You can do this on JIRA cloud.
+1. This exercise is for you to warm up with playing with JIRA hands-on. You can mock ## things up as you go. You can do this on JIRA cloud
 
    This is an individual exercise. Sometimes if you need other team members to add to the JIRA project to do these exercises since in some parts of the exercises you will be required to assign JIRA tasks to team members, that is okay with me.
 
@@ -26,17 +26,17 @@ Dear students,
 
    Thanks to our TA Sam Lee for creating this exercise for you to play with.
 
-2. You can do this on JIRA cloud.
+## 2. You can do this on JIRA cloud
 
-   Go to <training.atlassian.com> and do the first two in the FREE trainings. The Free trainings is the last section on the page (scroll down all the way to the bottom of the page):
+Go to <training.atlassian.com> and do the first two in the FREE trainings. The Free trainings is the last section on the page (scroll down all the way to the bottom of the page):
 
-   (a) Learn JIRA Basics
+### (a) Learn JIRA Basics
 
-   (b) Go Agile with JIRA
+### (b) Go Agile with JIRA
 
-   Take screen shots and submit in a PDF file.
+Take screen shots and submit in a PDF file.
 
-   Both (1) and (2) exercises can be submitted as a single PDF file.
+Both (1) and (2) exercises can be submitted as a single PDF file.
 
 Best wishes,
 
