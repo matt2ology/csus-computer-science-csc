@@ -9,7 +9,7 @@
 
 Dear students,
 
-1. This exercise is for you to warm up with playing with JIRA hands-on. You can mock ## things up as you go. You can do this on JIRA cloud
+## 1. This exercise is for you to warm up with playing with JIRA hands-on. You can mock things up as you go. You can do this on JIRA cloud
 
    This is an individual exercise. Sometimes if you need other team members to add to the JIRA project to do these exercises since in some parts of the exercises you will be required to assign JIRA tasks to team members, that is okay with me.
 
