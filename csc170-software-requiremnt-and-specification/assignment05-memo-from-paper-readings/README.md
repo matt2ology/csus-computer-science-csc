@@ -13,7 +13,7 @@ This is a team memo assignment.
 
 Please choose all **seven** papers from:
 
-Files---->Readings
+Files → Readings
 
 The team divides themselves into small groups and assigns each paper to each group. Perhaps the team has three small groups A, B, and C, each with two or three members. Please make sure each small group reads only a small portion a day (first divide into perhaps 6 small portions to cover maybe in 6 days) of their assigned paper and takes notes immediately as you read and when you like some idea or concept or technique or anything mark it.
 
