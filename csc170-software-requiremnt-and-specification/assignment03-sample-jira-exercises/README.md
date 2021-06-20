@@ -1,11 +1,11 @@
-# Sample JIRA Exercises
+# Assignment03: Sample JIRA Exercises
 
 |                                                           |                    |                              |
 | --------------------------------------------------------- | ------------------ | ---------------------------- |
 | **Due** Jun 14 by 11:59pm                                 | **Points** 50      | **Submitting** a file upload |
 | **Available** Jun 1 at 12am - Jun 21 at 11:59pm _21 days_ | **File Types** pdf |                              |
 
-- [Sample JIRA Exercises](#sample-jira-exercises)
+- [Assignment03: Sample JIRA Exercises](#assignment03-sample-jira-exercises)
   - [1. Make up any project, Epic, User stories, Issues and Tasks; also, Make up any mock Release plan](#1-make-up-any-project-epic-user-stories-issues-and-tasks-also-make-up-any-mock-release-plan)
     - [Project](#project)
     - [Epic](#epic)

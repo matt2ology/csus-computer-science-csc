@@ -1,4 +1,4 @@
-# Assignment02 Sample JIRA Exercises
+# Assignment03: Sample JIRA Exercises
 
 |                                                       |                     |                                |
 | ----------------------------------------------------- | ------------------- | ------------------------------ |
