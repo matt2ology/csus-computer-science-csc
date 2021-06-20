@@ -1,11 +1,11 @@
-# Assignment05: Memo From Other Useful Readings
+# Assignment06: Memo From Other Useful Readings
 
 |                                       |                    |                              |
 | ------------------------------------- | ------------------ | ---------------------------- |
 | **Due** Jun 18 by 11:59pm             | **Points** 150     | **Submitting** a file upload |
 | **Available** until Jun 21 at 11:59pm | **File Types** pdf |                              |
 
-- [Assignment05: Memo From Other Useful Readings](#assignment05-memo-from-other-useful-readings)
+- [Assignment06: Memo From Other Useful Readings](#assignment06-memo-from-other-useful-readings)
   - [Jarod Castillo - Agile Development User Stories Are The New Requirements Document](#jarod-castillo---agile-development-user-stories-are-the-new-requirements-document)
     - [Jarod Castillo - (A) QUESTIONS](#jarod-castillo---a-questions)
       - [What's the purpose of introducing User Stories?](#whats-the-purpose-of-introducing-user-stories)
