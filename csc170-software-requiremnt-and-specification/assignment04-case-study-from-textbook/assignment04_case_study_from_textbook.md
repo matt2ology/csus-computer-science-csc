@@ -5,13 +5,13 @@
 | **Due** Jun 18 by 11:59pm                                       | **Points** 100     | **Submitting** a file upload |
 | **Available** Jun 3 at 12am - Jul 11 at 11:59pm _about 1 month_ | **File Types** pdf |                              |
 
-- Matthew Mendoza: Introduction
-- Dominic Nance: The Need
-- Jarod Castillo: Describe the problem
-- Sharon Fitzpatrick: part c 1. “Takeaways from case study
 - Belle Nguyen: solution 1 and part c 2 “New Ideas from Case Study”
 - Daisy Le: Lessons Learned
+- Dominic Nance: The Need
+- Jarod Castillo: Describe the problem
+- Matthew Mendoza: Introduction
 - Mohammed Msallam: solution 3
+- Sharon Fitzpatrick: part c 1. “Takeaways from case study
 - Yared Engida: solution 2
 
 - [Assignment04: Case Study from Text Book (learning to identify and address issues)](#assignment04-case-study-from-text-book-learning-to-identify-and-address-issues)
