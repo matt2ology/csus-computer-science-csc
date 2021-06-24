@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm</title>
+    <style>
+    </style>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+    <style>
+        .task-list-item {
+            list-style-type: none;
+        }
+
+        .task-list-item-checkbox {
+            margin-left: -20px;
+            vertical-align: middle;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="vscode-body vscode-light">
+    <h1 id="midterm">Midterm</h1>
+    <ul>
+        <li><a href="#midterm">Midterm</a>
+            <ul>
+                <li><a href="#question-1-15-pts">Question 1 (15 pts)</a>
+                    <ul>
+                        <li><a href="#a-what-are-the-guiding-principles-of-agile-define-them">(a) What are the guiding
+                                principles of agile? Define them</a></li>
+                        <li><a href="#b-please-give-a-real-life-example-of-each-principle">(b) Please give a real-life
+                                example of each principle</a></li>
+                        <li><a
+                                href="#c-describe-any-one-favorite-agile-principle-from-the-perspective-of-the-risk-from-bad-assumptions-and-what-can-happen-if-the-assumptions-are-incorrect-and-how-agile-methods-can-help-avoid-these-pitfalls">(c)
+                                Describe any one favorite agile principle from the perspective of the risk from bad
+                                assumptions and what can happen if the assumptions are incorrect and how agile methods
+                                can help avoid these pitfalls</a></li>
+                    </ul>
+                </li>
+                <li><a href="#question-2-15-pts">Question 2 (15 pts)</a>
+                    <ul>
+                        <li><a href="#a-please-define-and-explain-the-business-analysis-core-concepts-baccm-model">(a)
+                                Please define and explain the Business Analysis Core Concepts (BACCM) Model</a></li>
+                        <li><a href="#b-provide-a-real-life-example-for-each-concept">(b) Provide a real-life example
+                                for each concept</a></li>
+                        <li><a
+                                href="#c-give-real-life-examples-of-interactions-within-two-pairs-of-concepts-and-describe-the-scenario-example-of-one-pair-is-interaction-between-needs-and-context-see-picture-below">(c)
+                                Give real-life examples of interactions within two pairs of concepts and describe the
+                                scenario. Example of one pair is: interaction between Needs and Context. (see picture
+                                below)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#question-3-15-pts">Question 3 (15 pts)</a>
+                    <ul>
+                        <li><a
+                                href="#a-what-is-a-user-story-please-do-not-just-give-a-definition-but-explain-it-as-if-you-are-teaching-a-software-engineer-what-it-is">(a)
+                                What is a user story? Please do not just give a definition but explain it as if you are
+                                teaching a software engineer what it is</a></li>
+                        <li><a href="#b-describe-the-user-story-from-two-invest-principles-and-two-moscow-principles">(b)
+                                Describe the user story from two INVEST principles and two MOSCOW principles</a>
+                            <ul>
+                                <li><a href="#make-profile">Make Profile</a>
+                                    <ul>
+                                        <li><a href="#make-profile-moscow">Make Profile: MoSCoW</a>
+                                            <ul>
+                                                <li><a href="#make-profile-invest">Make Profile: INVEST</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#search">Search</a>
+                                    <ul>
+                                        <li><a href="#search-moscow">Search: MoSCoW</a></li>
+                                        <li><a href="#search-invest">Search: INVEST</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a
+                                href="#c-explain-how-or-why-the-two-invest-and-two-moscow-principles-can-help-achieve-realistic-goals-and-objectives">(c)
+                                Explain how or why the two INVEST and two MOSCOW principles can help achieve realistic
+                                goals and objectives</a></li>
+                    </ul>
+                </li>
+                <li><a href="#question-4-15-pts">Question 4 (15 pts)</a>
+                    <ul>
+                        <li><a
+                                href="#a-what-are-the-three-ideas-that-are-useful-in-effective-analysis-of-it-projects-why-is-each-idea-important-provide-a-real-life-example-for-each-idea">(a)
+                                What are the three ideas that are useful in effective analysis of IT projects. Why is
+                                each idea important? Provide a real-life example for each idea</a></li>
+                        <li><a href="#b-why-is-a-feedback-loop-cycle-between-needs-and-solutions-necessary-and-useful">(b)
+                                Why is a feedback loop cycle between Needs and Solutions necessary and useful?</a></li>
+                        <li><a
+                                href="#c-describe-the-interaction-between-discovery-and-delivery-in-your-own-words-with-two-examples">(c)
+                                Describe the interaction between Discovery and Delivery in your own words with two
+                                examples</a></li>
+                    </ul>
+                </li>
+                <li><a href="#question-5-15-pts">Question 5 (15 pts)</a></li>
+                <li><a
+                        href="#question-6-2-pts-increase-the-ability-to-handle-an-expected-increase-in-claims-is-an-example-of-a-goal">Question
+                        6 (2 pts) “Increase the ability to handle an expected increase in claims” is an example of a
+                        goal?</a></li>
+                <li><a href="#question-7-2-pts-all-objectives-are-important">Question 7 (2 pts) All objectives are
+                        important</a></li>
+                <li><a
+                        href="#question-8-2-bonus-points-jira-is-a-tool-where-you-can-create-estimate-track-and-manage-user-stories">Question
+                        8 (2 bonus points) Jira is a tool where you can create, estimate, track and manage user
+                        stories</a></li>
+                <li><a href="#question-9-2-pts-which-is-an-example-of-outcome">Question 9 (2 pts) Which is an example of
+                        outcome?</a></li>
+                <li><a href="#question-10-2-pts-what-is-a-user-story">Question 10 (2 pts) What is a user story?</a></li>
+                <li><a href="#question-11-2-pts-an-example-trigger-for-reflect-and-adapt-is">Question 11 (2 pts) An
+                        example trigger for Reflect and Adapt is</a></li>
+                <li><a href="#question-12-5-pts-what-is-the-difference-between-user-stories-epics-and-themes">Question
+                        12 (5 pts) What is the difference between <code>user stories</code>, <code>epics</code>, and
+                        <code>themes</code>?</a></li>
+                <li><a href="#question-13-5-pts-give-two-examples-of-maximizing-outcome-with-minimal-output">Question 13
+                        (5 pts) Give two examples of maximizing outcome with minimal output</a></li>
+                <li><a
+                        href="#question-14-5-pts-make-an-example-of-a-user-story-map-for-your-class-project-with-two-categories-and-two-releases">Question
+                        14 (5 pts) Make an example of a user story map for your class project with two categories and
+                        two releases</a></li>
+                <li><a
+                        href="#question-15-5-bonus-points-explain-the-process-and-conditions-for-simplify-guiding-principle-with-two-good-examples">Question
+                        15 (5 bonus points) Explain the process and conditions for &quot;Simplify&quot; Guiding
+                        Principle with two good examples</a>
+                    <ul>
+                        <li><a href="#define">Define</a></li>
+                        <li><a href="#example">Example</a>
+                            <ul>
+                                <li><a href="#a-text-messaging-app">A text messaging app</a></li>
+                                <li><a href="#restaurant-app">restaurant App</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#question-16-0-pts">Question 16 (0 pts)</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h2 id="question-1-15-pts">Question 1 (15 pts)</h2>
+    <h3 id="a-what-are-the-guiding-principles-of-agile-define-them">(a) What are the guiding principles of agile? Define
+        them</h3>
+    <ul>
+        <li>
+            <p><strong>Deliver value:</strong> That you or the team outputs satisfies the respective stakeholder's
+                needs while making reasonable and proper decisions and measuring success in the project/product
+                life cycle; all the while, paying attention to the triple constraints of cost, time, and scope.</p>
+        </li>
+        <li>
+            <p><strong>Collaborate:</strong> Has two aspects - one the ability of the team members to work
+                together as effectively as possible and two team members who are actually doing the
+                core work of the project are the ones doing the planning and status reporting.
+                As an illustration, the first aspect means that barriers prohibiting effective communication,
+                for example jargon, are removed from the team environment and there are team members
+                who can effectively facilitate the group interactions, and the second aspect team members
+                should volunteer to work on various items, as opposed to getting assignments from someone else.</p>
+        </li>
+        <li>
+            <p><strong>Iterate:</strong> An iterative approach is getting some actionable feedback on the output of the
+                iteration so that you know if you are on the right course toward the desired outcome.</p>
+        </li>
+        <li>
+            <p><strong>Simplify:</strong> To <code>simplify</code> is to maximize the amount of work not done; to
+                emphasize, you want to deliver the minimum output that will maximize outcome and do it using only
+                processes that are absolutely necessary.</p>
+        </li>
+        <li>
+            <p><strong>Consider context:</strong> This articulates a team's situational awareness; in general, teams
+                need to consider context when choosing which processes, practices, and techniques they use so they can
+                be sure they are doing the things that will make them successful and are not doing the things that don’t
+                need to be done.</p>
+        </li>
+        <li>
+            <p><strong>Decide wisely:</strong> is to depend on well-informed, timely decisions.</p>
+        </li>
+        <li>
+            <p><strong>Reflect and adapt:</strong> is to argue that your team should continuously learn from its
+                experiences to improve your approach and the outcome of the project.</p>
+        </li>
+    </ul>
+    <h3 id="b-please-give-a-real-life-example-of-each-principle">(b) Please give a real-life example of each principle
+    </h3>
+    <ul>
+        <li>
+            <p><strong>Deliver value:</strong> Doing our project for CSC 170 Software We keep in mind our team's
+                situation in terms of resource management, time constrictions, abilities, time of each member,
+                and current status of our project assignment in CSC 170 Software Requirement and Specification and
+                Specification</p>
+        </li>
+        <li>
+            <p><strong>Collaborate:</strong> Working with our group members for project in CSC 170 Software Requirement
+                and Specification</p>
+        </li>
+        <li>
+            <p><strong>Iterate:</strong> Having a group meeting, sharing ideas, building on or changing
+                course on a decision for project in CSC 170 Software We keep in mind our team's
+                situation in terms of resource management, time constrictions, abilities, time of
+                each member, and current status of our project assignment in CSC 170 Software
+                Requirement and Specification and Specification</p>
+        </li>
+        <li>
+            <p><strong>Simplify:</strong> Planning out, think critically, and agreeing on what is our project's
+                minimum viable product. Seeing what are the most minimal amount of features and
+                complexity for us to have a simple working product.</p>
+        </li>
+        <li>
+            <p><strong>Consider context:</strong> We keep in mind our team's situation in terms of resource
+                management, time constrictions, abilities, time of each member, and current status
+                of our project assignment in CSC 170 Software Requirement and Specification</p>
+        </li>
+        <li>
+            <p><strong>Decide wisely:</strong> Due to time restraints we as a team need to make quick
+                decisions on which members will be assigned which part of an assignment,
+                when we need to have it done by, and who will submit the assignment.</p>
+        </li>
+        <li>
+            <p><strong>Reflect and adapt:</strong> Based on everyone's input and output we reflect on the
+                outcomes and course correct (adapt) to the outcomes we desire.</p>
+        </li>
+    </ul>
+    <h3
+        id="c-describe-any-one-favorite-agile-principle-from-the-perspective-of-the-risk-from-bad-assumptions-and-what-can-happen-if-the-assumptions-are-incorrect-and-how-agile-methods-can-help-avoid-these-pitfalls">
+        (c) Describe any one favorite agile principle from the perspective of the risk from bad assumptions and what can
+        happen if the assumptions are incorrect and how agile methods can help avoid these pitfalls</h3>
+    <p><strong>Simplify:</strong> the product was too simple, basic, and other product the same if not
+        better than what we offered. To avoid this pitfall we must <code>deliver value</code> to our customers.
+        The complaint was that our product &quot;is too simple&quot; and that &quot;other products&quot;
+        can do the same if not better; so, by leveraging our resources better (technology, staff, time)
+        we can produce a better product and iterate on features that makes our product unique.</p>
+    <h2 id="question-2-15-pts">Question 2 (15 pts)</h2>
+    <h3 id="a-please-define-and-explain-the-business-analysis-core-concepts-baccm-model">(a) Please define and explain
+        the Business Analysis Core Concepts (BACCM) Model</h3>
+    <p>The <code>Business Analysis Core Concept Model</code> (BACCM) defines six core concepts one
+        a <code>change</code> the act of transformation in response to a need; two the <code>need</code> is a problem
+        or opportunity to be addressed; three a <code>solution</code>- a specific way of satisfying one
+        or more needs in a context; four the <code>stakeholder</code> is a group or individual with
+        a relationship to the change, the need, or the solution; five <code>value</code> is the worth,
+        importance, or usefulness of something to a stakeholder within a context; and six the
+        <code>context</code> is the circumstances that influences, are influenced by, and provide
+        understanding of the change.</p>
+    <h3 id="b-provide-a-real-life-example-for-each-concept">(b) Provide a real-life example for each concept</h3>
+    <p>Using DoorDash as the real-life example</p>
+    <p>1. <strong>Change:</strong> The food industry doesn't have the staffing or resources to provide
+        food delivery for prospective customers.</p>
+    <p>2. <strong>Need:</strong> The infrastructure to handle order request, payment, and have people
+        to provide door-to-door food delivery service.</p>
+    <p>3. <strong>Solution:</strong> Build out a platform where any participating restaurants can have
+        customers at their leisure, order food, pay, and have a independent contractor deliver
+        the food from the restraint to the customer's location.</p>
+    <p>4. <strong>Stakeholder:</strong> Are the restaurants, customer, delivery contractors, and DoorDash.</p>
+    <p>5. <strong>Value:</strong> Having this solution/service restaurants are able to offer food delivery without much
+        infrastructure overhead and need to excessively over staffing for potential fluctuating and irregular delivery
+        request.</p>
+    <p>6. <strong>Context:</strong> Not all restaurants can offer food delivery and now they can with the built
+        platform.</p>
+    <h3
+        id="c-give-real-life-examples-of-interactions-within-two-pairs-of-concepts-and-describe-the-scenario-example-of-one-pair-is-interaction-between-needs-and-context-see-picture-below">
+        (c) Give real-life examples of interactions within two pairs of concepts and describe the scenario. Example of
+        one pair is: interaction between Needs and Context. (see picture below)</h3>
+    <p><img src="file:///d:\csus-computer-science-csc\csc170-software-requiremnt-and-specification\midterm\images\Ch2-BACCM_Star_Model.jpg"
+            alt="question 2 part c" style="width:200px"></p>
+    <p>Using Covid-19 as the context in relation to the need of video conferencing  software</p>
+    <p>Context: A world wide pandemic has restricted both large group and multiple single point interaction.
+        Need: Enable individuals to safely communicate and hold meetings from the safety of their homes.</p>
+    <h2 id="question-3-15-pts">Question 3 (15 pts)</h2>
+    <h3
+        id="a-what-is-a-user-story-please-do-not-just-give-a-definition-but-explain-it-as-if-you-are-teaching-a-software-engineer-what-it-is">
+        (a) What is a user story? Please do not just give a definition but explain it as if you are teaching a software
+        engineer what it is</h3>
+    <p>A <code>user story</code>, or simply &quot;story,&quot; are short requirements or requests written from the
+        perspective of an end user.</p>
+    <p>For example, a computer component manufacturing company has two divisions CPU and
+        SSD storage division. Of those two divisions, the CPU and SSD storage division,
+        will have their own <code>themes</code> to a body of <code>epics</code> that are handed by a group in
+        those divisions and a particular user stories are carried out and worked on via
+        a team in the group or a member of a particular team.</p>
+    <h3 id="b-describe-the-user-story-from-two-invest-principles-and-two-moscow-principles">(b) Describe the user story
+        from two INVEST principles and two MOSCOW principles</h3>
+    <p>User story, in context to a social media site, the user needs to have an ability
+        to make a profile and the ability to search people.</p>
+    <h4 id="make-profile">Make Profile</h4>
+    <h5 id="make-profile-moscow">Make Profile: MoSCoW</h5>
+    <p>(Must Have, Should Have, Could Have, Won't Have this time)</p>
+    <ul>
+        <li><strong>Must have:</strong> The ability to create a profile to allow users to represent themselves
+            and have their own criteria,so they can be matched with other desired homeowners/renters.
+            Otherwise, there is no way for users to match based on the information in their profiles
+            like location type and price range.</li>
+        <li><strong>Should have:</strong> When a user is making a profile they <em>should have</em> a way to enter in
+            their information.</li>
+        <li><strong>Could have:</strong> A way to verify if users are real with a photo id</li>
+        <li><strong>Wouldn’t have:</strong> The profile cannot have any irrelevant information in it.</li>
+    </ul>
+    <h6 id="make-profile-invest">Make Profile: INVEST</h6>
+    <p>(Independent, Negotiable, Value, Estimable, Small, Testable)</p>
+    <ul>
+        <li><strong>Independent:</strong> User enters data into relevant sections in the appropriate
+            field and making the profile does not depend on any other process.</li>
+        <li><strong>Negotiable:</strong> users must be able to capture the essential details about
+            themselves like their price range, location,and type.</li>
+        <li><strong>Value:</strong> Shows the user’s availability and needs to other users</li>
+        <li><strong>Estimable:</strong> Can be estimated in the number of hours it takes to build the
+            profile in html, css, and js.</li>
+        <li><strong>Small:</strong> Building the profile is a small task that consists of displaying the
+            user information and a button for submitting the user’s information.</li>
+        <li><strong>Testable:</strong> To test this we would submit sample user information into the
+            appropriate fields, click the submit button, and see if the sample user information we created displays.
+        </li>
+    </ul>
+    <h4 id="search">Search</h4>
+    <h5 id="search-moscow">Search: MoSCoW</h5>
+    <p>(Must Have, Should Have, Could Have, Won't Have this time)</p>
+    <ul>
+        <li><strong>Must have:</strong> Search is necessary because users need to quickly network with
+            other users who meet their search criteria. Otherwise matching homeowners and
+            renters could not find each other.</li>
+        <li><strong>Should have:</strong> The search results should show the closest matches to the
+            search criteria first, with less close matches following in descending order.</li>
+        <li><strong>Could have:</strong> It would be nice to be able to optimize searches with pre defined
+            user tags such as location, price range, etc.</li>
+        <li><strong>Wouldn’t have:</strong> No results should be shown that are not relevant to the search criteria.
+        </li>
+    </ul>
+    <h5 id="search-invest">Search: INVEST</h5>
+    <p>(Independent, Negotiable, Value, Estimable, Small, Testable)</p>
+    <ul>
+        <li><strong>Independent:</strong> Users enter their search criteria and results depend on user type (homeowner
+            or renter)</li>
+        <li><strong>Negotiable:</strong> Users specify the search parameters and get desired results</li>
+        <li><strong>Value:</strong> Makes it easier for users to find each other by filtering in only the users that
+            meet the search criteria</li>
+        <li><strong>Estimable:</strong> We as developers know how long it takes to make a dropdown menu for the search
+            bar and the time it takes to develop a search algorithm like Binary Search.</li>
+        <li><strong>Small:</strong> Drop down menu for search bar and binary search</li>
+        <li><strong>Testable:</strong> This can be tested by checking if users’ can see other users’ profiles that match
+            their search criteria.</li>
+    </ul>
+    <h3
+        id="c-explain-how-or-why-the-two-invest-and-two-moscow-principles-can-help-achieve-realistic-goals-and-objectives">
+        (c) Explain how or why the two INVEST and two MOSCOW principles can help achieve realistic goals and objectives
+    </h3>
+    <h2 id="question-4-15-pts">Question 4 (15 pts)</h2>
+    <h3
+        id="a-what-are-the-three-ideas-that-are-useful-in-effective-analysis-of-it-projects-why-is-each-idea-important-provide-a-real-life-example-for-each-idea">
+        (a) What are the three ideas that are useful in effective analysis of IT projects. Why is each idea important?
+        Provide a real-life example for each idea</h3>
+    <ol>
+        <li>
+            <p><strong>Customer development:</strong> is helpful when we don’t know the problem.
+                When the problem isn't know it's important that we develop a framework to discover:</p>
+            <ol>
+                <li><code>Validate</code> that we have identified the market for our product</li>
+                <li><code>Build</code> the right product features that actually solve the customer's needs</li>
+                <li><code>Tested</code> the correct methods for acquiring and converting customers</li>
+                <li><code>Deployed</code> the right resources to scale business</li>
+            </ol>
+            <pre><code class="language-text"><div>For example: The advertising agency Goodby Silverstein &amp; Partners for the
+California Milk Processor Board in 1993.
+
+The dairy industry tried for 20 years to convince their customers that milk
+was good for you and sales were falling (Validate); and then, they built a
+marketing campaign about the lack of the product &quot;Got Milk?&quot; (build)
+which weretested in probably in some board rooms and selected users (tested).
+After testing were done they then made the decicion to fully launch (deploy)
+with the marketing campaign.
+</div></code></pre>
+        </li>
+        <li>
+            <p><strong>Build-Measure-Learn:</strong> The Build-Measure-Learn Loop is important for:</p>
+            <ol>
+                <li><code>Build</code> step makes you pick a specific solution to deliver (the output)</li>
+                <li><code>Measure</code> step defines the output of the product</li>
+                <li><code>Learn</code> step examine the data and decide if the change you delivered made
+                    the impact you wanted. If not, try something else and start the whole cycle
+                    all over using your remaining options</li>
+            </ol>
+            <pre><code class="language-text"><div>
+This is important; for, it is a loop that allows for
+continual iterative development.
+
+In a quick example this is used in game development from the first
+iterationof a game to the next installment. First a team develops
+the story and game play (build), then have people play test the
+game to obtain levels of engagement and enjoyment (measure), and
+finally examine the collected data to decide if their original ideas
+are inline with the desired impact else they have to course correct
+and start the cycle over again using the remaining time, skill and
+resources available
+</div></code></pre>
+        </li>
+        <li>
+            <p><strong>Metrics:</strong> Enables one to gauge success. Having the right kind of metrics
+                help you indicate whether he or she is achieving the desired outcome(s).
+                Characteristics of Good Metrics are:</p>
+            <p>Example: Measuring comparative application launch speeds with two SSD storage devices</p>
+            <ol>
+                <li><code>Comparative</code>
+                    <ol>
+                        <li>It's comparative in the number of IOPS both drives are able to handle</li>
+                    </ol>
+                </li>
+                <li><code>Understandable</code>
+                    <ol>
+                        <li>It's understandable that a faster drive can launch an application sooner</li>
+                    </ol>
+                </li>
+                <li>Is a <code>ratio</code> or <code>rate</code>
+                    <ol>
+                        <li>The rate of IOPS a drive is able to handle may help articulate why that
+                            drive can open an application faster</li>
+                    </ol>
+                </li>
+                <li>Highlights <code>change behavior</code>
+                    <ol>
+                        <li>User's who have a faster storage, able to launch an application faster
+                            than others, can measure their satisfaction</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <h3 id="b-why-is-a-feedback-loop-cycle-between-needs-and-solutions-necessary-and-useful">(b) Why is a feedback loop
+        cycle between Needs and Solutions necessary and useful?</h3>
+    <p>A constant and continuous feedback loop cycle between <code>Needs</code> and <code>Solutions</code> is
+        necessary and useful because as the user's needs change so does the solution in context.</p>
+    <h3 id="c-describe-the-interaction-between-discovery-and-delivery-in-your-own-words-with-two-examples">(c) Describe
+        the interaction between Discovery and Delivery in your own words with two examples</h3>
+    <ul>
+        <li><strong>Discovery:</strong> work that explores, evaluates, and confirms product options for
+            potential delivery</li>
+        <li><strong>Delivery:</strong> work that transforms one or more allocated candidate solutions
+            into a releasable portion or version of the product</li>
+    </ul>
+    <ol>
+        <li>
+            <p>Customer receives two new computer arrive, everything is installed properly;
+                however, computer-A doesn't perform as well as computer-A. Customer support request
+                the user to turn off and turn back on the computer, make sure the plug is fully seated,
+                and all vent's are clear of debris.  Customer support request that the user send
+                system specification log and later found that computer-A has an outdated driver,
+                so they provided (delivered) the customer the latest driver for them to install.</p>
+        </li>
+        <li>
+            <p>An analysis notices a trend in sales that customers in a store in a college town
+                sell higher volumes during the summer, but drops during the spring and fall.
+                They concluded it is a result of summer break versus the time spent during normal
+                spring and fall semesters, so they leveraged this discovery by providing that store
+                more SKU and frequent inventory shipments during the summer months and limit the
+                number of items and inventory shipments during both the spring and fall semesters.</p>
+        </li>
+    </ol>
+    <h2 id="question-5-15-pts">Question 5 (15 pts)</h2>
+    <p>In a modernization project bank CBA decides to allow for electronic signatures
+        on documents submitted for home loan approvals. Hence bank CBA initiates a project
+        to analyze, design and succeed in delivering a high quality, high value product
+        for its customers. You are the manager of CBA and wish to bring new changes in
+        the organization. You also just graduated with a modern agile Business Analyst Certification.</p>
+    <p>Fill the table with goals and objectives. For the objectives you may use some
+        attributes such as number of documents. Include these attributes in the Attribute column.
+        Make sure to use numerical data in your objectives.</p>
+    <ul>
+        <li><strong>Type of Attributes used in Objective:</strong> Type of metric</li>
+        <li><strong>Project Goal:</strong> State or condition to establish and maintain</li>
+        <li><strong>Project Objective:</strong> A measurable result to indiacate that the goal has been achived</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th style="text-align:left">Type of Attributes used in Objective</th>
+                <th style="text-align:left">Project Goal</th>
+                <th style="text-align:left">Project Objective</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left">1. Duration of time</td>
+                <td style="text-align:left">Quickly submit home loans</td>
+                <td style="text-align:left">Reduce time elapsed to submit home loans</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">2. Duration of time</td>
+                <td style="text-align:left">Quickly review home loan for approval or rejected</td>
+                <td style="text-align:left">Reduce wait time for home loan review</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">3. Efficiency</td>
+                <td style="text-align:left">Reduce cost</td>
+                <td style="text-align:left">Ratio of home loan agents to number of home loans reviewed</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="question-6-2-pts-increase-the-ability-to-handle-an-expected-increase-in-claims-is-an-example-of-a-goal">
+        Question 6 (2 pts) “Increase the ability to handle an expected increase in claims” is an example of a goal?</h2>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                True</li>
+        </ul>
+        <blockquote>
+            <p><img src="file:///d:\csus-computer-science-csc\csc170-software-requiremnt-and-specification\midterm\images\question06.png"
+                    alt="Table 2.2 Goals and Objectives"></p>
+        </blockquote>
+    </blockquote>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> False</li>
+    </ul>
+    <h2 id="question-7-2-pts-all-objectives-are-important">Question 7 (2 pts) All objectives are important</h2>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> True</li>
+    </ul>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                False</li>
+        </ul>
+    </blockquote>
+    <h2 id="question-8-2-bonus-points-jira-is-a-tool-where-you-can-create-estimate-track-and-manage-user-stories">
+        Question 8 (2 bonus points) Jira is a tool where you can create, estimate, track and manage user stories</h2>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                True</li>
+        </ul>
+    </blockquote>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> False</li>
+    </ul>
+    <h2 id="question-9-2-pts-which-is-an-example-of-outcome">Question 9 (2 pts) Which is an example of outcome?</h2>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> All of the
+            choices</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> Five new Features
+            were added.</li>
+    </ul>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                Win additional new Customers</li>
+        </ul>
+    </blockquote>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> Ten Receipts are
+            printed in 20 seconds.</li>
+    </ul>
+    <h2 id="question-10-2-pts-what-is-a-user-story">Question 10 (2 pts) What is a user story?</h2>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> User’s need</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> Client’s need
+        </li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> Both A and B</li>
+    </ul>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                All of the above</li>
+        </ul>
+    </blockquote>
+    <h2 id="question-11-2-pts-an-example-trigger-for-reflect-and-adapt-is">Question 11 (2 pts) An example trigger for
+        Reflect and Adapt is</h2>
+    <blockquote>
+        <ul class="contains-task-list">
+            <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox">
+                all of the choices</li>
+        </ul>
+    </blockquote>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> more customers
+            want sports cars than family cars</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> the manager
+            requested to submit leave form.</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> the home is out
+            of stock on sugar.</li>
+    </ul>
+    <h2 id="question-12-5-pts-what-is-the-difference-between-user-stories-epics-and-themes">Question 12 (5 pts) What is
+        the difference between <code>user stories</code>, <code>epics</code>, and <code>themes</code>?</h2>
+    <p>The difference between <code>user stories</code>, <code>epics</code>, and <code>themes</code> is that <code>user
+            stories</code>,
+        or simply &quot;stories,&quot; are short requirements or requests written from the perspective of an end user,
+        <code>epics</code> are large bodies of work that can be broken down into a number of smaller tasks,
+        and <code>themes</code> are large focus areas that span the organization.</p>
+    <h2 id="question-13-5-pts-give-two-examples-of-maximizing-outcome-with-minimal-output">Question 13 (5 pts) Give two
+        examples of maximizing outcome with minimal output</h2>
+    <p>An example would be simply by providing the minimum viable product (MVP); for example,
+        a text messaging app that simply have the app send raw, unformatted, Ascii characters
+        and a restaurant app where a static website that features the restaurant's hours,
+        menu, prices, location, and the restaurant's phone number.</p>
+    <h2
+        id="question-14-5-pts-make-an-example-of-a-user-story-map-for-your-class-project-with-two-categories-and-two-releases">
+        Question 14 (5 pts) Make an example of a user story map for your class project with two categories and two
+        releases</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Locate Roommate Candidates</th>
+                <th>User Profile Info</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A list of roommate candidates in area</td>
+                <td>Ability to enter basic user info</td>
+                <td><strong>Release 1</strong></td>
+            </tr>
+            <tr>
+                <td>Map functionality to show available apartments/homes</td>
+                <td>Add profile picture</td>
+                <td><strong>Release 2</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2
+        id="question-15-5-bonus-points-explain-the-process-and-conditions-for-simplify-guiding-principle-with-two-good-examples">
+        Question 15 (5 bonus points) Explain the process and conditions for &quot;Simplify&quot; Guiding Principle with
+        two good examples</h2>
+    <h3 id="define">Define</h3>
+    <p>The process and conditions for &quot;Simplify&quot; Guiding Principle is to start with a
+        barely sufficient approach, the absolutely essential abilities/features to the product/service,
+        and with a small set of activates focuses allows oneself or one's team to maintain a streamlined process.</p>
+    <h3 id="example">Example</h3>
+    <h4 id="a-text-messaging-app">A text messaging app</h4>
+    <p><strong>The essential ability/feature:</strong> Simply have the app send raw, unformatted, Ascii characters.</p>
+    <p>This most straight forward approach ignores &quot;complex&quot; features like end-to-end encryption,
+        formatted text, support for emojis, and sending attachments. Simply having the means of
+        sending simple Ascii characters archives the minimum viable product goals and provides the
+        fundamental foundation to what a text messaging app needs.</p>
+    <h4 id="restaurant-app">restaurant App</h4>
+    <p><strong>The essential ability/feature:</strong> A static website that features the restaurant's
+        hours, menu, prices, location, and contact information.</p>
+    <p>This ignores the arguably &quot;non-essential&quot; features that lengthens product development,
+        increased resource allocation, and skill acquisition.  Although it is more leg work for
+        the end user the minimum viable product still serves it's purpose and function.</p>
+    <h2 id="question-16-0-pts">Question 16 (0 pts)</h2>
+    <p>You may upload a single document with answers to all the 15 point and 5 point essay style questions.
+        Please number your questions and include the question in your document.</p>
+    <p><a href="20210524_matthew_midterm.pdf">Midterm PDF document</a></p>
+
+</body>
+
+</html>
