@@ -17,10 +17,11 @@
   - [Question 9 (1 pts): (blank) are patterns of deviation in judgment that occur in particular situations](#question-9-1-pts-blank-are-patterns-of-deviation-in-judgment-that-occur-in-particular-situations)
   - [Question 10 (1 pts): (blank) who is going to make the decision impacts the mechanism used to make the decision](#question-10-1-pts-blank-who-is-going-to-make-the-decision-impacts-the-mechanism-used-to-make-the-decision)
   - [Question 11 (5 pts): Match the following keywords with its meaning](#question-11-5-pts-match-the-following-keywords-with-its-meaning)
-    - [Anchoring effect](#anchoring-effect)
-    - [Survivorship bias](#survivorship-bias)
-    - [Availability heuristic](#availability-heuristic)
-    - [Observation selection bias](#observation-selection-bias)
+    - [Anchoring Effect](#anchoring-effect)
+    - [Focusing Effect](#focusing-effect)
+    - [Survivorship Bias](#survivorship-bias)
+    - [Availability Heuristic](#availability-heuristic)
+    - [Observation Selection Bias](#observation-selection-bias)
   - [Question 12 (1 pts): Which is part of analysis bias?](#question-12-1-pts-which-is-part-of-analysis-bias)
   - [Question 13 (1 pts): What is the framing affect?](#question-13-1-pts-what-is-the-framing-affect)
   - [Question 14 (1 pts): What is response bias?](#question-14-1-pts-what-is-response-bias)
@@ -31,6 +32,9 @@
   - [Question 19 (1 pts): Observer-expectancy effect is when the analyst is not expecting a certain result, subconsciously manipulates or misinterprets data in order to validate that “certain result”](#question-19-1-pts-observer-expectancy-effect-is-when-the-analyst-is-not-expecting-a-certain-result-subconsciously-manipulates-or-misinterprets-data-in-order-to-validate-that-certain-result)
   - [Question 20 (1 pts): Framing effect is where you draw different conclusions from the same information depending on how it is presented](#question-20-1-pts-framing-effect-is-where-you-draw-different-conclusions-from-the-same-information-depending-on-how-it-is-presented)
   - [Question 21 (6 pts): Select the clearly best matches](#question-21-6-pts-select-the-clearly-best-matches)
+    - [Importance of option over commitment](#importance-of-option-over-commitment)
+    - [Options Expire](#options-expire)
+    - [Never commit early](#never-commit-early)
 
 ## Question 1 (5 pts): List all parts of the decision-making structure
 
@@ -44,6 +48,14 @@
 > > ![quiz04_question01](images/quiz04_question01.png)
 
 ## Question 2 (5 pts): Describe responsibilities of the product owner in the context of decision making (where organization "determines the decision maker" and also as part of "selecting a decision mechanism"). Refer to Text book for details
+
+The responsibilities of the Product Owner, or Business Analyst (BA), is the key
+decision maker in agile approaches: either as the decider or the decision leader,
+and also has the responsibility for the outcome of the project.
+
+A Business Analyst (BA), in selecting a decision mechanism, often decides with
+discussion. When the Product Owner talks with key stakeholders to get their
+perspectives and understand possible options, and makes the decision based holistic information gathered.
 
 ## Question 3 (5 pts): Name all the decision-making mechanisms
 
@@ -68,8 +80,7 @@ Elicitation (collecting information) - Biases affecting Stakeholders
 > - `Groupthink`: stakeholders all convey the same information whether or not they believe it
 > - `Bandwagon Effect`: go along to get along
 > - `Curse of Knowledge`: stakeholders being unable to consider a less informed and more neutral perspective
-> >
-> > ![quiz04_question04](images/quiz04_question04.png)
+>   > ![quiz04_question04](images/quiz04_question04.png)
 
 ## Question 5 (5 pts): What are the different types of biases affecting analysis?
 
@@ -78,8 +89,7 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 > - `Confirmation Bias`: Tendency to search for, interpret, and remember information that confirms your own preconceptions
 > - `Observer-Expectancy Effect`: The analyst expecting a certain result, subconsciously manipulate or misinterprets data in order validate that “certain result”
 > - `Framing Effect`: where you draw different conclusions from the same information depending on how it is presented16Biases Affecting Analysis
-> >
-> > ![quiz04_question05](images/quiz04_question05.png)
+>   > ![quiz04_question05](images/quiz04_question05.png)
 
 ## Question 6 (1 pts): There is a fine (blank) point between gathering enough information and spending too much time trying to gather information
 
@@ -122,7 +132,9 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 
 ## Question 11 (5 pts): Match the following keywords with its meaning
 
-### Anchoring effect
+Bias that occur in analyzing the elicited information
+
+### Anchoring Effect
 
 - [ ] Overestimate the likelihood of an event because of its recent occurrence
 - [ ] Focus on those that had a successful interaction and not considering those that did not
@@ -131,10 +143,22 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 
 > - [x] Too much emphasis on a particular piece of information
 >
-> > Analysis Bias - Bias that occur in analyzing the elicited information
+> > `Anchoring effect` or Focusing effect - Too much emphasis on a particular piece of information
 > > ![quiz04_question11a.png](images/quiz04_question11a.png)
 
-### Survivorship bias
+### Focusing Effect
+
+- [ ] Overestimate the likelihood of an event because of its recent occurrence
+- [ ] Focus on those that had a successful interaction and not considering those that did not
+- [x] Too much emphasis on a particular piece of information
+- [ ] A new occurrence of what was not previously noticed, but assuming the frequency of its occurrence has increased
+
+> - [x] Too much emphasis on a particular piece of information
+>
+> > Anchoring effect or `focusing effect` - Too much emphasis on a particular piece of information
+> > ![quiz04_question11a.png](images/quiz04_question11a.png)
+
+### Survivorship Bias
 
 - [ ] Overestimate the likelihood of an event because of its recent occurrence
 - [x] Focus on those that had a successful interaction and not considering those that did not
@@ -143,10 +167,11 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 
 > - [x] Focus on those that had a successful interaction and not considering those that did not
 >
-> > Analysis Bias - Bias that occur in analyzing the elicited information
+> > `Survivorship bias` - Focus on those that had a successful interaction and
+> > not considering those that did not
 > > ![quiz04_question11b.png](images/quiz04_question11b.png)
 
-### Availability heuristic
+### Availability Heuristic
 
 - [x] Overestimate the likelihood of an event because of its recent occurrence
 - [ ] Focus on those that had a successful interaction and not considering those that did not
@@ -155,19 +180,22 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 
 > - [x] Overestimate the likelihood of an event because of its recent occurrence
 >
-> > Analysis Bias - Bias that occur in analyzing the elicited information
+> > `Availability heuristic` - Overestimate the likely of an event
+> > because of its recent occurrence
 > > ![quiz04_question11c.png](images/quiz04_question11c.png)
 
-### Observation selection bias
+### Observation Selection Bias
 
 - [ ] Overestimate the likelihood of an event because of its recent occurrence
 - [ ] Focus on those that had a successful interaction and not considering those that did not
 - [ ] Too much emphasis on a particular piece of information
 - [x] A new occurrence of what was not previously noticed, but assuming the frequency of its occurrence has increased
 
-> - [x] A new occurrence of what was not previously noticed, but assuming the frequency of its occurrence has increased
+> - [x] A new occurrence of what was not previously noticed, but assuming the
+>       frequency of its occurrence has increased
 >
-> > Analysis Bias - Bias that occur in analyzing the elicited information
+> > `Observation selection bias` - A new occurrence of what was not previously
+> > noticed, but assuming the frequency of its occurrence has increased
 > > ![quiz04_question11d.png](images/quiz04_question11d.png)
 
 ## Question 12 (1 pts): Which is part of analysis bias?
@@ -208,42 +236,88 @@ Biases Affecting Analysis - The curse of knowledge, the analyst’s bias
 
 ## Question 15 (1 pts): What is an example of an arbitrary decision?
 
-- [ ] Coin flip
+- [x] Coin flip
 - [ ] Up or down
 - [ ] Heads or tails
-- [x] All of the choices
+- [ ] All of the choices
 
-> - [x] All of the choices
+> - [x] Coin flip
 >
 > > ![quiz04_question15.png](images/quiz04_question15.png)
 
 ## Question 16 (1 pts): A decision leader cannot delegate decisions to someone else as a decider
 
 - [ ] True
-- [ ] False
+- [x] False
+
+> - [x] False
+>
+> > ![A decision leader can delegate decisions to someone else as a decider](images/quiz04_question16.png)
 
 ## Question 17 (1 pts): Deciding too quickly may mean overlooking critical information needed to make the best decision
 
-- [ ] True
+- [x] True
 - [ ] False
+
+> - [x] True
+>
+> > ![Deciding too quickly may mean overlooking critical information](images/quiz04_question17.png)
 
 ## Question 18 (1 pts): Confirmation bias is the tendency to search for, interpret, and remember information that confirms your own preconceptions
 
-- [ ] True
+- [x] True
 - [ ] False
+
+> - [x] True
+>
+> > ![Confirmation bias](images/quiz04_question18.png)
 
 ## Question 19 (1 pts): Observer-expectancy effect is when the analyst is not expecting a certain result, subconsciously manipulates or misinterprets data in order to validate that “certain result”
 
 - [ ] True
-- [ ] False
+- [x] False
+
+> - [x] False
+>
+> > ![Observer-expectancy effect](images/quiz04_question19.png)
 
 ## Question 20 (1 pts): Framing effect is where you draw different conclusions from the same information depending on how it is presented
 
-- [ ] True
+- [x] True
 - [ ] False
+
+> - [x] True
+>
+> > ![Framing effect](images/quiz04_question13.png)
 
 ## Question 21 (6 pts): Select the clearly best matches
 
+### Importance of option over commitment
+
 - [ ] no longer can exercise option
+- [x] you are not trapped into having to make a particular decision
+- [ ] unless you know why
+
+> - [x] you are not trapped into having to make a particular decision
+>
+> > ![Importance of option over commitment](images/quiz04_question21_a.png)
+
+### Options Expire
+
+- [x] no longer can exercise option
 - [ ] you are not trapped into having to make a particular decision
 - [ ] unless you know why
+
+> - [x] no longer can exercise option
+>
+> > ![Options Expire](images/quiz04_question21_b.png)
+
+### Never commit early
+
+- [ ] no longer can exercise option
+- [ ] you are not trapped into having to make a particular decision
+- [x] unless you know why
+
+> - [x] unless you know why
+>
+> > ![Never commit early](images/quiz04_question21_c.png)
