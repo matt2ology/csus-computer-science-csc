@@ -9,3 +9,7 @@ Statistical analysis of large, complex data sets. Topics include memory efficien
 ### Term: Spring 2021, CSU Sacramento
 
 ### Instructor: [Dr. Clark Fitzgerald](http://webpages.csus.edu/fitzgerald/about/)
+
+## Resource/Learning
+
+- <https://techytok.com/from-zero-to-julia/>
