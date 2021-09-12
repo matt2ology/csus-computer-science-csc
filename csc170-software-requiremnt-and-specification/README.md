@@ -40,3 +40,7 @@ Spring 2021, Fall 2020, Spring 2020, Fall 2018
 **Avg. Class Size:** 29
 
 ## Instructor: [Jagannadha S Chidella](https://directory.csus.edu/searchResult.jsp?deptId=29&treeLNum=4&act=people&popWin=true)
+
+## Additional Resources
+
+- <http://athena.ecs.csus.edu/~buckley/CSc170_F2018.html>
