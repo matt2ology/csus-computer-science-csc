@@ -42,33 +42,49 @@ Both my browser and server are running HTTP version 1.1
 
 ### 2. What languages (if any) does your browser indicate that it can accept to the server?
 
-The languages that my browser indicates that it can accept to the server are:
+The language that my browser indicates that it can accept to the server is:
+US English
 
-1. PHP
-2. Perl
-
-```text
-Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.24 mod_perl/2.0.11 Perl/v5.16.3\r\n
-```
+> en-US,en;q=0.9
 
 ![languages](assignment-images/20211009-basic-http-get-response-interaction01.png)
 
 ### 3. What is the IP address of your computer? Of the gaia.cs.umass.edu server?
 
 The IP address of my computer and of the gaia.cs.umass.edu server are respctively:
-127.0.1.1 and 128.119.245.12
+192.168.1.12 and 128.119.245.12
+
+![status code](assignment-images/20211009-basic-http-get-response-interaction03.png)
 
 ### 4. What is the status code returned from the server to your browser?
 
-The status code returned from the server to my browser is: 304 Not Modified
+The status code returned from the server to my browser is
+
+> 200 OK
+
+![status code](assignment-images/20211009-basic-http-get-response-interaction04.png)
 
 ### 5. When was the HTML file that you are retrieving last modified at the server?
 
-![last modified not listed](assignment-images/20211009-basic-http-get-response-interaction05.png)
+According to the filter the HTML file retrieved was last modifed at the server on
+October 10th, 2021.
+
+> Last-modified: Sun, 10 Oct 2021 05:59:02 GMT
+
+![last modified](assignment-images/20211009-basic-http-get-response-interaction05.png)
 
 ### 6. How many bytes of content are being returned to your browser?
 
+There were 128 bytes of content returned to my browser.
+
+> Content length: 128
+
+![last modified](assignment-images/20211009-basic-http-get-response-interaction06.png)
+
 ### 7. By inspecting the raw data in the packet content window, do you see any headers within the data that are not displayed in the packet-listing window? If so, name one
+
+No. I do not see any headers within the datat that are not displayed in the
+packet-listing window.
 
 ## 2. The HTTP CONDITIONAL GET/response interaction
 
