@@ -19,7 +19,6 @@ def main():
     msg = "\r\n I love Computer Networks"
     endmsg = "\r\n.\r\n"
 
-    # need to use smtp4dev and run that on localhost
     mailserver = ("gaia.ecs.csus.edu", 25)
 
     # Create socket called clientSocket and establish a TCP connection with mailserver
