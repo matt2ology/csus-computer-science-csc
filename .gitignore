@@ -31,3 +31,6 @@ csc138-computer-networks-and-internets/main-copy/computer-networking_a-top-down-
 phys5b-gen-phys-lgt-elec-mag-mod-phys/College physics a strategic approach by Field Knight Jones.pdf
 csc135-computability-and-formal-lang/codeStepByStep/codeStepByStep-env
 csc135-computability-and-formal-lang/**/*.pyc
+csc135-computability-and-formal-lang/.vscode/launch.json
+.gitignore
+csc135-computability-and-formal-lang/.vscode/settings.json
