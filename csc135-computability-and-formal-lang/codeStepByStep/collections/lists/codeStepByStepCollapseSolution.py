@@ -12,7 +12,14 @@ def main():
 
 def collapse(integer_list: int) -> int:
     integer_list_summation = []
-
+    # every other elements starting with first element and stop at length of list
+    for index in range(0, len(integer_list), 2):
+        # add the every other element to list
+        integer_list_summation.append(integer_list[index])
+        # if there is a next of the current index and is less than the lenght of list
+        if index+1 < len(integer_list):
+            # starting the the tail end of the list add next index going backwards
+            integer_list_summation[-1] += integer_list[index+1]
     return integer_list_summation
 
 
