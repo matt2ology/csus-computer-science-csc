@@ -43,7 +43,7 @@ def num_in_common(integer_list_A: List[int], integer_list_B: List[int]) -> int:
             frequency_of_common_numbers (int): the count of how many unique
             integers occur in both lists
     """
-    list_of_common_integers = []
+    set_of_common_integers = set()
     frequency_of_common_numbers = None
 
     # If either of the lists are empty - they will have no numbers in common
@@ -53,9 +53,9 @@ def num_in_common(integer_list_A: List[int], integer_list_B: List[int]) -> int:
     # Place recurring numbers in both lists into a new one (includes duplicates)
     for element in integer_list_A:
         if element in integer_list_B:
-            list_of_common_integers.append(element)
+            set_of_common_integers.add(element)
 
-    frequency_of_common_numbers = len(list(set(list_of_common_integers)))
+    frequency_of_common_numbers = len(list(set_of_common_integers))
 
     return frequency_of_common_numbers
 
