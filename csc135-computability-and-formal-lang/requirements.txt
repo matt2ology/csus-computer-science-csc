@@ -1,0 +1,15 @@
+atomicwrites
+attrs
+autopep8
+colorama
+iniconfig
+packaging
+pip
+pluggy
+py
+pycodestyle
+pyparsing
+pytest
+setuptools
+snowballstemmer
+toml
