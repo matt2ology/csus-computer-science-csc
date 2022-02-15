@@ -1,0 +1,2 @@
+class LambdaLarge:
+    pass

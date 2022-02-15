@@ -1,0 +1,2 @@
+class ThreeFourLetterWords:
+    pass

@@ -1,0 +1,2 @@
+class LambdaConcatName:
+    pass

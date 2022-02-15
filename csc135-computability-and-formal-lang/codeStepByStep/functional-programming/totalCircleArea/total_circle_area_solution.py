@@ -1,0 +1,2 @@
+class TotalCircleArea:
+    pass

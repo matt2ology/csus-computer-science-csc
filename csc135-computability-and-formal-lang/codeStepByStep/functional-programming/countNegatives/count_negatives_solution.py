@@ -1,0 +1,2 @@
+class CountNegatives:
+    pass

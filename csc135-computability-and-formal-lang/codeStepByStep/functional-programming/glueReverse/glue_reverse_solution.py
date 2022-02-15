@@ -1,0 +1,2 @@
+class GlueReverse:
+    pass
