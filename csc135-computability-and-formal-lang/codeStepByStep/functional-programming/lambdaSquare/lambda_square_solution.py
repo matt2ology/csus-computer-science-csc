@@ -1,2 +1,1 @@
-class LambdaSquare:
-    pass
+f = lambda number: number * number
