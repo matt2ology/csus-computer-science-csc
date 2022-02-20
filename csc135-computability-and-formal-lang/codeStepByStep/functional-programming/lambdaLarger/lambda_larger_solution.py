@@ -1,2 +1,1 @@
-class LambdaLarge:
-    pass
+f = lambda first_int, second_int: first_int if first_int > second_int else second_int
