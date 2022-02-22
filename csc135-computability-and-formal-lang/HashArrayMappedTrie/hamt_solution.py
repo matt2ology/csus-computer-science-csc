@@ -4,15 +4,11 @@
 # This implementation assumes that the objects pointed at by the key and value
 # references stored in the HAMT structure do not change during the lifetime
 # of the structure.
-from cmath import log
 import logging
-from winreg import KEY_SET_VALUE
-
-from attr import has
 
 FORMAT = '[%(asctime)s]-[%(funcName)s]-[%(levelname)s] - %(message)s'
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format=FORMAT
 )
 
@@ -53,17 +49,21 @@ class hamt:
 
     def _get(self, key, hashbits):
         child_num = hashbits & hamt.MASK
+        found_value = None
         # Does current node's key match the key we are looking for?
         if self._key == key:
             # We found our key and return its value
-            return self._value
+            found_value = self._value
         elif self._children[child_num] is not None:
             # If node has children - keep searching down the trie
-            return self._children[child_num]._get(
+            found_value = self._children[child_num]._get(
                 key, hashbits >> hamt.BITS)
         else:
             # Key not found, end of search, returning NONE
-            return None
+            logging.debug(
+                "[key not found] - actual :{} expected: {}".format(self._key, key))
+
+        return found_value
 
     def get(self, key):
         """
