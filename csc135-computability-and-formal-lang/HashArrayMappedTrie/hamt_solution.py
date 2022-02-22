@@ -50,18 +50,16 @@ class hamt:
     def _get(self, key, hashbits):
         child_num = hashbits & hamt.MASK
         found_value = None
-        # Does current node's key match the key we are looking for?
         if self._key == key:
-            # We found our key and return its value
+            logging.debug("[key found] - actual: {} expected: {}".format(self._key, key))
             found_value = self._value
         elif self._children[child_num] is not None:
-            # If node has children - keep searching down the trie
+            logging.debug("searching down the trie's node children...")
             found_value = self._children[child_num]._get(
                 key, hashbits >> hamt.BITS)
         else:
-            # Key not found, end of search, returning NONE
             logging.debug(
-                "[key not found] - actual :{} expected: {}".format(self._key, key))
+                "[key not found - end of search] - actual :{} expected: {}".format(self._key, key))
 
         return found_value
 
