@@ -1,4 +1,4 @@
-from hamt import hamt
+from hamt_solution import hamt
 
 
 class TestHamtSolution:
