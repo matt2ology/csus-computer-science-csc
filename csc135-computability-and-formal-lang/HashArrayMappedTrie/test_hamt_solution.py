@@ -31,6 +31,9 @@ class TestHamtSolution:
     def test_get_key_F_value_f(self):
         assert self.f.get("F") == 'f'
 
+    def test_get_key_Z_value_none(self):
+        assert self.f.get("Z") == None
+
     def test_get_key_IU_value_BBIBBI(self):
         assert self.iu.get("IU") == 'BBIBBI'
 
@@ -40,5 +43,3 @@ class TestHamtSolution:
     def test_get_key_2NE1_value_21(self):
         assert self.kpop.get("2NE1") == 21
 
-    print(jrock)
-    print(kpop)
