@@ -54,6 +54,7 @@ class hamt:
             logging.debug("[key found] - actual: {} expected: {}".format(self._key, key))
             found_value = self._value
         elif self._children[child_num] is not None:
+            logging.debug("[key not found] - actual: {} expected: {}".format(self._key, key))
             logging.debug("searching down the trie's node children...")
             found_value = self._children[child_num]._get(
                 key, hashbits >> hamt.BITS)
