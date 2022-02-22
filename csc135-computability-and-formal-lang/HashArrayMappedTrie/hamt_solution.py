@@ -63,6 +63,10 @@ class hamt:
 
         return found_value
 
+    def set(self, key, value):
+        # Pass key/value and hashbits to recursive helper
+        return self._set(key, value, hash(key))
+
     def get(self, key):
         """
         Returns the value key is mapped-to or None if key is not a key in the HAMT
@@ -74,10 +78,6 @@ class hamt:
         any: Value set to key
         """
         return self._get(key, hash(key))
-
-    def set(self, key, value):
-        # Pass key/value and hashbits to recursive helper
-        return self._set(key, value, hash(key))
 
     def __str__(self):
         s = "[({},{})".format(str(self._key), str(self._value))
