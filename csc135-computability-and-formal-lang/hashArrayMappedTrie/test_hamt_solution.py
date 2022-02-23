@@ -43,3 +43,5 @@ class TestHamtSolution:
     def test_get_key_2NE1_value_21(self):
         assert self.kpop.get("2NE1") == 21
 
+    def test_len_3_keys(self):
+        assert self.c.len() == 3
