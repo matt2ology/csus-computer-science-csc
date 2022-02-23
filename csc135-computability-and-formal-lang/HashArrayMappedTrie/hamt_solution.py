@@ -47,26 +47,18 @@ class hamt:
                     _set(key, value, hashbits >> hamt.BITS)
             return copy
 
-    def _get(self, key, hashbits):
-        child_num = hashbits & hamt.MASK
-        found_value = None
-        if self._key == key:
-            logging.debug("[key found] - actual: {} expected: {}".format(self._key, key))
-            found_value = self._value
-        elif self._children[child_num] is not None:
-            logging.debug("[key not found] - actual: {} expected: {}".format(self._key, key))
-            logging.debug("searching down the trie's node children...")
-            found_value = self._children[child_num]._get(
-                key, hashbits >> hamt.BITS)
-        else:
-            logging.debug(
-                "[key not found - end of search] - actual :{} expected: {}".format(self._key, key))
-
-        return found_value
-
     def set(self, key, value):
         # Pass key/value and hashbits to recursive helper
         return self._set(key, value, hash(key))
+
+    def __str__(self):
+        s = "[({},{})".format(str(self._key), str(self._value))
+        for i in range(hamt.DEG):
+            if (self._children[i] == None):
+                s = s + "X"
+            else:
+                s = s + str(self._children[i])
+        return s + "]"
 
     def get(self, key):
         """
@@ -80,11 +72,41 @@ class hamt:
         """
         return self._get(key, hash(key))
 
-    def __str__(self):
-        s = "[({},{})".format(str(self._key), str(self._value))
-        for i in range(hamt.DEG):
-            if (self._children[i] == None):
-                s = s + "X"
-            else:
-                s = s + str(self._children[i])
-        return s + "]"
+    def _get(self, key, hashbits):
+        child_num = hashbits & hamt.MASK
+        found_value = None
+        if self._key == key:
+            logging.debug(
+                "[key found] - actual: {} expected: {}".format(self._key, key))
+            found_value = self._value
+        elif self._children[child_num] is not None:
+            logging.debug(
+                "[key not found] - actual: {} expected: {}".format(self._key, key))
+            logging.debug("searching down the trie's node children...")
+            found_value = self._children[child_num]._get(
+                key, hashbits >> hamt.BITS)
+        else:
+            logging.debug(
+                "[key not found - end of search] - actual :{} expected: {}".format(self._key, key))
+
+        return found_value
+
+    def len(self) -> int:
+        return self._len()
+
+    def _len(self) -> int:
+        return self
+
+
+a = hamt("A", "a")
+b = a.set("B", "b")
+c = b.set("C", "c")
+d = c.set("D", "d")
+e = d.set("E", "e")
+f = e.set("F", "f")
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
