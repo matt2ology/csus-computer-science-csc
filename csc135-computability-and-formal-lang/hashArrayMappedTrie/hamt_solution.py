@@ -4,7 +4,6 @@
 # This implementation assumes that the objects pointed at by the key and value
 # references stored in the HAMT structure do not change during the lifetime
 # of the structure.
-from itertools import count
 import logging
 
 FORMAT = '[%(asctime)s]-[%(funcName)s]-[%(levelname)s] - %(message)s'
@@ -19,12 +18,10 @@ class hamt:
     DEG = 4      # Children per node (must be power of 2)
     BITS = 2     # log2(DEG), bits needed to select child
     MASK = 0b11  # Bitmask for extracting low BITS bits (DEG - 1)
-    _NUMBER_OF_KEYS_IN_TREE = int(0)
 
     def __init__(self, key, value, children=None):
         self._key = key
         self._value = value
-        self._NUMBER_OF_KEYS_IN_TREE += int(1)
         if children == None:
             self._children = [None] * hamt.DEG
         else:
@@ -50,6 +47,31 @@ class hamt:
                     _set(key, value, hashbits >> hamt.BITS)
             return copy
 
+    def set(self, key, value):
+        # Pass key/value and hashbits to recursive helper
+        return self._set(key, value, hash(key))
+
+    def __str__(self):
+        s = "[({},{})".format(str(self._key), str(self._value))
+        for i in range(hamt.DEG):
+            if (self._children[i] == None):
+                s = s + "X"
+            else:
+                s = s + str(self._children[i])
+        return s + "]"
+
+    def get(self, key):
+        """
+        Returns the value key is mapped-to or None if key is not a key in the HAMT
+
+        Parameters:
+        Key (any): Key to find mapped value
+
+        Returns:
+        any: Value set to key
+        """
+        return self._get(key, hash(key))
+
     def _get(self, key, hashbits):
         child_num = hashbits & hamt.MASK
         found_value = None
@@ -69,41 +91,17 @@ class hamt:
 
         return found_value
 
-    def set(self, key, value):
-        # Pass key/value and hashbits to recursive helper
-        return self._set(key, value, hash(key))
+    def len(self) -> int:
+        return self._len()
 
-    def get(self, key):
-        """
-        Returns the value key is mapped-to or None if key is not a key in the HAMT
-
-        Parameters:
-        Key (any): Key to find mapped value
-
-        Returns:
-        any: Value set to key
-        """
-        return self._get(key, hash(key))
-
-    def __str__(self):
-        s = "[({},{})".format(str(self._key), str(self._value))
-        for i in range(hamt.DEG):
-            if (self._children[i] == None):
-                s = s + "X"
-            else:
-                s = s + str(self._children[i])
-        return s + "]"
-
-    def _len(self) -> int:
-        hashbits = hash(self._key)
-        child_num = hashbits & hamt.MASK
-        key_counter = 0
+    # still in development...
+    def _len(self, counter = 0) -> int:
+        child_num = hash(self._key) & hamt.MASK
+        counter += 1
         if self._children[child_num] is not None:
-            key_counter += 1
-            logging.debug("searching down the trie's node children...")
-            self._children[child_num]._len(self._key, hashbits >> hamt.BITS)
-            
-        return key_counter
+            logging.debug("{}".format(counter))
+            self._children[child_num]._len()
+
 
 a = hamt("A", "a")
 b = a.set("B", "b")
@@ -111,4 +109,20 @@ c = b.set("C", "c")
 d = c.set("D", "d")
 e = d.set("E", "e")
 f = e.set("F", "f")
-print(f._len())
+g = f.set("G", "g")
+h = g.set("H", "h")
+i = h.set("I", "i")
+j = i.set("J", "j")
+k = j.set("K", "k")
+print(a) # 01
+print(b) # 02
+print(c) # 03
+print(d) # 04
+print(e) # 05
+print(f) # 06
+print(g) # 07
+print(h) # 08
+print(i) # 09
+print(j) # 10
+print(k) # 11
+print("eol")
