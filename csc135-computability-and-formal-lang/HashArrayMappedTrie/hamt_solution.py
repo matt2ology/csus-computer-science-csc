@@ -94,8 +94,13 @@ class hamt:
     def len(self) -> int:
         return self._len()
 
-    def _len(self) -> int:
-        return self
+    # still in development...
+    def _len(self, counter = 0) -> int:
+        child_num = hash(self._key) & hamt.MASK
+        counter += 1
+        if self._children[child_num] is not None:
+            logging.debug("{}".format(counter))
+            self._children[child_num]._len()
 
 
 a = hamt("A", "a")
@@ -104,9 +109,20 @@ c = b.set("C", "c")
 d = c.set("D", "d")
 e = d.set("E", "e")
 f = e.set("F", "f")
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
+g = f.set("G", "g")
+h = g.set("H", "h")
+i = h.set("I", "i")
+j = i.set("J", "j")
+k = j.set("K", "k")
+print(a) # 01
+print(b) # 02
+print(c) # 03
+print(d) # 04
+print(e) # 05
+print(f) # 06
+print(g) # 07
+print(h) # 08
+print(i) # 09
+print(j) # 10
+print(k) # 11
+print("eol")
