@@ -43,5 +43,27 @@ class TestHamtSolution:
     def test_get_key_2NE1_value_21(self):
         assert self.kpop.get("2NE1") == 21
 
+    def test_len_1_keys(self):
+        assert self.a.len() == 1
+        
+    def test_len_2_keys(self):
+        assert self.b.len() == 2
+        
     def test_len_3_keys(self):
         assert self.c.len() == 3
+
+    def test_len_4_keys(self):
+        assert self.d.len() == 4
+        
+    def test_len_5_keys(self):
+        assert self.e.len() == 5
+        
+    def test_len_6_keys(self):
+        assert self.f.len() == 6
+        
+    def test_len_7_keys(self):
+        assert self.jrock.len() == 7
+        assert self.iu.len() == 7
+        
+    def test_len_8_keys(self):
+        assert self.kpop.len() == 8
