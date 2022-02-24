@@ -102,27 +102,27 @@ class hamt:
             logging.debug("{}".format(counter))
             self._children[child_num]._len()
 
-
-a = hamt("A", "a")
-b = a.set("B", "b")
-c = b.set("C", "c")
-d = c.set("D", "d")
-e = d.set("E", "e")
-f = e.set("F", "f")
-g = f.set("G", "g")
-h = g.set("H", "h")
-i = h.set("I", "i")
-j = i.set("J", "j")
-k = j.set("K", "k")
-print(a) # 01
-print(b) # 02
-print(c) # 03
-print(d) # 04
-print(e) # 05
-print(f) # 06
-print(g) # 07
-print(h) # 08
-print(i) # 09
-print(j) # 10
-print(k) # 11
+a = hamt("A", "a")  # 01
+b = a.set("B", "b") # 02
+c = b.set("C", "c") # 03
+d = c.set("D", "d") # 04
+e = d.set("E", "e") # 05
+f = e.set("F", "f") # 06
+g = f.set("G", "g") # 07
+h = g.set("H", "h") # 08
+i = h.set("I", "i") # 09
+j = i.set("J", "j") # 10
+k = j.set("K", "k") # 11
+print("{} - {}".format(a, a.len()))  # 01
+print("{} - {}".format(b, b.len()))  # 02
+print("{} - {}".format(c, c.len()))  # 03
+print("{} - {}".format(c, c.len()))  # 03
+print("{} - {}".format(d, d.len()))  # 04
+print("{} - {}".format(e, e.len()))  # 05
+print("{} - {}".format(f, f.len()))  # 06
+print("{} - {}".format(g, g.len()))  # 07
+print("{} - {}".format(h, h.len()))  # 08
+print("{} - {}".format(i, i.len()))  # 09
+print("{} - {}".format(j, j.len()))  # 10
+print("{} - {}".format(k, k.len()))  # 11
 print("eol")
