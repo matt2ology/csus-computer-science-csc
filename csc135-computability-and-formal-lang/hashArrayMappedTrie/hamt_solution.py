@@ -92,15 +92,12 @@ class hamt:
         return found_value
 
     def len(self) -> int:
-        return self._len()
+        counter = 1
+        for i in range(hamt.DEG):
+            if (self._children[i] is not None):
+                counter += self._children[i].len()
+        return counter
 
-    # still in development...
-    def _len(self, counter = 0) -> int:
-        child_num = hash(self._key) & hamt.MASK
-        counter += 1
-        if self._children[child_num] is not None:
-            logging.debug("{}".format(counter))
-            self._children[child_num]._len()
 
 a = hamt("A", "a")  # 01
 b = a.set("B", "b") # 02
