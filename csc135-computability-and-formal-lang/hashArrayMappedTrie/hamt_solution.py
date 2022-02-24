@@ -91,7 +91,7 @@ class hamt:
 
         return found_value
 
-    def len(self) -> int:
+    def len_recurssive(self) -> int:
         counter = 1
         for i in range(hamt.DEG):
             if (self._children[i] is not None):
