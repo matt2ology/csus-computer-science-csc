@@ -1,0 +1,27 @@
+DROP TABLE Candidate;
+DROP TABLE Party;
+CREATE TABLE Candidate(
+    FirstName VARCHAR(20),
+    LastName VARCHAR(20),
+    DOB DATE,
+    Salary INT,
+    CONSTRAINT CHK_Salary CHECK (Salary > 10000 AND Salary < 50000) DISABLE
+);
+
+CREATE TABLE Party(
+    PartyDesc VARCHAR(255)
+);
+
+ALTER TABLE Candidate DROP COLUMN DOB;
+ALTER TABLE Candidate ADD DOB DATE;
+ALTER TABLE Candidate ADD FullName VARCHAR(40);
+ALTER TABLE Candidate ADD CONSTRAINT PK_FullName PRIMARY KEY (FullName,FirstName,LastName);
+
+DROP TABLE Party;
+Create TABLE Party(
+    PartyID INT NOT NULL PRIMARY KEY (PARTYID),
+    CONSTRAINT PartyDesc VARCHAR(255) NOT NULL,
+    CandidateID VARCHAR(40),
+    CONSTRAINT FK_CandidateID FOREIGN KEY (CandidateID) REFERENCES Candidate(FullName) DISABLE
+);
+
