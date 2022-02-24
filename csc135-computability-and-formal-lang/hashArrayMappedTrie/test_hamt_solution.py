@@ -3,12 +3,12 @@ from hamt_solution import hamt
 
 class TestHamtSolution:
 
-    a = hamt("A", "a")
-    b = a.set("B", "b")
-    c = b.set("C", "c")
-    d = c.set("D", "d")
-    e = d.set("E", "e")
-    f = e.set("F", "f")
+    a = hamt("A", "a")  # 1
+    b = a.set("B", "b") # 2
+    c = b.set("C", "c") # 3
+    d = c.set("D", "d") # 4
+    e = d.set("E", "e") # 5
+    f = e.set("F", "f") # 6
     iu = f.set("IU", "BBIBBI")
     jrock = f.set("ONEOKROCK", "Wherever you are")
     kpop = iu.set("2NE1", 21)
