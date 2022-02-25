@@ -16,6 +16,14 @@ class list135:
     def empty(self):
         return self._rest_of_list == None
 
+    def len(self) -> int:
+        current = self.rest()
+        counter = 0
+        while current is not None:
+            current = current.rest()
+            counter += 1
+        return counter
+
     def __str__(self) -> str:
         current = self.rest()
         in_list = "(" + str(self.first())
@@ -30,10 +38,10 @@ v_02 = v_01.cons(7)
 v_03 = v_02.cons(6)
 v_04 = v_03.cons(3)
 
-print(v_01)
-print(v_02)
-print(v_03)
-print(v_04)
+print("{} - len {}".format(v_01,v_01.len()))
+print("{} - len {}".format(v_02,v_02.len()))
+print("{} - len {}".format(v_03,v_03.len()))
+print("{} - len {}".format(v_04,v_04.len()))
 
-print("{}, {}, {}, {}, {}".format(v_04.first(), v_04.rest().first(), v_04.rest().rest(
+print("The List: {}, {}, {}, {}, {}".format(v_04.first(), v_04.rest().first(), v_04.rest().rest(
 ).first(), v_04.rest().rest().rest().first(), v_04.rest().rest().rest().rest()))
