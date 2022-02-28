@@ -99,6 +99,15 @@ class hamt:
                 counter += self._children[i].len()
         return counter
 
+    def map(self, function):
+        copy = hamt(self._key, self._value, list(self._children))
+        for i in range(hamt.DEG):
+            if (copy._children[i] is not None):
+                copy._children[i] = copy._children[i].map(function)
+        copy._value = function(copy._key, copy._value)
+        return copy
+
+
 
 a = hamt("A", "a")  # 01
 b = a.set("B", "b") # 02
