@@ -82,12 +82,11 @@ To insert a key, we first need to generate its hash value. Again, in Ruby, we ca
 
 For example:
 
-```
+```python
 [1] pry(main)> require "digest"
 => true
 [2] pry(main)> Digest::SHA1.hexdigest("calzone").to_i(16)
 => 334703588949583183218034173573122019749278332384
-
 ```
 
 To walk the trie and an appropriate location for this element, we’ll “consume” this hash-code in 5-bit chunks.
@@ -98,12 +97,11 @@ This is determined by the branching factor of the tree – with an order-32 trie
 
 To get the numeric value of the first 5 bits of our hashcode, we can bitwise `AND` it with a 5-bit number containing all “on” bits:
 
-```
+```python
 [13] pry(main)> 31.to_s(2)
 => "11111"
 [14] pry(main)> Digest::SHA1.hexdigest("calzone").to_i(16) & 31
 => 0
-
 ```
 
 This tells us that the “right-most” 5 bits of the number `334703588949583183218034173573122019749278332384` (“calzone“‘s hash code) are `00000`, or 0.
@@ -133,7 +131,6 @@ For example:
 => "1111"
 [21] pry(main)> (15 << 4).to_s(2)
 => "11110000"
-
 ```
 
 In our case, we just want to consume the next 5 bits of our hash code value, so we can use a right shift of 5 bits.
