@@ -1,4 +1,4 @@
-### Tail Recursion
+# Tail Recursion
 
 Due: 5pm Fri Mar 18. Assignment will appear on Mimir shortly before it is due. Test as you see fit until then.
 
@@ -16,7 +16,7 @@ But, it can be refactored into a version with a tail call by passing an updated 
 
 When accumulators are used with recursion, they often satisfy an "invariant". (An invariant is something that is always true at the beginning of each call.) The invariant in \_fact is that x! \* acc is always the result of the original x!. It's true when acc is initialized to 1 (and x is still its original value), and it's true when x! is 1 (and acc has accumulated all its multiplications).
 
-**Homework**
+## Homework
 
 For the homework, you will need the list135 definition. [This is the one](https://krovetz.net/135/module_reg/list135.py) I will use when testing your code.
 
