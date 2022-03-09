@@ -20,10 +20,10 @@ When accumulators are used with recursion, they often satisfy an "invariant". (A
 
 For the homework, you will need the list135 definition. [This is the one](https://krovetz.net/135/module_reg/list135.py) I will use when testing your code.
 
-1.  Write a tail recursive function "reverse" that takes a list135 parameter and returns a list135 that is the same as the parameter but in reverse order. For example \[1,2,3\] would reverse to \[3,2,1\].
-    
+1. Write a tail recursive function "reverse" that takes a list135 parameter and returns a list135 that is the same as the parameter but in reverse order. For example \[1,2,3\] would reverse to \[3,2,1\].
+
     Your solution should use a design similar to fact and \_fact shown above. The accumulator should be initialized as an empty list, and the invariant that you maintain should be that the reversal of the list parameter followed by the accumulator should equal the reversal of the original list.
 
     Do not place this method in your class. Instead it should use the list135 public interface to manipulate the old and new lists.
-    
-2.  Beginning with your tail recursive solution to \_reverse, convert it to a loop version following the pattern shown above for foo and gcd.
+
+2. Beginning with your tail recursive solution to \_reverse, convert it to a loop version following the pattern shown above for foo and gcd.
