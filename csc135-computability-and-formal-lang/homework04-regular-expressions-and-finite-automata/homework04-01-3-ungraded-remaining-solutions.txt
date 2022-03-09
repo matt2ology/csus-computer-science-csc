@@ -1,0 +1,108 @@
+Most of these solutions use the notation of http://ivanzuzak.info/noam/webapps/fsm_simulator/
+Please let me know if you find an error.
+
+2) DFA over alphabet {0,1} that begins or ends with 000.
+
+Some things to note:
+- If begins 000, stay in accept state no matter what comes next. So, I'd start
+with something like this:
+
+#states
+s0
+s1
+s2
+s3
+#initial
+s0
+#accepting
+s3
+#alphabet
+0
+1
+#transitions
+s0:0>s1
+s1:0>s2
+s2:0>s3
+s3:1>s3
+s3:0>s3
+
+- What to do if you see a 1 in s0, s1, or s2? Go to the part of the machine that
+look for ending with 000. This part counts consecutive 0's up to 3 and starts
+over for each 1.
+
+Here's the result. It's a bit ugly because the computer doesn't care. s0 is the
+beginning of the sub-machine that looks at the front for 000 and s4 is the
+beginning of the sub-machine that looks for ending with 000.
+
+#states
+s0
+s1
+s2
+s3
+s4
+s5
+s6
+s7
+#initial
+s0
+#accepting
+s3
+s7
+#alphabet
+0
+1
+#transitions
+s0:0>s1
+s1:0>s2
+s2:0>s3
+s3:1>s3
+s3:0>s3
+s4:0>s5
+s5:0>s6
+s6:0>s7
+s7:0>s7
+s0:1>s4
+s1:1>s4
+s2:1>s4
+s4:1>s4
+s5:1>s4
+s6:1>s4
+s7:1>s4
+
+3) It gets cleaner with NFA powers. Because states can have zero arrows out,
+there are fewer arrows overall. Because lambdas allow partitioning solutions
+into different machines, the solution can be more modular.
+
+#states
+start
+s0
+s1
+s2
+s3
+s4
+s5
+s6
+s7
+#initial
+start
+#accepting
+s3
+s7
+#alphabet
+0
+1
+#transitions
+start:$>s0
+start:$>s4
+s0:0>s1
+s1:0>s2
+s2:0>s3
+s3:1>s3
+s3:0>s3
+s4:1>s4
+s4:0>s4
+s4:0>s5
+s5:0>s6
+s6:0>s7
+
+5) Done above.
