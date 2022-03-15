@@ -4,15 +4,72 @@ Due: 5pm Fri Mar 18. Assignment will appear on Mimir shortly before it is due. T
 
 In class we saw that if the last operation in a recursive branch is a recursive call, then the recursive call can be transformed into a loop. (Many compilers do this for you behind the scenes.) For example consider this pseudocode
 
+```python
+def foo(x):
+    if small instance:
+        solve directly
+    else:
+        ...
+        foo(smaller x)
+```
+
 and this actual code
+
+```python
+def gcd(a,b):
+    if b==0:
+        return a
+    else:
+        return gcd(b, a%b)
+```
 
 In both cases the code does no additional work in the recursive branch after the recursive call. They can be mechanically translated into
 
+```python
+def foo(x):
+    while True:
+        if small instance:
+            solve directly
+        else:
+            ...
+            x = smaller x
+```
+
 and
+
+```python
+def gcd(a,b):
+    while True:
+        if b==0:
+            return a
+        else:
+            (a, b) = (b, a%b)
+```
 
 Sometimes a function without a "tail call" can be made into one by using an accumulator. For example, this version of factorial does not have a tail call because the multiplication is done after the recursive call is complete.
 
+```python
+def fact(x):
+    if x==0:
+        return 1
+    else:
+        return x * fact(x-1)
+```
+
 But, it can be refactored into a version with a tail call by passing an updated accumulator with each call.
+
+```python
+def _fact(x, acc):  # x! * acc is the answer to the original fact(x) call
+    if x==0:
+        return acc
+    else:
+        # If x! * acc == y here...
+        return fact(x-1, acc * x)
+        # ...then it does here too.
+
+def fact(x):
+    return _fact(x, 1)  # Initialize accumulator to something appropriate
+```
 
 When accumulators are used with recursion, they often satisfy an "invariant". (An invariant is something that is always true at the beginning of each call.) The invariant in \_fact is that x! \* acc is always the result of the original x!. It's true when acc is initialized to 1 (and x is still its original value), and it's true when x! is 1 (and acc has accumulated all its multiplications).
 
