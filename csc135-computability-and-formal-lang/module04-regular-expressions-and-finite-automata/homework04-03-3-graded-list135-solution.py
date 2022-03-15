@@ -44,17 +44,17 @@ class list135:
 #     Do not place this method in your class. Instead it should use the list135
 # public interface to manipulate the old and new lists.
 
-def _reverse(self, x, acc):  # x! * acc is the answer to the original fact(x) call
-    if self.empty():
+def _reverse(list135_obj, acc):
+    if list135_obj is None:
         return acc
     else:
-        # If x! * acc == y here...
-        return self.reverse(x-1, acc * x)
-        # ...then it does here too.
+        acc = acc.cons(list135_obj.first())
+        return _reverse(list135_obj.rest(), acc)
 
-def reverse(self, x):
+def reverse(list135_obj):
     # Initialize accumulator to something appropriate
-    return self._reverse(x, 1)
+    acc = list135()
+    return _reverse(list135_obj, acc)
 
 
 v_01 = list135(5)
