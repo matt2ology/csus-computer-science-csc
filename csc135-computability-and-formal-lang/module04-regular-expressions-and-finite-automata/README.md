@@ -15,6 +15,6 @@
 
 ## Homework
 
-1. [Ungraded homework](homework04-01-1-formative-ungraded.md)
-2. [Homework 4](homework04-02-quiz.md)
-3. [Programming 4](homework04-03-1-programming04-tail-recursion.md)
+1. [Ungraded - Homework 4](homework04-01-1-formative-ungraded.md)
+2. [Graded - Homework 4 Quiz](homework04-02-quiz.md)
+3. [Graded - Programming 4](homework04-03-1-graded-programming04-tail-recursion.md)
