@@ -16,10 +16,11 @@ Put a checkmark next to each of the following regular expressions that can gener
 
 - [ ] $a^{\ast}b^{\ast}$
 - [ ] $a^\ast +\:b^\ast$
-- [x] **$\left(a\:+\:b\right)^{\ast}$**
-- [x] **$\left(ab\right)^{\ast}$**
-- [x] **$\left(a^{\ast\:}b^{\ast}\right)^{\ast}$**
-- [x] **$\left(b^{\ast }a^{\ast }\right)^{\ast}$**
+
+> - [x] **$\left(a\:+\:b\right)^{\ast}$**
+> - [x] **$\left(ab\right)^{\ast}$**
+> - [x] **$\left(a^{\ast\:}b^{\ast}\right)^{\ast}$**
+> - [x] **$\left(b^{\ast }a^{\ast }\right)^{\ast}$**
 
 ## Question 02
 
@@ -142,26 +143,26 @@ c:1>d
 
 Follow the NFA to DFA algorithm learned in class to convert it to a deterministic finite automata (DFA). Use the labeling convention seen in class where each DFA label indicates which states the NFA could be in and the letters are written in increasing order (eg, abc would indicate the NFA could be in state a, b or c). Answer the following questions. (Type only lower-case letters; no punctuation or spaces.)
 
-**How many states are in your DFA**?
+**6.1 - How many states are in your DFA**?
 
-> **``**
+> **`5`**
 
-**How many accept states are in your DFA**?
+**6.2 - How many accept states are in your DFA**?
 
-> **``**
+> **`2`**
 
-**When in state ad what state do you go to when consuming a 0**?
+**6.3 - When in state ad what state do you go to when consuming a 0**?
 
-> **``**
+> **`a`**
 
-**When in state ad what state do you go to when consuming a 1**?
+**6.4 - When in state ad what state do you go to when consuming a 1**?
 
-> **``**
+> **`ab`**
 
-**When in state abcd what state do you go to when consuming a 0**?
+**6.5 - When in state abcd what state do you go to when consuming a 0**?
 
-> **``**
+> **`ad`**
 
-**When in state abcd what state do you go to when consuming a 1**?
+**6.6 -When in state abcd what state do you go to when consuming a 1**?
 
-> **``**
+> **`abcd`**
