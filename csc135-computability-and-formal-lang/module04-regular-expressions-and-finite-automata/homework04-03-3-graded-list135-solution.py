@@ -1,3 +1,4 @@
+from os import access
 from queue import Empty
 
 
@@ -45,7 +46,7 @@ class list135:
 # public interface to manipulate the old and new lists.
 
 def _reverse(list135_obj, acc):
-    if list135_obj is None:
+    if list135_obj.rest() is None:
         return acc
     else:
         acc = acc.cons(list135_obj.first())
@@ -77,7 +78,8 @@ v_02 = v_01.cons("A")
 v_03 = v_02.cons("B")
 v_04 = v_03.cons("C")
 
-print("The List: {}, {}, {}, {}, {}".format(v_04.first(), v_04.rest().first(), v_04.rest().rest(
+print("The List: \n{}, \n{}, \n{}, \n{}, \n{}".format(v_04.first(), v_04.rest().first(), v_04.rest().rest(
 ).first(), v_04.rest().rest().rest().first(), v_04.rest().rest().rest().rest()))
 
-reverse(v_04)
+print("recursive: {}".format(reverse(v_04)))
+print("loop version: {}".format(reverse_via_loop(v_04)))
