@@ -57,10 +57,25 @@ def reverse(list135_obj):
     return _reverse(list135_obj, acc)
 
 
-v_01 = list135(5)
-v_02 = v_01.cons(7)
-v_03 = v_02.cons(6)
-v_04 = v_03.cons(3)
+# 2. Beginning with your tail recursive solution to _reverse, convert it to a
+
+# loop version following the pattern shown above for foo and gcd.
+def reverse_via_loop(list135_obj):
+    acc = list135()
+    cur = list135_obj
+    if cur._rest_of_list != None:
+        acc = acc.cons(cur._first_item)
+        cur = cur._rest_of_list
+    while cur._rest_of_list != None:
+        acc = acc.cons(cur._first_item)
+        cur = cur._rest_of_list
+    return acc
+        
+
+v_01 = list135()
+v_02 = v_01.cons("A")
+v_03 = v_02.cons("B")
+v_04 = v_03.cons("C")
 
 print("The List: {}, {}, {}, {}, {}".format(v_04.first(), v_04.rest().first(), v_04.rest().rest(
 ).first(), v_04.rest().rest().rest().first(), v_04.rest().rest().rest().rest()))
