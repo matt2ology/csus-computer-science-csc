@@ -1,7 +1,3 @@
-from os import access
-from queue import Empty
-
-
 class list135:
 
     def __init__(self, first_item=None, rest_of_list=None):
@@ -32,7 +28,6 @@ class list135:
         return result + "]"
 
 
-
 # 1. Write a tail recursive function "reverse" that takes a list135 parameter
 # and returns a list135 that is the same as the parameter but in reverse order.
 # For example \[1,2,3\] would reverse to \[3,2,1\].
@@ -51,6 +46,7 @@ def _reverse(list135_obj, acc):
     else:
         acc = acc.cons(list135_obj.first())
         return _reverse(list135_obj.rest(), acc)
+
 
 def reverse(list135_obj):
     # Initialize accumulator to something appropriate
@@ -71,7 +67,7 @@ def reverse_via_loop(list135_obj):
         acc = acc.cons(cur._first_item)
         cur = cur._rest_of_list
     return acc
-        
+
 
 v_01 = list135()
 v_02 = v_01.cons("A")
