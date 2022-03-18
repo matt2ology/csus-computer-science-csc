@@ -40,12 +40,12 @@ class list135:
 #     Do not place this method in your class. Instead it should use the list135
 # public interface to manipulate the old and new lists.
 
-def _reverse(list135_obj, acc):
-    if list135_obj.rest() is None:
+def _reverse(lst, acc):
+    if lst.rest() is None:
         return acc
     else:
-        acc = acc.cons(list135_obj.first())
-        return _reverse(list135_obj.rest(), acc)
+        acc = acc.cons(lst.first())
+        return _reverse(lst.rest(), acc)
 
 
 def reverse(list135_obj):
@@ -55,14 +55,9 @@ def reverse(list135_obj):
 
 
 # 2. Beginning with your tail recursive solution to _reverse, convert it to a
-
 # loop version following the pattern shown above for foo and gcd.
-def reverse_via_loop(list135_obj):
-    acc = list135()
-    cur = list135_obj
-    if cur._rest_of_list != None:
-        acc = acc.cons(cur._first_item)
-        cur = cur._rest_of_list
+def reverse_via_loop(lst, acc):
+    cur = lst
     while cur._rest_of_list != None:
         acc = acc.cons(cur._first_item)
         cur = cur._rest_of_list
