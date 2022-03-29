@@ -1,7 +1,3 @@
-from os import access
-from queue import Empty
-
-
 class list135:
 
     def __init__(self, first_item=None, rest_of_list=None):
@@ -32,7 +28,6 @@ class list135:
         return result + "]"
 
 
-
 # 1. Write a tail recursive function "reverse" that takes a list135 parameter
 # and returns a list135 that is the same as the parameter but in reverse order.
 # For example \[1,2,3\] would reverse to \[3,2,1\].
@@ -45,12 +40,13 @@ class list135:
 #     Do not place this method in your class. Instead it should use the list135
 # public interface to manipulate the old and new lists.
 
-def _reverse(list135_obj, acc):
-    if list135_obj.rest() is None:
+def _reverse(lst, acc):
+    if lst.rest() is None:
         return acc
     else:
-        acc = acc.cons(list135_obj.first())
-        return _reverse(list135_obj.rest(), acc)
+        acc = acc.cons(lst.first())
+        return _reverse(lst.rest(), acc)
+
 
 def reverse(list135_obj):
     # Initialize accumulator to something appropriate
@@ -59,19 +55,14 @@ def reverse(list135_obj):
 
 
 # 2. Beginning with your tail recursive solution to _reverse, convert it to a
-
 # loop version following the pattern shown above for foo and gcd.
-def reverse_via_loop(list135_obj):
-    acc = list135()
-    cur = list135_obj
-    if cur._rest_of_list != None:
-        acc = acc.cons(cur._first_item)
-        cur = cur._rest_of_list
+def reverse_via_loop(lst, acc):
+    cur = lst
     while cur._rest_of_list != None:
         acc = acc.cons(cur._first_item)
         cur = cur._rest_of_list
     return acc
-        
+
 
 v_01 = list135()
 v_02 = v_01.cons("A")
