@@ -112,7 +112,7 @@ SELECT CONCAT(fname,lname) as name FROM mendoza_candidate WHERE nvl(partyid, -1)
 -- insert into B values ( 2,'bad');
 -- select fname from A where not exists(SELECT id FROM B WHERE B.id = A.id AND A.id is not null);
 
-Select CONCAT(fname,lname) as name from mendoza_candidate where not exists(SELECT partyid FROM mendoza_party WHERE mendoza_party.partyid = mendoza_candidate.partyid AND mendoza_candidate.partyid is not null);
+SELECT CONCAT(fname,lname) AS name FROM mendoza_candidate WHERE NOT EXISTS(SELECT partyid FROM mendoza_party WHERE mendoza_party.partyid = mendoza_candidate.partyid AND mendoza_candidate.partyid is not null);
 
 -- 5) Repeat question 3 using (minus)
 
