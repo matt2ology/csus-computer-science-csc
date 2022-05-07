@@ -1,0 +1,38 @@
+Pumping lemma for context-free languages
+
+Given context-free language L there exists a length p such that whenever string
+w is in L and length(w) >= p then w can be broken into substrings w = uvxyz
+such that
+
+1. length(v) and/or length(y) is not zero.
+
+2. length(vxy) <= p.
+
+3. v and y can be pumped (ie, uxz, uvvxyyz, uvvvxyyyz, uvvvvxyyyyz, etc are in L).
+
+--
+
+Example use to show language is not context free.
+
+Theorem: L = {a^n b^n c^n | n >= 0} is not context-free.
+
+Proof sketch:
+
+- Assume for contradiction that L is a CFL.
+- Let p be the pumping length.
+- Consider w = a^p b^p c^p, which has length at least p and in L.
+- Pumping lemma says w = uvxyz exists where v and y are not both empty can be pumped.
+- Consider two cases:
+  - if v and y each contain a single character type then uvvxyyz will increase
+    the numbers of one or two of the character types, but not all three.
+  - if v or y contain more than one character type, then uvvxyyz will interleave
+    character types illegally.
+- In either case the pumped string is not in L which contradicts the pumping lemma.
+  
+Here's another arguent that uses length(vxy) <= p:
+
+- length(vxy) <= p and so can contain only one or two characters (a's, a's and
+  b's, b's, b's and c's, or c's).
+- Pumping lemma says uvvxyyz is in L. But it will have more of one or two
+  characters than the other and so is not in L.
+- This contradiction shows L is not a CFL.
