@@ -66,17 +66,22 @@ class scanner:
 def parseD(toks):
     pass
 
+
 def parseC(toks):
     pass
+
 
 def parseB(toks):
     pass
 
+
 def parseA(toks):
     pass
 
+
 def parseS(toks):
     pass
+
 
 def parse(input):
     toks = scanner(input)
@@ -100,3 +105,24 @@ def num_leaves(tree_node):
             number_of_leaves += 1
             num_leaves(childNode)
     return number_of_leaves
+
+
+try:
+    # THE CORRECT OUTPUT OF THE TEST CASE
+    # parse ("a")
+    # parse ("(a)")
+    # parse ("((a))")
+    # parse ("a+a")
+    # parse ("a*a")
+    # parse ("((a)/(a)-(a))")
+    parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    # parse ("a+a*a-a/a")
+    # parse ("a/a-a*a+a")
+    # parse ("(a+a*a-a/a)")
+    # parse ("(a/a-a*a+a)")
+    # parse ("(a+(a*a*a)+a+a)")
+    # parse ("(a*(a+a+a)*a*a)")
+except:
+    print("Reject")
+else:
+    print("Accept")
