@@ -54,3 +54,18 @@ def parse(input):
     if toks.next() != None:
         raise Exception
     return rval
+
+# Walks a tree rooted at tree_node and returns how many leaf nodes there are in it
+def num_leaves(tree_node):
+    """
+    Takes a tree as input and returns the number of leaves in the tree
+    (including ones labeled with the empty string)
+    @param: tree as input
+    @return: the number of leaves in the tree
+    """
+    number_of_leaves = 0
+    if tree_node is None:
+        for childNode in tree_node:
+            number_of_leaves += 1
+            num_leaves(childNode)
+    return number_of_leaves
