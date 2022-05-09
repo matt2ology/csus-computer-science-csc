@@ -55,7 +55,7 @@ def parse(input):
         raise Exception
     return rval
 
-# Walks a tree rooted at tree_node and returns how many leaf nodes there are in it
+
 def num_leaves(tree_node):
     """
     Takes a tree as input and returns the number of leaves in the tree
@@ -63,6 +63,7 @@ def num_leaves(tree_node):
     @param: tree as input
     @return: the number of leaves in the tree
     """
+    # Walks a tree rooted at tree_node and returns how many leaf nodes there are in it
     number_of_leaves = 0
     if tree_node is None:
         for childNode in tree_node:
