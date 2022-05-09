@@ -59,3 +59,24 @@ def parse(input):
             raise Exception    # Unrecognized top/tok combination
     if toks.next() != None:
         raise Exception
+
+
+try:
+    # THE CORRECT OUTPUT OF THE TEST CASE
+    # parse ("a")
+    # parse ("(a)")
+    # parse ("((a))")
+    # parse ("a+a")
+    # parse ("a*a")
+    # parse ("((a)/(a)-(a))")
+    parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    # parse ("a+a*a-a/a")
+    # parse ("a/a-a*a+a")
+    # parse ("(a+a*a-a/a)")
+    # parse ("(a/a-a*a+a)")
+    # parse ("(a+(a*a*a)+a+a)")
+    # parse ("(a*(a+a+a)*a*a)")
+except:
+    print("Reject")
+else:
+    print("Accept")
