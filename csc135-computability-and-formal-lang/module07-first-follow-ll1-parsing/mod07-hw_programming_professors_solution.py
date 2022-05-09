@@ -1,18 +1,18 @@
 class scanner:
     # toks[i] must evaluate to the i-th token in the token stream.
     # Assumes toks does not change during parsing
-    def __init__(self,toks):
+    def __init__(self, toks):
         self._toks = toks
         self._i = 0
-    
+
     # If no more tokens exist or current token isn't s, raise exception.
     # Otherwise pass over the current one and move to the next.
-    def match(self,s):
+    def match(self, s):
         if (self._i < len(self._toks)) and (self._toks[self._i] == s):
             self._i += 1
         else:
             raise Exception
-            
+
     # If any tokens remain return the current one. If no more, return None.
     def next(self):
         if self._i < len(self._toks):
