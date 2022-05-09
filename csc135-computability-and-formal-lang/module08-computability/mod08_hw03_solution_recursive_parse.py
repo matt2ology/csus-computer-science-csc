@@ -100,12 +100,17 @@ def num_leaves(tree_node):
     """
     # Walks a tree rooted at tree_node and returns how many leaf nodes there are in it
     number_of_leaves = 0
-    if tree_node is None:
+    if tree_node is not None:
         for childNode in tree_node:
             number_of_leaves += 1
             num_leaves(childNode)
     return number_of_leaves
 
+treeS = node("S")
+treeS.add_child("B")
+treeS.add_child("A")
+b_node = treeS.add_child("D")
+b_node = treeS.add_child("C")
 
 try:
     # THE CORRECT OUTPUT OF THE TEST CASE
