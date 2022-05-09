@@ -1,18 +1,18 @@
 class scanner:
     # toks[i] must evaluate to the i-th token in the token stream.
     # Assumes toks does not change during parsing
-    def __init__(self,toks):
+    def __init__(self, toks):
         self._toks = toks
         self._i = 0
-    
+
     # If no more tokens exist or current token isn't s, raise exception.
     # Otherwise pass over the current one and move to the next.
-    def match(self,s):
+    def match(self, s):
         if (self._i < len(self._toks)) and (self._toks[self._i] == s):
             self._i += 1
         else:
             raise Exception
-            
+
     # If any tokens remain return the current one. If no more, return None.
     def next(self):
         if self._i < len(self._toks):
@@ -32,6 +32,7 @@ class scanner:
 # A → aAb | b
 # B → bB | >
 
+
 def parse(input):
     toks = scanner(input)
     stack = ['S']
@@ -40,7 +41,7 @@ def parse(input):
         tok = toks.next()                 # None indicates token stream empty
         if tok == None:                   # Running out of tokens is error in this grammar
             raise Exception
-        elif top in ('a', 'b', '<', '>'): # Matching stack top to token
+        elif top in ('a', 'b', '<', '>'):  # Matching stack top to token
             toks.match(top)
         elif top == 'S' and tok == '<':   # S -> <AB must be the next
             stack.append('B')
@@ -62,9 +63,11 @@ def parse(input):
     if toks.next() != None:
         raise Exception
 
+
 # similar to the one at http://krovetz.net/135/module_cfl/parse_intro.html
 # (S→aSa, S→bSb, and S→x):
-# S → aSa | bSb | x 
+# S → aSa | bSb | x
+
 
 def parse_example(input):
     toks = scanner(input)
@@ -91,8 +94,9 @@ def parse_example(input):
     if toks.next() != None:
         raise Exception
 
+
 try:
-    parse("aabxbaa")
+    parse_example("aabxbaa")
 except:
     print("Reject")
 else:
