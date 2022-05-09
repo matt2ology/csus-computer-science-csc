@@ -199,8 +199,8 @@ where class_code not in(select distinct(Class_code) from mendo_student_class);
 -- Question 05: Give a listing of all the students who are not enrolled in any
 -- classes (Note: Use Exists or not Exists)
 
-select ssn from mendo_student where not exists
-(select ssn from mendo_student_class);
+select fname, lname from mendo_student s left outer join mendo_student_class sc
+on s.ssn = sc.ssn where not exists (select * from mendo_student s where s.ssn = sc.ssn);
 
 -- Question 06: create a new table that contains the list of all the students
 -- and class_descriptions. Include In this table the list of all
@@ -228,40 +228,64 @@ select * from mendo_new_table;
 
 drop table mendo_new_table;
 
-Create Table mendo_new_table As
-((Select fname, lname, NVL(class_description, 'no description') As class description
-FROM mendo_student s, mendo_class c, mendo_student_class sc WHERE s.ssn=sc.ssn AND sc.class_code = c.class_code)
+select fname, lname, 'no classes' from mendo_student s where not exists
+(select * from mendo_student_class sc where s.ssn = sc.ssn)
 UNION
-(SELECT ssn FROM mendo_student MINUS SELECT ssn FROM mendo_student_class));
+select fname, lname, class_description from mendo_student s natural join mendo_student_class
+natural join mendo_class where class_description is not null
+UNION
+select fname, lname, 'no description' from mendo_student s natural join mendo_student_class
+natural join mendo_class where class_description is null;
 
 -- Question 08: create a view. We want to find out which courses are being taken by the different students for all those whose age is greater than the average age. Give a listing of the course descriptions and student names (Inner join)
 
-create view CourseTaken As select s.lname,c.class_description from mendo_student s 
-inner join mendo_student_class sc on s.ssn=sc.ssn inner join mendo_class c on sc.class_code=c.class_code 
-where (months_between(sysdate,dob)/12) > (select avg(trunc(months_between(sysdate,dob)/12) from mendo_student);
+create view CourseTaken as
+select class_description, fname, lname from mendo_student s natural join
+mendo_student_class sc natural join mendo_class
+where floor(months_between(sysdate, dob) / 12) >
+(select avg(floor(months_between(sysdate, dob) / 12)) from mendo_student);
+
+select * from CourseTaken;
 
 -- Question 09: We want to find out the courses that each student is not enrolled in.
 -- Give a listing of the course descriptions, and the students (lname) who are not taking that specific course
 -- (Use a cartesian product and union it with a minus)
 
-SELECT lname, class_description FROM mendo_student, mendo_class, mendo_student_class
-UNION
-(SELECT lname, class_description
-FROM mendo_student st, mendo_class cl, mendo_student_class sc
-WHERE st.ssn = sc.ssn (+) AND sc.class_code = cl.class_code (+))
-MINUS
-(SELECT lname, class_description
-FROM mendo_student st, mendo_class cl, mendo_student_class sc
-WHERE st.ssn = sc.ssn AND sc.class_code = cl.class_code);
+-- SELECT lname, class_description FROM mendo_student, mendo_class, mendo_student_class
+-- UNION
+-- (SELECT lname, class_description
+-- FROM mendo_student st, mendo_class cl, mendo_student_class sc
+-- WHERE st.ssn = sc.ssn (+) AND sc.class_code = cl.class_code (+))
+-- MINUS
+-- (SELECT lname, class_description
+-- FROM mendo_student st, mendo_class cl, mendo_student_class sc
+-- WHERE st.ssn = sc.ssn AND sc.class_code = cl.class_code);
 
--- 10	Use the system catalog tables to display the results to find out the
+select lname, class_description from mendo_student, mendo_class
+MINUS
+select lname, class_description from mendo_student natural join
+mendo_class natural join mendo_student_class;
+
+-- 10 Use the system catalog tables to display the results to find out the
 -- following:(Note show me the SQL syntax along with your results) Only a single SQL statement for each question.
 -- a) Primary key name and the columns that make up the primary key for student table
 
+select constraint_name, column_name from user_constraints natural join
+user_cons_columns where table_name = 'MENDO_STUDENT' AND constraint_type = 'P';
 
 -- b) Unique key name and the columns that make up the unique key for the student table
+
+select constraint_name, column_name from user_constraints natural join
+user_cons_columns where table_name = 'MENDO_STUDENT' AND constraint_type = 'U';
 
 -- c) Foreign key name, the columns that make up the foreign key 
 -- and the columns it references in the parent table for student_class table
 
+select constraint_name, search_condition r_constraint_name
+from user_constraints natural join user_cons_columns
+where table_name = 'MENDO_STUDENT_CLASS' AND constraint_type = 'R';
+
 -- d) Name of all the check constraints and their conditions for the student table
+
+select constraint_name, search_condition from user_constraints natural join
+user_cons_columns where table_name = 'MENDO_STUDENT' AND constraint_type = 'C';
