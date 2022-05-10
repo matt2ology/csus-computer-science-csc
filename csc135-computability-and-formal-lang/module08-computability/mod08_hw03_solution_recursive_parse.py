@@ -1,3 +1,14 @@
+#! /usr/bin/python3
+
+import logging
+
+FORMAT = '[%(asctime)s]-[%(funcName)s]-[%(levelname)s] - %(message)s'
+logging.basicConfig(
+    level=logging.INFO,
+    format=FORMAT
+)
+
+
 class node:
     def __init__(self, data):
         self.data = data
