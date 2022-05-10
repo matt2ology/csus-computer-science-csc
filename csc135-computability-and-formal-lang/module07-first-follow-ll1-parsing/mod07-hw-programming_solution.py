@@ -1,3 +1,14 @@
+#! /usr/bin/python3
+
+import logging
+
+FORMAT = '[%(asctime)s]-[%(funcName)s]-[%(levelname)s] - %(message)s'
+logging.basicConfig(
+    level=logging.INFO,
+    format=FORMAT
+)
+
+
 class scanner:
     # toks[i] must evaluate to the i-th token in the token stream.
     # Assumes toks does not change during parsing
@@ -24,6 +35,14 @@ class scanner:
 # Input can be any type where len(input) is defined and input[i] yields a
 # string (ie, string, list, etc). Raises Exception on a parse error.
 def parse(input):
+    """
+    S' → S$
+    S → BA
+    A → +BA | -BA | λ
+    B → DC
+    C → *DC | /DC | λ
+    D → a | (S)
+    """
     toks = scanner(input)
     stack = ['S']
     while len(stack) > 0:
@@ -34,28 +53,57 @@ def parse(input):
         elif top == 'S' and (tok == 'a' or tok == '('):
             stack.append('A')
             stack.append('B')
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         elif top == 'A' and tok in ('+', '-'):
             stack.append('A')
             stack.append('B')
             stack.append(tok)
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         elif top == 'A' and (tok == ')' or tok == None):
+            logging.info("TOP: {} TOK: {}".format(top, tok))
             pass
         elif top == 'B' and (tok == 'a' or tok == '('):
             stack.append('C')
             stack.append('D')
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         elif top == 'C' and tok in ('*', '/'):
             stack.append('C')
             stack.append('D')
             stack.append(tok)
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         elif top == 'C' and (tok in ('+', '-', ')') or tok == None):
+            logging.info("TOP: {} TOK: {}".format(top, tok))
             pass
         elif top == 'D' and tok == 'a':
             stack.append('a')
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         elif top == 'D' and tok == '(':
             stack.append(')')
             stack.append('S')
             stack.append('(')
+            logging.info("TOP: {} TOK: {}".format(top, tok))
         else:
             raise Exception    # Unrecognized top/tok combination
     if toks.next() != None:
         raise Exception
+
+
+try:
+    # THE CORRECT OUTPUT OF THE TEST CASE
+    # parse("a")
+    parse("(a)")
+    # parse("((a))")
+    # parse("a+a")
+    # parse("a*a")
+    # parse("((a)/(a)-(a))")
+    # parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    # parse("a+a*a-a/a")
+    # parse("a/a-a*a+a")
+    # parse("(a+a*a-a/a)")
+    # parse("(a/a-a*a+a)")
+    # parse("(a+(a*a*a)+a+a)")
+    # parse("(a*(a+a+a)*a*a)")
+except:
+    print("Reject")
+else:
+    print("Accept")
