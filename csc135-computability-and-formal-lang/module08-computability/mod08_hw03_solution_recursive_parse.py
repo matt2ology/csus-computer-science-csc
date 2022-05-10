@@ -57,11 +57,6 @@ class scanner:
 # <<<<(><<<<a>><<λ>>><<+><<<(><<<<a>><<*><<a>><<*><<a>><<λ>>>>><<λ>>><)>><<λ>>><<+><<<a>><<λ>>><<+><<<a>><<λ>>><<λ>>>>>><)>><<λ>>><<λ>>>
 # <<<<(><<<<a>><<*><<(><<<<a>><<λ>>><<+><<<a>><<λ>>><<+><<<a>><<λ>>><<λ>>>>><)>><<*><<a>><<*><<a>><<λ>>>>>><<λ>>><)>><<λ>>><<λ>>>
 
-# AlgorithmB(bInstance):
-#     aInstance = preprocess(bInstance)
-#     aSoln = AlgorithmA(aInstance)
-#     bSoln = postprocess(aSoln)
-#     return bSoln
 
 def parseD(toks):
     pass
