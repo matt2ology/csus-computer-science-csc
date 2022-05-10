@@ -189,6 +189,8 @@ def num_leaves(tree_node):
 def print_leaves(tree_node):
     if tree_node.is_leaf():
         print(str(tree_node.data))
+        if tree_node.data is '':
+            print("λ")
     else:
         for child in tree_node.children:
             print_leaves(child)
