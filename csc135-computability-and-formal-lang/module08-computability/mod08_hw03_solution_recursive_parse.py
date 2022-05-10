@@ -203,16 +203,6 @@ try:
     # THE CORRECT OUTPUT OF THE TEST CASE
     # parse ("a")
     # parse("(a)")
-    # NODE: S TOK: (
-    # NODE: B TOK: (
-    # NODE: D TOK: (
-    # NODE: S TOK: a
-    # NODE: B TOK: a
-    # NODE: D TOK: a
-    # NODE: C TOK: )
-    # NODE: A TOK: )
-    # NODE: C TOK: None
-    # NODE: A TOK: None
     # parse("((a))")
     # parse("a+a")
     # parse ("a*a")
