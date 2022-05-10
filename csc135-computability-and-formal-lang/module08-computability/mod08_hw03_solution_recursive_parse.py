@@ -90,10 +90,7 @@ def parseC(toks):
         rval.add_child(node(tok))
         rval.add_child(parseD(toks))
         rval.add_child(parseC(toks))
-        # Match ")" and add third child, a leaf node labled ")"
-        toks.match(')')
-        rval.add_child(node(')'))
-    elif tok in ('+', '-', ')') or (tok == None):
+    elif (tok in ('+', '-', ')', 'a') or tok == None):
         # Make child be a leafe node labled "" (empty string)
         rval.add_child(node(''))
     else:
