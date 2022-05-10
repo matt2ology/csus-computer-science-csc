@@ -59,23 +59,115 @@ class scanner:
 
 
 def parseD(toks):
-    pass
+    """
+    D → a | (S)
+    """
+    tok = toks.next()
+    # Create node to be returned and lable it "D"
+    rval = node('D')
+    logging.info("NODE: D TOK: {}".format(tok))
+    if (tok == 'a'):
+        toks.match('a')
+        rval.add_child(node('a'))
+    elif tok == '(':
+        toks.match('(')
+        rval.add_child(node('('))
+        rval.add_child(parseS(toks))
+        toks.match(')')
+        rval.add_child(node(')'))
+    else:
+        raise Exception
+    return rval
 
 
 def parseC(toks):
-    pass
+    """
+    C → *DC | /DC | λ
+    """
+    tok = toks.next()
+    # Create node to be returned and lable it "C"
+    rval = node('C')
+    logging.info("NODE: C TOK: {}".format(tok))
+    if tok in ('*', '/'):
+        # Match tok and add first child, a leaf node labled tok
+        toks.match(tok)
+        rval.add_child(node(tok))
+        rval.add_child(parseD(toks))
+        rval.add_child(parseC(toks))
+        # Match ")" and add third child, a leaf node labled ")"
+        toks.match(')')
+        rval.add_child(node(')'))
+    elif tok in ('+', '-', ')') or (tok == None):
+        # Make child be a leafe node labled "" (empty string)
+        rval.add_child(node(''))
+    else:
+        # Unexpected token, so throw an exception
+        raise Exception
+    return rval
 
 
 def parseB(toks):
-    pass
+    """
+    B → DC
+    """
+    tok = toks.next()
+    # Create node to be returned and lable it "B"
+    rval = node('B')
+    logging.info("NODE: B TOK: {}".format(tok))
+    if tok in ('a', '('):
+        rval.add_child(parseD(toks))
+        rval.add_child(parseC(toks))
+    else:
+        # Unexpected token, so throw an exception
+        raise Exception
+    return rval
 
 
 def parseA(toks):
-    pass
+    """
+    A → +BA | -BA | λ
+    """
+    tok = toks.next()
+    # Create node to be returned and lable it "A"
+    rval = node('A')
+    logging.info("NODE: A TOK: {}".format(tok))
+    if tok in ('+', '-'):
+        # Match tok and add first child, a leaf node labled tok
+        toks.match(tok)
+        rval.add_child(node(tok))
+        # parseA and have resulting subtree be our second child
+        rval.add_child(parseB(toks))
+        rval.add_child(parseA(toks))
+        # Match ")" and add third child, a leaf node labled ")"
+        toks.match(')')
+        rval.add_child(node(')'))
+    elif (tok == ')') or (tok == None):
+        # A is nullable; also, both ')' and '$' indicate A -> lambda
+        # Make child be a leafe node labled "" (empty string)
+        rval.add_child(node(''))
+    else:
+        # Unexpected token, so throw an exception
+        raise Exception
+    return rval
 
 
 def parseS(toks):
-    pass
+    """
+    S → BA
+    """
+    tok = toks.next()
+    # Create node to be returned and lable it "S"
+    return_value = node('S')
+    logging.info("NODE: S TOK: {}".format(tok))
+    if tok in ('a', '('):
+        # parseS and have resulting subtree be our first child
+        return_value.add_child(parseB(toks))
+        # parseS and have resulting subtree be our second child
+        return_value.add_child(parseA(toks))
+    else:
+        # Unexpected token, so throw an exception
+        raise Exception
+    return return_value
 
 
 def parse(input):
