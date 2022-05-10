@@ -30,11 +30,11 @@ q1, [ ], [ ], q0
 
 ### Question 1 Solution
 
-> q0, [ ], [ ], q1
-> > Solution
+> $q_0, [ ], [ ], q_1$
+> > $q_0, 1, B, q_1$
 >
-> q1, [ ], [ ], q0
-> > Solution
+> $q_1, [ ], [ ], q_0$
+> > $q_1, B, R, q_0$
 
 ## Question 2
 
@@ -57,13 +57,13 @@ If you wanted to output a 1 in the case that the input was an even length palind
 ### Question 2 Solution
 
 > If the input to this machine is 0110, what state does the machine end in? (Answer as a single digit integer.)
-> > Solution
+> > 0 (zero)
 >
 > If the input to this machine is 010, what state does the machine end in? (Answer as a single digit integer.)
-> > Solution
+> > 8 (eight)
 >
 > If you wanted to output a 1 in the case that the input was an even length palindrome, you could achieve that be adding one more transition arrow (pointing to a new state 9). Specify the transition: [ ], [ ], [ ], q9.
-> > Solution
+> > $q_0, B, 1, q_9$
 
 ## Question 3
 
@@ -81,35 +81,45 @@ Here is an almost complete Turing machine. It moves the first bit of input to th
     11000   10001
     ^       ^
 
-q0 1 B q1
+$\large q_0, 1, B, q_1$
 
-q0 0 B q5
+$\large q_0, 0, B, q_5$
 
-q1 B R q2
+$\large q_1, B, R, q_2$
 
-q2 0 R q2
+$\large q_2, 0, R, q_2$
 
-q2 1 R q2
+$\large q_2, 1, R, q_2$
 
-q2 B [ ] q3
+$\large q_2, B, [ ], q_3$
 
-q3 0 L q3
+$\large q_3, 0, L, q_3$
 
-q3 1 L q3
+$\large q_3, 1, L, q_3$
 
-q3 [ ] R q4
+$\large q_3, [ ], R q_4$
 
-q5 B R q6
+$\large q_5, B, R, q_6$
 
-q6 0 R q6
+$\large q_6, 0, R, q_6$
+
+$\large q_6, [ ], R q_6$
+
+$\large q_6, B, [ ], q_3$
 
 ### Question 3 Solution
 
-> q2 B [ ] q3
-> > Solution
+> $q_2, B, [ ], q_3$
+> > $\Large q_2, B, 1, q_3$
 >
-> q3 [ ] R q4
-> > Solution
+> $q_3, [ ], R, q_4$
+> > $\large q_3, B, R, q_4$
+>
+> $q_6, [ ], R, q_6$
+> > $\large q_6, 1, R, q_6$
+>
+> $q_6, B, [ ], q_3$
+> > $\large q_6, B, 0, q_3$
 
 ## Question 4
 
@@ -117,7 +127,7 @@ Trace the first three steps of the Turing machine in the previous question givin
 
 Use "e" for ε and use it only in the "tape-to-left" or "tape-to-right" positions when there is nothing but blanks in those directions. Otherwise list all characters explicitly (and use B for a blank character when needed).
 
-initially q0 1 e 00
+$\Huge initially: q_0, 1, e, 00$
 
 Step 1
 
@@ -128,10 +138,10 @@ Step 3
 ### Question 4 Solution
 
 > Step 1
-> >
+> > $\large q_1, B, e, 00$
 >
 > Step 2
-> >
+> > $\large q_2, 0, e, 0$
 >
 > Step 3
-> >
+> > $\large q_2, 0, 0, e$
