@@ -46,14 +46,6 @@ class scanner:
             return None
 
 
-# S' → S$
-# S → BA
-# A → +BA | -BA | λ
-# B → DC
-# C → *DC | /DC | λ
-# D → a | (S)
-
-
 def parseD(toks):
     """
     D → a | (S)
@@ -160,6 +152,12 @@ def parseS(toks):
     return return_value
 
 
+# S' → S$
+# S → BA
+# A → +BA | -BA | λ
+# B → DC
+# C → *DC | /DC | λ
+# D → a | (S)
 def parse(input):
     toks = scanner(input)
     rval = parseS(toks)
