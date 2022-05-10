@@ -131,10 +131,7 @@ def parseA(toks):
         # parseA and have resulting subtree be our second child
         rval.add_child(parseB(toks))
         rval.add_child(parseA(toks))
-        # Match ")" and add third child, a leaf node labled ")"
-        toks.match(')')
-        rval.add_child(node(')'))
-    elif (tok == ')') or (tok == None):
+    elif tok in ('a', ')') or (tok == None):
         # A is nullable; also, both ')' and '$' indicate A -> lambda
         # Make child be a leafe node labled "" (empty string)
         rval.add_child(node(''))
@@ -216,11 +213,11 @@ try:
     # NODE: A TOK: )
     # NODE: C TOK: None
     # NODE: A TOK: None
-    parse("((a))")
+    # parse("((a))")
     # parse("a+a")
     # parse ("a*a")
     # parse ("((a)/(a)-(a))")
-    # parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    parse("((a)/(a)-(a))*((a)/(a)-(a))")
     # parse ("a+a*a-a/a")
     # parse ("a/a-a*a+a")
     # parse ("(a+a*a-a/a)")
@@ -231,3 +228,63 @@ except:
     print("Reject")
 else:
     print("Accept")
+
+# TOP: S TOK: ( = NODE: S TOK: (
+# TOP: B TOK: ( = NODE: B TOK: (
+# TOP: D TOK: ( = NODE: D TOK: (
+# TOP: S TOK: ( = NODE: S TOK: (
+# TOP: B TOK: ( = NODE: B TOK: (
+# TOP: D TOK: ( = NODE: D TOK: (
+# TOP: S TOK: a = NODE: S TOK: a
+# TOP: B TOK: a = NODE: B TOK: a
+# TOP: D TOK: a = NODE: D TOK: a
+# TOP: C TOK: ) = NODE: C TOK: )
+# TOP: A TOK: ) = NODE: A TOK: )
+# TOP: C TOK: / = NODE: C TOK: /
+# TOP: D TOK: ( = NODE: D TOK: (
+# TOP: S TOK: a = NODE: S TOK: a
+# TOP: B TOK: a = NODE: B TOK: a
+# TOP: D TOK: a = NODE: D TOK: a
+# TOP: C TOK: ) = NODE: C TOK: )
+# TOP: A TOK: ) = NODE: A TOK: )
+# TOP: C TOK: - = NODE: C TOK: -
+# TOP: A TOK: -
+# TOP: B TOK: (
+# TOP: D TOK: (
+# TOP: S TOK: a
+# TOP: B TOK: a
+# TOP: D TOK: a
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: *
+# TOP: D TOK: (
+# TOP: S TOK: (
+# TOP: B TOK: (
+# TOP: D TOK: (
+# TOP: S TOK: a
+# TOP: B TOK: a
+# TOP: D TOK: a
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: /
+# TOP: D TOK: (
+# TOP: S TOK: a
+# TOP: B TOK: a
+# TOP: D TOK: a
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: -
+# TOP: A TOK: -
+# TOP: B TOK: (
+# TOP: D TOK: (
+# TOP: S TOK: a
+# TOP: B TOK: a
+# TOP: D TOK: a
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: )
+# TOP: A TOK: )
+# TOP: C TOK: None
+# TOP: A TOK: None
