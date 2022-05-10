@@ -182,6 +182,17 @@ def num_leaves(tree_node):
     return number_of_leaves
 
 
+# If you want to do something special at each leaf, you can detect that a node
+# is a leaf by seeing that it has no children list.
+# For example, here is a tree walker that works on a tree built of nodes and
+# prints the contents of each leaf.
+def print_leaves(tree_node):
+    if tree_node.is_leaf():
+        print(str(tree_node.data))
+    else:
+        for child in tree_node.children:
+            print_leaves(child)
+
 # THE CORRECT OUTPUT OF THE TEST CASE
 # <<<<a>><<λ>>><<λ>>>
 # <<<<(><<<<a>><<λ>>><<λ>>><)>><<λ>>><<λ>>>
