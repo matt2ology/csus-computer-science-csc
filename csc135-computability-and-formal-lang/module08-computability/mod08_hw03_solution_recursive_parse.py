@@ -174,12 +174,13 @@ def num_leaves(tree_node):
     @return: the number of leaves in the tree
     """
     # Walks a tree rooted at tree_node and returns how many leaf nodes there are in it
-    number_of_leaves = 0
-    if tree_node is not None:
-        for childNode in tree_node:
-            number_of_leaves += 1
-            num_leaves(childNode)
-    return number_of_leaves
+    count_of_leaves = 0
+    if tree_node.is_leaf():
+        return 1
+    else:
+        for child in tree_node.children:
+            count_of_leaves += num_leaves(child)
+    return count_of_leaves
 
 
 # If you want to do something special at each leaf, you can detect that a node
@@ -210,15 +211,18 @@ def print_leaves(tree_node):
 # <<<<(><<<<a>><<λ>>><<+><<<(><<<<a>><<*><<a>><<*><<a>><<λ>>>>><<λ>>><)>><<λ>>><<+><<<a>><<λ>>><<+><<<a>><<λ>>><<λ>>>>>><)>><<λ>>><<λ>>>
 # <<<<(><<<<a>><<*><<(><<<<a>><<λ>>><<+><<<a>><<λ>>><<+><<<a>><<λ>>><<λ>>>>><)>><<*><<a>><<*><<a>><<λ>>>>>><<λ>>><)>><<λ>>><<λ>>>
 
+
 try:
     # THE CORRECT OUTPUT OF THE TEST CASE
-    # parse ("a")
-    # parse("(a)")
+    tree_node = parse ("a") # Three leaves
+    #parse("(a)")  # Seven leaves
     # parse("((a))")
     # parse("a+a")
     # parse ("a*a")
     # parse ("((a)/(a)-(a))")
-    parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    # parse("((a)/(a)-(a))*((a)/(a)-(a))")
+    logging.info(
+        "{} - Number of leaves {}".format(num_leaves(tree_node), print_leaves(tree_node)))
     # parse ("a+a*a-a/a")
     # parse ("a/a-a*a+a")
     # parse ("(a+a*a-a/a)")
