@@ -22,6 +22,14 @@ class node:
     def is_leaf(self):
         return self.children == None
 
+def leaf_has_value(tree_node, input_value):
+    if tree_node.is_leaf():
+        return (True if tree_node.data == input_value else False)
+    else:
+        the_result = False
+        for child in tree_node.children:
+            the_result = leaf_has_value(child, input_value)
+    return the_result
 
 class scanner:
     # toks[i] must evaluate to the i-th token in the token stream.
@@ -181,6 +189,8 @@ def num_leaves(tree_node):
         for child in tree_node.children:
             count_of_leaves += num_leaves(child)
     return count_of_leaves
+    
+
 
 
 # If you want to do something special at each leaf, you can detect that a node
