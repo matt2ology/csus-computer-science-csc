@@ -1,4 +1,4 @@
-# CSC 134 - Database Mgmt Systems (3 Units) - Spring 2022
+# CSC 135 - Computing Theory and Programming Languages (3 Units) - Spring 2022
 
 ## Course Description
 
