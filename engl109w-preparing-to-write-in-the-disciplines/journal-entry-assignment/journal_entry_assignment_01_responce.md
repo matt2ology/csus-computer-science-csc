@@ -51,4 +51,10 @@ comfortable writing technical documents and non-fiction than I do with fiction w
 
 ### 4. The identity that has the greatest effect, positively or negatively, on how others recognize your writing skills/abilities. Why?
 
-The identity that has the greatest positive effect on how others recognize my writing skills/abilities is academic discipline or major.  Because the technical nature of my major demands that I fully understand the topic at hand, if I don't "xyz" it won't work or will produce errors, I need to clearly articulate to the targeted audience level, so that they'll be able to comprehend and interface with the hardware or software; for this reason, I've been told I'm methodical and detailed in my writing.
+The identity that has the greatest positive effect on how others recognize my writing skills/abilities is
+my academic discipline/major.  Computer Science students practice "Stepwise Refinement",
+also known as "Divide-and-Conquer", a thinking process where one takes some arbitrary sized
+problem and break down each component, recursively, to some trivial state or action; as a result,
+I've been told that I am able to take any technical topic, abstract the core idea, and explain simply
+who would care for such things, what it does, when would someone use it, where it can be applies,
+how it can be used, and why does it matter.
