@@ -30,17 +30,24 @@
 
 ### 1. The identity that you think of the most often. Why?
 
-The identity that I think of the most often is academic discipline or major.  Although I love my major, have an internship in industry, and find ways to apply my studies in everyday life I'm unsure if I'd like to only code for the rest of my career.  Most of the engineers I work with, in addition to their technical degrees, have MBAs, and manage other teams/product lines.
+The identity that I think of the most often is academic discipline/major.  Although I love my major,
+have an internship in industry, and find ways to apply my studies in everyday life I'm unsure if I'd like
+to only code for the rest of my career.  Most of the engineers I work with, in addition to their
+technical degrees have MBAs, and manage other teams/product lines.
 
-Coding is great, to always learn as the industry advance and improve, but I feel that to better my career is to go into management and marketing.
+Coding is great, to always learn as the industry advance and improve, but I feel that to better my
+career is to go into management and marketing.
 
 ### 2. The identity that you think about the least. Why?
 
-The identity that I think about the least is religion; for, I follow am more influenced by philosophy than faith.
+The identity that I think about the least is religion; for, I am more influenced by philosophy than faith.
 
 ### 3. The identity that has the strongest effect, positively or negatively, on how you perceive your writing skills/abilities. Why?
 
-The identity that has the strongest effect, positively or negatively, on how I perceive my writing skills/abilities is academic discipline or major.  Computer Science encourage and emphasize critical logic, reasoning, and structured thinking; as a result, I find myself more compelled and comfortable writing technical documents and non-fiction than I do with fiction.
+The identity that has the strongest effect, positively or negatively, on how I perceive my writing
+skills/abilities is academic discipline/major.  Computer Science encourage and emphasize
+critical logic, reasoning, and structured thinking; as a result, I find myself more compelled and
+comfortable writing technical documents and non-fiction than I do with fiction writing.
 
 ### 4. The identity that has the greatest effect, positively or negatively, on how others recognize your writing skills/abilities. Why?
 
