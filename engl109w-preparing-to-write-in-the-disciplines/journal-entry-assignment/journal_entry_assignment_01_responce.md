@@ -30,13 +30,17 @@
 
 ### 1. The identity that you think of the most often. Why?
 
-> The identity that I think of the most often is academic discipline/major.  Although I love my major,
-> have an internship in industry, and find ways to apply my studies in everyday life I'm unsure if I'd like
-> to only code for the rest of my career.  Most of the engineers I work with, in addition to their
-> technical degrees have MBAs, and manage other teams/product lines.
+> The identity that I think of the most often is academic discipline/major.  Although I love my major, have
 >
-> Coding is great, to always learn as the industry advance and improve, but I feel that to better my
-> career is to go into management and marketing.
+> an internship in industry, and find ways to apply my studies in everyday life I'm  unsure if I'd like
+>
+> to only code for the rest of my career.  Most of the engineers I work with, in addition to their
+>
+> technical degrees have MBAs, and manage other teams/product lines. Coding is great, to always
+>
+> learn as the industry advance and improve, but I feel that to better my career is to go into
+>
+> management and marketing.
 
 ### 2. The identity that you think about the least. Why?
 
@@ -45,16 +49,25 @@
 ### 3. The identity that has the strongest effect, positively or negatively, on how you perceive your writing skills/abilities. Why?
 
 > The identity that has the strongest effect, positively or negatively, on how I perceive my writing
+>
 > skills/abilities is academic discipline/major.  Computer Science encourage and emphasize
+>
 > critical logic, reasoning, and structured thinking; as a result, I find myself more compelled and
+>
 > comfortable writing technical documents and non-fiction than I do with fiction writing.
 
 ### 4. The identity that has the greatest effect, positively or negatively, on how others recognize your writing skills/abilities. Why?
 
-> The identity that has the greatest positive effect on how others recognize my writing skills/abilities is
-> my academic discipline/major.  Computer Science students practice "Stepwise Refinement",
+> The identity that has the greatest positive effect on how others recognize my writing skills/abilities
+>
+> is my academic discipline/major.  Computer Science students practice "Stepwise Refinement",
+>
 > also known as "Divide-and-Conquer", a thinking process where one takes some arbitrary sized
+>
 > problem and break down each component, recursively, to some trivial state or action; as a result,
+>
 > I've been told that I am able to take any technical topic, abstract the core idea, and explain simply
+>
 > who would care for such things, what it does, when would someone use it, where it can be applies,
+>
 > how it can be used, and why does it matter.
