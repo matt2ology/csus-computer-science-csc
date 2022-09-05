@@ -15,7 +15,7 @@ import javafx.scene.paint.Color;
  * can click to clear the sketch.  The user draws by clicking and
  * dragging in a large white area that occupies most of the canvas.
  */
-public class SimplePaint extends Application {
+public class SimpleToolPaint extends Application {
 
     /**
      * This main routine allows this class to be run as a program.
