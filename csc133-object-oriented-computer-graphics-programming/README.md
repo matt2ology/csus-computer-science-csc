@@ -4,6 +4,19 @@
 2. [CSC-133 :: Course Syllabus](admin_csc133_course_syllabus.pdf)
 3. [ADMIN :: My Approach to Assessment](admin_my_approach_to_assessment.pdf)
 
+## Setup
+
+### On M1 Mac
+
+1. Install [Azul JavaFX .dmg](https://www.azul.com/downloads/?version=java-18-sts&os=macos&architecture=arm-64-bit&package=jdk-fx)
+2. Install [Jet Brains IntelliJ IDEA .dmg (Apple Silicon)](https://www.jetbrains.com/idea/download/#section=mac)
+
+## VSCode
+
+1. Enable VIM
+2. Install extension [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+   1. Should include: "Debugger for Java", "Maven for Java", "Project Manageer for Java", "Test Runner for Java"
+
 ## Academic Week 01/02 - Calendar Week 35/36 (08/29 - 09-10)
 
 [Week 01/02](week-01-02/README.md)
