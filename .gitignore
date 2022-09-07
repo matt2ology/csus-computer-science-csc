@@ -45,3 +45,4 @@ csc135-computability-and-formal-lang/**/settings.json
 csc133-object-oriented-computer-graphics-programming/zulu18.32.13-ca-fx-jdk18.0.2.1-macosx_aarch64
 *.idea
 *.iml
+csc133-object-oriented-computer-graphics-programming/**/*.class
