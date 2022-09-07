@@ -33,8 +33,13 @@ public class SimpleToolPaint extends Application {
      * better visibility on a white background.)
      */
     private final Color[] palette = {
-            Color.BLACK, Color.RED, Color.GREEN, Color.BLUE,
-            Color.CYAN, Color.MAGENTA, Color.color(0.95,0.9,0)
+            Color.BLACK,
+            Color.RED,
+            Color.GREEN,
+            Color.BLUE,
+            Color.CYAN,
+            Color.MAGENTA,
+            Color.YELLOW.darker()
     };
 
     private int currentColorNum = 0;  // The currently selected drawing color,
