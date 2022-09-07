@@ -4,3 +4,6 @@
 [submodule "engl109w-preparing-to-write-in-the-disciplines"]
 	path = engl109w-preparing-to-write-in-the-disciplines
 	url = https://github.com/matt2ology/engl109w-preparing-to-write-in-the-disciplines
+[submodule "csc196w-web-programming"]
+	path = csc196w-web-programming
+	url = https://github.com/matt2ology/csc196w-web-programming
