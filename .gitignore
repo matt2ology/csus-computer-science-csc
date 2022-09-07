@@ -42,3 +42,6 @@ csc135-computability-and-formal-lang/csc135-python3-venv
 csc135-computability-and-formal-lang/codeStepByStep/functional-programming/.vscode/settings.json
 csc135-computability-and-formal-lang/**/settings.json
 .DS_Store
+csc133-object-oriented-computer-graphics-programming/zulu18.32.13-ca-fx-jdk18.0.2.1-macosx_aarch64
+*.idea
+*.iml
