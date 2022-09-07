@@ -7,3 +7,6 @@
 [submodule "csc196w-web-programming"]
 	path = csc196w-web-programming
 	url = https://github.com/matt2ology/csc196w-web-programming
+[submodule "csc139-operating-system-principles"]
+	path = csc139-operating-system-principles
+	url = https://github.com/matt2ology/csc139-operating-system-principles
