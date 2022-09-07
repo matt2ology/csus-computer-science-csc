@@ -1,3 +1,6 @@
 [submodule "csc133-obj-oriented-cmptr-graph"]
 	path = csc133-obj-oriented-cmptr-graph
 	url = https://github.com/matt2ology/csc133-obj-oriented-cmptr-graph
+[submodule "engl109w-preparing-to-write-in-the-disciplines"]
+	path = engl109w-preparing-to-write-in-the-disciplines
+	url = https://github.com/matt2ology/engl109w-preparing-to-write-in-the-disciplines
