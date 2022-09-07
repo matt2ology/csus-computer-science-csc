@@ -10,3 +10,6 @@
 [submodule "csc139-operating-system-principles"]
 	path = csc139-operating-system-principles
 	url = https://github.com/matt2ology/csc139-operating-system-principles
+[submodule "csc171-software-engineering-project-management"]
+	path = csc171-software-engineering-project-management
+	url = https://github.com/matt2ology/csc171-software-engineering-project-management
