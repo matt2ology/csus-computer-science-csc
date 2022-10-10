@@ -31,7 +31,7 @@ Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu
 
 - [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html)
 
-### When gathering data use "better" standaard Deviation: Relative Standard Error (RSE): Standard error as a percentage of the mean.
+### When gathering data use "better" standard deviation: Relative Standard Error (RSE): Standard error as a percentage of the mean.
 
 - RSE is a useful statistic for analyzing the variance present in benchmarking datasets. 
 - Proposal: ensure data falls within 5% RSE threshold unless there is a technically valid explanation for the variance
