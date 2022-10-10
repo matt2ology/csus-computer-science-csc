@@ -37,7 +37,7 @@ Do the exercise on the bottom of [Cloud Object Storage](http://webpages.csus.edu
 - Proposal: ensure data falls within 5% RSE threshold unless there is a technically valid explanation for the variance
    - If data does not meet this RSE threshold, increase the number of test runs (in increments of 2) until it does.
 
-Relative Standard Error (percent) : 𝑅𝑆𝐸=𝑠_𝑀/𝑥 ̅ ×100
+Relative Standard Error (percent) : 𝑅𝑆𝐸=$\large\frac{S_M}{\overline{x}}\cdot 100$
 
 Excel: =STDEV.S(range)/SQRT(COUNT(range))/AVERAGE(range)
 
