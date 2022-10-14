@@ -8,7 +8,7 @@ _Prerequisite_: CSC 28, CSC 35, and CSC 130
 
 ## Instructor
 
-Ted Krovetz
+Dr. Ted Krovetz
 
 CSC 135-01 - Computing Theory and Programming Languages/Computability and Formal Languages (3 Units)
 Spring 2022 | Undergraduate | Sacramento State
