@@ -13,3 +13,15 @@
 [submodule "csc171-software-engineering-project-management"]
 	path = csc171-software-engineering-project-management
 	url = https://github.com/matt2ology/csc171-software-engineering-project-management
+[submodule "math101-combinatorics"]
+	path = math101-combinatorics
+	url = git@github.com:matt2ology/math101-combinatorics.git
+[submodule "csc190-senior-project"]
+	path = csc190-senior-project
+	url = git@github.com:matt2ology/csc190-senior-project.git
+[submodule "csc165-computer-game-architecture-and-Implementation"]
+	path = csc165-computer-game-architecture-and-Implementation
+	url = git@github.com:matt2ology/csc165-computer-game-architecture-and-Implementation.git
+[submodule "csc174-advanced-database-management-Systems"]
+	path = csc174-advanced-database-management-Systems
+	url = git@github.com:matt2ology/csc174-advanced-database-management-Systems.git
