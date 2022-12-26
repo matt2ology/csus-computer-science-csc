@@ -13,7 +13,7 @@ Don't cheat yourself of your own hard work and effort to learn the materials in 
 
 Professors are aware of my repo and have anti-cheat software to detect similarities in code or solution.
 
-See to: [Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty]( https://www.csus.edu/student-affairs/student-conduct/academic-dishonesty.html)
+See to: [Sac State's Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty]( https://www.csus.edu/student-affairs/student-conduct/academic-dishonesty.html)
 
 ## Adding a new course in repo as [submodule](https://www.atlassian.com/git/tutorials/git-submodule)
 
