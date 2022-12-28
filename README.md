@@ -7,7 +7,7 @@ Programming assignments done in classes at California State University, Sacramen
 This repo is for my own self-reference and to help others by learning from my success (and mistakes) so to help improve their own knowledge and skills.
 
 All work in this repo is a result of my own struggle, challenges, and failures to get the best grade as I can in the courses listed.
-To all those visiting don not expect that all answers, solutions, and/or workouts to be accurate and correct.
+To all those visiting do not expect that all answers, solutions, and/or workouts to be accurate and correct.
 
 Don't cheat yourself of your own hard work and effort to learn the materials in the repo.
 
