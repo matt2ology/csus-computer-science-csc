@@ -16,3 +16,14 @@ See to: [Sac State's Office Of Student Conduct Division Of Student Affairs on Ac
 
 >The git submodule add command takes a URL parameter that points to a git repository.
 >>git submodule add
+
+## Assignment Naming and Flow Convention
+
+All handouts and files should first go in a main-copy folder
+
+Append the following in file names
+
+- submission: for items submitted to be graded
+  - attempt ##: for items that can be submitted multiple times
+- graded: returned submitted assignment/exercise/exam/quiz
+- solution: instructor provided solutions for respective item
