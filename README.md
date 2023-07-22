@@ -4,7 +4,7 @@ Programming assignments done in classes at California State University, Sacramen
 
 ## Disclaimer 
 
-Welcome to this repository! I created this space for my own self-reference and to assist others in their learning journey by sharing my successes, as well as the mistakes I've made along the way. The content here is intended to improve your knowledge and skills.
+Welcome to this repository! I created this space for my own self-reference and to assist others in their learning journey by sharing my successes, as well as the mistakes, I've made along the way. The content here is intended to improve your knowledge and skills.
 
 However, it's essential to note that not all answers, solutions, or exercises provided here may be completely accurate or error-free, as they reflect my personal struggle, challenges, and learning process while striving for the best grades in the listed courses. I encourage you not to rely solely on this repository to achieve your academic goals. Instead, use it as a supplementary resource to complement your own hard work and efforts in understanding the materials.
 
