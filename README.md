@@ -4,13 +4,15 @@ Programming assignments done in classes at California State University, Sacramen
 
 ## Disclaimer 
 
-This repo is for my own self-reference and to help others by learning from my success (and mistakes) so to help improve their own knowledge and skills.
+Welcome to this repository! I created this space for my own self-reference and to assist others in their learning journey by sharing my successes, as well as the mistakes I've made along the way. The content here is intended to improve your knowledge and skills.
 
-To all those visiting expecting that all answers, solutions, and/or workouts to be accurate and correct (they often aren't) know that all work in this repo is a result of my own struggle, challenges, and failures to get the best grade as I can in the courses listed; so, don't cheat yourself of your own hard work and effort to learn the materials in the repo and achive better than I did.
+However, it's essential to note that not all answers, solutions, or exercises provided here may be completely accurate or error-free, as they reflect my personal struggle, challenges, and learning process while striving for the best grades in the listed courses. I encourage you not to rely solely on this repository to achieve your academic goals. Instead, use it as a supplementary resource to complement your own hard work and efforts in understanding the materials.
 
-Professors are aware of my repo and have anti-cheat software to detect similarities in code or solution.
+I must emphasize that academic integrity is of utmost importance. Plagiarism and cheating can have severe consequences, and it's crucial to maintain ethical practices in your academic pursuits. Be aware that professors are informed about the existence of this repository and may use anti-cheat software to detect any similarities in code or solutions.
 
-See to: [Sac State's Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty]( https://www.csus.edu/student-affairs/student-conduct/academic-dishonesty.html)
+For more information regarding academic honesty and the guidelines set forth by Sac State's Office of Student Conduct Division of Student Affairs, please visit [Sac State's Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty]( https://www.csus.edu/student-affairs/student-conduct/academic-dishonesty.html).
+
+Remember, learning is a journey, and I hope this repository can serve as a helpful guide in your educational endeavors. Let's all strive to achieve success with integrity and dedication!
 
 ## Adding a new course in repo as [submodule](https://www.atlassian.com/git/tutorials/git-submodule)
 
