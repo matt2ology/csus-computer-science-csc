@@ -25,3 +25,12 @@
 [submodule "csc174-advanced-database-management-Systems"]
 	path = csc174-advanced-database-management-Systems
 	url = git@github.com:matt2ology/csc174-advanced-database-management-Systems.git
+[submodule "csc177-data-analytics-and-mining"]
+	path = csc177-data-analytics-and-mining
+	url = git@github.com:matt2ology/csc177-data-analytics-and-mining.git
+[submodule "math190-history-of-mathematics"]
+	path = math190-history-of-mathematics
+	url = git@github.com:matt2ology/math190-history-of-mathematics.git
+[submodule "csc193a-web-programming"]
+	path = csc193a-web-programming
+	url = git@github.com:matt2ology/csc193a-web-programming.git
