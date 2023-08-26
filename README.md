@@ -17,7 +17,7 @@ Remember, learning is a journey, and I hope this repository can serve as a helpf
 ## Adding a new course in repo as [submodule](https://www.atlassian.com/git/tutorials/git-submodule)
 
 >The git submodule add command takes a URL parameter that points to a git repository.
->>git submodule add
+>>git submodule add <submodule.git>
 
 ## Assignment Naming and Flow Convention
 
