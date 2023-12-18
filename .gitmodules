@@ -34,3 +34,9 @@
 [submodule "csc193a-web-programming"]
 	path = csc193a-web-programming
 	url = git@github.com:matt2ology/csc193a-web-programming.git
+[submodule "csc196p-cloud-and-mobile-pragmatics"]
+	path = csc196p-cloud-and-mobile-pragmatics
+	url = git@github.com:matt2ology/csc196p-cloud-and-mobile-pragmatics.git
+[submodule "math100-applied-linear-algebra"]
+	path = math100-applied-linear-algebra
+	url = git@github.com:matt2ology/math100-applied-linear-algebra.git
