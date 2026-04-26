@@ -1,5 +1,9 @@
 # CSC 170 - Software Requirements and Specification (3 Units)
 
+| Class Section | Days | Instructor             | Start Time | End Time |
+| ------------- | ---- | ---------------------- | ---------- | -------- |
+| 01            | MW   | Chidella, Jagannadha S | 05:30 PM   | 09 00 PM |
+
 _Prerequisite: CSC 131; 3 units._\
 **Meets 06/01/2021 to 07/11/2021**
 
