@@ -1,6 +1,10 @@
 # CSC130 - Data Structures and Algorithm Analysis 
 *Prerequisite(s): CSC 20, CSC 28; CSC 28 may be taken concurrently.*
 
+| Class Section | Days | Instructor  | Start Time | End Time | Room |
+| ------------- | ---- | ----------- | ---------- | -------- | ---- |
+| 06            | MWF  | Cook, Devin | 10:00 AM   | 1050AM   | ARC  |
+
 ## Term Typically Offered: Fall, Spring
 
 Specification, implementation, and manipulation of complex data structures: linear/lists, stacks, queues, trees, sets, and graphs. Design and analysis of algorithms. Recursion and stack-based memory management. Advanced searching and sorting. NP-completeness.
