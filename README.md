@@ -10,7 +10,7 @@ However, it's essential to note that not all answers, solutions, or exercises pr
 
 I must emphasize that academic integrity is of utmost importance. Plagiarism and cheating can have severe consequences, and it's crucial to maintain ethical practices in your academic pursuits. Be aware that professors are informed about the existence of this repository and may use anti-cheat software to detect any similarities in code or solutions.
 
-For more information regarding academic honesty and the guidelines set forth by Sac State's Office of Student Conduct Division of Student Affairs, please visit [Sac State's Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty]( https://www.csus.edu/student-affairs/student-conduct/academic-dishonesty.html).
+For more information regarding academic honesty and the guidelines set forth by Sac State's Office of Student Conduct Division of Student Affairs, please visit [Sac State's Office Of Student Conduct Division Of Student Affairs on Academic Dishonesty](https://www.csus.edu/student-affairs/student-conduct/).
 
 Remember, learning is a journey, and I hope this repository can serve as a helpful guide in your educational endeavors. Let's all strive to achieve success with integrity and dedication!
 
